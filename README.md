@@ -8,7 +8,7 @@ Three ways you can contribute:
     2. Make commits to your forked repo.
     3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork?utm_source=chatgpt.com).
    
-    It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
+    It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). The full repository is large, so to work locally on a few papers you can do a sparse checkout that downloads only those papers; [docs/SPARSE_CHECKOUT.md](docs/SPARSE_CHECKOUT.md) explains how. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
 2. Create an issue proposing changes to a write-up.
 3. Add or modify a `NOTES.md` file in a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with sections for
     1. follow-up works (use links)
