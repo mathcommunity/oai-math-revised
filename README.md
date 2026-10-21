@@ -2,13 +2,15 @@
 
 OpenAI's math write-ups can be difficult to understand and can have incomplete citations. This repo seeks to be an inclusive effort to improve these write-ups, and the broader math community--students, postdocs, professors, and enthusiasts--is invited to participate.
 
+The easiest way to explore the papers is the [website](https://mathcommunity.github.io/oai-math-revised/), which lists them by discipline, with a page for each paper showing its PDF, notes, and buttons for reporting problems or adding references.
+
 Three ways you can contribute:
 1. Submit pull requests that augment lit reviews/cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors. The workflow is as follows.
     1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) this repo.
     2. Make commits to your forked repo.
-    3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork?utm_source=chatgpt.com).
+    3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork).
    
-    It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). The full repository is large, so to work locally on a few papers you can do a sparse checkout that downloads only those papers; [docs/SPARSE_CHECKOUT.md](docs/SPARSE_CHECKOUT.md) explains how. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
+    It is preferred you edit the TeX directly. Each paper has a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with its TeX sources in `build/` and its PDF at the top; after editing, recompile and replace that PDF, keeping its file name (often `paper.pdf` or `main.pdf`). The full repository is large, so to work locally on a few papers you can do a sparse checkout that downloads only those papers; [docs/SPARSE_CHECKOUT.md](docs/SPARSE_CHECKOUT.md) explains how. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
 2. Create an issue proposing changes to a write-up.
 3. Add or modify a `NOTES.md` file in a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with sections for
     1. follow-up works (use links)
