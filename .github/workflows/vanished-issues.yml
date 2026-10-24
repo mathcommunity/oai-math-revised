@@ -1,0 +1,84 @@
+name: Vanished issues
+
+# Issues by accounts that GitHub later flags as spam disappear without a trace
+# (the API answers 404; an issue deleted by its author or a maintainer answers
+# 410). This job looks up every issue opened in the last 30 days (the reach of
+# the repository's event feed) and fails when one has newly vanished, so that
+# GitHub emails the maintainer who last changed the schedule below. Issues
+# already reported are kept in the Actions cache and not reported again.
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v4
+        with:
+          path: reported.txt
+          key: vanished-issues-${{ github.run_id }}
+          restore-keys: vanished-issues-
+
+      - name: Check issues opened in the last 30 days
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        shell: python
+        run: |
+          import json, os, urllib.error, urllib.request
+
+          repo, token = os.environ["REPO"], os.environ["GH_TOKEN"]
+
+          def get(url):
+              req = urllib.request.Request(url, headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+              })
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      return r.status, json.load(r)
+              except urllib.error.HTTPError as e:
+                  return e.code, None
+
+          opened = {}
+          for page in (1, 2, 3):
+              status, events = get(f"https://api.github.com/repos/{repo}/events?per_page=100&page={page}")
+              if status != 200 or not events:
+                  break
+              for ev in events:
+                  if ev["type"] == "IssuesEvent" and ev["payload"]["action"] == "opened":
+                      issue = ev["payload"]["issue"]
+                      opened[issue["number"]] = (issue["title"], ev["actor"]["login"], ev["created_at"])
+
+          reported = set()
+          if os.path.exists("reported.txt"):
+              reported = {int(x) for x in open("reported.txt").read().split()}
+
+          meaning = {404: "hidden (author account flagged or suspended by GitHub)",
+                     410: "deleted"}
+          new = []
+          for n, (title, author, created) in sorted(opened.items()):
+              status, _ = get(f"https://api.github.com/repos/{repo}/issues/{n}")
+              if status in meaning and n not in reported:
+                  new.append(f"- #{n} {title!r} by @{author}, opened {created}: {meaning[status]}")
+                  reported.add(n)
+
+          open("reported.txt", "w").write("\n".join(map(str, sorted(reported))))
+          print(f"{len(opened)} issues opened in the event window; {len(new)} newly vanished")
+          if new:
+              with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+                  f.write("## Vanished issues\n\n" + "\n".join(new) + "\n")
+              print("\n".join(new))
+              raise SystemExit(1)
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: reported.txt
+          key: vanished-issues-${{ github.run_id }}
