@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}About · oai-math-revised{% endblock %}
+{% block main %}
+<article class="prose">
+<h1>About</h1>
+<p>oai-math-revised is a community effort to make OpenAI’s mathematical papers easier to read, check, and place in the existing literature.</p>
+<p>This repository is for small, local corrections and additions to OpenAI’s papers. Corrections within scope of oai-math-revised include supplying missing references, clarifying definitions, explaining a difficult step, or identifying and repairing an error. Changes are credited and recorded, and community-edited versions are clearly marked. The original papers remain available in <a href="{{ UPSTREAM }}">OpenAI’s own repository</a> and our edits do not change them.</p>
+<p>Completely rewritten digestions, substantial new expositions, and independent developments, do not belong at oai-math-revised. These should be written as separate works with their own authors, posted to arXiv, or submitted to journals for peer review. The oai-math-revised repository can link to them and explain their relationship to the source paper, but it is not intended to encroach on the territory of publication venue for such works.</p>
+<p>A curator is someone with expertise in the relevant subfield who has volunteered to handle a paper or a small set of papers. For those papers, the curator is a point of contact, considers proposed edits, and maintains notes and links to relevant work. Accepting an edit or including a link does not amount to peer review or a guarantee of correctness. Curators are not authors of the material merely by virtue of curating it.</p>
+<p>Criticism is welcome. A useful contribution may identify a gap, show that a result was already known, or question its significance. Contributors are responsible for their claims, references, and attribution, and should disclose substantial use of AI or other mathematical software. The repository does not settle priority disputes. Its dates and revision histories record what was posted and changed, without establishing mathematical priority.</p>
+<h2>Ethics statement</h2>
+<p>Active repository administrators and active curators will be completely independent of frontier AI labs. By “frontier AI lab” we mean an organization spending at scale to push the frontier of AI-driven mathematics; which organizations qualify may change over time. If an active admin or curator chooses to take a paid position with a frontier AI lab, they must resign from their position in this org.</p>
+<p>The <a href="https://github.com/mathcommunity">mathcommunity</a> GitHub organization may add additional repositories as needed for community work on mathematical releases from other developers. The oai-math-revised repo is the first within this org, but it likely will not be the last.</p>
+</article>
+{% endblock %}
