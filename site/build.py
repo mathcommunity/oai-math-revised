@@ -412,6 +412,7 @@ def build(out: Path, pdf_mode: str) -> None:
           n_families=sum(len(d.families) for d in disciplines),
           n_manuscripts=sum(d.n_papers for d in disciplines),
           n_earlier=sum(p.status == "superseded" for p in papers.values()))
+    write(out / "about" / "index.html", "about.html", root="..")
     write(out / "contribute" / "index.html", "contribute.html", root="..")
     write(out / "activity" / "index.html", "activity.html", root="..", activity=activity)
     feed = env.get_template("activity.xml").render(
