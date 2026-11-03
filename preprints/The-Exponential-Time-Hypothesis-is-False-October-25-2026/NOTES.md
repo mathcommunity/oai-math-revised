@@ -1,8 +1,8 @@
 ## Contributions
 
 - 2026-10-28 @chelsinchaos (Chelsea A. McElveen): Added NOTES.md and checks/ (executable toy model of Sections 2.3–2.7, structural remarks on Section 2.7, expository suggestions); implementation and drafting assisted by Claude (Anthropic) ([PR #60](https://github.com/mathcommunity/oai-math-revised/pull/60)).
-- 2026-10-30 @schmittj (Johannes Schmitt): Reduced these notes to the agreed format after a review found mathematical problems in the structural remarks, and removed checks/ (the script remains in the linked repository); details are in the comment on PR #60. Drafted with Claude Code; reviewed with Fable and Codex ([PR #68](https://github.com/mathcommunity/oai-math-revised/pull/68)).
 - 2026-10-29 @Beltran12138 (ZHAO Han): Added a review recording an independent build of the Lean formalization and a comparison of its statement with the solution module. Prepared with Claude Code; checked by the contributor ([PR #62](https://github.com/mathcommunity/oai-math-revised/pull/62)).
+- 2026-10-30 @schmittj (Johannes Schmitt): Reduced these notes to the agreed format after a review found mathematical problems in the structural remarks, and removed checks/ (the script remains in the linked repository); details are in the comment on PR #60. Drafted with Claude Code; reviewed with Fable and Codex ([PR #68](https://github.com/mathcommunity/oai-math-revised/pull/68)).
 
 ## Follow-up works
 
