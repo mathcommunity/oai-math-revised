@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "one remaining matrix-entry normalization repaired after strict run 42058336484; fresh complete strict build and axiom audit pending",
+  "status": "all 795 source/entry-point targets passed strict compilation at 815923a; three audit identifier spellings corrected; fresh complete qualification pending",
   "upstream_commit": "30cd1e55f058a163f0816c2026fb55f6c4426ea6",
   "contribution_base_branch": "contribution/bfss-v040-follow-up-20261105",
   "contribution_base_commit": "37af0591d8c968e6232968b0951639798a2d7028",
@@ -1607,5 +1607,6 @@
   ],
   "lean_core_deprecation_replacements": {"if_pos":"_root_.ite_eq_left","if_neg":"_root_.ite_eq_right"},
   "warning_inventory_run": {"run":42003939000,"commit":"32f82556e5ebcdbcd66a7facf1366e4f2f7dd558","artifact_id":13410740276,"artifact_sha256":"e52a945e006ca545f1e01f1ce6bc0db569db7e05d4359a72241508f59079e6c1","counts":{"passed":752,"failed":0,"blocked":0,"warning":43},"diagnostic_count":84,"qualification":false},
-  "latest_strict_run": {"run":42058336484,"commit":"e2251f7a5c255767db207c826e99b4a160063757","artifact_id":13437815943,"artifact_sha256":"3b34e4c2d80db5efc6a33a1b57516d5d5c8096c8e60caf1767e01b45e63c80aa","counts":{"passed":677,"failed":1,"blocked":117},"axiom_audit_run":false}
+  "latest_strict_run": {"run":42075189629,"commit":"815923a5a846a8f727404302d741f4585e6779ec","artifact_id":13447280867,"artifact_sha256":"9fce962bba68ea6519d89cb3158423a28fe725fbb540b49710e180ab5a5d7c08","counts":{"passed":795,"failed":0,"blocked":0},"axiom_audit_run":true,"axiom_audit_compiler_exit":1,"axiom_reports":2921,"axiom_audit_unknown_constants":["FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_","FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_","FCP.BFSSSU2GaugeG4D.exteriorGauge_"],"qualification":false},
+  "declaration_spelling_repairs": {"before_commit":"815923a5a846a8f727404302d741f4585e6779ec","run":42075189629,"edits":[{"before":"FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_","after":"FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_ι","path":"lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean","line":45},{"before":"FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_","after":"FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_ι","path":"lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean","line":88},{"before":"FCP.BFSSSU2GaugeG4D.exteriorGauge_","after":"FCP.BFSSSU2GaugeG4D.exteriorGauge_ι_mul","path":"lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean","line":51}]}
 }

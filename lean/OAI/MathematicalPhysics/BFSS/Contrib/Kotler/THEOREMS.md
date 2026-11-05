@@ -638,7 +638,7 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 - [`FCP.BFSSSU2GaugeG4D.orbitalDual_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L28)
 - [`FCP.BFSSSU2GaugeG4D.vectorAnnihilate_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L43)
-- [`FCP.BFSSSU2GaugeG4D.exteriorGauge_`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L51)
+- [`FCP.BFSSSU2GaugeG4D.exteriorGauge_ι_mul`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L51)
 - [`FCP.BFSSSU2GaugeG4D.occupationInner_scalar_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L59)
 - [`FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationInner`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L73)
 - [`FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationNormSq`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L93)
@@ -3447,10 +3447,10 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 ## SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative
 
-- [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_ι`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L45)
 - [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L59)
 - [`FCP.BFSSPairedSpin9Clifford.source9Spin_conjugation_mem_range`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L64)
-- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_ι`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L88)
 - [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_vectorConjugation_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L107)
 
 ## SU2BFSSPairedSpin9V10HF10BPSourceVectorLinearRepresentation

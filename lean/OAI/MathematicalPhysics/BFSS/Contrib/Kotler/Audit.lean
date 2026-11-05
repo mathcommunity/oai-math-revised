@@ -303,11 +303,11 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_conjugation_hasDerivAt_zero
 #print axioms FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_conjugation_vector_hasDerivAt_zero
 #print axioms FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection
-#print axioms FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_
+#print axioms FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_ι
 #print axioms FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_continuous_pbw
 #print axioms FCP.BFSSPairedSpin9Clifford.source9Spin_conjugation_mem_range
 #print axioms FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_
+#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_ι
 #print axioms FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_vectorConjugation_hasDerivAt_zero
 #print axioms FCP.BFSSPairedSpin9Clifford.source9CliffordVectorEmbedding_injective
 #print axioms FCP.BFSSPairedSpin9Clifford.source9SpinVectorLinearMap
@@ -1481,7 +1481,7 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSSU2GaugeG4C.annihilator_fermionGauge_covariant
 #print axioms FCP.BFSSSU2GaugeG4D.orbitalDual_gauge
 #print axioms FCP.BFSSSU2GaugeG4D.vectorAnnihilate_gauge
-#print axioms FCP.BFSSSU2GaugeG4D.exteriorGauge_
+#print axioms FCP.BFSSSU2GaugeG4D.exteriorGauge_ι_mul
 #print axioms FCP.BFSSSU2GaugeG4D.occupationInner_scalar_gauge
 #print axioms FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationInner
 #print axioms FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationNormSq
@@ -2927,4 +2927,4 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSS1V52L9E4.originalFockGammaRealLinear
 #print axioms FCP.BFSSS1V52L9E4.originalFockGammaRealLinear_sourceAxis
 
-#eval IO.println "BFSS_BUNDLE_DECLARATION_AUDIT_PASS"
+#eval IO.println "BFSS_BUNDLE_DECLARATION_AUDIT_COMPLETE"

@@ -42,7 +42,7 @@ jobs:
           if [ "${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}" = contribution/bfss-lean-v040-20261105 ]; then
             python3 lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools/check_bundle.py --check-contribution-base
           fi
-          python3 -m unittest discover -s lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools -p test_build_bundle.py
+          python3 -m unittest discover -s lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools -p 'test_*.py'
       - name: Restore pinned Lean and Mathlib
         timeout-minutes: 28
         run: |
