@@ -45,6 +45,7 @@ theorem sourceYChange_mul_inverse :
   fin_cases i <;> fin_cases j <;>
     norm_num [sourceYChange, sourceYChangeInv, Matrix.mul_apply,
       Fin.sum_univ_two] <;> ring_nf
+  norm_num [Complex.I_sq]
 
 theorem sourceYChange_inverse_mul :
     sourceYChangeInv * sourceYChange = (1 : ColorMatrix 2) := by

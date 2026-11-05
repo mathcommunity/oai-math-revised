@@ -23,7 +23,7 @@ permissions:
 jobs:
   source-package:
     runs-on: ubuntu-latest
-    timeout-minutes: 135
+    timeout-minutes: 160
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
@@ -53,7 +53,8 @@ jobs:
           timeout 1500s lake exe cache get
           test "$(git -C .lake/packages/mathlib rev-parse HEAD)" = d13f23b723b8a846827a245b89c10fc7d3f11612
       - name: Compile complete source graph and audit declaration axioms
-        timeout-minutes: 103
+        # Full diagnostic traversal took 95.7 minutes before the separate axiom audit.
+        timeout-minutes: 125
         run: |
           set -euo pipefail
           source "$HOME/.elan/env"
