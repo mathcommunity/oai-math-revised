@@ -1,4 +1,5 @@
 import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.OperatorDependencies.SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe
+import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.OperatorDependencies.SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe
 
 /-!
 S1V48: exact source SU(2)-to-Spin(48) lift compatibility predicate.

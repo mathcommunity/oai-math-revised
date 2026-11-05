@@ -5,11 +5,11 @@ The machine-readable [manifest](manifest.json) is the complete module graph. The
 | Source line | Selection | Treatment |
 | --- | --- | --- |
 | Owner integration at `a7e65d2102ccea27be533147dbe562024c4dca65` | All 293 non-diagnostic/nonfailed modules in `Contrib/Kotler`, plus `SpinPlaneCovariance` | 294 byte-identical source copies. |
-| FCP physical endpoint at `94b6d14ad7e946747b3c0b2c51f42654755151a7` | Full transitive source-import closure of the physical Hamiltonian/eigenpair comparison, reusing ten already present owner modules | 495 additional source modules; import adaptations and the proposition-proof style edits below are recorded individually. |
+| FCP physical endpoint at `94b6d14ad7e946747b3c0b2c51f42654755151a7` | Full dependency closure of the physical Hamiltonian/eigenpair comparison, reusing ten already present owner modules and restoring prerequisites lost through that reuse | 498 additional source modules; import adaptations and the proposition-proof style edits below are recorded individually. |
 | Cross-commit FCP prerequisites | Eight source files fetched separately by historical gates | Exact original blobs recovered and recorded individually; no cached object is substituted for source. |
 | Existing upstream source | BFSS, Laughlin and other imported OAI definitions | No source modification; compiled as existing dependencies. |
 
-The two older FCP and current owner realizations retain their original mathematical namespaces. Reuse is explicit where an owner module already supplies the imported interface; the package does not conflate the original and adapted Clifford/gamma carriers. The static graph has 789 nodes and is acyclic. A lexical declaration-name check found no duplicate named public declarations; Lean remains authoritative.
+The two older FCP and current owner realizations retain their original mathematical namespaces. Reuse is explicit where an owner module already supplies the imported interface; the package does not conflate the original and adapted Clifford/gamma carriers. The static graph has 792 nodes and is acyclic. A lexical declaration-name check found no duplicate named public declarations; Lean remains authoritative.
 
 ## Recovered sources
 
@@ -43,3 +43,15 @@ The existing run history, all old workflows, recovery trials and chronological h
 One direct FCP import of the deprecated `Mathlib.Data.Complex.Basic` wrapper is redirected to `Mathlib.Basic.Complex.Basic`, the exact public import of that wrapper at the pinned Mathlib revision. That redirect changes no declaration or proof body. Every other explicit Mathlib import was checked against that revision; one transient lookup failure was rechecked successfully.
 
 The first combined run stopped at the M3E PBW module's `letI` tactic because the pinned Mathlib `linter.style.haveILetI` rejects it in a proposition proof. Its implementation explains that Lean 4's ordinary `let`/`have` already register local instances, and the inlining difference is irrelevant inside proofs. The same narrow repair is applied to 42 tactic occurrences in 24 FCP files, with original/destination hashes and exact lines recorded in `manifest.json`. Term-mode instances, theorem statements and data-valued definitions are retained. No linter is disabled, no axiom is introduced and no proof limit is changed. The repaired package still requires a complete fresh build.
+
+## Explicit prerequisites after module reuse
+
+Run #41979326894 compiled M3E successfully, then exposed that M3F had relied on the original PBW chain to import the BFSS core. The smaller reused owner module does not carry that dependency. A review of named FCP references found two related import losses, repaired in the same change:
+
+| Consumer | Restored direct import | Reason |
+| --- | --- | --- |
+| M3F finite dimensions | `OAI.MathematicalPhysics.BFSS.Core` | Defines the actual `Fermion` and `colorDim` used in the theorem. |
+| S1V48 gauge/spin compatibility | S1J actual Majorana color action | Defines the literal source Majorana matrix and its group laws. |
+| L9E5B all-vector Clifford square | L9E4 real-linear Fock generator | Restores the original normalized Fock generators and their CAR prerequisites. |
+
+L9E4 requires the existing L9E2 and L9E3 sources. These three source modules are restored from the same pinned FCP snapshot, with only import paths adapted; their original hashes, destination hashes and imports are included in the manifest. They are removed from the outside-closure list and their declarations are included in the combined axiom audit. This restores source visibility and does not identify distinct carriers or alter theorem statements.

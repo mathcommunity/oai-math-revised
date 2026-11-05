@@ -27,7 +27,7 @@ def check_sources():
     lake=json.loads((LEAN/'lake-manifest.json').read_text())
     require(next(p['rev'] for p in lake['packages'] if p['name']=='mathlib')==data['mathlib_commit'],'Mathlib revision mismatch')
     rows=data['modules'];mods={r['module'] for r in rows}
-    require(len(mods)==len(rows)==789,'module inventory mismatch')
+    require(len(mods)==len(rows)==792,'module inventory mismatch')
     order=data['topological_order'];require(set(order)==mods and len(order)==len(mods),'build order mismatch')
     done=set()
     for n in order:
@@ -37,7 +37,7 @@ def check_sources():
             if im.startswith(PREFIX):require(im in mods,'missing contribution import: '+im)
             if im in mods:require(im in done,'non-topological dependency: '+n+' -> '+im)
         done.add(n)
-    print('BFSS_BUNDLE_SOURCE_PREFLIGHT_PASS: 789 production modules')
+    print('BFSS_BUNDLE_SOURCE_PREFLIGHT_PASS: 792 production modules')
 
 def check_report(path):
     names={r['name'] for r in json.loads((HERE/'declarations.json').read_text())['declarations']}

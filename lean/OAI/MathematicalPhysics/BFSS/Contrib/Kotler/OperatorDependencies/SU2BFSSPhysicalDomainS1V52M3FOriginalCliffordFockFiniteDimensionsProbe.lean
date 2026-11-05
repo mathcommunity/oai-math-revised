@@ -1,4 +1,5 @@
 import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.OperatorDependencies.SU2BFSSPhysicalDomainS1V52M3EOriginalComplexCliffordPBWBasisProbe
+import OAI.MathematicalPhysics.BFSS.Core
 import Mathlib.Data.Fintype.Powerset
 import Mathlib.Analysis.InnerProductSpace.PiL2
 import Mathlib.Tactic

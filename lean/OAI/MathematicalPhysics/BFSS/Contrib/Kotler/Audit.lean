@@ -2936,5 +2936,10 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSFermionF3.thetaInvariant_iff_majoranaCandidate
 #print axioms FCP.BFSSFermionF3.thetaInvariant_majoranaComponents
 #print axioms FCP.BFSSFermionF3A2.thetaInvariant_creator_annihilator
+#print axioms FCP.BFSSS1V52L9E2.originalNormalizedFockMajorana
+#print axioms FCP.BFSSS1V52L9E2.originalNormalizedFockMajorana_sq_one
+#print axioms FCP.BFSSS1V52L9E3.originalNormalizedFockMajorana_pairwise_CAR
+#print axioms FCP.BFSSS1V52L9E4.originalFockGammaRealLinear
+#print axioms FCP.BFSSS1V52L9E4.originalFockGammaRealLinear_sourceAxis
 
 #eval IO.println "BFSS_BUNDLE_DECLARATION_AUDIT_PASS"

@@ -2341,9 +2341,9 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 ## SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe
 
-- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L39)
-- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L52)
-- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L76)
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L40)
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L53)
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L77)
 
 ## SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe
 
@@ -2662,9 +2662,21 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 - [`FCP.BFSSS1V52L9E1.originalNativeSixteenSpinHom_clifford_generator_conj`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E1OriginalNativeSixteenSpin48UniversalCliffordConjugationProbe.lean#L42)
 
+## SU2BFSSPhysicalDomainS1V52L9E2OriginalFockMajoranaSourceCliffordAxisNormalizationProbe
+
+- [`FCP.BFSSS1V52L9E2.originalNormalizedFockMajorana_sq_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E2OriginalFockMajoranaSourceCliffordAxisNormalizationProbe.lean#L45)
+
+## SU2BFSSPhysicalDomainS1V52L9E3OriginalFockNormalizedMajoranaPairwiseCliffordCARProbe
+
+- [`FCP.BFSSS1V52L9E3.originalNormalizedFockMajorana_pairwise_CAR`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E3OriginalFockNormalizedMajoranaPairwiseCliffordCARProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainS1V52L9E4OriginalFockRealLinearCliffordGeneratorMapProbe
+
+- [`FCP.BFSSS1V52L9E4.originalFockGammaRealLinear_sourceAxis`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E4OriginalFockRealLinearCliffordGeneratorMapProbe.lean#L88)
+
 ## SU2BFSSPhysicalDomainS1V52L9E5BOriginalFockAllVectorCliffordSquareProbe
 
-- [`FCP.BFSSS1V52L9E5B.originalFockGammaRealLinear_sq`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5BOriginalFockAllVectorCliffordSquareProbe.lean#L33)
+- [`FCP.BFSSS1V52L9E5B.originalFockGammaRealLinear_sq`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5BOriginalFockAllVectorCliffordSquareProbe.lean#L34)
 
 ## SU2BFSSPhysicalDomainS1V52L9E5C1OriginalFockCliffordAlgebraUniversalLiftProbe
 
@@ -2800,9 +2812,9 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 ## SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe
 
-- [`FCP.BFSSS1V52M3F.originalSource48Label_card`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L31)
-- [`FCP.BFSSS1V52M3F.originalComplexClifford_finrank_pow`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L37)
-- [`FCP.BFSSS1V52M3F.originalFock_finrank`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L46)
+- [`FCP.BFSSS1V52M3F.originalSource48Label_card`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L32)
+- [`FCP.BFSSS1V52M3F.originalComplexClifford_finrank_pow`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L38)
+- [`FCP.BFSSS1V52M3F.originalFock_finrank`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L47)
 
 ## SU2BFSSPhysicalDomainS1V52M3GOriginalFockContinuousOperatorFinrankProbe
 
