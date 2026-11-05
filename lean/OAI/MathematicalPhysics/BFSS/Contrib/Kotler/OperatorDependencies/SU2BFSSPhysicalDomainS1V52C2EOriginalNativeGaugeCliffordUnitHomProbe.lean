@@ -36,8 +36,7 @@ positive-i quaternion coefficient tuple. -/
 theorem originalNativeQuaternionCoords_one :
     originalNativeQuaternionCoords (1 : GaugeGroup 2) =
       sourceQuaternionOne := by
-  simp [originalNativeQuaternionCoords, sourceQuaternionOne,
-    Matrix.one_apply]
+  simp [originalNativeQuaternionCoords, sourceQuaternionOne]
 
 /-- The genuine ORIGINAL-source Clifford algebra unit with norm-one
 certificate from the native source BFSS SU2 matrix. -/

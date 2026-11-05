@@ -63,7 +63,7 @@ theorem thetaInvariant_bot_or_top
       apply hbot
       apply le_antisymm
       · intro x hx
-        simpa [hwzero x hx]
+        simp [hwzero x hx]
       · exact bot_le
     obtain ⟨x, hxW, hx0⟩ := hex
     exact thetaInvariant_eq_top_of_nonzero W hθ x hxW hx0

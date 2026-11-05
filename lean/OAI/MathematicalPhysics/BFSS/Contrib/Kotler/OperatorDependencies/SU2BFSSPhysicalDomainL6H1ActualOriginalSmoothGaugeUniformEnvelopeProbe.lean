@@ -47,7 +47,7 @@ theorem actualOriginalSmoothGaugeOrbit_uniformSupport
   -- Keep the original GaugeCore action in precisely its source syntax.
   change pairedGaugeData.fermion g
     (f (pairedGaugeData.boson g⁻¹ x)) = 0
-  simpa only [hzero, map_zero]
+  simp only [hzero, map_zero]
 
 /-- Uniform pointwise amplitude bound independent of g and x;
 the original fermion action preserves the source Fock norm. -/

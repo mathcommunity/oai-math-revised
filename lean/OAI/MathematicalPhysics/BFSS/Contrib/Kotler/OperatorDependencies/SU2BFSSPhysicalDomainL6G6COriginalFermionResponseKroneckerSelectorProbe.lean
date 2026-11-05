@@ -41,11 +41,11 @@ private theorem finitePositionPairSelector
   have hfirst (t : I) :
       (∑ v : I, F v t * (if u = v then x t else 0)) =
         F u t * x t := by
-    simp [mul_ite, eq_comm]
+    simp [mul_ite]
   have hsecond (v : I) :
       (∑ t : I, F v t * (if u = t then x v else 0)) =
         F v u * x v := by
-    simp [mul_ite, eq_comm]
+    simp [mul_ite]
   have hf :
       (∑ v : I, ∑ t : I,
         F v t * (if u = v then x t else 0)) =

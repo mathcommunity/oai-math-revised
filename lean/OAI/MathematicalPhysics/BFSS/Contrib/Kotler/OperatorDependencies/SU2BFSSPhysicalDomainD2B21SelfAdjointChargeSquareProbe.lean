@@ -36,6 +36,7 @@ open scoped ComplexConjugate
 variable {E : Type*}
 variable [NormedAddCommGroup E] [InnerProductSpace ℂ E] [CompleteSpace E]
 
+omit [CompleteSpace E] in
 /-- A formally symmetric unbounded operator has the symmetry identity
 on any two graph points. Not an unverified imported lemma. -/
 theorem formalSymmetry_graph_pairing (A : E →ₗ.[ℂ] E)

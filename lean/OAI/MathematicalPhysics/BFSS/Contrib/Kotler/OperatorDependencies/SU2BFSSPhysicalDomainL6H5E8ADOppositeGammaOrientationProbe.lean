@@ -39,9 +39,6 @@ noncomputable def oppositeGamma {N : ℕ} (M : AlgebraData N) : AlgebraData N wh
     simpa only [Matrix.transpose_neg] using congrArg Neg.neg (M.gamma_symmetric i)
   gamma_clifford := by
     intro i j
-    change (-M.gamma i) * (-M.gamma j) +
-      (-M.gamma j) * (-M.gamma i) =
-        (if i = j then 2 else 0) • (1 : GammaMatrix)
     simpa only [neg_mul_neg] using M.gamma_clifford i j
   theta := M.theta
   theta_selfAdjoint := M.theta_selfAdjoint

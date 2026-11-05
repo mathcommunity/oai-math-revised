@@ -77,7 +77,7 @@ theorem originalPauliQuaternion_trace_polynomial
             simp only [Matrix.mul_smul, Matrix.trace_smul, smul_eq_mul]
     _ = ((2 : ℝ) * originalQuaternionAdjointPolynomial p B A : ℂ) := by
       simp only [pauli_trace_pair]
-      simp [mul_ite, Finset.sum_ite_eq', eq_comm]
+      simp [mul_ite, eq_comm]
       ring
 
 #print axioms originalPauliQuaternion_matrix_conjugation

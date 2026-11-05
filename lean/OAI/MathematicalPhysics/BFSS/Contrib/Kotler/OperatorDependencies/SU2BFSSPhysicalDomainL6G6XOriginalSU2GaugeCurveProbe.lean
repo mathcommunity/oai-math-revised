@@ -30,14 +30,14 @@ private def matrixTwoForm : Matrix (Fin 2) (Fin 2) ℂ :=
 
 private theorem matrixTwoForm_mul_neg :
     matrixTwoForm * (-matrixTwoForm) = 1 := by
-  ext i j <;> fin_cases i <;> fin_cases j <;>
+  (ext i j; fin_cases i) <;> fin_cases j <;>
     norm_num [matrixTwoForm, Matrix.mul_apply, Fin.sum_univ_two]
 
 private theorem matrixTwoForm_adjugate
     (X : Matrix (Fin 2) (Fin 2) ℂ) :
     Matrix.adjugate X = matrixTwoForm * Xᵀ * (-matrixTwoForm) := by
   rw [Matrix.adjugate_fin_two]
-  ext i j <;> fin_cases i <;> fin_cases j <;>
+  (ext i j; fin_cases i) <;> fin_cases j <;>
     simp [matrixTwoForm, Matrix.mul_apply, Matrix.vecMul, dotProduct,
       Fin.sum_univ_two]
 
@@ -56,7 +56,7 @@ theorem twoByTwo_exp_det_one_of_trace_zero
       _ = -(W 0 0) := by rw [htrace]; simp
   have hsem : SemiconjBy matrixTwoForm Wᵀ (-W) := by
     change matrixTwoForm * Wᵀ = (-W) * matrixTwoForm
-    ext i j <;> fin_cases i <;> fin_cases j <;>
+    (ext i j; fin_cases i) <;> fin_cases j <;>
       simp [matrixTwoForm, Matrix.mul_apply, Fin.sum_univ_two, h11]
   have hexp := hsem.exp_right
   change matrixTwoForm * NormedSpace.exp Wᵀ =

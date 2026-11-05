@@ -85,7 +85,7 @@ theorem physicalMasslessRealField_even (h : ℝ) (α : SpinIndex)
       (0 : ℝ) • (pairedAlgebraData.massLinear α y) = 0 := by
     apply ContinuousLinearMap.ext
     intro z
-    simp [IsSMulApply.smul_apply]
+    simp
   calc
     pairedAlgebraData.deformedRealField h 0 α (-x) =
         h • (pairedAlgebraData.bracketBilinear α) (-x) (-x) +

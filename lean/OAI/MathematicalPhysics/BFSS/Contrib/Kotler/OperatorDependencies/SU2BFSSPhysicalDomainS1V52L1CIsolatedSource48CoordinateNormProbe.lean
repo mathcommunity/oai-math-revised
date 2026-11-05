@@ -41,11 +41,11 @@ theorem source48Dot_two_coordinate_norm
       v k * v k = if k = i then c*c else if k = j then s*s else 0 := by
     by_cases hki : k = i
     · subst k
-      simp [v, Pi.single_apply, hij, hij.symm] <;> ring
+      simp [v, hij]
     · by_cases hkj : k = j
       · subst k
-        simp [v, Pi.single_apply, hki] <;> ring
-      · simp [v, Pi.single_apply, hki, hkj]
+        simp [v, hki]
+      · simp [v, hki, hkj]
   -- Split the two support points into independent sums.
   -- On L1B Gate #3, simp [Finset.sum_ite] left the singleton
   -- filtered-cardinality goal instead of normalizing the sum.

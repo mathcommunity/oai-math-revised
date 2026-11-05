@@ -31,6 +31,7 @@ private abbrev V := Fermion 2
 
 /-- Action of the actual M2 complex Clifford algebra homomorphism on
 the original 24-mode Fock space; no surrogate representation. -/
+@[instance_reducible]
 noncomputable def originalComplexCliffordFockModule : Module A V :=
   Module.compHom V originalComplexCliffordFockAlgHom.toRingHom
 
@@ -51,7 +52,7 @@ theorem originalComplexCliffordFockModule_scalarTower :
   intro c a v
   change (originalComplexCliffordFockAlgHom (c • a)) v =
     c • (originalComplexCliffordFockAlgHom a v)
-  simpa only [map_smul, _root_.smul_apply]
+  simp only [map_smul, _root_.smul_apply]
 
 /-- Original M3A exact image irreducibility, transported to an
 IsSimpleModule proof for this very same complex Clifford algebra action. -/

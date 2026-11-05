@@ -78,7 +78,7 @@ private theorem positionPair_comm {R I : Type*} [Ring R]
     rw [hPP]
     exact sub_self _
   rw [opComm_mul_right, opComm_mul_left, opComm_mul_left]
-  simp only [h, mul_zero, zero_mul, zero_add, add_zero]
+  simp only [h, mul_zero, zero_mul, add_zero]
 
 private theorem differentialPolynomial_comm {R I : Type*}
     [Ring R] [Algebra ℂ R] [Fintype I]

@@ -150,7 +150,7 @@ theorem sourceSpinorKineticWeight_colorGram {N : ℕ}
     rw [Finset.sum_neg_distrib, originalGamma_complexRowKineticGram]
     by_cases hs : u.1 = v.1
     · have huv : u = v := Prod.ext hs hc
-      simp [hs, huv]
+      simp [huv]
     · have hne : u ≠ v := fun heq => hs (congrArg Prod.fst heq)
       simp [hs, hne]
   · have hne : u ≠ v := fun heq => hc (congrArg Prod.snd heq)

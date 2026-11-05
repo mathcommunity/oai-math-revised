@@ -44,7 +44,7 @@ theorem source_z_tangent_diagonal (t : ℝ) :
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [sourceZDiagonal, FCP.BFSSSU2.normalizedPauli,
-      FCP.BFSSSU2.pauli, Matrix.smul_apply, Matrix.diagonal_apply] <;> ring
+      FCP.BFSSSU2.pauli, Matrix.smul_apply] <;> ring
 
 /-- Pinned Mathlib diagonal-exponential identity, specialized to the
 literal positive-i source gauge curve. All exponentials have the

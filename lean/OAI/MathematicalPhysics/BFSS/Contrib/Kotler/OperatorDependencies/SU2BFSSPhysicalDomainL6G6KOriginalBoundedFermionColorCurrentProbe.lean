@@ -38,14 +38,14 @@ def sourceFiberFermionColorCurrent (M : AlgebraData 2)
 private def evalSourceEnd (f : SmoothCore 2) (x : Boson 2) :
     SourceEnd 2 →ₗ[ℂ] Fermion 2 where
   toFun T := (T f) x
-  map_add' A B := rfl
-  map_smul' z A := rfl
+  map_add' _A _B := rfl
+  map_smul' _z _A := rfl
 
 private def evalSourceFiber (v : Fermion 2) :
     SourceFiberEnd →ₗ[ℂ] Fermion 2 where
   toFun T := T v
-  map_add' A B := rfl
-  map_smul' z A := rfl
+  map_add' _A _B := rfl
+  map_smul' _z _A := rfl
 
 /-- Exact ordered-pair recovery, before any finite-sum transport. -/
 theorem sourceFermionColorTerm_apply_fiber (M : AlgebraData 2)
@@ -212,7 +212,7 @@ theorem sourceFiberFermionColorCurrent_selfAdjoint (M : AlgebraData 2)
       sourceFiberFermionColorTerm M c s a b)
   rw [star_smul, hs, smul_neg, ← neg_smul]
   congr 1
-  simp [Complex.star_def, neg_div]
+  simp [neg_div]
 
 /-- The precise source generator for the +i Pauli gauge curve. -/
 def sourceFiberFermionColorGenerator (M : AlgebraData 2)

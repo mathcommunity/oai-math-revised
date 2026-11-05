@@ -72,10 +72,10 @@ theorem originalSourceQuaternionColorMatrix_det
     Matrix.det (sourceQuaternionColorMatrix p) =
       ((sourceQuaternionNormSq p : ℝ) : ℂ) := by
   rw [originalSourceQuaternionColorMatrix_complex]
-  simp [Matrix.det_fin_two, sourceQuaternionNormSq] <;>
-    ring_nf <;>
-    simp only [Complex.I_sq] <;>
-    ring
+  simp [Matrix.det_fin_two, sourceQuaternionNormSq]
+  ring_nf
+  simp only [Complex.I_sq]
+  ring
 
 /-- Genuine Mathlib source special unitary membership follows
 from exact determinant-one norm and adjugate, NOT an axiom. -/

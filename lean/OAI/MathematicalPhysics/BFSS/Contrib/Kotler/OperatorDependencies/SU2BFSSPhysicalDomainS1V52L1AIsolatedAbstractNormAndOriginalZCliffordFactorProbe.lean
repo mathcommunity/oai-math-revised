@@ -45,7 +45,7 @@ theorem orthogonalUnitLinearCombination_norm
       rw [QuadraticMap.map_smul, QuadraticMap.map_smul,
         QuadraticMap.polar_smul_left,
         QuadraticMap.polar_smul_right, hpolar]
-      simp only [ha, hb, smul_eq_mul, smul_zero, add_zero]
+      simp only [ha, hb, smul_eq_mul]
       nlinarith [hcs]
 
 /-- A normalized source Z-plane rotor equals exactly the product

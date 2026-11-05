@@ -75,7 +75,7 @@ theorem sourceHaarAverageRaw_equivariant (f : SmoothCore 2)
     -- The genuine group homomorphisms are multiplicative, and
     -- linear-isometry equivalence multiplication acts by composition.
     -- No bespoke mul_apply lemma is needed.
-    simp [mul_inv_rev, map_mul, map_inv, mul_assoc]
+    simp [mul_inv_rev, map_mul, map_inv]
   calc
     sourceHaarAverageRaw M G f (G.boson h x) =
       ∫ g : GaugeGroup 2,

@@ -62,10 +62,10 @@ private theorem finiteFierzChannels
   by_cases hf : flag
   · simp only [_root_.ite_eq_left hf]
     simp only [mul_sub, Finset.sum_sub_distrib, Finset.mul_sum]
-    simp only [mul_left_comm, mul_assoc]
+    simp only [mul_left_comm]
   · simp only [_root_.ite_eq_right hf, sub_zero]
     simp only [Finset.mul_sum]
-    simp only [mul_left_comm, mul_assoc]
+    simp only [mul_left_comm]
 
 /-- Signed original finite Fierz coefficient WITH the unchanged source
 f_{abc} and x_{k,c}: the first term is precisely the gamma potential

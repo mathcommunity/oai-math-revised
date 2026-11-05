@@ -80,7 +80,7 @@ theorem pairedDeformedRealField_zero_zero
   rw [pairedAlgebraData.deformedRealField_polarized]
   apply ContinuousLinearMap.ext
   intro z
-  simp [IsSMulApply.smul_apply, _root_.smul_apply]
+  simp [_root_.smul_apply]
 
 /-- At h=m=0, the actual deformedCoreCharge equals the
 source first-order kinetic charge AS A SMOOTH CORE SECTION.

@@ -66,7 +66,7 @@ theorem original_source_curve_neg_eq_inv (c : ColorIndex 2) (t : ℝ) :
     sourcePlusIGaugeCurve c (-t) =
       (sourcePlusIGaugeCurve c t)⁻¹ *
         (sourcePlusIGaugeCurve c t * sourcePlusIGaugeCurve c (-t)) := by
-          simp [mul_assoc]
+          simp
     _ = (sourcePlusIGaugeCurve c t)⁻¹ := by rw [hprod]; simp
 
 theorem original_source_z_half (t : ℝ) :

@@ -80,7 +80,7 @@ theorem sourceFullGaugePairCLM_mul
           congrArg (G.fermion g) hix
     _ = G.fermion (g * h)
         (v (G.boson (g * h)⁻¹ x)) := by
-          simp [mul_inv_rev, map_mul, map_inv, mul_assoc]
+          simp [mul_inv_rev, map_mul, map_inv]
     _ = (sourceFullGaugePairCLM M G (g * h) v) x := hpx.symm
 
 /-- The source Haar CLM maps every original FullL2 state into

@@ -37,6 +37,7 @@ variable {E F : Type*}
 variable [NormedAddCommGroup E] [InnerProductSpace ℂ E] [CompleteSpace E]
 variable [NormedAddCommGroup F] [InnerProductSpace ℂ F] [CompleteSpace F]
 
+omit [CompleteSpace E] [CompleteSpace F] in
 /-- The exact graph of the natural-domain product is a relational
 composition of the two original graphs. -/
 theorem mem_graph_naturalComp {T : E →ₗ.[ℂ] F} {A : F →ₗ.[ℂ] E}

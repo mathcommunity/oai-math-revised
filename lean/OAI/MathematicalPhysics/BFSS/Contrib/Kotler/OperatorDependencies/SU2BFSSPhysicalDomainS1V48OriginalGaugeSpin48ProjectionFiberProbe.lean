@@ -41,9 +41,6 @@ theorem sourceSpin48CoversActualGauge_one :
     sourceSpin48CoversActualGauge (1 : GaugeGroup 2)
       (1 : spinGroup Q) := by
   intro v
-  change FCP.BFSSS1V31.sourceSpin48VectorAction (1 : spinGroup Q) v =
-    (FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix
-      (1 : GaugeGroup 2)).mulVec v
   rw [FCP.BFSSS1V32.sourceSpin48VectorAction_one,
     FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_one,
     Matrix.one_mulVec]

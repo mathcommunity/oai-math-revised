@@ -88,7 +88,7 @@ theorem originalSourceRealMajoranaMatrix_mulVec_sourceAxis
   simp_rw [hcoord]
   by_cases hab : β = α
   · subst β
-    simp only [eq_self_iff_true, true_and, ite_true,
+    simp only [true_and, ite_true,
       mul_ite, mul_one, mul_zero]
     simp
   · have hba : α ≠ β := Ne.symm hab

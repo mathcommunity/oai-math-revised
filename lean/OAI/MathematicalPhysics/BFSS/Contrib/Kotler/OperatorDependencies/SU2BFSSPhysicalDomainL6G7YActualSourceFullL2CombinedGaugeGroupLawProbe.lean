@@ -52,9 +52,6 @@ theorem actualSourceFullL2_bosonPullback_anti_mul
   have hp := Lp.coeFn_compMeasurePreserving v
     (pairedGaugeData.boson (h * g)).measurePreserving
   filter_upwards [ho, hinner, hp] with x houter hmid hprod
-  change (pairedGaugeData.bosonPullback g
-      (pairedGaugeData.bosonPullback h v)) x =
-    (pairedGaugeData.bosonPullback (h * g) v) x
   calc
     _ = (pairedGaugeData.bosonPullback h v)
       (pairedGaugeData.boson g x) := by

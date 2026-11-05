@@ -51,7 +51,7 @@ theorem physicalRealField_two_eq_twice_one
     pairedAlgebraData.deformedRealField_polarized]
   apply ContinuousLinearMap.ext
   intro z
-  simp [IsSMulApply.smul_apply]
+  simp
 
 /-- Transport source potential-field scaling to the ACTUAL
 SmoothCore multiplier operators at our original physical

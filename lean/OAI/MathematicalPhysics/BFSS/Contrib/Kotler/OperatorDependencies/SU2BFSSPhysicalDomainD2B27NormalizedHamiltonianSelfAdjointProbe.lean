@@ -55,7 +55,7 @@ theorem adjoint_smul_of_dense (U : E →ₗ.[ℂ] F)
   · ext x
     change Continuous (fun w => inner ℂ x (c • U w)) ↔
       Continuous (fun w => inner ℂ x (U w))
-    exact Iff.trans (by simp [inner_smul_right])
+    exact Iff.trans (by simp)
       (continuous_const_smul_iff₀ hc)
   · refine LinearPMap.adjoint_apply_eq
       (by simpa only [LinearPMap.smul_domain] using hd) x fun w => ?_

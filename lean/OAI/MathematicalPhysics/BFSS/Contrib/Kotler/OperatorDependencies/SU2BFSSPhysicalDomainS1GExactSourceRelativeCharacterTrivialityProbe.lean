@@ -65,7 +65,7 @@ theorem source_quarter_z_matrix :
   rw [source_z_gaugeCurve_diagonal_exp]
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [Matrix.diagonal_apply, sourceZDiagonal_exp_zero,
+    simp [sourceZDiagonal_exp_zero,
       sourceZDiagonal_exp_one, source_quarter_angle,
       Real.cos_pi_div_two, Real.sin_pi_div_two]
 
@@ -102,7 +102,7 @@ theorem original_source_yquarter_z_swap (t : ℝ) :
     source_z_gaugeCurve_diagonal_exp]
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [Matrix.mul_apply, Matrix.diagonal_apply, Fin.sum_univ_two,
+    simp [Matrix.mul_apply, Matrix.diagonal_apply,
       source_z_diag_neg_zero, source_z_diag_neg_one]
 
 theorem original_source_zquarter_y_swap (t : ℝ) :

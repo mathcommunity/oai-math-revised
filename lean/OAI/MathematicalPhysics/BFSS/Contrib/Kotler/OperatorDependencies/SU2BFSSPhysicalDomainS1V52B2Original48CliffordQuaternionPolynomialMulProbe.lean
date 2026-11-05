@@ -78,9 +78,9 @@ theorem sourceCliffordQuaternion_compose
     (p.a • (1 : C) + p.b • Z + p.c • Y + p.d • X) *
       (q.a • (1 : C) + q.b • Z + q.c • Y + q.d • X)
   simp only [add_mul, mul_add, smul_mul_assoc, mul_smul_comm,
-    smul_smul, one_mul, mul_one,
+    one_mul, mul_one,
     hZZ, hYY, hXX, hZY, hYX, hXZ, hYZ, hXY, hZX,
-    smul_neg, smul_one]
+    smul_neg]
   module
 
 #print axioms sourceCliffordQuaternion_one

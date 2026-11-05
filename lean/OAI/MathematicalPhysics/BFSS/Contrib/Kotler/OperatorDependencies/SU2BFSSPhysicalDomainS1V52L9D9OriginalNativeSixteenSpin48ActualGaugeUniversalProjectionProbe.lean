@@ -75,7 +75,7 @@ theorem originalNativeSixteenSpinHom_coversActualGauge
           x • sourceBlockColorAxis α A := by
       ext j
       by_cases hj : j = sourceBlockColorLabel α A <;>
-        simp [sourceBlockColorAxis, Pi.single_apply, hj]
+        simp [sourceBlockColorAxis, hj]
     -- The displayed Pi.single uses the original source equivalence,
     -- whereas hsingle uses sourceBlockColorLabel, its definitionally
     -- equal name. Expose the SAME original label on both sides before

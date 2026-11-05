@@ -44,7 +44,7 @@ theorem sourceYChange_mul_inverse :
   ext i j
   fin_cases i <;> fin_cases j <;>
     norm_num [sourceYChange, sourceYChangeInv, Matrix.mul_apply,
-      Fin.sum_univ_two] <;> ring_nf <;> norm_num [Complex.I_sq]
+      Fin.sum_univ_two] <;> (ring_nf; norm_num [Complex.I_sq])
 
 theorem sourceYChange_inverse_mul :
     sourceYChangeInv * sourceYChange = (1 : ColorMatrix 2) := by
@@ -65,9 +65,9 @@ theorem source_y_tangent_diagonal_conjugation (t : ℝ) :
   fin_cases i <;> fin_cases j <;>
     simp [sourceYChange, sourceYChangeInv, sourceZDiagonal,
       FCP.BFSSSU2.normalizedPauli, FCP.BFSSSU2.pauli,
-      Matrix.mul_apply, Matrix.mul_diagonal, Matrix.vecMul_diagonal,
+      Matrix.mul_apply, Matrix.vecMul_diagonal,
       Fin.sum_univ_two, Matrix.smul_apply] <;>
-    ring_nf <;> norm_num [Complex.I_sq]
+    ring_nf
 
 /-- Exact source group curve as finite conjugation of pinned
 scalar exponentials. The fixed 2x2 inverse witness defines a

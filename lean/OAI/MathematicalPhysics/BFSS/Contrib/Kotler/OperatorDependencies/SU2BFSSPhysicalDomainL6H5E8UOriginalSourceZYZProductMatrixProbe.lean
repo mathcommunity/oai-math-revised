@@ -62,8 +62,7 @@ theorem original_source_zyz_matrix (a b c : ℝ) :
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [sourceZYZMatrix, sourceYRotation, Matrix.mul_apply,
-      Matrix.vecMul_diagonal, Matrix.diagonal_apply,
-      Fin.sum_univ_two] <;> ring
+      Matrix.diagonal_apply]
 
 /-- Transport the 2x2 matrix equality to multiplication of the
 ACTUAL source GaugeGroup 2 elements. -/

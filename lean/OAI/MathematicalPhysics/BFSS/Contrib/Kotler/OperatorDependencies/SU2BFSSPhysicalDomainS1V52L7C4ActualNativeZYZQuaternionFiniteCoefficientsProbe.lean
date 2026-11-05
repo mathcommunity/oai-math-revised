@@ -38,14 +38,12 @@ def originalNativeYQuaternion (a : ℝ) : SourceQuaternionCoords :=
 coordinate norm used by actual source GaugeGroup 2. -/
 theorem originalNativeZQuaternion_norm (a : ℝ) :
     sourceQuaternionNormSq (originalNativeZQuaternion a) = 1 := by
-  simp [sourceQuaternionNormSq, originalNativeZQuaternion] <;>
-    nlinarith [Real.sin_sq_add_cos_sq a]
+  simp [sourceQuaternionNormSq, originalNativeZQuaternion]
 
 /-- Exact norm-one positive upper-right Y circle. -/
 theorem originalNativeYQuaternion_norm (a : ℝ) :
     sourceQuaternionNormSq (originalNativeYQuaternion a) = 1 := by
-  simp [sourceQuaternionNormSq, originalNativeYQuaternion] <;>
-    nlinarith [Real.sin_sq_add_cos_sq a]
+  simp [sourceQuaternionNormSq, originalNativeYQuaternion]
 
 /-- Real original +i quaternion coefficients of Z(a)Y(b)Z(c),
 including the crucial a+c versus a-c phase distinction.

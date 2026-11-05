@@ -92,7 +92,7 @@ theorem physicalDeformedEnergy_pos_iff (h m : ℝ) :
   constructor
   · intro hpos
     by_contra hn
-    push_neg at hn
+    push Not at hn
     have hzero : physicalDeformedEnergy h m = 0 :=
       (physicalDeformedEnergy_zero_iff h m).mpr hn
     exact (ne_of_gt hpos) hzero

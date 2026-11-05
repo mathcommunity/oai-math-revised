@@ -92,6 +92,7 @@ theorem weakRepresentative_iff_naturalAdjointSquare
     rw [naturalComp_apply] at hw
     exact hw
 
+omit [CompleteSpace E] in
 /-- Positive REAL coefficient 16 acts as expected in the
 conjugate-linear first slot of the complex Hilbert inner product. -/
 theorem sixteen_inner_smul (x y : E) :
@@ -99,6 +100,7 @@ theorem sixteen_inner_smul (x y : E) :
   rw [inner_smul_left]
   simp only [map_ofNat]
 
+omit [CompleteSpace E] in
 /-- Exactly 1/16 in the complex inner product's conjugate-linear
 slot; this normalization may not be replaced by a convention. -/
 theorem one_sixteenth_inner_smul (x y : E) :
@@ -155,7 +157,7 @@ theorem adjoint_smul_of_dense (U : E →ₗ.[ℂ] F)
   · ext x
     change Continuous (fun w => inner ℂ x (c • U w)) ↔
       Continuous (fun w => inner ℂ x (U w))
-    exact Iff.trans (by simp [inner_smul_right])
+    exact Iff.trans (by simp)
       (continuous_const_smul_iff₀ hc)
   · refine LinearPMap.adjoint_apply_eq
       (by simpa only [LinearPMap.smul_domain] using hd) x fun w => ?_

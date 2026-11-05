@@ -38,11 +38,11 @@ private theorem skewKronecker_contraction
   have hfirst (j : I) :
       (∑ k : I, B j k * (if i = k then v j else 0)) =
         B j i * v j := by
-    simp [mul_ite, eq_comm]
+    simp [mul_ite]
   have hsecond (k : I) :
       (∑ j : I, B j k * (if i = j then v k else 0)) =
         B i k * v k := by
-    simp [mul_ite, eq_comm]
+    simp [mul_ite]
   have hsumfirst :
       (∑ j : I, ∑ k : I, B j k *
         (if i = k then v j else 0)) =

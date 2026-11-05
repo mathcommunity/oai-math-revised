@@ -77,7 +77,7 @@ theorem originalSameBlockQuaternion_conj_axis0
             (0 : ℝ) • sourceXBivector α) * E α 0 = _
           simp only [add_mul, smul_mul_assoc, one_mul,
             originalZ_mul_axis0, originalY_mul_axis0,
-            smul_neg, zero_smul, zero_add, add_zero]
+            smul_neg, zero_smul, add_zero]
           module
 
 /-- Second color axis, preserving rows=output, columns=input. -/
@@ -117,7 +117,7 @@ theorem originalSameBlockQuaternion_conj_axis1
             (2*p.a*p.d-2*p.b*p.c) • sourceXBivector α) * E α 1 = _
           simp only [add_mul, smul_mul_assoc, one_mul,
             originalZ_mul_axis1, originalX_mul_axis1,
-            smul_neg, zero_smul, zero_add, add_zero]
+            smul_neg, zero_smul, add_zero]
           module
 
 /-- Third color axis, with original +i and real Fock label order. -/
@@ -157,7 +157,7 @@ theorem originalSameBlockQuaternion_conj_axis2
             (2*p.a*p.d+2*p.b*p.c) • sourceXBivector α) * E α 2 = _
           simp only [add_mul, smul_mul_assoc, one_mul,
             originalY_mul_axis2, originalX_mul_axis2,
-            smul_neg, zero_smul, zero_add, add_zero]
+            smul_neg, zero_smul, add_zero]
           module
 
 #print axioms originalSameBlockQuaternion_conj_axis0

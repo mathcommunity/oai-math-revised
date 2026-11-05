@@ -57,9 +57,7 @@ private theorem nativeBlockFockOrderedProd_cons
 
 private theorem actualFock_star_one :
     star (1 : FockOp) = (1 : FockOp) := by
-  have h :=
-    FCP.BFSSS1V52L9E5F2.originalFockCliffordAlgHom_star_one
-  simpa only [star_one, map_one] using h.symm
+  simp only [star_one]
 
 private theorem actualFock_unitary_mul_left (A B : FockOp)
     (ha : star A * A = 1) (hb : star B * B = 1) :

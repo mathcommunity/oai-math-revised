@@ -97,7 +97,7 @@ theorem originalDisjointBlockSourceQuaternion_comm
       (p.a • (1 : C) + p.b • sourceZBivector α +
         p.c • sourceYBivector α + p.d • sourceXBivector α)
   simp only [add_mul, mul_add, smul_mul_assoc, mul_smul_comm,
-    smul_smul, one_mul, mul_one,
+    one_mul, mul_one,
     hZZ, hZY, hZX, hYZ, hYY, hYX, hXZ, hXY, hXX]
   module
 

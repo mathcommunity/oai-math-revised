@@ -43,6 +43,7 @@ variable {E F : Type*}
 variable [NormedAddCommGroup E] [InnerProductSpace ℂ E] [CompleteSpace E]
 variable [NormedAddCommGroup F] [InnerProductSpace ℂ F] [CompleteSpace F]
 
+omit [CompleteSpace E] [CompleteSpace F] in
 /-- The exact graph of the natural-domain product is a relational
 composition of the two original graphs. -/
 theorem mem_graph_naturalComp {T : E →ₗ.[ℂ] F} {A : F →ₗ.[ℂ] E}
@@ -122,6 +123,7 @@ theorem originalMinimalPhysicalHilbertChargeAdjointSquare_shift_graph_surjective
 variable {E : Type*}
 variable [NormedAddCommGroup E] [InnerProductSpace ℂ E] [CompleteSpace E]
 
+omit [CompleteSpace E] in
 /-- A formally symmetric unbounded operator has the symmetry identity
 on any two graph points. Not an unverified imported lemma. -/
 theorem formalSymmetry_graph_pairing (A : E →ₗ.[ℂ] E)
