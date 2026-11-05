@@ -60,7 +60,7 @@ theorem originalNativeSixteenFock_source_vector_covariance
         (∑ B : Fin 3, (adjointColorMatrix g B A) •
           (pairedTheta α B * U)) v := by
     simpa only [U, Equiv.symm_apply_apply,
-      ContinuousLinearMap.mul_apply_eq_comp] using
+      _root_.mul_apply_eq_comp] using
       congrArg (fun T : FockOp => T v) hright
   have hsum :
       (∑ B : Fin 3, (adjointColorMatrix g B A) •
@@ -75,7 +75,7 @@ theorem originalNativeSixteenFock_source_vector_covariance
       ((pairedTheta α B * U) v) =
         (↑(adjointColorMatrix g B A) : ℂ) •
           pairedTheta α B (U v)
-    rw [ContinuousLinearMap.mul_apply_eq_comp]
+    rw [_root_.mul_apply_eq_comp]
     exact (Complex.coe_smul (adjointColorMatrix g B A)
       (pairedTheta α B (U v))).symm
   calc

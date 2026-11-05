@@ -41,12 +41,12 @@ noncomputable def sourceFlowLinearEquiv
     intro v
     have h := congrArg (fun T : SourceFiberEnd => T v)
       (sourceFermionColorFlow_neg_mul c t)
-    simpa only [ContinuousLinearMap.mul_apply_eq_comp, one_apply_eq_self] using h
+    simpa only [_root_.mul_apply_eq_comp, one_apply_eq_self] using h
   right_inv := by
     intro v
     have h := congrArg (fun T : SourceFiberEnd => T v)
       (sourceFermionColorFlow_mul_neg c t)
-    simpa only [ContinuousLinearMap.mul_apply_eq_comp, one_apply_eq_self] using h
+    simpa only [_root_.mul_apply_eq_comp, one_apply_eq_self] using h
   map_add' := (sourceFermionColorFlow c t).map_add
   map_smul' := (sourceFermionColorFlow c t).map_smul
 
@@ -77,7 +77,7 @@ theorem sourceFlow_theta_forward_vector
       (∑ B : ColorIndex 2, f B) v =
         ∑ B : ColorIndex 2, (f B) v := by
     exact map_sum (ContinuousLinearMap.apply ℂ (Fermion 2) v) f Finset.univ
-  simpa only [hsum, ContinuousLinearMap.mul_apply_eq_comp,
+  simpa only [hsum, _root_.mul_apply_eq_comp,
     _root_.smul_apply] using h
 
 /-- No covariance premise is assumed: exact same 48 source

@@ -135,7 +135,7 @@ theorem occupationSelector_occupationKet
     have hw :
         weightSeq A B (Finset.univ : Finset (Fin 24)).toList = 0 :=
       weightSeq_zero_of_mismatch A B _ i himem hm
-    simp only [hw, zero_smul, if_neg hAB]
+    simp only [hw, zero_smul, _root_.ite_eq_right hAB]
 
 #print axioms selectorSeq_occupationKet
 #print axioms occupationSelector_occupationKet

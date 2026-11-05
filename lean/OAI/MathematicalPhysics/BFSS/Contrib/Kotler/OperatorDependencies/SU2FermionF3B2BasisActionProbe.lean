@@ -59,7 +59,7 @@ theorem occupiedMode_occupationKet (i : Fin 24) (A : Finset (Fin 24)) :
       rw [number_basis]
       by_cases hi : i ∈ A
       · simp [hi, occupationKet]
-      · simp [hi, occupationKet]
+      · simp [hi]
 
 /-- The complementary transported mode operator has the opposite
 zero-or-one action on the actual occupation basis. -/

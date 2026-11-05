@@ -78,14 +78,10 @@ noncomputable def sourceLipschitz48LinearEquiv (x : lipschitzGroup Q) :
   invFun := sourceLipschitz48VectorAction x⁻¹
   left_inv := by
     intro v
-    change sourceLipschitz48VectorAction x⁻¹
-      (sourceLipschitz48VectorAction x v) = v
     rw [← sourceLipschitz48VectorAction_mul,
       inv_mul_cancel, sourceLipschitz48VectorAction_one]
   right_inv := by
     intro v
-    change sourceLipschitz48VectorAction x
-      (sourceLipschitz48VectorAction x⁻¹ v) = v
     rw [← sourceLipschitz48VectorAction_mul,
       mul_inv_cancel, sourceLipschitz48VectorAction_one]
   map_add' := FCP.BFSSS1V40.sourceLipschitz48VectorAction_add x

@@ -92,8 +92,8 @@ private theorem sourceFiberTheta_CAR (M : AlgebraData 2)
       if s = u ∧ a = b then (1 : SourceFiberEnd) else 0 := by
   classical
   by_cases h : s = u ∧ a = b
-  · simpa only [if_pos h, one_smul] using M.theta_CAR s u a b
-  · simpa only [if_neg h, zero_nsmul] using M.theta_CAR s u a b
+  · simpa only [_root_.ite_eq_left h, one_smul] using M.theta_CAR s u a b
+  · simpa only [_root_.ite_eq_right h, zero_nsmul] using M.theta_CAR s u a b
 
 /-- The bounded current has the same exact source-normalized CAR
 action. Its connection to GaugeData.fermion is still not assumed. -/

@@ -87,7 +87,7 @@ theorem originalGamma_spinIdentity_homogeneous
     have hwv : w = t • v := by
       ext α
       change w α = t * (w α / t)
-      field_simp [ht] <;> ring
+      field_simp [ht]
     have hd : dotProduct w (originalGamma j *ᵥ w) =
         t ^ 2 * dotProduct v (originalGamma j *ᵥ v) := by
       rw [hwv, dot_mulVec_smul]

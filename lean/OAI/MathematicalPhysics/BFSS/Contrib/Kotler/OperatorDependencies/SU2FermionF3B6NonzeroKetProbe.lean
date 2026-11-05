@@ -19,8 +19,8 @@ theorem thetaInvariant_occupationSelector
   have hstep (A : Finset (Fin 24)) (i : Fin 24)
       (w : BFSSFermion) (hw : w ∈ W) : step A i w ∈ W := by
     by_cases hi : i ∈ A
-    · simpa only [step, if_pos hi] using hocc i w hw
-    · simpa only [step, if_neg hi] using hvac i w hw
+    · simpa only [step, _root_.ite_eq_left hi] using hocc i w hw
+    · simpa only [step, _root_.ite_eq_right hi] using hvac i w hw
   have hseq (A : Finset (Fin 24)) (is : List (Fin 24)) :
       ∀ w ∈ W, selectorSeq A is w ∈ W := by
     induction is with

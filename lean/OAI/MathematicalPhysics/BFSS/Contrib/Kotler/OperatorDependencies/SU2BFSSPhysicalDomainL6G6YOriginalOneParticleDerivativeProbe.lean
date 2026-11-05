@@ -33,10 +33,10 @@ theorem sourceComplexOneParticle_block_deriv
       (if j = k then (pairedAlgebraData.structureConstant B A c : ℂ) else 0) 0 := by
   by_cases h : j = k
   · have hd := (sourcePlusIGaugeCurve_adjointCoefficient_deriv c A B).ofReal_comp
-    simpa only [complexOneParticleMatrix_block, if_pos h, adjointColorMatrix] using hd
+    simpa only [complexOneParticleMatrix_block, _root_.ite_eq_left h, adjointColorMatrix] using hd
   · have hd : HasDerivAt (fun _ : ℝ => (0 : ℂ)) (0 : ℂ) (0 : ℝ) :=
       hasDerivAt_const (0 : ℝ) (0 : ℂ)
-    simpa only [complexOneParticleMatrix_block, if_neg h] using hd
+    simpa only [complexOneParticleMatrix_block, _root_.ite_eq_right h] using hd
 
 /-- Every literal 24-mode matrix entry differentiates to the previously
 computed candidate, which is now attached to the actual source group action. -/

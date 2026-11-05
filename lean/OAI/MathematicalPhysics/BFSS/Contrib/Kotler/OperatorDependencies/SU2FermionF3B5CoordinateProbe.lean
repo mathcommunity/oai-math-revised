@@ -145,8 +145,8 @@ private theorem selector_on_summand
       if A = B then occupationCoeff x B • occupationKet B else 0 := by
   rw [occupationSelector_occupationKet]
   by_cases h : A = B
-  · simp only [if_pos h]
-  · simp only [if_neg h, smul_zero]
+  · simp only [_root_.ite_eq_left h]
+  · simp only [_root_.ite_eq_right h, smul_zero]
 
 /-- The concrete ordered occupation selector extracts the actual coefficient
 of one occupation ket from any BFSS fermion vector. -/
@@ -173,7 +173,7 @@ theorem occupationSelector_apply (A : Finset (Fin 24)) (x : BFSSFermion) :
               (if A = A then occupationCoeff x A • occupationKet A else 0) := by
         apply Finset.sum_eq_single_of_mem A (Finset.mem_univ A)
         intro B _ hBA
-        exact if_neg (Ne.symm hBA)
+        exact _root_.ite_eq_right (Ne.symm hBA)
       simpa only [ite_true] using hsingle
 
 #print axioms occupationExpansion

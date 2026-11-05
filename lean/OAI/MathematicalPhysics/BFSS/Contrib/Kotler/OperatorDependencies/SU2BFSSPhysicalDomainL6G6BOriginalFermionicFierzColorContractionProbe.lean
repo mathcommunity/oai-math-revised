@@ -60,10 +60,10 @@ private theorem finiteFierzChannels
       (if flag then ∑ b : C, ∑ k : K, a b k * v k else 0) := by
   classical
   by_cases hf : flag
-  · simp only [if_pos hf]
+  · simp only [_root_.ite_eq_left hf]
     simp only [mul_sub, Finset.sum_sub_distrib, Finset.mul_sum]
     simp only [mul_left_comm, mul_assoc]
-  · simp only [if_neg hf, sub_zero]
+  · simp only [_root_.ite_eq_right hf, sub_zero]
     simp only [Finset.mul_sum]
     simp only [mul_left_comm, mul_assoc]
 

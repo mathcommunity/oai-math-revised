@@ -72,7 +72,7 @@ theorem originalFockGammaRealLinear_sq (v : Source48Vector) :
     -- Discharge the operator zero separately with the typed lemma.
     calc
       _ = (0 : ℂ) • (1 : FockOp) := by
-        simpa only [if_neg hnot] using
+        simpa only [_root_.ite_eq_right hnot] using
           (originalNormalizedFockMajorana_pairwise_CAR
             (sourceBlockColorEquiv.symm p).1
             (sourceBlockColorEquiv.symm q).1

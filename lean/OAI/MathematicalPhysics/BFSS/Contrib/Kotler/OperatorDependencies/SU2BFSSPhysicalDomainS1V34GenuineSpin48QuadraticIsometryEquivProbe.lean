@@ -38,12 +38,10 @@ noncomputable def sourceSpin48LinearEquiv (s : spinGroup Q) :
   invFun := sourceSpin48VectorAction s⁻¹
   left_inv := by
     intro v
-    change sourceSpin48VectorAction s⁻¹ (sourceSpin48VectorAction s v) = v
     rw [← FCP.BFSSS1V32.sourceSpin48VectorAction_mul,
       inv_mul_cancel, FCP.BFSSS1V32.sourceSpin48VectorAction_one]
   right_inv := by
     intro v
-    change sourceSpin48VectorAction s (sourceSpin48VectorAction s⁻¹ v) = v
     rw [← FCP.BFSSS1V32.sourceSpin48VectorAction_mul,
       mul_inv_cancel, FCP.BFSSS1V32.sourceSpin48VectorAction_one]
   map_add' := FCP.BFSSS1V31.sourceSpin48VectorAction_add s

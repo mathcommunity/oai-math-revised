@@ -77,8 +77,8 @@ theorem sourceGamma_bivector_commutator {N : ℕ}
       M.gamma u * M.gamma v + M.gamma v * M.gamma u =
         (if u = v then (2 : ℝ) else 0) • (1 : GammaMatrix) := by
     by_cases huv : u = v
-    · simpa only [if_pos huv, two_smul] using (M.gamma_clifford u v)
-    · simpa only [if_neg huv, zero_smul] using (M.gamma_clifford u v)
+    · simpa only [_root_.ite_eq_left huv, two_smul] using (M.gamma_clifford u v)
+    · simpa only [_root_.ite_eq_right huv, zero_smul] using (M.gamma_clifford u v)
   exact bivector_commutator_of_anticommutators
     (M.gamma i) (M.gamma j) (M.gamma k)
     (if i = j then 2 else 0) (if i = k then 2 else 0)

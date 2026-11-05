@@ -120,11 +120,6 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSPairedSpin9Clifford.gammaNineRealLinear_sq
 #print axioms FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom
 #print axioms FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_generator
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_apply
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_sq
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_det_eq_gamma
-#print axioms FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_mem_specialOrthogonal_iff_gamma_det_one
 #print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrixUnitsHom
 #print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrixUnitsHom_apply
 #print axioms FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrix_isUnit
@@ -856,12 +851,6 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSS1V52K1D18O.originalSourceSpin48_originalLinearMap_det_one
 #print axioms FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_linearMap_eq
 #print axioms FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_det_one
-#print axioms FCP.BFSSS1V52K1D18Q.source48QuadraticPreservingGL
-#print axioms FCP.BFSSS1V52K1D18Q.source48DetCharacter
-#print axioms FCP.BFSSS1V52K1D18Q.source48SpecialOrthogonalGL
-#print axioms FCP.BFSSS1V52K1D18Q.source48QuadraticPreservingGL_mem_of_isometry
-#print axioms FCP.BFSSS1V52K1D18Q.originalSourceSpin48_isometry_linearRepresentation_eq
-#print axioms FCP.BFSSS1V52K1D18Q.originalSourceSpin48_mem_sourceSO
 #print axioms FCP.BFSSS1V52K1D18R.source48QuadraticIsometryWitnessGL
 #print axioms FCP.BFSSS1V52K1D18R.source48SpecialOrthogonalWitnessGL
 #print axioms FCP.BFSSS1V52K1D18R.originalSourceSpin48_mem_isometryWitness
@@ -884,10 +873,6 @@ import OAI.MathematicalPhysics.BFSS.Contrib.Kotler.All
 #print axioms FCP.BFSSS1V52K1D18V4A.weightedSumSquares_one_posDef
 #print axioms FCP.BFSSS1V52K1D18V4A.source48Quadratic_posDef
 #print axioms FCP.BFSSS1V52K1D18V4A.source48Quadratic_pos_of_ne_zero
-#print axioms FCP.BFSSS1V52K1D18V4.source48Quadratic_eq_sum_mul_self
-#print axioms FCP.BFSSS1V52K1D18V4.source48Quadratic_nonneg
-#print axioms FCP.BFSSS1V52K1D18V4.source48Quadratic_pos_of_ne_zero
-#print axioms FCP.BFSSS1V52K1D18V4.source48Quadratic_posDef
 #print axioms FCP.BFSSS1V52K1D18V5.real_sqrt_inv_square_mul_self
 #print axioms FCP.BFSSS1V52K1D18V5.source48Quadratic_normalized_value
 #print axioms FCP.BFSSS1V52K1D18V5.source48Quadratic_exists_unit_of_ne_zero

@@ -65,7 +65,7 @@ private theorem source24Mode_offDiagonalMixedCAR
     intro x
     change (0 : ℂ) • ((1 : Fermion 2 →L[ℂ] Fermion 2) x) = 0
     simp
-  simpa only [if_neg hij, hzero] using
+  simpa only [_root_.ite_eq_right hij, hzero] using
     (FCP.BFSSFermionF2.annihilator_creator_car i j)
 
 /-- Exact source-Fock specialization of the qualified L6G6N

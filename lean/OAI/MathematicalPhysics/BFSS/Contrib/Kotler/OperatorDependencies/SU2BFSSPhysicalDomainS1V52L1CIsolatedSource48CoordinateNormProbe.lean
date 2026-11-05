@@ -56,8 +56,8 @@ theorem source48Dot_two_coordinate_norm
     · have hj : k ≠ j := by
         intro hk
         exact hij (hi.symm.trans hk)
-      simp only [if_pos hi, if_neg hj, add_zero]
-    · simp only [if_neg hi, zero_add]
+      simp only [_root_.ite_eq_left hi, _root_.ite_eq_right hj, add_zero]
+    · simp only [_root_.ite_eq_right hi, zero_add]
   calc
     dotProduct
         (c • (Pi.single i (1 : ℝ) : Source48Vector) -

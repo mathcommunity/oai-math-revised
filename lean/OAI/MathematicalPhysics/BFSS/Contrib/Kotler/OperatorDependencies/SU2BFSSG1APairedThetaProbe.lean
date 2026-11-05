@@ -137,8 +137,8 @@ noncomputable def pairedAlgebraData : AlgebraData 2 where
     intro α β A B
     have h := pairedTheta_CAR α β A B
     by_cases he : α = β ∧ A = B
-    · simpa only [if_pos he, one_smul] using h
-    · simpa only [if_neg he, ← Nat.cast_smul_eq_nsmul ℂ,
+    · simpa only [_root_.ite_eq_left he, one_smul] using h
+    · simpa only [_root_.ite_eq_right he, ← Nat.cast_smul_eq_nsmul ℂ,
         Nat.cast_zero] using h
   theta_irreducible := pairedTheta_irreducible
 

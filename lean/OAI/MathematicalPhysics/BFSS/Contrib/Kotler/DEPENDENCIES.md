@@ -4,12 +4,12 @@ The machine-readable [manifest](manifest.json) is the complete module graph. The
 
 | Source line | Selection | Treatment |
 | --- | --- | --- |
-| Owner integration at `a7e65d2102ccea27be533147dbe562024c4dca65` | All 293 non-diagnostic/nonfailed modules in `Contrib/Kotler`, plus `SpinPlaneCovariance` | 294 byte-identical source copies. |
+| Owner integration at `a7e65d2102ccea27be533147dbe562024c4dca65` | 290 selected modules in `Contrib/Kotler`, plus `SpinPlaneCovariance`; six diagnostics/failed candidates excluded as below | 291 byte-identical source copies. |
 | FCP physical endpoint at `94b6d14ad7e946747b3c0b2c51f42654755151a7` | Full dependency closure of the physical Hamiltonian/eigenpair comparison, reusing ten already present owner modules and restoring prerequisites lost through that reuse | 498 additional source modules; import adaptations and the proposition-proof style edits below are recorded individually. |
 | Cross-commit FCP prerequisites | Eight source files fetched separately by historical gates | Exact original blobs recovered and recorded individually; no cached object is substituted for source. |
 | Existing upstream source | BFSS, Laughlin and other imported OAI definitions | No source modification; compiled as existing dependencies. |
 
-The two older FCP and current owner realizations retain their original mathematical namespaces. Reuse is explicit where an owner module already supplies the imported interface; the package does not conflate the original and adapted Clifford/gamma carriers. The static graph has 792 nodes and is acyclic. A lexical declaration-name check found no duplicate named public declarations; Lean remains authoritative.
+The two older FCP and current owner realizations retain their original mathematical namespaces. Reuse is explicit where an owner module already supplies the imported interface; the package does not conflate the original and adapted Clifford/gamma carriers. The static graph has 789 nodes and is acyclic. A lexical declaration-name check found no duplicate named public declarations; Lean remains authoritative.
 
 ## Recovered sources
 
@@ -28,11 +28,21 @@ These pins were recovered from the relevant historical M3 gate workflows, includ
 
 ## Explicit exclusions
 
-Three owner files are retained in the research repository and excluded here:
+Six owner files are retained in the research repository and excluded here. The original three exclusions are:
 
 - `SU2BFSSPairedSpin9V10HF10AWSubtypeCoercionInterfaceDiagnostic`: a proof-interface diagnostic.
 - `SU2BFSSPairedSpin9V10HF10DOriginalGammaPrivateScopeMicroProbe`: a two-cell private-visibility diagnostic.
 - `SU2BFSSPairedSpin9V10HF10ExactGamma8PositiveAnchorProbe`: the older failed full anchor candidate; later source-exact work uses a different proof interface.
+
+Run #41985627014 exposed three additional historical failed candidates that the initial export inventory had included too broadly. Their current source blobs match their exact historical failed commits. No retained source imports any of them. The accepted successors also compiled in the diagnostic run:
+
+| Excluded candidate | Exact failed gate | Retained successor and successful gate |
+| --- | --- | --- |
+| `SU2BFSSPairedSpin9SourceDeterminantCharacterProbe` | [#41257744030](https://github.com/etblink/math/actions/runs/41257744030) | `SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe`, [#41262335156](https://github.com/etblink/math/actions/runs/41262335156) |
+| `SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe` | [#40757842344](https://github.com/etblink/math/actions/runs/40757842344) | `SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe`, [#40759784027](https://github.com/etblink/math/actions/runs/40759784027) |
+| `SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe` | [#40782788583](https://github.com/etblink/math/actions/runs/40782788583) | `SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe`, [#40784458583](https://github.com/etblink/math/actions/runs/40784458583) |
+
+The manifest records the exact failed commits and matching source blobs. The representation entry point now imports these successors. This does not identify K1D18Q's predicate subgroup with the structural-witness subgroup, nor claim V4's failed concrete sum normal form from V4A's positivity result. The three failed candidates and all previous attempts remain available in research Git history.
 
 They are not required by any selected mathematical import. Failed and diagnostic sources are not silently promoted because they occur beside later successful files.
 
@@ -65,10 +75,12 @@ Run #41981909444 reached the F3 recovery module after 22 contribution modules co
 | `ContinuousLinearMap.smul_apply` | `_root_.smul_apply` |
 | `ContinuousLinearMap.add_apply` | `_root_.add_apply` |
 | `ContinuousLinearMap.sum_apply` | `_root_.sum_apply` |
-| `ContinuousLinearMap.mul_apply` | `ContinuousLinearMap.mul_apply_eq_comp` |
+| `ContinuousLinearMap.mul_apply` | `_root_.mul_apply_eq_comp` |
 | `ContinuousLinearMap.neg_apply` | `_root_.neg_apply` |
 | `ContinuousLinearMap.sub_apply` | `_root_.sub_apply` |
 | `EuclideanSpace.single_apply` | `PiLp.single_apply` |
 | `EuclideanSpace.norm_single` | `PiLp.norm_single` |
 
 The sources are [ContinuousLinearMap/Basic.lean](https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Topology/Algebra/Module/ContinuousLinearMap/Basic.lean) and [PiL2.lean](https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Analysis/InnerProductSpace/PiL2.lean). The source sweep is not a proof of complete compatibility; the fresh combined build remains authoritative.
+
+The first `mul_apply` migration incorrectly qualified its replacement under `ContinuousLinearMap`. Run #41985627014 reported that nonexistent constant; all nine affected references now use the root declaration. The same run exposed deprecated core `if_pos`/`if_neg` names. Fifty-one remaining uses are replaced by the compiler-prescribed `_root_.ite_eq_left`/`_root_.ite_eq_right`; one redundant `if_pos rfl` simp argument is removed while retaining `simp only`. The other compiler-reported lint repairs remove two unused simp arguments, four no-op `change` tactics and one unreachable `ring` tactic. No linter is disabled and no proof limit is increased.

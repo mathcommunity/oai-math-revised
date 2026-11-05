@@ -52,7 +52,7 @@ theorem sourceRotatedTheta_zero (c : ColorIndex 2)
     -- #191 reduced this branch to 0 • theta_B = 0 but the broad
     -- simp left that concrete operator-valued zero-smul unsolved.
     -- Use its module law directly after discharging the Kronecker test.
-    simp only [if_neg (Ne.symm hBA), Complex.ofReal_zero]
+    simp only [_root_.ite_eq_right (Ne.symm hBA), Complex.ofReal_zero]
     exact zero_smul ℂ (pairedAlgebraData.theta spin B)
 
 /-- Exact initial value of the source-conjugated Majorana combination. -/

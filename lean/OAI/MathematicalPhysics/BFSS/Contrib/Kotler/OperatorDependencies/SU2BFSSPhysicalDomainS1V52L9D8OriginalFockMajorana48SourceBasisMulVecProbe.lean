@@ -76,12 +76,12 @@ theorem originalSourceRealMajoranaMatrix_mulVec_sourceAxis
     by_cases h : α = β ∧ B = C
     · have heq : sourceBlockColorLabel β C =
           sourceBlockColorLabel α B := hlabel.mpr h
-      simp only [if_pos heq, if_pos h]
+      simp only [_root_.ite_eq_left heq, _root_.ite_eq_left h]
     · have hne : ¬ (sourceBlockColorLabel β C =
           sourceBlockColorLabel α B) := by
         intro heq
         exact h (hlabel.mp heq)
-      simp only [if_neg hne, if_neg h]
+      simp only [_root_.ite_eq_right hne, _root_.ite_eq_right h]
   -- Compute only the three ORIGINAL color coordinates. Restrict
   -- simplification to this scalar sum, not original BFSS definitions.
   simp only [Finset.sum_apply, Pi.smul_apply, smul_eq_mul]

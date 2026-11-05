@@ -81,7 +81,7 @@ theorem sourceFiberFermionColorGenerator_vacuum_of_pairCancellation
       hdiag (fun s a b => M.theta s a (M.theta s b Ω))
       (by
         intro a b hab
-        simpa only [ContinuousLinearMap.mul_apply_eq_comp] using
+        simpa only [_root_.mul_apply_eq_comp] using
           (hpair a b hab))
   have hv :
       (∑ s : SpinIndex, ∑ a : ColorIndex 2,
@@ -89,7 +89,7 @@ theorem sourceFiberFermionColorGenerator_vacuum_of_pairCancellation
         sourceFiberFermionColorTerm M c s a b) Ω = 0 := by
     simpa only [_root_.sum_apply,
       sourceFiberFermionColorTerm, _root_.smul_apply,
-      ContinuousLinearMap.mul_apply_eq_comp] using hsum
+      _root_.mul_apply_eq_comp] using hsum
   change
     (Complex.I • ((-Complex.I / 2 : ℂ) •
       (∑ s : SpinIndex, ∑ a : ColorIndex 2,

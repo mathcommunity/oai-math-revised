@@ -50,7 +50,7 @@ theorem sourceSpinorKineticWeight_eq {N : ℕ} (M : AlgebraData N)
   classical
   unfold sourceSpinorKineticWeight sourceKineticWeight
   by_cases h : u.2 = p.2
-  · simp only [if_pos h]
+  · simp only [_root_.ite_eq_left h]
     calc
       (∑ α : SpinIndex,
         (w α : ℂ) * (-Complex.I * ((M.gamma u.1 α p.1 : ℝ) : ℂ))) =
@@ -68,7 +68,7 @@ theorem sourceSpinorKineticWeight_eq {N : ℕ} (M : AlgebraData N)
               ((w α * originalGamma u.1 α p.1 : ℝ) : ℂ)) =
             (((∑ α : SpinIndex, w α * originalGamma u.1 α p.1 : ℝ) : ℝ) : ℂ)
           simp
-  · simp only [if_neg h, mul_zero, Finset.sum_const_zero]
+  · simp only [_root_.ite_eq_right h, mul_zero, Finset.sum_const_zero]
 
 /-- Real source Gram transported to complex scalar weights. This is an
 ordinary ring-hom transport of the accepted L6G5A theorem. -/
@@ -84,10 +84,10 @@ theorem originalGamma_complexRowKineticGram (w : Spin → ℝ)
       if i = j then spinorSquareNorm w else 0 at h
   have hc := congrArg (fun a : ℝ => (a : ℂ)) h
   by_cases hij : i = j
-  · simp only [if_pos hij] at hc ⊢
+  · simp only [_root_.ite_eq_left hij] at hc ⊢
     -- Normalize the cast of the finite real sum and its products.
     simpa using hc
-  · simp only [if_neg hij] at hc ⊢
+  · simp only [_root_.ite_eq_right hij] at hc ⊢
     simpa using hc
 
 /-- Color contraction of two selectors does not assume or change
@@ -145,7 +145,7 @@ theorem sourceSpinorKineticWeight_colorGram {N : ℕ}
     (fun r => -Complex.I * (((w ᵥ* originalGamma v.1) r : ℝ) : ℂ))
   rw [hcolor]
   by_cases hc : u.2 = v.2
-  · simp only [if_pos hc]
+  · simp only [_root_.ite_eq_left hc]
     simp_rw [minusI_mul_minusI]
     rw [Finset.sum_neg_distrib, originalGamma_complexRowKineticGram]
     by_cases hs : u.1 = v.1

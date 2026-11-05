@@ -116,10 +116,10 @@ theorem source24ModeCandidateTangent_block
       else 0 := by
   simp only [source24ModeCandidateTangent, Equiv.symm_apply_apply]
   by_cases h : j = k
-  · simp only [if_pos h]
+  · simp only [_root_.ite_eq_left h]
     exact congrArg (fun r : ℝ => (r : ℂ))
       (pairedSourceAdjointColorCandidateTangent_coeff c B A)
-  · simp only [if_neg h]
+  · simp only [_root_.ite_eq_right h]
 
 #print axioms plusI_comm_eq_neg_sourceBracket
 #print axioms sourceAdjointColorCandidateTangent_coeff

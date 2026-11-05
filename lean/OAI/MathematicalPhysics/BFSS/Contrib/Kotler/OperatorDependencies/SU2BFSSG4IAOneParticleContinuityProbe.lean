@@ -61,10 +61,10 @@ theorem complexOneParticleMatrix_continuous :
       (colorModeEquiv (k,A)))
   simp_rw [complexOneParticleMatrix_block]
   by_cases h : j = k
-  · simp only [if_pos h]
+  · simp only [_root_.ite_eq_left h]
     exact Complex.continuous_ofReal.comp
       (adjointColorMatrix_entry_continuous B A)
-  · simp only [if_neg h]
+  · simp only [_root_.ite_eq_right h]
     exact continuous_const
 
 #print axioms adjointColorMatrix_entry_continuous

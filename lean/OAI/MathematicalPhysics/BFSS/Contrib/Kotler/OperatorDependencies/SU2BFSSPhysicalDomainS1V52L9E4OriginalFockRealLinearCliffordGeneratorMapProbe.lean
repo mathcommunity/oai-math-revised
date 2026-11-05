@@ -109,7 +109,7 @@ theorem originalFockGammaRealLinear_sourceAxis
       -- L9E4 Gate #2: sourceBlockColorAxis is a Pi.single
       -- source coordinate, not syntactically its if expression.
       simp only [sourceBlockColorAxis, Pi.single_apply]
-      exact if_neg hneq
+      exact _root_.ite_eq_right hneq
     -- The original ℝ-scaled Fock continuous-linear operator has
     -- a concrete zero-scalar identity, not an inferred metavariable.
     -- Gate #3's simp [hzero] did not close this exact goal.

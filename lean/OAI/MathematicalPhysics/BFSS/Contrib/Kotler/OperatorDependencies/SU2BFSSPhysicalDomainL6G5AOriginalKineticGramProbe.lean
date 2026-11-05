@@ -39,13 +39,13 @@ theorem originalGamma_rowKineticGram (w : Spin → ℝ) (i j : Space) :
   rw [OAI.BFSSGamma.dot_mulVec_left, hi, Matrix.mulVec_mulVec]
   by_cases hij : i = j
   · subst j
-    rw [if_pos rfl,
+    rw [_root_.ite_eq_left rfl,
       OAI.BFSSGamma.gamma_sq originalGamma
         (fun a b => FCP.BFSSGamma9.gamma_clifford a b) i,
       Matrix.one_mulVec]
     change (∑ α : Spin, w α * w α) = ∑ α : Spin, w α ^ 2
     simp only [pow_two]
-  · rw [if_neg hij]
+  · rw [_root_.ite_eq_right hij]
     apply OAI.BFSSGamma.dot_skew_zero
     rw [Matrix.transpose_mul, hi, hj,
       OAI.BFSSGamma.gamma_anti originalGamma

@@ -2269,7 +2269,7 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 ## SU2BFSSPhysicalDomainS1V34GenuineSpin48QuadraticIsometryEquivProbe
 
-- [`FCP.BFSSS1V34.sourceSpin48QuadraticIsometryEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V34GenuineSpin48QuadraticIsometryEquivProbe.lean#L71)
+- [`FCP.BFSSS1V34.sourceSpin48QuadraticIsometryEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V34GenuineSpin48QuadraticIsometryEquivProbe.lean#L69)
 
 ## SU2BFSSPhysicalDomainS1V35ActualSpin48RealAutomorphismGroupHomProbe
 
@@ -2299,8 +2299,8 @@ This is a generated source index, not a count of independent discoveries or a cl
 
 - [`FCP.BFSSS1V41.sourceLipschitz48VectorAction_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L32)
 - [`FCP.BFSSS1V41.sourceLipschitz48VectorAction_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L44)
-- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L95)
-- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L105)
+- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L91)
+- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L101)
 
 ## SU2BFSSPhysicalDomainS1V42ActualLipschitzGeneratorDeterminantProbe
 
@@ -3155,13 +3155,6 @@ This is a generated source index, not a count of independent discoveries or a cl
 - [`FCP.BFSSPairedSpin9Clifford.source9Quadratic_eq_dot`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L58)
 - [`FCP.BFSSPairedSpin9Clifford.gammaNineRealLinear_sq`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L65)
 - [`FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_generator`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L173)
-
-## SU2BFSSPairedSpin9SourceDeterminantCharacterProbe
-
-- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_apply`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L43)
-- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_sq`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L51)
-- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_det_eq_gamma`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L72)
-- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_mem_specialOrthogonal_iff_gamma_det_one`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L98)
 
 ## SU2BFSSPairedSpin9SourceSpinGammaMatrixUnitsProbe
 
@@ -4234,12 +4227,6 @@ This is a generated source index, not a count of independent discoveries or a cl
 - [`FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_linearMap_eq`](SU2BFSSPhysicalDomainS1V52K1D18POriginalSpinQuadraticIsometryDetOneProbe.lean#L30)
 - [`FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_det_one`](SU2BFSSPhysicalDomainS1V52K1D18POriginalSpinQuadraticIsometryDetOneProbe.lean#L42)
 
-## SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe
-
-- [`FCP.BFSSS1V52K1D18Q.source48QuadraticPreservingGL_mem_of_isometry`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L68)
-- [`FCP.BFSSS1V52K1D18Q.originalSourceSpin48_isometry_linearRepresentation_eq`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L75)
-- [`FCP.BFSSS1V52K1D18Q.originalSourceSpin48_mem_sourceSO`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L84)
-
 ## SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe
 
 - [`FCP.BFSSS1V52K1D18R.originalSourceSpin48_mem_isometryWitness`](SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe.lean#L69)
@@ -4282,13 +4269,6 @@ This is a generated source index, not a count of independent discoveries or a cl
 - [`FCP.BFSSS1V52K1D18V4A.weightedSumSquares_one_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L28)
 - [`FCP.BFSSS1V52K1D18V4A.source48Quadratic_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L49)
 - [`FCP.BFSSS1V52K1D18V4A.source48Quadratic_pos_of_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L55)
-
-## SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe
-
-- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_eq_sum_mul_self`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L37)
-- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_nonneg`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L50)
-- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_pos_of_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L57)
-- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L73)
 
 ## SU2BFSSPhysicalDomainS1V52K1D18V5OriginalSourceUnitVectorNormalizationProbe
 

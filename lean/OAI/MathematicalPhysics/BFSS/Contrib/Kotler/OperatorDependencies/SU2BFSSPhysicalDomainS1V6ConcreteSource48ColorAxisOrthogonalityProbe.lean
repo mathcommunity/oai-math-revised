@@ -63,7 +63,7 @@ theorem sourceBlockColorAxis_mul_eq_zero
     rw [sourceBlockColorAxis_other q p hpq.symm]
     ring
   · have hz : sourceBlockColorAxis p.1 p.2 i = 0 := by
-      simp [sourceBlockColorAxis, Pi.single_apply, h]
+      simp [sourceBlockColorAxis, h]
     rw [hz, zero_mul]
 
 /-- Exact source-normalized Q-orthogonality of all distinct

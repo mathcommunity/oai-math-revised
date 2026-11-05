@@ -41,9 +41,9 @@ theorem sourcePositionPairResponse_apply {N : ℕ}
       (((if P then sourceP a else 0) f) x) =
         (if P then ((x a : ℝ) : ℂ) else 0) • f x := by
     by_cases hp : P
-    · simp only [if_pos hp]
+    · simp only [_root_.ite_eq_left hp]
       rfl
-    · simp only [if_neg hp, LinearMap.zero_apply, zero_smul, zero_apply]
+    · simp only [_root_.ite_eq_right hp, LinearMap.zero_apply, zero_smul, zero_apply]
   calc
     ((sourcePositionPairResponse u v t) f) x =
         (((if u = v then sourceP t else 0) f) x) +

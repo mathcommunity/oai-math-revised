@@ -63,10 +63,10 @@ theorem sourceD_P_comm {N : ℕ} (u v : BosonLabel N) :
   rw [sourceCoordinate_fderiv]
   simp only [EuclideanSpace.single, PiLp.single_apply]
   by_cases huv : u = v
-  · simp only [if_pos huv, if_pos huv.symm, Complex.ofReal_one,
+  · simp only [_root_.ite_eq_left huv, _root_.ite_eq_left huv.symm, Complex.ofReal_one,
       one_smul, Module.End.one_apply]
     abel
-  · simp only [if_neg huv, if_neg (Ne.symm huv), Complex.ofReal_zero,
+  · simp only [_root_.ite_eq_right huv, _root_.ite_eq_right (Ne.symm huv), Complex.ofReal_zero,
       zero_smul, LinearMap.zero_apply, add_zero, sub_self]
     rfl
 
