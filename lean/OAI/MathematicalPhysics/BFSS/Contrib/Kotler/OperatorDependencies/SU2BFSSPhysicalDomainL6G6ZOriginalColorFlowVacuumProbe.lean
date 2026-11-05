@@ -105,7 +105,7 @@ theorem sourceFermionColorFlow_add
           (((t : ℝ) : ℂ) • sourceFiberFermionColorGenerator pairedAlgebraData c) := by
     apply ContinuousLinearMap.ext
     intro v
-    simp only [ContinuousLinearMap.add_apply, ContinuousLinearMap.smul_apply]
+    simp only [_root_.add_apply, _root_.smul_apply]
     exact add_smul (s : ℂ) (t : ℂ)
       (sourceFiberFermionColorGenerator pairedAlgebraData c v)
   rw [Complex.ofReal_add, hadd]

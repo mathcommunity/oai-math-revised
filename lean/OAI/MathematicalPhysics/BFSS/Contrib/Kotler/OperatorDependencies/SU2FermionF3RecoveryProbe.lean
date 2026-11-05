@@ -57,10 +57,10 @@ theorem thetaInvariant_creator_annihilator
     change (s • ((Complex.I : ℂ) • (creator i - annihilator i))) w ∈ W at hm1
 
     have hsumScaled : s • ((creator i + annihilator i) w) ∈ W := by
-      simpa only [ContinuousLinearMap.smul_apply] using hm0
+      simpa only [_root_.smul_apply] using hm0
     have hdiffScaled :
         s • ((Complex.I : ℂ) • ((creator i - annihilator i) w)) ∈ W := by
-      simpa only [ContinuousLinearMap.smul_apply] using hm1
+      simpa only [_root_.smul_apply] using hm1
 
     have hsum : (creator i + annihilator i) w ∈ W := by
       have h := W.smul_mem s⁻¹ hsumScaled
@@ -79,9 +79,9 @@ theorem thetaInvariant_creator_annihilator
       simpa only [smul_smul, hInv, one_smul] using h
 
     have hplus : creator i w + annihilator i w ∈ W := by
-      simpa only [ContinuousLinearMap.add_apply] using hsum
+      simpa only [_root_.add_apply] using hsum
     have hminus : creator i w - annihilator i w ∈ W := by
-      simpa only [ContinuousLinearMap.sub_apply] using hdiff
+      simpa only [_root_.sub_apply] using hdiff
 
     have hTwoCreator : (2 : ℂ) • (creator i w) ∈ W := by
       have h := W.add_mem hplus hminus

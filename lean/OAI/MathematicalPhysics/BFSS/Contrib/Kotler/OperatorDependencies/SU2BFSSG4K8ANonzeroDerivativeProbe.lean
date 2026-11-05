@@ -38,7 +38,7 @@ noncomputable def radialFarPoint : Boson 2 :=
 /-- Its norm is at least one in the literal EuclideanSpace metric. -/
 theorem radialFarPoint_norm_ge_one : 1 ≤ ‖radialFarPoint‖ := by
   unfold radialFarPoint
-  rw [EuclideanSpace.norm_single]
+  rw [PiLp.norm_single]
   norm_num
 
 /-- The accepted actual smooth Gauss state is NONZERO at

@@ -43,7 +43,7 @@ private theorem sourceColorLie_right_single_component
   change (∑ A : ColorIndex 2, ∑ C : ColorIndex 2,
       pairedAlgebraData.structureConstant B A C * x (i,A) *
         (EuclideanSpace.single c (1 : ℝ)) C) = _
-  simp [EuclideanSpace.single_apply]
+  simp [PiLp.single_apply]
 
 /-- Exact sign relation to the ORIGINAL source gaugeTangent, whose
 Lie bracket has the basis color direction in its FIRST slot.

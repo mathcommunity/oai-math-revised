@@ -51,7 +51,7 @@ theorem originalComplexCliffordFockModule_scalarTower :
   intro c a v
   change (originalComplexCliffordFockAlgHom (c • a)) v =
     c • (originalComplexCliffordFockAlgHom a v)
-  simpa only [map_smul, ContinuousLinearMap.smul_apply]
+  simpa only [map_smul, _root_.smul_apply]
 
 /-- Original M3A exact image irreducibility, transported to an
 IsSimpleModule proof for this very same complex Clifford algebra action. -/

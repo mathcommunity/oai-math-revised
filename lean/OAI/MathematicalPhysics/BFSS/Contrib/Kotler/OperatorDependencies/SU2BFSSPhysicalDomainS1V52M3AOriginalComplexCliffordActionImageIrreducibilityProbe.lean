@@ -63,7 +63,7 @@ theorem originalComplexCliffordFock_image_irreducible
   have hc : (↑(Real.sqrt 2) : ℂ) ≠ 0 := by
     exact_mod_cast hcReal
   have hn : (↑(Real.sqrt 2) : ℂ) • (pairedTheta α A w) ∈ W := by
-    simpa only [ContinuousLinearMap.smul_apply] using hnorm
+    simpa only [_root_.smul_apply] using hnorm
   have hinv := W.smul_mem ((↑(Real.sqrt 2) : ℂ)⁻¹) hn
   simpa only [smul_smul, inv_mul_cancel₀ hc, one_smul] using hinv
 

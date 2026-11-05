@@ -55,3 +55,20 @@ Run #41979326894 compiled M3E successfully, then exposed that M3F had relied on 
 | L9E5B all-vector Clifford square | L9E4 real-linear Fock generator | Restores the original normalized Fock generators and their CAR prerequisites. |
 
 L9E4 requires the existing L9E2 and L9E3 sources. These three source modules are restored from the same pinned FCP snapshot, with only import paths adapted; their original hashes, destination hashes and imports are included in the manifest. They are removed from the outside-closure list and their declarations are included in the combined axiom audit. This restores source visibility and does not identify distinct carriers or alter theorem statements.
+
+## Pinned Mathlib API replacements
+
+Run #41981909444 reached the F3 recovery module after 22 contribution modules compiled, then rejected deprecated lemma names under warnings-as-errors. A lexical sweep of fully named deprecated references against the pinned Mathlib source found these eight replacement names. The first six are literal aliases to the canonical declarations; the last two have explicit replacement annotations in the pinned source. Thirty occurrences in fifteen FCP files are updated, with locations and hashes recorded in the manifest. No warning option is disabled.
+
+| Deprecated reference | Pinned replacement |
+| --- | --- |
+| `ContinuousLinearMap.smul_apply` | `_root_.smul_apply` |
+| `ContinuousLinearMap.add_apply` | `_root_.add_apply` |
+| `ContinuousLinearMap.sum_apply` | `_root_.sum_apply` |
+| `ContinuousLinearMap.mul_apply` | `ContinuousLinearMap.mul_apply_eq_comp` |
+| `ContinuousLinearMap.neg_apply` | `_root_.neg_apply` |
+| `ContinuousLinearMap.sub_apply` | `_root_.sub_apply` |
+| `EuclideanSpace.single_apply` | `PiLp.single_apply` |
+| `EuclideanSpace.norm_single` | `PiLp.norm_single` |
+
+The sources are [ContinuousLinearMap/Basic.lean](https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Topology/Algebra/Module/ContinuousLinearMap/Basic.lean) and [PiL2.lean](https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Analysis/InnerProductSpace/PiL2.lean). The source sweep is not a proof of complete compatibility; the fresh combined build remains authoritative.

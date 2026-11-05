@@ -55,7 +55,7 @@ theorem sourcePairedTheta_spinSum_vacuumCancellation
   apply Finset.sum_eq_zero
   intro j _
   dsimp [F]
-  simpa only [ContinuousLinearMap.add_apply] using
+  simpa only [_root_.add_apply] using
     (sourcePairedTheta_twoSpin_vacuumCancellation j a b hab)
 
 /-- The L6G6M source interface becomes an unconditional theorem for

@@ -64,7 +64,7 @@ private theorem orthogonalKineticContraction
             -- within the entire LHS; a second rewrite has no target.
             conv_lhs => rw [hexpand i]
             simp only [map_sum, map_smul, _root_.sum_apply,
-              ContinuousLinearMap.smul_apply, smul_sum, smul_smul]
+              _root_.smul_apply, smul_sum, smul_smul]
             conv_lhs => rw [Finset.sum_comm]
             apply Finset.sum_congr rfl
             intro j _

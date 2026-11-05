@@ -65,13 +65,13 @@ theorem sourceFermionAction_CAR {N : ℕ} (M : AlgebraData N)
     simp only [if_pos rfl]
     change M.theta p.1 p.2 (M.theta p.1 p.2 (f x)) +
       M.theta p.1 p.2 (M.theta p.1 p.2 (f x)) = f x
-    simpa [ContinuousLinearMap.mul_apply] using h
+    simpa [ContinuousLinearMap.mul_apply_eq_comp] using h
   · have hpair : ¬ (p.1 = q.1 ∧ p.2 = q.2) :=
       fun h' => hpq (Prod.ext h'.1 h'.2)
     simp only [if_neg hpq]
     change M.theta p.1 p.2 (M.theta q.1 q.2 (f x)) +
       M.theta q.1 q.2 (M.theta p.1 p.2 (f x)) = 0
-    simpa [hpair, ContinuousLinearMap.mul_apply] using h
+    simpa [hpair, ContinuousLinearMap.mul_apply_eq_comp] using h
 
 private theorem sourcePositionProduct_comm_fermion {N : ℕ}
     (M : AlgebraData N) (q : FermionLabel N)

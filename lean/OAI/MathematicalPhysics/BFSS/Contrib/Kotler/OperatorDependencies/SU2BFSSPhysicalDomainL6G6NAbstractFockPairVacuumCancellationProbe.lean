@@ -90,11 +90,11 @@ theorem finiteFockMajoranaPair_vacuumCancellation
   have hca : (C i * A j + A i * C j) Ω = 0 := by
     change C i (A j Ω) + A i (C j Ω) = 0
     rw [hA j, map_zero, hcross, zero_add]
-  rw [hphase, ContinuousLinearMap.smul_apply]
+  rw [hphase, _root_.smul_apply]
   have htwice :
       ((C i * A j + A i * C j) +
         (C i * A j + A i * C j)) Ω = 0 := by
-    rw [ContinuousLinearMap.add_apply, hca, zero_add]
+    rw [_root_.add_apply, hca, zero_add]
   rw [htwice, smul_zero]
 
 #print axioms finiteFockMajoranaPhasePair

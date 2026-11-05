@@ -69,7 +69,7 @@ private theorem abstractFderivEven_odd_apply
   rw [hfun] at hcomp
   have happ := congrArg
     (fun L : Boson 2 →L[ℝ] Fermion 2 => L (-v)) hcomp.symm
-  simpa only [ContinuousLinearMap.comp_apply, ContinuousLinearMap.neg_apply,
+  simpa only [ContinuousLinearMap.comp_apply, _root_.neg_apply,
     ContinuousLinearMap.id_apply, map_neg, neg_neg] using happ
 
 /-- Pinned source MixedEnergy.delta is the coordinate directional
