@@ -1,0 +1,4716 @@
+# Named theorem and lemma inventory
+
+This is a generated source index, not a count of independent discoveries or a claim of external review. Full Lean types and the combined compiler/axiom audit remain authoritative. Definitions, classes and other named declarations also appear in declarations.json.
+
+## FCPIndependentChargeVectorL2
+
+- [`FCP.IndependentSmoothSupercharge.independentChargeVector_component_intertwining`](OperatorDependencies/FCPIndependentChargeVectorL2.lean#L44)
+
+## FCPIndependentCliffordIntertwining
+
+- [`FCP.IndependentCliffordIntertwining.intertwines_all`](OperatorDependencies/FCPIndependentCliffordIntertwining.lean#L23)
+- [`FCP.IndependentCliffordIntertwining.intertwines_all_of_coordinate_axes`](OperatorDependencies/FCPIndependentCliffordIntertwining.lean#L57)
+
+## FCPIndependentCoordinateDerivative
+
+- [`FCP.IndependentSmoothSupercharge.independentCoordinateDerivative_apply`](OperatorDependencies/FCPIndependentCoordinateDerivative.lean#L39)
+- [`FCP.IndependentSmoothSupercharge.independentCoordinateDerivative_intertwining`](OperatorDependencies/FCPIndependentCoordinateDerivative.lean#L52)
+
+## FCPIndependentCubicCharge
+
+- [`FCP.IndependentSmoothSupercharge.independentStructureConstant_source`](OperatorDependencies/FCPIndependentCubicCharge.lean#L54)
+- [`FCP.IndependentSmoothSupercharge.independentGammaTwo_source`](OperatorDependencies/FCPIndependentCubicCharge.lean#L62)
+- [`FCP.IndependentSmoothSupercharge.independentCubicCharge_intertwining`](OperatorDependencies/FCPIndependentCubicCharge.lean#L86)
+
+## FCPIndependentFullCoreGraph
+
+- [`FCP.IndependentSmoothSupercharge.independentChargeVector_all_components_intertwining`](OperatorDependencies/FCPIndependentFullCoreGraph.lean#L43)
+- [`FCP.IndependentSmoothSupercharge.independentFullCoreGraph_transport_mem_source`](OperatorDependencies/FCPIndependentFullCoreGraph.lean#L63)
+
+## FCPIndependentFullCoreGraphClosure
+
+- [`FCP.IndependentSmoothSupercharge.sourceFullCoreGraph_closure_eq_independent_image_closure`](OperatorDependencies/FCPIndependentFullCoreGraphClosure.lean#L35)
+
+## FCPIndependentFullCoreGraphImage
+
+- [`FCP.IndependentSmoothSupercharge.sourceFullCoreGraph_transport_exists_independent`](OperatorDependencies/FCPIndependentFullCoreGraphImage.lean#L39)
+- [`FCP.IndependentSmoothSupercharge.sourceFullCoreGraph_eq_independent_image`](OperatorDependencies/FCPIndependentFullCoreGraphImage.lean#L84)
+
+## FCPIndependentFullL2GaugeTransport
+
+- [`FCP.IndependentFullL2GaugeTransport.fiberTransport_bosonPullback`](OperatorDependencies/FCPIndependentFullL2GaugeTransport.lean#L55)
+- [`FCP.IndependentFullL2GaugeTransport.fiberTransport_fermionGauge`](OperatorDependencies/FCPIndependentFullL2GaugeTransport.lean#L84)
+- [`FCP.IndependentFullL2GaugeTransport.independentFullL2Gauge_intertwining`](OperatorDependencies/FCPIndependentFullL2GaugeTransport.lean#L121)
+
+## FCPIndependentFullL2Unitary
+
+- [`FCP.IndependentFullL2GaugeTransport.fiberTransport_left_inverse`](OperatorDependencies/FCPIndependentFullL2Unitary.lean#L30)
+- [`FCP.IndependentFullL2GaugeTransport.fiberTransport_right_inverse`](OperatorDependencies/FCPIndependentFullL2Unitary.lean#L48)
+- [`FCP.IndependentFullL2GaugeTransport.fiberTransport_norm_le`](OperatorDependencies/FCPIndependentFullL2Unitary.lean#L78)
+- [`FCP.IndependentFullL2GaugeTransport.inverseFiberTransport_norm_le`](OperatorDependencies/FCPIndependentFullL2Unitary.lean#L94)
+
+## FCPIndependentFullSmoothCharge
+
+- [`FCP.IndependentSmoothSupercharge.independentCharge_intertwining`](OperatorDependencies/FCPIndependentFullSmoothCharge.lean#L48)
+
+## FCPIndependentGaugePointwise
+
+- [`FCP.IndependentGaugePointwise.originalInvariantCore_pointwise_iff`](OperatorDependencies/FCPIndependentGaugePointwise.lean#L39)
+- [`FCP.IndependentGaugePointwise.independentInvariantCore_pointwise_iff`](OperatorDependencies/FCPIndependentGaugePointwise.lean#L86)
+
+## FCPIndependentKineticCharge
+
+- [`FCP.IndependentSmoothSupercharge.independentKineticCharge_intertwining`](OperatorDependencies/FCPIndependentKineticCharge.lean#L50)
+
+## FCPIndependentMajoranaAction
+
+- [`FCP.IndependentMajoranaAction.normalizedGamma_diag`](OperatorDependencies/FCPIndependentMajoranaAction.lean#L29)
+- [`FCP.IndependentMajoranaAction.normalizedGamma_anti`](OperatorDependencies/FCPIndependentMajoranaAction.lean#L40)
+- [`FCP.IndependentMajoranaAction.cliffordAction_generator`](OperatorDependencies/FCPIndependentMajoranaAction.lean#L55)
+- [`FCP.IndependentMajoranaAction.cliffordAction_axis`](OperatorDependencies/FCPIndependentMajoranaAction.lean#L60)
+- [`FCP.IndependentMajoranaAction.cliffordAction_generator_symmetric`](OperatorDependencies/FCPIndependentMajoranaAction.lean#L66)
+
+## FCPIndependentOriginalCliffordBridge
+
+- [`FCP.IndependentOriginalCliffordBridge.originalLabelledTheta_CAR`](OperatorDependencies/FCPIndependentOriginalCliffordBridge.lean#L47)
+- [`FCP.IndependentOriginalCliffordBridge.independent_original_axis_intertwining`](OperatorDependencies/FCPIndependentOriginalCliffordBridge.lean#L87)
+- [`FCP.IndependentOriginalCliffordBridge.independent_original_clifford_intertwining`](OperatorDependencies/FCPIndependentOriginalCliffordBridge.lean#L129)
+
+## FCPIndependentOriginalGaugeBridge
+
+- [`FCP.IndependentOriginalGaugeBridge.independent_original_gauge_real_covariance`](OperatorDependencies/FCPIndependentOriginalGaugeBridge.lean#L50)
+- [`FCP.IndependentOriginalGaugeBridge.independent_original_gauge_intertwining`](OperatorDependencies/FCPIndependentOriginalGaugeBridge.lean#L64)
+- [`FCP.IndependentOriginalGaugeBridge.exists_independent_original_gauge_unitary`](OperatorDependencies/FCPIndependentOriginalGaugeBridge.lean#L82)
+
+## FCPIndependentPhysicalSpace
+
+- [`FCP.IndependentPhysicalSpace.originalPhysicalSpace_mem_iff`](OperatorDependencies/FCPIndependentPhysicalSpace.lean#L38)
+- [`FCP.IndependentPhysicalSpace.independentPhysicalSpace_mem_iff`](OperatorDependencies/FCPIndependentPhysicalSpace.lean#L68)
+- [`FCP.IndependentPhysicalSpace.independentPhysicalSpace_iff_source`](OperatorDependencies/FCPIndependentPhysicalSpace.lean#L81)
+
+## FCPIndependentPhysicalUnitary
+
+- [`FCP.IndependentPhysicalSpace.independentPhysicalLinearEquiv_norm_le`](OperatorDependencies/FCPIndependentPhysicalUnitary.lean#L72)
+- [`FCP.IndependentPhysicalSpace.independentPhysicalLinearEquiv_symm_norm_le`](OperatorDependencies/FCPIndependentPhysicalUnitary.lean#L81)
+
+## FCPIndependentPosition
+
+- [`FCP.IndependentSmoothSupercharge.independentPosition_apply`](OperatorDependencies/FCPIndependentPosition.lean#L65)
+- [`FCP.IndependentSmoothSupercharge.independentPosition_intertwining`](OperatorDependencies/FCPIndependentPosition.lean#L73)
+
+## FCPIndependentSmoothCore
+
+- [`FCP.IndependentSmoothCore.independentCoreToL2_ae`](OperatorDependencies/FCPIndependentSmoothCore.lean#L45)
+- [`FCP.IndependentSmoothCore.independentSmoothTransport_apply`](OperatorDependencies/FCPIndependentSmoothCore.lean#L56)
+- [`FCP.IndependentSmoothCore.independentSmoothTransport_coreToL2`](OperatorDependencies/FCPIndependentSmoothCore.lean#L64)
+- [`FCP.IndependentSmoothCore.independentInvariantCore_iff_source`](OperatorDependencies/FCPIndependentSmoothCore.lean#L98)
+
+## FCPIndependentSmoothSuperchargeFermion
+
+- [`FCP.IndependentSmoothSupercharge.independentFermionCoreAction_apply`](OperatorDependencies/FCPIndependentSmoothSuperchargeFermion.lean#L41)
+- [`FCP.IndependentSmoothSupercharge.independentFermionCoreAction_intertwining`](OperatorDependencies/FCPIndependentSmoothSuperchargeFermion.lean#L53)
+
+## FCPIndependentSpinRealization
+
+- [`FCP.IndependentSpinRealization.reversion_adjoint`](OperatorDependencies/FCPIndependentSpinRealization.lean#L28)
+- [`FCP.IndependentSpinRealization.spin_star_adjoint`](OperatorDependencies/FCPIndependentSpinRealization.lean#L48)
+- [`FCP.IndependentSpinRealization.spin_adjoint_mul_self`](OperatorDependencies/FCPIndependentSpinRealization.lean#L55)
+- [`FCP.IndependentSpinRealization.spin_mul_adjoint_self`](OperatorDependencies/FCPIndependentSpinRealization.lean#L62)
+- [`FCP.IndependentSpinRealization.spin_inner_map_map`](OperatorDependencies/FCPIndependentSpinRealization.lean#L103)
+- [`FCP.IndependentSpinRealization.spin_covariance_of_clifford_conjugation`](OperatorDependencies/FCPIndependentSpinRealization.lean#L136)
+
+## FCPM3JIndependentCliffordAction
+
+- [`FCP.IndependentM3JAction.finite_weighted_clifford_square`](OperatorDependencies/FCPM3JIndependentCliffordAction.lean#L19)
+- [`FCP.IndependentM3JAction.independentGammaReal_axis`](OperatorDependencies/FCPM3JIndependentCliffordAction.lean#L69)
+- [`FCP.IndependentM3JAction.independentGammaReal_square`](OperatorDependencies/FCPM3JIndependentCliffordAction.lean#L74)
+- [`FCP.IndependentM3JAction.independentRealCliffordAction_generator`](OperatorDependencies/FCPM3JIndependentCliffordAction.lean#L96)
+- [`FCP.IndependentM3JAction.independentComplexCliffordAction_generator`](OperatorDependencies/FCPM3JIndependentCliffordAction.lean#L117)
+
+## FCPM3JRankOneModuleExistence
+
+- [`FCP.IndependentM3J.columnIntertwiner_intertwines`](OperatorDependencies/FCPM3JRankOneModuleExistence.lean#L34)
+- [`FCP.IndependentM3J.exists_nonzero_fullEnd_intertwiner`](OperatorDependencies/FCPM3JRankOneModuleExistence.lean#L47)
+- [`FCP.IndependentM3J.nonzero_fullEnd_intertwiner_injective`](OperatorDependencies/FCPM3JRankOneModuleExistence.lean#L75)
+- [`FCP.IndependentM3J.exists_fullEnd_intertwining_equiv`](OperatorDependencies/FCPM3JRankOneModuleExistence.lean#L103)
+- [`FCP.IndependentM3J.exists_algebra_intertwining_equiv`](OperatorDependencies/FCPM3JRankOneModuleExistence.lean#L130)
+
+## FCPM3KHilbertNormalization
+
+- [`FCP.IndependentM3K.positive_normalization_of_intertwining_equiv`](OperatorDependencies/FCPM3KHilbertNormalization.lean#L23)
+
+## FCPM3LUnitaryCliffordModuleExistence
+
+- [`FCP.IndependentM3L.exists_unitary_of_fullCliffordEquiv`](OperatorDependencies/FCPM3LUnitaryCliffordModuleExistence.lean#L35)
+- [`FCP.IndependentM3L.exists_unitary_deltaOne`](OperatorDependencies/FCPM3LUnitaryCliffordModuleExistence.lean#L80)
+
+## FCPM4E5NamedCubicBridge
+
+- [`FCP.IndependentSmoothSupercharge.independentCubic_named_source_intertwining`](OperatorDependencies/FCPM4E5NamedCubicBridge.lean#L28)
+
+## FCPM4E5NamedKineticBridge
+
+- [`FCP.IndependentSmoothSupercharge.independentKinetic_named_source_intertwining`](OperatorDependencies/FCPM4E5NamedKineticBridge.lean#L29)
+
+## FCPM4E5RawSourceCertificates
+
+- [`FCP.IndependentSmoothSupercharge.originalSourceKineticPart_eq_sum`](OperatorDependencies/FCPM4E5RawSourceCertificates.lean#L24)
+- [`FCP.IndependentSmoothSupercharge.originalSourceCubicPart_eq_sum`](OperatorDependencies/FCPM4E5RawSourceCertificates.lean#L34)
+
+## FCPM4E5SourceOuterEquality
+
+- [`FCP.IndependentSmoothSupercharge.originalSource_charge_eq_parts`](OperatorDependencies/FCPM4E5SourceOuterEquality.lean#L24)
+- [`FCP.IndependentSmoothSupercharge.originalSource_charge_apply_parts`](OperatorDependencies/FCPM4E5SourceOuterEquality.lean#L31)
+
+## FCPM4F1PairedSourceSpecialization
+
+- [`FCP.BFSSM4F1SourceSpecialization.pairedOriginalCharge_mem_invariantCore`](OperatorDependencies/FCPM4F1PairedSourceSpecialization.lean#L30)
+
+## FCPM4F1TypedIndependentInvariantCharge
+
+- [`FCP.IndependentSmoothSupercharge.independentCharge_mem_invariantCore`](OperatorDependencies/FCPM4F1TypedIndependentInvariantCharge.lean#L36)
+
+## FCPM4F6GenericNamedAliasInputCut
+
+- [`FCP.M4F6GenericNamedAliasInputCut.core_graph_input_cut_with_named_aliases`](OperatorDependencies/FCPM4F6GenericNamedAliasInputCut.lean#L24)
+
+## FCPM4F6IndependentGraphInputCutNamedAlias
+
+- [`FCP.M4F6IndependentGraphInputCut.independentCoreGraph_eq_physicalInputCut`](OperatorDependencies/FCPM4F6IndependentGraphInputCutNamedAlias.lean#L36)
+
+## FCPM4F6IndependentLiteralAliasBoundary
+
+- [`FCP.M4F6IndependentLiteralAliasBoundary.independentInvariantCore_eq_actualComap`](OperatorDependencies/FCPM4F6IndependentLiteralAliasBoundary.lean#L35)
+- [`FCP.M4F6IndependentLiteralAliasBoundary.independentFullCoreGraph_eq_actualRange`](OperatorDependencies/FCPM4F6IndependentLiteralAliasBoundary.lean#L50)
+
+## FCPM4F6PairedSourceGraphInputCut
+
+- [`FCP.M4F6PairedSourceGraphInputCut.pairedSourceCoreGraph_eq_physicalInputCut`](OperatorDependencies/FCPM4F6PairedSourceGraphInputCut.lean#L29)
+
+## FCPM4F6RestrictedGraphClosureC4
+
+- [`FCP.M4F6RestrictedGraphClosureC4.sourceRestrictedCoreGraph_closure_eq_independent_image_closure`](OperatorDependencies/FCPM4F6RestrictedGraphClosureC4.lean#L39)
+
+## FCPM4F6RestrictedGraphImageC3
+
+- [`FCP.M4F6RestrictedGraphImageC3.sourceRestrictedCoreGraph_eq_independent_image`](OperatorDependencies/FCPM4F6RestrictedGraphImageC3.lean#L45)
+
+## FCPM4F7FullClosedGraphVerticalB4CoeAlign
+
+- [`FCP.M4F7FullClosedGraphVerticalB4.independentFullCoreGraph_closure_vertical`](OperatorDependencies/FCPM4F7FullClosedGraphVerticalB4CoeAlign.lean#L38)
+
+## FCPM4F7GenericClosedRangeOutputsE7G
+
+- [`FCP.M4F7GenericClosedRangeOutputsE7G.closed_product_range_output_mem`](OperatorDependencies/FCPM4F7GenericClosedRangeOutputsE7G.lean#L35)
+
+## FCPM4F7GenericOpaqueClosedRelationBridgeImports
+
+- [`FCP.M4F7GenericOpaqueClosedRelationBridge.topologicalClosure_vertical_of_set`](OperatorDependencies/FCPM4F7GenericOpaqueClosedRelationBridgeImports.lean#L27)
+- [`FCP.M4F7GenericOpaqueClosedRelationBridge.topologicalClosure_toLinearPMap_graph_eq`](OperatorDependencies/FCPM4F7GenericOpaqueClosedRelationBridgeImports.lean#L39)
+- [`FCP.M4F7GenericOpaqueClosedRelationBridge.topologicalClosure_toLinearPMap_isClosed`](OperatorDependencies/FCPM4F7GenericOpaqueClosedRelationBridgeImports.lean#L50)
+
+## FCPM4F7GenericOpaqueOutputConstraintE7H
+
+- [`FCP.M4F7GenericOpaqueOutputConstraintE7H.mem_allOutputConstraint_iff`](OperatorDependencies/FCPM4F7GenericOpaqueOutputConstraintE7H.lean#L33)
+- [`FCP.M4F7GenericOpaqueOutputConstraintE7H.opaque_closed_product_range_subset_allOutputConstraint`](OperatorDependencies/FCPM4F7GenericOpaqueOutputConstraintE7H.lean#L43)
+
+## FCPM4F7IndependentActualClosedGraphNamedBridgeE7N1
+
+- [`FCP.M4F7IndependentActualClosedGraphNamedBridgeE7N1.independentPhysicalInputCutClosedChargeColumn_graph_eq_named_literal`](OperatorDependencies/FCPM4F7IndependentActualClosedGraphNamedBridgeE7N1.lean#L41)
+
+## FCPM4F7IndependentActualClosedPhysicalOutputsE7N2
+
+- [`FCP.M4F7IndependentActualClosedPhysicalOutputsE7N2.independentPhysicalInputCutClosedChargeColumn_graph_all_outputs_physical`](OperatorDependencies/FCPM4F7IndependentActualClosedPhysicalOutputsE7N2.lean#L43)
+
+## FCPM4F7IndependentChargeOutputTypedE7A
+
+- [`FCP.M4F7IndependentChargeOutputTypedE7A.independentChargeVector_comp_invariantCore_output_physical`](OperatorDependencies/FCPM4F7IndependentChargeOutputTypedE7A.lean#L47)
+
+## FCPM4F7IndependentClosedChargePhysicalInputE6
+
+- [`FCP.M4F7IndependentClosedChargePhysicalInputE6.independentPhysicalSpace_isClosed`](OperatorDependencies/FCPM4F7IndependentClosedChargePhysicalInputE6.lean#L41)
+- [`FCP.M4F7IndependentClosedChargePhysicalInputE6.independentPhysicalInputCutClosedChargeColumn_input_physical`](OperatorDependencies/FCPM4F7IndependentClosedChargePhysicalInputE6.lean#L69)
+
+## FCPM4F7IndependentFullClosedChargeOperatorE1
+
+- [`FCP.M4F7IndependentFullClosedChargeOperatorE1.independentFullClosedChargeColumn_graph_eq`](OperatorDependencies/FCPM4F7IndependentFullClosedChargeOperatorE1.lean#L46)
+- [`FCP.M4F7IndependentFullClosedChargeOperatorE1.independentFullClosedChargeColumn_isClosed`](OperatorDependencies/FCPM4F7IndependentFullClosedChargeOperatorE1.lean#L67)
+
+## FCPM4F7IndependentLiteralClosedPhysicalOutputsE7M
+
+- [`FCP.M4F7IndependentLiteralClosedPhysicalOutputsE7M.independentLiteralRestrictedClosedGraph_subset_allPhysicalOutputs`](OperatorDependencies/FCPM4F7IndependentLiteralClosedPhysicalOutputsE7M.lean#L48)
+
+## FCPM4F7IndependentLiteralRestrictedGraphBridgeE3
+
+- [`FCP.M4F7IndependentLiteralRestrictedGraphBridgeE3.independentPhysicalInputCutCoreGraph_mem_iff`](OperatorDependencies/FCPM4F7IndependentLiteralRestrictedGraphBridgeE3.lean#L54)
+- [`FCP.M4F7IndependentLiteralRestrictedGraphBridgeE3.independentPhysicalInputCutCoreGraph_eq_literalRestrictedRange`](OperatorDependencies/FCPM4F7IndependentLiteralRestrictedGraphBridgeE3.lean#L76)
+- [`FCP.M4F7IndependentLiteralRestrictedGraphBridgeE3.independentPhysicalInputCutClosedChargeColumn_graph_eq_literal`](OperatorDependencies/FCPM4F7IndependentLiteralRestrictedGraphBridgeE3.lean#L106)
+
+## FCPM4F7IndependentNamedSmoothGraphMapsE7K
+
+- [`FCP.M4F7IndependentNamedSmoothGraphMapsE7K.independentInvariantCoreInputMap_eq`](OperatorDependencies/FCPM4F7IndependentNamedSmoothGraphMapsE7K.lean#L67)
+
+## FCPM4F7IndependentPhysicalInputCutOperatorE2
+
+- [`FCP.M4F7IndependentPhysicalInputCutOperatorE2.independentPhysicalInputCutCoreGraph_le_full`](OperatorDependencies/FCPM4F7IndependentPhysicalInputCutOperatorE2.lean#L54)
+- [`FCP.M4F7IndependentPhysicalInputCutOperatorE2.independentPhysicalInputCutClosedChargeColumn_graph_eq`](OperatorDependencies/FCPM4F7IndependentPhysicalInputCutOperatorE2.lean#L86)
+- [`FCP.M4F7IndependentPhysicalInputCutOperatorE2.independentPhysicalInputCutClosedChargeColumn_isClosed`](OperatorDependencies/FCPM4F7IndependentPhysicalInputCutOperatorE2.lean#L127)
+- [`FCP.M4F7IndependentPhysicalInputCutOperatorE2.independentPhysicalInputCutClosedChargeColumn_graph_le_full`](OperatorDependencies/FCPM4F7IndependentPhysicalInputCutOperatorE2.lean#L152)
+
+## FCPM4F7IndependentPhysicalOutputPredicateE7I
+
+- [`FCP.M4F7IndependentPhysicalOutputPredicateE7I.mem_independentAllSixteenOutputsPhysicalSet_iff`](OperatorDependencies/FCPM4F7IndependentPhysicalOutputPredicateE7I.lean#L51)
+
+## FCPM4F7NamedClosedSmoothGraphIdentityE7K3
+
+- [`FCP.M4F7NamedClosedSmoothGraphIdentityE7K3.originalNamedClosedCoreGraph_eq_closure_namedProductRange`](OperatorDependencies/FCPM4F7NamedClosedSmoothGraphIdentityE7K3.lean#L36)
+
+## FCPM4F7NamedConditionalPhysicalOutputBridgeE7L
+
+- [`FCP.M4F7NamedConditionalPhysicalOutputBridgeE7L.originalNamedClosedGraph_subset_nativeSixteenPhysicalOutputs_of_core`](OperatorDependencies/FCPM4F7NamedConditionalPhysicalOutputBridgeE7L.lean#L54)
+
+## FCPM4F7NamedSmoothGraphIdentityE7K2
+
+- [`FCP.M4F7NamedSmoothGraphIdentityE7K2.independentInvariantCoreOutputMap_eq`](OperatorDependencies/FCPM4F7NamedSmoothGraphIdentityE7K2.lean#L35)
+- [`FCP.M4F7NamedSmoothGraphIdentityE7K2.originalLiteralCoreGraph_eq_namedProductRange`](OperatorDependencies/FCPM4F7NamedSmoothGraphIdentityE7K2.lean#L53)
+
+## FCPM4F7OpaqueLiteralGraphInterfaceE7D
+
+- [`FCP.M4F7OpaqueLiteralGraphInterfaceE7D.literalRestrictedCoreGraphRelation_eq`](OperatorDependencies/FCPM4F7OpaqueLiteralGraphInterfaceE7D.lean#L76)
+- [`FCP.M4F7OpaqueLiteralGraphInterfaceE7D.literalRestrictedClosedGraphSet_eq`](OperatorDependencies/FCPM4F7OpaqueLiteralGraphInterfaceE7D.lean#L95)
+
+## FCPM4F7PhysicalGraphTransportE4
+
+- [`FCP.M4F7PhysicalGraphTransportE4.sourceRestrictedCoreClosure_eq_independentPhysicalOperatorGraph_image`](OperatorDependencies/FCPM4F7PhysicalGraphTransportE4.lean#L46)
+
+## FCPM4F8DE4SourceSetClosureDiagnostic
+
+- [`FCP.M4F8DE4SourceSetClosureDiagnostic.originalRestrictedClosedGraph_coe_eq_explicitClosure`](OperatorDependencies/FCPM4F8DE4SourceSetClosureDiagnostic.lean#L30)
+- [`FCP.M4F8DE4SourceSetClosureDiagnostic.pairedSourceNamedGraph_eq_explicitRestrictedClosure`](OperatorDependencies/FCPM4F8DE4SourceSetClosureDiagnostic.lean#L44)
+
+## FCPM4F8IndependentActualE2FullPhysicalDomainDE2B
+
+- [`FCP.M4F8IndependentActualE2FullPhysicalDomainDE2B.independentActualE2FullPhysicalChargeColumn_isClosed`](OperatorDependencies/FCPM4F8IndependentActualE2FullPhysicalDomainDE2B.lean#L37)
+- [`FCP.M4F8IndependentActualE2FullPhysicalDomainDE2B.independentActualE2FullPhysicalChargeColumn_domain_iff`](OperatorDependencies/FCPM4F8IndependentActualE2FullPhysicalDomainDE2B.lean#L74)
+- [`FCP.M4F8IndependentActualE2FullPhysicalDomainDE2B.independentActualE2FullPhysicalChargeColumn_domain_dense`](OperatorDependencies/FCPM4F8IndependentActualE2FullPhysicalDomainDE2B.lean#L140)
+
+## FCPM4F8IndependentActualE2FullPhysicalGraphRebaseDE2
+
+- [`FCP.M4F8IndependentActualE2FullPhysicalGraphRebaseDE2.independentActualE2FullPhysicalGraph_mem_iff`](OperatorDependencies/FCPM4F8IndependentActualE2FullPhysicalGraphRebaseDE2.lean#L75)
+- [`FCP.M4F8IndependentActualE2FullPhysicalGraphRebaseDE2.independentActualE2FullPhysicalChargeColumn_graph_eq`](OperatorDependencies/FCPM4F8IndependentActualE2FullPhysicalGraphRebaseDE2.lean#L144)
+
+## FCPM4F8IndependentActualPhysicalGraphSourceTransportDE3
+
+- [`FCP.M4F8IndependentActualPhysicalGraphSourceTransportDE3.actualE2AmbientGraph_eq_fullPhysicalGraph_image`](OperatorDependencies/FCPM4F8IndependentActualPhysicalGraphSourceTransportDE3.lean#L49)
+- [`FCP.M4F8IndependentActualPhysicalGraphSourceTransportDE3.sourceRestrictedClosure_eq_actualFullPhysicalE2Graph_image`](OperatorDependencies/FCPM4F8IndependentActualPhysicalGraphSourceTransportDE3.lean#L92)
+
+## FCPM4F8IndependentConditionalPhysicalCoreDensityDB
+
+- [`FCP.M4F8IndependentConditionalPhysicalCoreDensityDB.independentInvariantCoreL2_closure_eq_physical_of_source`](OperatorDependencies/FCPM4F8IndependentConditionalPhysicalCoreDensityDB.lean#L45)
+
+## FCPM4F8IndependentE2ConditionalPhysicalDomainDenseDD
+
+- [`FCP.M4F8IndependentE2ConditionalPhysicalDomainDenseDD.independentE2_smoothInvariantCore_input_mem_actual_domain`](OperatorDependencies/FCPM4F8IndependentE2ConditionalPhysicalDomainDenseDD.lean#L45)
+- [`FCP.M4F8IndependentE2ConditionalPhysicalDomainDenseDD.independentE2_actual_closed_domain_dense_in_physical_of_source`](OperatorDependencies/FCPM4F8IndependentE2ConditionalPhysicalDomainDenseDD.lean#L99)
+
+## FCPM4F8IndependentE2UnconditionalPhysicalDomainDenseDC
+
+- [`FCP.M4F8IndependentE2UnconditionalPhysicalDomainDenseDC.sourceHaar_coreL2_set_closure_eq_physical`](OperatorDependencies/FCPM4F8IndependentE2UnconditionalPhysicalDomainDenseDC.lean#L44)
+- [`FCP.M4F8IndependentE2UnconditionalPhysicalDomainDenseDC.independentE2_actual_closed_domain_dense_in_physical`](OperatorDependencies/FCPM4F8IndependentE2UnconditionalPhysicalDomainDenseDC.lean#L67)
+
+## FCPM4F8IndependentInvariantCoreL2ImageDA
+
+- [`FCP.M4F8IndependentInvariantCoreL2ImageDA.independentInvariantCoreToL2_unitary_image_eq_source`](OperatorDependencies/FCPM4F8IndependentInvariantCoreL2ImageDA.lean#L55)
+
+## FCPM4F8OriginalNamedFullPhysicalGraphDE4
+
+- [`FCP.M4F8OriginalNamedFullPhysicalGraphDE4.pairedSourceNamedClosedGraph_eq_actualIndependentFullPhysicalGraph_image`](OperatorDependencies/FCPM4F8OriginalNamedFullPhysicalGraphDE4.lean#L42)
+
+## FCPM4F9H2APhysicalHilbertOutputUnitary
+
+- [`FCP.M4F9H2APhysicalHilbertOutputUnitary.independentPhysicalHilbertOutputUnitary_apply`](OperatorDependencies/FCPM4F9H2APhysicalHilbertOutputUnitary.lean#L54)
+- [`FCP.M4F9H2APhysicalHilbertOutputUnitary.independentPhysicalHilbertOutputUnitary_norm`](OperatorDependencies/FCPM4F9H2APhysicalHilbertOutputUnitary.lean#L64)
+
+## FCPM4F9H2BPhysicalHilbertE2GraphRebase
+
+- [`FCP.M4F9H2BPhysicalHilbertE2GraphRebase.hilbertPhysicalOutputsToActualOutputs_apply`](OperatorDependencies/FCPM4F9H2BPhysicalHilbertE2GraphRebase.lean#L72)
+- [`FCP.M4F9H2BPhysicalHilbertE2GraphRebase.hilbertPhysicalOutputsToActualOutputs_injective`](OperatorDependencies/FCPM4F9H2BPhysicalHilbertE2GraphRebase.lean#L82)
+- [`FCP.M4F9H2BPhysicalHilbertE2GraphRebase.independentActualE2HilbertPhysicalGraph_mem_iff`](OperatorDependencies/FCPM4F9H2BPhysicalHilbertE2GraphRebase.lean#L112)
+
+## FCPM4F9H2CActualE2NativeHilbertChargeColumn
+
+- [`FCP.M4F9H2CActualE2NativeHilbertChargeColumn.independentActualE2HilbertPhysicalGraph_vertical`](OperatorDependencies/FCPM4F9H2CActualE2NativeHilbertChargeColumn.lean#L29)
+- [`FCP.M4F9H2CActualE2NativeHilbertChargeColumn.independentActualE2NativeHilbertChargeColumn_graph_eq`](OperatorDependencies/FCPM4F9H2CActualE2NativeHilbertChargeColumn.lean#L60)
+
+## FCPM4F9H2D1ActualE2HilbertOutputDomainEquivalence
+
+- [`FCP.M4F9H2D1ActualE2HilbertOutputDomainEquivalence.hilbertPhysicalOutputsToActualOutputs_surjective`](OperatorDependencies/FCPM4F9H2D1ActualE2HilbertOutputDomainEquivalence.lean#L39)
+- [`FCP.M4F9H2D1ActualE2HilbertOutputDomainEquivalence.independentActualE2NativeHilbertChargeColumn_domain_iff`](OperatorDependencies/FCPM4F9H2D1ActualE2HilbertOutputDomainEquivalence.lean#L63)
+
+## FCPM4F9H2D2ANativeHilbertE2ContinuityAndDensity
+
+- [`FCP.M4F9H2D2ANativeHilbertE2ContinuityAndDensity.hilbertPhysicalOutputsToActualOutputs_continuous`](OperatorDependencies/FCPM4F9H2D2ANativeHilbertE2ContinuityAndDensity.lean#L40)
+- [`FCP.M4F9H2D2ANativeHilbertE2ContinuityAndDensity.independentActualE2NativeHilbertChargeColumn_domain_dense`](OperatorDependencies/FCPM4F9H2D2ANativeHilbertE2ContinuityAndDensity.lean#L62)
+
+## FCPM4F9H2D2BNativeHilbertE2ClosedGraph
+
+- [`FCP.M4F9H2D2BNativeHilbertE2ClosedGraph.independentActualE2NativeHilbertChargeColumn_isClosed`](OperatorDependencies/FCPM4F9H2D2BNativeHilbertE2ClosedGraph.lean#L41)
+
+## FCPM4F9H3AOriginalPairedPhysicalChargeOutputConstraint
+
+- [`FCP.M4F9H3AOriginalPairedPhysicalChargeOutputConstraint.pairedOriginalMinimalPhysicalHilbertChargeGraph_outputs_physical`](OperatorDependencies/FCPM4F9H3AOriginalPairedPhysicalChargeOutputConstraint.lean#L55)
+
+## FCPM4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase
+
+- [`FCP.M4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.pairedPhysicalHilbertOutputsToOriginalAmbient_apply`](OperatorDependencies/FCPM4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.lean#L46)
+- [`FCP.M4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.pairedPhysicalHilbertOutputsToOriginalAmbient_injective`](OperatorDependencies/FCPM4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.lean#L55)
+- [`FCP.M4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.pairedOriginalPhysicalHilbertChargeGraph_mem_iff`](OperatorDependencies/FCPM4F9H3B1OriginalAYNativePhysicalHilbertGraphRebase.lean#L78)
+
+## FCPM4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn
+
+- [`FCP.M4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.pairedOriginalPhysicalHilbertChargeGraph_vertical`](OperatorDependencies/FCPM4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.lean#L46)
+- [`FCP.M4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.pairedOriginalNativePhysicalHilbertChargeColumn_graph_eq`](OperatorDependencies/FCPM4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.lean#L72)
+- [`FCP.M4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.pairedOriginalNativePhysicalHilbertChargeColumn_domain_iff`](OperatorDependencies/FCPM4F9H3B2OriginalAYNativePhysicalHilbertChargeColumn.lean#L111)
+
+## FCPM4F9H4ANativeHilbertAmbientCoordinateTransport
+
+- [`FCP.M4F9H4ANativeHilbertAmbientCoordinateTransport.nativeInput_eq_fiberTransport`](OperatorDependencies/FCPM4F9H4ANativeHilbertAmbientCoordinateTransport.lean#L35)
+- [`FCP.M4F9H4ANativeHilbertAmbientCoordinateTransport.nativeOutput_apply_eq_fiberTransport`](OperatorDependencies/FCPM4F9H4ANativeHilbertAmbientCoordinateTransport.lean#L44)
+- [`FCP.M4F9H4ANativeHilbertAmbientCoordinateTransport.nativePair_eq_ambientFiberTransport`](OperatorDependencies/FCPM4F9H4ANativeHilbertAmbientCoordinateTransport.lean#L58)
+
+## FCPM4F9H4B1ASourceNamedNativeGraphMembership
+
+- [`FCP.M4F9H4B1ASourceNamedNativeGraphMembership.pairedNativeSourcePhysicalGraph_mem_source_iff`](OperatorDependencies/FCPM4F9H4B1ASourceNamedNativeGraphMembership.lean#L26)
+
+## FCPM4F9H4B1BNativeNamedSourceAmbientGraphForward
+
+- [`FCP.M4F9H4B1BNativeNamedSourceAmbientGraphForward.nativeIndependentGraph_mem_namedSourceAmbient`](OperatorDependencies/FCPM4F9H4B1BNativeNamedSourceAmbientGraphForward.lean#L52)
+
+## FCPM4F9H4B1CNativeSourceGraphForward
+
+- [`FCP.M4F9H4B1CNativeSourceGraphForward.nativeIndependentGraph_mem_sourceGraph`](OperatorDependencies/FCPM4F9H4B1CNativeSourceGraphForward.lean#L45)
+
+## FCPM4F9H4C1ANamedSourceAmbientIndependentInputWitness
+
+- [`FCP.M4F9H4C1ANamedSourceAmbientIndependentInputWitness.namedSourceGraph_independentFullPhysicalInput_exists`](OperatorDependencies/FCPM4F9H4C1ANamedSourceAmbientIndependentInputWitness.lean#L46)
+
+## FCPM4F9H4C1BSourceDomainIndependentNativeRecovery
+
+- [`FCP.M4F9H4C1BSourceDomainIndependentNativeRecovery.nativeSourceDomain_symm_mem_independentDomain`](OperatorDependencies/FCPM4F9H4C1BSourceDomainIndependentNativeRecovery.lean#L46)
+
+## FCPM4F9H4C2A1GenericPartialGraphReverse
+
+- [`FCP.M4F9H4C2A1GenericPartialGraphReverse.partialGraph_reverse_of_domain_forward`](OperatorDependencies/FCPM4F9H4C2A1GenericPartialGraphReverse.lean#L26)
+
+## FCPM4F9H4C2A2ActualNativeReverseFromGeneric
+
+- [`FCP.M4F9H4C2A2ActualNativeReverseFromGeneric.nativeSourceGraph_mem_independentGraph`](OperatorDependencies/FCPM4F9H4C2A2ActualNativeReverseFromGeneric.lean#L43)
+
+## FCPM4F9H4C2BExactNativeChargeGraphConjugacy
+
+- [`FCP.M4F9H4C2BExactNativeChargeGraphConjugacy.nativeIndependentGraph_mem_iff_sourceGraph`](OperatorDependencies/FCPM4F9H4C2BExactNativeChargeGraphConjugacy.lean#L41)
+
+## FCPM4F9H4C2CExactNativeChargeNaturalDomain
+
+- [`FCP.M4F9H4C2CExactNativeChargeNaturalDomain.nativeIndependentDomain_mem_iff_sourceDomain`](OperatorDependencies/FCPM4F9H4C2CExactNativeChargeNaturalDomain.lean#L41)
+
+## FCPM4F9H4C2DExactNativeChargeAction
+
+- [`FCP.M4F9H4C2DExactNativeChargeAction.nativePhysicalCharge_action_intertwine`](OperatorDependencies/FCPM4F9H4C2DExactNativeChargeAction.lean#L43)
+
+## FCPM4F9H4D1OriginalNativeHilbertChargeDomainDense
+
+- [`FCP.M4F9H4D1OriginalNativeHilbertChargeDomainDense.pairedOriginalNativePhysicalHilbertChargeColumn_domain_dense`](OperatorDependencies/FCPM4F9H4D1OriginalNativeHilbertChargeDomainDense.lean#L44)
+
+## FCPM4F9H4D2AGenericNativeHilbertAdjointForward
+
+- [`FCP.M4F9H4D2AGenericNativeHilbertAdjointForward.adjoint_forward_domain_action`](OperatorDependencies/FCPM4F9H4D2AGenericNativeHilbertAdjointForward.lean#L31)
+
+## FCPM4F9H4D2BGenericNativeHilbertAdjointReverse
+
+- [`FCP.M4F9H4D2BGenericNativeHilbertAdjointReverse.adjoint_reverse_domain_action`](OperatorDependencies/FCPM4F9H4D2BGenericNativeHilbertAdjointReverse.lean#L26)
+
+## FCPM4F9H4D3AIndependentPhysicalHilbertComplete
+
+- [`FCP.M4F9H4D3AIndependentPhysicalHilbertComplete.independentPhysicalSpace_complete`](OperatorDependencies/FCPM4F9H4D3AIndependentPhysicalHilbertComplete.lean#L29)
+
+## FCPM4F9H4D3BActualNativeAdjointForward
+
+- [`FCP.M4F9H4D3BActualNativeAdjointForward.nativeAdjoint_forward_domain_action`](OperatorDependencies/FCPM4F9H4D3BActualNativeAdjointForward.lean#L44)
+
+## FCPM4F9H4D3CActualNativeAdjointReverse
+
+- [`FCP.M4F9H4D3CActualNativeAdjointReverse.nativeAdjoint_reverse_domain_action`](OperatorDependencies/FCPM4F9H4D3CActualNativeAdjointReverse.lean#L44)
+
+## FCPM4F9H4D3DActualNativeAdjointDomainIff
+
+- [`FCP.M4F9H4D3DActualNativeAdjointDomainIff.nativeAdjoint_domain_iff`](OperatorDependencies/FCPM4F9H4D3DActualNativeAdjointDomainIff.lean#L44)
+
+## FCPM4F9H4D4AActualNativeAdjointSquareDomain
+
+- [`FCP.M4F9H4D4AActualNativeAdjointSquareDomain.nativeAdjointSquare_naturalDomain_iff`](OperatorDependencies/FCPM4F9H4D4AActualNativeAdjointSquareDomain.lean#L47)
+
+## FCPM4F9H4D4BActualNativeAdjointSquareAction
+
+- [`FCP.M4F9H4D4BActualNativeAdjointSquareAction.nativeAdjointSquare_action_intertwine`](OperatorDependencies/FCPM4F9H4D4BActualNativeAdjointSquareAction.lean#L47)
+
+## FCPM4F9H4E1AOriginalAmbientOutputInnerBridge
+
+- [`FCP.M4F9H4E1AOriginalAmbientOutputInnerBridge.pairedPhysicalHilbertOutputsToOriginalAmbient_inner`](OperatorDependencies/FCPM4F9H4E1AOriginalAmbientOutputInnerBridge.lean#L27)
+
+## FCPM4F9H4E1BOriginalAYAmbientChargeAction
+
+- [`FCP.M4F9H4E1BOriginalAYAmbientChargeAction.pairedOriginalAmbientCharge_graph_ofNative`](OperatorDependencies/FCPM4F9H4E1BOriginalAYAmbientChargeAction.lean#L34)
+- [`FCP.M4F9H4E1BOriginalAYAmbientChargeAction.pairedOriginalAmbientCharge_domain_ofNative`](OperatorDependencies/FCPM4F9H4E1BOriginalAYAmbientChargeAction.lean#L51)
+- [`FCP.M4F9H4E1BOriginalAYAmbientChargeAction.pairedOriginalAmbientCharge_action_ofNative`](OperatorDependencies/FCPM4F9H4E1BOriginalAYAmbientChargeAction.lean#L62)
+
+## FCPM4F9H4E2AOriginalAYAmbientNativePolarizedForm
+
+- [`FCP.M4F9H4E2AOriginalAYAmbientNativePolarizedForm.pairedOriginalAYAmbientNative_inner_charge_eq`](OperatorDependencies/FCPM4F9H4E2AOriginalAYAmbientNativePolarizedForm.lean#L34)
+- [`FCP.M4F9H4E2AOriginalAYAmbientNativePolarizedForm.pairedOriginalAYAmbientNative_normalizedForm_eq`](OperatorDependencies/FCPM4F9H4E2AOriginalAYAmbientNativePolarizedForm.lean#L61)
+
+## FCPM4F9H4E2BOriginalAYAmbientNativeFullDomainForm
+
+- [`FCP.M4F9H4E2BOriginalAYAmbientNativeFullDomainForm.pairedOriginalAYAmbientNative_fullNaturalDomain_iff`](OperatorDependencies/FCPM4F9H4E2BOriginalAYAmbientNativeFullDomainForm.lean#L45)
+- [`FCP.M4F9H4E2BOriginalAYAmbientNativeFullDomainForm.pairedOriginalAYAmbientNative_normalizedForm_onAmbientDomain`](OperatorDependencies/FCPM4F9H4E2BOriginalAYAmbientNativeFullDomainForm.lean#L56)
+
+## FCPM4F9H4E3AOriginalNativeHistoricalHamiltonianWeakForm
+
+- [`FCP.M4F9H4E3AOriginalNativeHistoricalHamiltonianWeakForm.pairedOriginalNativeWeakForm_iff_ambient`](OperatorDependencies/FCPM4F9H4E3AOriginalNativeHistoricalHamiltonianWeakForm.lean#L50)
+- [`FCP.M4F9H4E3AOriginalNativeHistoricalHamiltonianWeakForm.pairedOriginalNativeWeakForm_iff_historicalHamiltonian`](OperatorDependencies/FCPM4F9H4E3AOriginalNativeHistoricalHamiltonianWeakForm.lean#L101)
+
+## FCPM4F9H4E3B1NativeActualAdjointSquareWeakRepresentative
+
+- [`FCP.M4F9H4E3B1NativeActualAdjointSquareWeakRepresentative.pairedNativeNormalizedAdjointSquare_iff_historicalRepresentingVector`](OperatorDependencies/FCPM4F9H4E3B1NativeActualAdjointSquareWeakRepresentative.lean#L52)
+
+## FCPM4F9H4E3B2GenericAdjointWeakFormHistoricalAction
+
+- [`FCP.M4F9H4E3B2GenericAdjointWeakFormHistoricalAction.genericNormalizedAdjointWeakForm`](OperatorDependencies/FCPM4F9H4E3B2GenericAdjointWeakFormHistoricalAction.lean#L38)
+- [`FCP.M4F9H4E3B2GenericAdjointWeakFormHistoricalAction.pairedNativeAdjointSquare_action_eq_historical`](OperatorDependencies/FCPM4F9H4E3B2GenericAdjointWeakFormHistoricalAction.lean#L74)
+
+## FCPM4F9H4E3C1HistoricalDomainNativeCharge
+
+- [`FCP.M4F9H4E3C1HistoricalDomainNativeCharge.historicalHamiltonian_domain_subset_nativeCharge`](OperatorDependencies/FCPM4F9H4E3C1HistoricalDomainNativeCharge.lean#L55)
+
+## FCPM4F9H4E3C2NativeSquareHistoricalFullDomainAction
+
+- [`FCP.M4F9H4E3C2NativeSquareHistoricalFullDomainAction.nativeNormalizedSquare_naturalDomain_iff_historical`](OperatorDependencies/FCPM4F9H4E3C2NativeSquareHistoricalFullDomainAction.lean#L50)
+- [`FCP.M4F9H4E3C2NativeSquareHistoricalFullDomainAction.nativeNormalizedSquare_fullAction_eq_historical`](OperatorDependencies/FCPM4F9H4E3C2NativeSquareHistoricalFullDomainAction.lean#L82)
+
+## FCPM4F9H4E3D1NativeHistoricalExactPartialOperator
+
+- [`FCP.M4F9H4E3D1NativeHistoricalExactPartialOperator.pairedNativeNormalizedAdjointSquare_eq_historical`](OperatorDependencies/FCPM4F9H4E3D1NativeHistoricalExactPartialOperator.lean#L46)
+
+## FCPM4F9H4E3D2IndependentHistoricalTrueSquareDomain
+
+- [`FCP.M4F9H4E3D2IndependentHistoricalTrueSquareDomain.independentNativeAdjointSquare_domain_iff_historical`](OperatorDependencies/FCPM4F9H4E3D2IndependentHistoricalTrueSquareDomain.lean#L35)
+
+## FCPM4F9H4E3D3IndependentHistoricalTrueSquareAction
+
+- [`FCP.M4F9H4E3D3IndependentHistoricalTrueSquareAction.independentNativeAdjointSquare_action_historical`](OperatorDependencies/FCPM4F9H4E3D3IndependentHistoricalTrueSquareAction.lean#L62)
+
+## FCPM4F9H4E3D4AIndependentNormalizedPhysicalHamiltonianDomain
+
+- [`FCP.M4F9H4E3D4AIndependentNormalizedPhysicalHamiltonianDomain.independentNativeNormalizedPhysicalHamiltonian_domain_iff_historical`](OperatorDependencies/FCPM4F9H4E3D4AIndependentNormalizedPhysicalHamiltonianDomain.lean#L63)
+
+## FCPM4F9H4E3D4BIndependentNormalizedHistoricalHamiltonianAction
+
+- [`FCP.M4F9H4E3D4BIndependentNormalizedHistoricalHamiltonianAction.independentNativeNormalizedPhysicalHamiltonian_action_historical`](OperatorDependencies/FCPM4F9H4E3D4BIndependentNormalizedHistoricalHamiltonianAction.lean#L47)
+
+## FCPM4F9H4E3D4C1GenericUnitaryPartialGraphEquivalence
+
+- [`FCP.M4F9H4E3D4C1GenericUnitaryPartialGraphEquivalence.genericUnitaryPartialGraph_mem_iff`](OperatorDependencies/FCPM4F9H4E3D4C1GenericUnitaryPartialGraphEquivalence.lean#L20)
+
+## FCPM4F9H4E3D4C2ActualIndependentHistoricalUnitaryGraphEquivalence
+
+- [`FCP.M4F9H4E3D4C2ActualIndependentHistoricalUnitaryGraphEquivalence.independentNormalizedHamiltonian_graph_mem_iff_historical`](OperatorDependencies/FCPM4F9H4E3D4C2ActualIndependentHistoricalUnitaryGraphEquivalence.lean#L45)
+
+## FCPM4F9H4E3D4C3GenericUnitaryPartialGraphImageEquality
+
+- [`FCP.M4F9H4E3D4C3GenericUnitaryPartialGraphImageEquality.genericUnitaryPartialGraph_map_eq`](OperatorDependencies/FCPM4F9H4E3D4C3GenericUnitaryPartialGraphImageEquality.lean#L20)
+
+## FCPM4F9H4E3D4C4ActualIndependentHistoricalUnitaryGraphImageEquality
+
+- [`FCP.M4F9H4E3D4C4ActualIndependentHistoricalUnitaryGraphImageEquality.independentNormalizedHamiltonian_graph_map_eq_historical`](OperatorDependencies/FCPM4F9H4E3D4C4ActualIndependentHistoricalUnitaryGraphImageEquality.lean#L46)
+
+## FCPM4F9H4G1AGenericUnitaryNormalizableEigenpairTransfer
+
+- [`FCP.M4F9H4G1AGenericUnitaryNormalizableEigenpairTransfer.genericUnitaryPartialEigenpair_exists_iff`](OperatorDependencies/FCPM4F9H4G1AGenericUnitaryNormalizableEigenpairTransfer.lean#L22)
+
+## FCPM4F9H4G1BActualIndependentHistoricalNormalizableEigenpairTransfer
+
+- [`FCP.M4F9H4G1BActualIndependentHistoricalNormalizableEigenpairTransfer.independentNormalizedHamiltonian_eigenpair_exists_iff_historical`](OperatorDependencies/FCPM4F9H4G1BActualIndependentHistoricalNormalizableEigenpairTransfer.lean#L44)
+
+## FCPRestrictedGraphInputCut
+
+- [`FCP.RestrictedGraphInputCut.core_graph_input_cut`](OperatorDependencies/FCPRestrictedGraphInputCut.lean#L22)
+- [`FCP.RestrictedGraphInputCut.image_input_cut`](OperatorDependencies/FCPRestrictedGraphInputCut.lean#L41)
+- [`FCP.RestrictedGraphInputCut.original_core_graph_input_cut`](OperatorDependencies/FCPRestrictedGraphInputCut.lean#L57)
+
+## SU2BFSSFullAlgebraDataProbe
+
+- [`FCP.BFSSSU2Full.concreteAlgebraData_color`](OperatorDependencies/SU2BFSSFullAlgebraDataProbe.lean#L44)
+- [`FCP.BFSSSU2Full.concreteAlgebraData_gamma`](OperatorDependencies/SU2BFSSFullAlgebraDataProbe.lean#L48)
+- [`FCP.BFSSSU2Full.concreteAlgebraData_theta`](OperatorDependencies/SU2BFSSFullAlgebraDataProbe.lean#L52)
+
+## SU2BFSSG1APairedThetaProbe
+
+- [`FCP.BFSSSU2GaugeG1A.pairedLabel_even`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L47)
+- [`FCP.BFSSSU2GaugeG1A.pairedLabel_odd`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L53)
+- [`FCP.BFSSSU2GaugeG1A.pairedTheta_even`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L63)
+- [`FCP.BFSSSU2GaugeG1A.pairedTheta_odd`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L69)
+- [`FCP.BFSSSU2GaugeG1A.pairedTheta_selfAdjoint`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L75)
+- [`FCP.BFSSSU2GaugeG1A.pairedTheta_CAR`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L82)
+- [`FCP.BFSSSU2GaugeG1A.pairedTheta_irreducible`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L109)
+- [`FCP.BFSSSU2GaugeG1A.pairedAlgebraData_color`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L145)
+- [`FCP.BFSSSU2GaugeG1A.pairedAlgebraData_gamma`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L148)
+- [`FCP.BFSSSU2GaugeG1A.pairedAlgebraData_theta`](OperatorDependencies/SU2BFSSG1APairedThetaProbe.lean#L151)
+
+## SU2BFSSG1BColorAnnihilatorProbe
+
+- [`FCP.BFSSSU2GaugeG1B.color_annihilator`](OperatorDependencies/SU2BFSSG1BColorAnnihilatorProbe.lean#L50)
+- [`FCP.BFSSSU2GaugeG1B.pairedAlgebraData_color_annihilator`](OperatorDependencies/SU2BFSSG1BColorAnnihilatorProbe.lean#L102)
+
+## SU2BFSSG2ABosonGaugeProbe
+
+- [`FCP.BFSSSU2GaugeG2A.bosonGaugeEquiv_apply`](OperatorDependencies/SU2BFSSG2ABosonGaugeProbe.lean#L79)
+- [`FCP.BFSSSU2GaugeG2A.bosonGauge_adjoint`](OperatorDependencies/SU2BFSSG2ABosonGaugeProbe.lean#L104)
+- [`FCP.BFSSSU2GaugeG2A.bosonGauge_exact_fields`](OperatorDependencies/SU2BFSSG2ABosonGaugeProbe.lean#L116)
+
+## SU2BFSSG2BBosonGaugeContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG2B.bosonGauge_continuous`](OperatorDependencies/SU2BFSSG2BBosonGaugeContinuityProbe.lean#L30)
+
+## SU2BFSSG3AAdjointColorRepresentationProbe
+
+- [`FCP.BFSSSU2GaugeG3A.colorUnit_inner`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L35)
+- [`FCP.BFSSSU2GaugeG3A.adjointCoefficient_on_basis`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG3A.adjointCoefficient_one`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L54)
+- [`FCP.BFSSSU2GaugeG3A.adjointCoefficient_mul`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L68)
+- [`FCP.BFSSSU2GaugeG3A.adjointCoefficient_orthogonal`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L93)
+- [`FCP.BFSSSU2GaugeG3A.adjointColorMatrix_one`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L122)
+- [`FCP.BFSSSU2GaugeG3A.adjointColorMatrix_mul`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L132)
+- [`FCP.BFSSSU2GaugeG3A.adjointColorMatrix_orthogonal`](OperatorDependencies/SU2BFSSG3AAdjointColorRepresentationProbe.lean#L139)
+
+## SU2BFSSG3B24ModeOrthogonalLiftProbe
+
+- [`FCP.BFSSSU2GaugeG3B.oneParticleMatrix_block`](OperatorDependencies/SU2BFSSG3B24ModeOrthogonalLiftProbe.lean#L42)
+- [`FCP.BFSSSU2GaugeG3B.oneParticleMatrix_one`](OperatorDependencies/SU2BFSSG3B24ModeOrthogonalLiftProbe.lean#L69)
+- [`FCP.BFSSSU2GaugeG3B.oneParticleMatrix_mul`](OperatorDependencies/SU2BFSSG3B24ModeOrthogonalLiftProbe.lean#L76)
+- [`FCP.BFSSSU2GaugeG3B.oneParticleMatrix_orthogonal`](OperatorDependencies/SU2BFSSG3B24ModeOrthogonalLiftProbe.lean#L117)
+
+## SU2BFSSG3CComplexOneParticleUnitaryProbe
+
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_block`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L33)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_one`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L42)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_mul`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L51)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_conjTranspose`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L61)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_left_unitary`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L69)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_adjoint_inv`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L88)
+- [`FCP.BFSSSU2GaugeG3C.complexOneParticleMatrix_right_unitary`](OperatorDependencies/SU2BFSSG3CComplexOneParticleUnitaryProbe.lean#L102)
+
+## SU2BFSSG4AExteriorGaugeActionProbe
+
+- [`FCP.BFSSSU2GaugeG4A.orbitalGauge_one`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L34)
+- [`FCP.BFSSSU2GaugeG4A.orbitalGauge_mul`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L43)
+- [`FCP.BFSSSU2GaugeG4A.exteriorGauge_one`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L59)
+- [`FCP.BFSSSU2GaugeG4A.exteriorGauge_mul`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L65)
+- [`FCP.BFSSSU2GaugeG4A.exteriorGauge_inv`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L72)
+- [`FCP.BFSSSU2GaugeG4A.exteriorGauge_vacuum`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4A.projection_orbitalGauge`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L83)
+- [`FCP.BFSSSU2GaugeG4A.annihilate_exteriorGauge`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L91)
+- [`FCP.BFSSSU2GaugeG4A.create_exteriorGauge`](OperatorDependencies/SU2BFSSG4AExteriorGaugeActionProbe.lean#L102)
+
+## SU2BFSSG4BFermionLinearTransportProbe
+
+- [`FCP.BFSSSU2GaugeG4B.exteriorGaugeLinearEquiv_apply`](OperatorDependencies/SU2BFSSG4BFermionLinearTransportProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4B.fermionGaugeLinearEquiv_intertwine`](OperatorDependencies/SU2BFSSG4BFermionLinearTransportProbe.lean#L63)
+- [`FCP.BFSSSU2GaugeG4B.fermionGaugeLinearEquiv_vacuum`](OperatorDependencies/SU2BFSSG4BFermionLinearTransportProbe.lean#L73)
+
+## SU2BFSSG4CFermionOperatorCovarianceProbe
+
+- [`FCP.BFSSSU2GaugeG4C.creator_transport`](OperatorDependencies/SU2BFSSG4CFermionOperatorCovarianceProbe.lean#L27)
+- [`FCP.BFSSSU2GaugeG4C.annihilator_transport`](OperatorDependencies/SU2BFSSG4CFermionOperatorCovarianceProbe.lean#L38)
+- [`FCP.BFSSSU2GaugeG4C.creator_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4CFermionOperatorCovarianceProbe.lean#L49)
+- [`FCP.BFSSSU2GaugeG4C.annihilator_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4CFermionOperatorCovarianceProbe.lean#L63)
+
+## SU2BFSSG4DExteriorOccupationIsometryProbe
+
+- [`FCP.BFSSSU2GaugeG4D.orbitalDual_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L28)
+- [`FCP.BFSSSU2GaugeG4D.vectorAnnihilate_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L43)
+- [`FCP.BFSSSU2GaugeG4D.exteriorGauge_`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L51)
+- [`FCP.BFSSSU2GaugeG4D.occupationInner_scalar_gauge`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L59)
+- [`FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationInner`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L73)
+- [`FCP.BFSSSU2GaugeG4D.exteriorGauge_occupationNormSq`](OperatorDependencies/SU2BFSSG4DExteriorOccupationIsometryProbe.lean#L93)
+
+## SU2BFSSG4EFermionHilbertUnitaryProbe
+
+- [`FCP.BFSSSU2GaugeG4E.fockMass_eq_occupationNormSq`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L32)
+- [`FCP.BFSSSU2GaugeG4E.exteriorGauge_fockMass`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L39)
+- [`FCP.BFSSSU2GaugeG4E.fockAlgebraToBFSS_norm_sq`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4E.fermionGaugeLinearEquiv_norm_sq`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L54)
+- [`FCP.BFSSSU2GaugeG4E.fermionGaugeLinearEquiv_norm`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L63)
+- [`FCP.BFSSSU2GaugeG4E.fermionGaugeUnitaryEquiv_toLinearEquiv`](OperatorDependencies/SU2BFSSG4EFermionHilbertUnitaryProbe.lean#L78)
+
+## SU2BFSSG4FRealColorAnnihilatorForwardProbe
+
+- [`FCP.BFSSSU2GaugeG4F.complexOneParticleMatrix_inv_entry`](OperatorDependencies/SU2BFSSG4FRealColorAnnihilatorForwardProbe.lean#L31)
+- [`FCP.BFSSSU2GaugeG4F.complexOneParticleMatrix_star_entry`](OperatorDependencies/SU2BFSSG4FRealColorAnnihilatorForwardProbe.lean#L41)
+- [`FCP.BFSSSU2GaugeG4F.fermionGauge_cancel_inv`](OperatorDependencies/SU2BFSSG4FRealColorAnnihilatorForwardProbe.lean#L49)
+- [`FCP.BFSSSU2GaugeG4F.annihilator_fermionGauge_forward`](OperatorDependencies/SU2BFSSG4FRealColorAnnihilatorForwardProbe.lean#L60)
+
+## SU2BFSSG4GMajoranaModeCovarianceProbe
+
+- [`FCP.BFSSSU2GaugeG4G.creator_annihilator_combination_covariant`](OperatorDependencies/SU2BFSSG4GMajoranaModeCovarianceProbe.lean#L31)
+- [`FCP.BFSSSU2GaugeG4G.majorana0_linear_apply`](OperatorDependencies/SU2BFSSG4GMajoranaModeCovarianceProbe.lean#L51)
+- [`FCP.BFSSSU2GaugeG4G.majorana1_linear_apply`](OperatorDependencies/SU2BFSSG4GMajoranaModeCovarianceProbe.lean#L69)
+- [`FCP.BFSSSU2GaugeG4G.majorana0_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4GMajoranaModeCovarianceProbe.lean#L81)
+- [`FCP.BFSSSU2GaugeG4G.majorana1_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4GMajoranaModeCovarianceProbe.lean#L92)
+
+## SU2BFSSG4HExactThetaCovarianceProbe
+
+- [`FCP.BFSSSU2GaugeG4H.complexOneParticleMatrix_paired_block_sum`](OperatorDependencies/SU2BFSSG4HExactThetaCovarianceProbe.lean#L32)
+- [`FCP.BFSSSU2GaugeG4H.pairedTheta_even_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4HExactThetaCovarianceProbe.lean#L70)
+- [`FCP.BFSSSU2GaugeG4H.pairedTheta_odd_fermionGauge_covariant`](OperatorDependencies/SU2BFSSG4HExactThetaCovarianceProbe.lean#L94)
+- [`FCP.BFSSSU2GaugeG4H.pairedAlgebraData_fermion_adjoint`](OperatorDependencies/SU2BFSSG4HExactThetaCovarianceProbe.lean#L118)
+- [`FCP.BFSSSU2GaugeG4H.fermion_adjoint_exact_field`](OperatorDependencies/SU2BFSSG4HExactThetaCovarianceProbe.lean#L137)
+
+## SU2BFSSG4IAOneParticleContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IA.adjointColorMatrix_entry_continuous`](OperatorDependencies/SU2BFSSG4IAOneParticleContinuityProbe.lean#L27)
+- [`FCP.BFSSSU2GaugeG4IA.complexOneParticleMatrix_continuous`](OperatorDependencies/SU2BFSSG4IAOneParticleContinuityProbe.lean#L51)
+
+## SU2BFSSG4IB1ExteriorFockSeedContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IB1.orbitalGauge_parameter_continuous`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L30)
+- [`FCP.BFSSSU2GaugeG4IB1.fockSeedCoordinateLinear_apply`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L45)
+- [`FCP.BFSSSU2GaugeG4IB1.fockSeedCoordinateLinear_continuous`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L52)
+- [`FCP.BFSSSU2GaugeG4IB1.exteriorGauge_seedCoordinate_continuous`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L58)
+- [`FCP.BFSSSU2GaugeG4IB1.exteriorGauge_vacuum_coordinates_continuous`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4IB1.exteriorGauge_singleton_coordinates_continuous`](OperatorDependencies/SU2BFSSG4IB1ExteriorFockSeedContinuityProbe.lean#L90)
+
+## SU2BFSSG4IB2ExteriorFockTwoWedgeContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IB2.wedgePairCoordinate_expansion`](OperatorDependencies/SU2BFSSG4IB2ExteriorFockTwoWedgeContinuityProbe.lean#L35)
+- [`FCP.BFSSSU2GaugeG4IB2.exteriorGauge_wedgePair_coordinates_continuous`](OperatorDependencies/SU2BFSSG4IB2ExteriorFockTwoWedgeContinuityProbe.lean#L85)
+- [`FCP.BFSSSU2GaugeG4IB2.exteriorGauge_modePair_coordinates_continuous`](OperatorDependencies/SU2BFSSG4IB2ExteriorFockTwoWedgeContinuityProbe.lean#L130)
+
+## SU2BFSSG4IB3ExteriorFockAllContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IB3.fockProductCoordinates_expansion`](OperatorDependencies/SU2BFSSG4IB3ExteriorFockAllContinuityProbe.lean#L42)
+- [`FCP.BFSSSU2GaugeG4IB3.fockCoordinateProduct_jointContinuous`](OperatorDependencies/SU2BFSSG4IB3ExteriorFockAllContinuityProbe.lean#L91)
+- [`FCP.BFSSSU2GaugeG4IB3.exteriorGauge_allCoordinates_continuous`](OperatorDependencies/SU2BFSSG4IB3ExteriorFockAllContinuityProbe.lean#L114)
+
+## SU2BFSSG4IC1FermionParameterContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IC1.fermionGauge_parameter_continuous`](OperatorDependencies/SU2BFSSG4IC1FermionParameterContinuityProbe.lean#L37)
+
+## SU2BFSSG4IC2FermionJointContinuityProbe
+
+- [`FCP.BFSSSU2GaugeG4IC2.fermionGauge_jointContinuous`](OperatorDependencies/SU2BFSSG4IC2FermionJointContinuityProbe.lean#L37)
+
+## SU2BFSSG4JExactGaugeDataAssemblyProbe
+
+- [`FCP.BFSSSU2GaugeG4J.pairedGaugeData_boson_exact`](OperatorDependencies/SU2BFSSG4JExactGaugeDataAssemblyProbe.lean#L49)
+- [`FCP.BFSSSU2GaugeG4J.pairedGaugeData_fermion_exact`](OperatorDependencies/SU2BFSSG4JExactGaugeDataAssemblyProbe.lean#L54)
+- [`FCP.BFSSSU2GaugeG4J.pairedGaugeData_fermion_jointContinuous`](OperatorDependencies/SU2BFSSG4JExactGaugeDataAssemblyProbe.lean#L58)
+
+## SU2BFSSG4K10ASourceClosedJointChargeGraphProbe
+
+- [`FCP.BFSSSU2GaugeG4K10A.sourceChargeMap_equal`](OperatorDependencies/SU2BFSSG4K10ASourceClosedJointChargeGraphProbe.lean#L25)
+- [`FCP.BFSSSU2GaugeG4K10A.sourceChargeVector_equal`](OperatorDependencies/SU2BFSSG4K10ASourceClosedJointChargeGraphProbe.lean#L34)
+- [`FCP.BFSSSU2GaugeG4K10A.sourceCoreGraph_equal`](OperatorDependencies/SU2BFSSG4K10ASourceClosedJointChargeGraphProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4K10A.sourceClosedJointChargeGraph_equal`](OperatorDependencies/SU2BFSSG4K10ASourceClosedJointChargeGraphProbe.lean#L56)
+- [`FCP.BFSSSU2GaugeG4K10A.sourceClosedJointChargeDomain_iff`](OperatorDependencies/SU2BFSSG4K10ASourceClosedJointChargeGraphProbe.lean#L66)
+
+## SU2BFSSG4K1PhysicalSpaceCoreProbe
+
+- [`FCP.BFSSSU2GaugeG4K1.pairedPhysicalSpace_closed`](OperatorDependencies/SU2BFSSG4K1PhysicalSpaceCoreProbe.lean#L35)
+- [`FCP.BFSSSU2GaugeG4K1.pairedInvariantCore_equivariant`](OperatorDependencies/SU2BFSSG4K1PhysicalSpaceCoreProbe.lean#L41)
+- [`FCP.BFSSSU2GaugeG4K1.pairedInvariantCore_norm_gauge`](OperatorDependencies/SU2BFSSG4K1PhysicalSpaceCoreProbe.lean#L52)
+
+## SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe
+
+- [`FCP.BFSSSU2GaugeG4K2A.fermionVacuum_ne_zero`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L30)
+- [`FCP.BFSSSU2GaugeG4K2A.fermionVacuum_unitary_invariant`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L41)
+- [`FCP.BFSSSU2GaugeG4K2A.bosonGauge_norm`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L47)
+- [`FCP.BFSSSU2GaugeG4K2A.radialVacuumProfile_equivariant`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L60)
+- [`FCP.BFSSSU2GaugeG4K2A.pairedGaugeData_radialVacuumProfile_equivariant`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L73)
+- [`FCP.BFSSSU2GaugeG4K2A.radialVacuumProfile_nonzero_at_origin`](OperatorDependencies/SU2BFSSG4K2ANonzeroVacuumRadialProfileProbe.lean#L83)
+
+## SU2BFSSG4K2BNonzeroPhysicalL2Probe
+
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpCoefficient_continuous`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L40)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpCoefficient_zero`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpProfile_continuous`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L52)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpProfile_zero_of_large`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L56)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpProfile_hasCompactSupport`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L66)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpL2_ae`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L85)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpL2_ne_zero`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L95)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpL2_pullback_eq_fiberAction`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L113)
+- [`FCP.BFSSSU2GaugeG4K2B.radialBumpL2_mem_physicalSpace`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L140)
+- [`FCP.BFSSSU2GaugeG4K2B.pairedPhysicalSpace_ne_bot`](OperatorDependencies/SU2BFSSG4K2BNonzeroPhysicalL2Probe.lean#L155)
+
+## SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe
+
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpProfile_contDiff`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L36)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpSmoothCore_toL2`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L71)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpSmoothCore_ne_zero`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L78)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpSmoothCore_mem_invariantCore`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L87)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpInvariantCore_ne_zero`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L99)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpInvariantCore_equivariant`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L109)
+- [`FCP.BFSSSU2GaugeG4K3.radialBumpSmoothCore_coreForm_nonneg`](OperatorDependencies/SU2BFSSG4K3NonzeroSmoothInvariantCoreProbe.lean#L121)
+
+## SU2BFSSG4K4ClosedChargeGraphProbe
+
+- [`FCP.BFSSSU2GaugeG4K4.radialBumpChargeVector_apply`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L37)
+- [`FCP.BFSSSU2GaugeG4K4.radialBumpCoreGraph_mem`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L43)
+- [`FCP.BFSSSU2GaugeG4K4.radialBumpClosedGraph_mem`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L56)
+- [`FCP.BFSSSU2GaugeG4K4.radialBumpClosedGraph_unique`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L65)
+- [`FCP.BFSSSU2GaugeG4K4.exists_nonzero_physical_closedGraph_witness`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L74)
+- [`FCP.BFSSSU2GaugeG4K4.radialBumpClosedGraph_pairing`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L82)
+- [`FCP.BFSSSU2GaugeG4K4.radialBump_coreForm_charge_norm_identity`](OperatorDependencies/SU2BFSSG4K4ClosedChargeGraphProbe.lean#L92)
+
+## SU2BFSSG4K5ConcreteEnergyDensityProbe
+
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_nonneg`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L53)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_continuous`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L58)
+- [`FCP.BFSSSU2GaugeG4K5.physicalBosonicDensity_continuous`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L62)
+- [`FCP.BFSSSU2GaugeG4K5.physicalFermionicDensity_continuous`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L66)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_compact`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L72)
+- [`FCP.BFSSSU2GaugeG4K5.physicalBosonicDensity_compact`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L76)
+- [`FCP.BFSSSU2GaugeG4K5.physicalFermionicDensity_compact`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L80)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_integrable`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L84)
+- [`FCP.BFSSSU2GaugeG4K5.physicalBosonicDensity_integrable`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L89)
+- [`FCP.BFSSSU2GaugeG4K5.physicalFermionicDensity_integrable`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L94)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_SU2`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L101)
+- [`FCP.BFSSSU2GaugeG4K5.physicalBosonicDensity_SU2`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L106)
+- [`FCP.BFSSSU2GaugeG4K5.physicalFermionicDensity_SU2`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L112)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_unitary`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L120)
+- [`FCP.BFSSSU2GaugeG4K5.physicalBosonicDensity_unitary`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L127)
+- [`FCP.BFSSSU2GaugeG4K5.physicalFermionicDensity_unitary`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L134)
+- [`FCP.BFSSSU2GaugeG4K5.physicalThreeDensity_integrable`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L149)
+- [`FCP.BFSSSU2GaugeG4K5.physicalThreeDensity_SU2`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L155)
+- [`FCP.BFSSSU2GaugeG4K5.physicalKineticDensity_integral_exact`](OperatorDependencies/SU2BFSSG4K5ConcreteEnergyDensityProbe.lean#L164)
+
+## SU2BFSSG4K6PhysicalTrialEnergyLowerProbe
+
+- [`FCP.BFSSSU2GaugeG4K6.physicalCoreEnergyDensity_continuous`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4K6.physicalCoreEnergyDensity_compact`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L50)
+- [`FCP.BFSSSU2GaugeG4K6.physicalCoreEnergyDensity_integrable`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L54)
+- [`FCP.BFSSSU2GaugeG4K6.physicalCoreEnergyDensity_integral_exact`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L61)
+- [`FCP.BFSSSU2GaugeG4K6.physicalCoreEnergyDensity_SU2`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L68)
+- [`FCP.BFSSSU2GaugeG4K6.exists_uniform_physicalEnergy_lower`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L86)
+- [`FCP.BFSSSU2GaugeG4K6.radialBumpL2_norm_sq_pos`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L113)
+- [`FCP.BFSSSU2GaugeG4K6.exists_uniform_normalizedTrialEnergy_lower`](OperatorDependencies/SU2BFSSG4K6PhysicalTrialEnergyLowerProbe.lean#L120)
+
+## SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe
+
+- [`FCP.BFSSSU2GaugeG4K7.pairedDeformedCoreEnergy_nonneg`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L41)
+- [`FCP.BFSSSU2GaugeG4K7.physicalDeformedEnergy_nonneg`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L52)
+- [`FCP.BFSSSU2GaugeG4K7.pairedDeformedCoreEnergy_zero_iff`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L60)
+- [`FCP.BFSSSU2GaugeG4K7.physicalDeformedEnergy_zero_iff`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4K7.physicalDeformedEnergy_pos_iff`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L87)
+- [`FCP.BFSSSU2GaugeG4K7.physicalNormalizedTrialEnergy_nonneg`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L109)
+- [`FCP.BFSSSU2GaugeG4K7.uniform_trialEnergy_lower_with_K_zero`](OperatorDependencies/SU2BFSSG4K7EnergySumOfSquaresCorrectionProbe.lean#L117)
+
+## SU2BFSSG4K8ANonzeroDerivativeProbe
+
+- [`FCP.BFSSSU2GaugeG4K8A.radialFarPoint_norm_ge_one`](OperatorDependencies/SU2BFSSG4K8ANonzeroDerivativeProbe.lean#L39)
+- [`FCP.BFSSSU2GaugeG4K8A.radialBumpSmoothCore_center_nonzero`](OperatorDependencies/SU2BFSSG4K8ANonzeroDerivativeProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4K8A.radialBumpSmoothCore_far_zero`](OperatorDependencies/SU2BFSSG4K8ANonzeroDerivativeProbe.lean#L54)
+- [`FCP.BFSSSU2GaugeG4K8A.radialBumpSmoothCore_not_constant`](OperatorDependencies/SU2BFSSG4K8ANonzeroDerivativeProbe.lean#L62)
+- [`FCP.BFSSSU2GaugeG4K8A.radialBumpSmoothCore_exists_nonzero_fderiv`](OperatorDependencies/SU2BFSSG4K8ANonzeroDerivativeProbe.lean#L76)
+
+## SU2BFSSG4K8BNonzeroCoordinateL2Probe
+
+- [`FCP.BFSSSU2GaugeG4K8B.exists_coordinateDerivative_pointwise_ne_zero`](OperatorDependencies/SU2BFSSG4K8BNonzeroCoordinateL2Probe.lean#L39)
+- [`FCP.BFSSSU2GaugeG4K8B.coordinateDerivative_coreToL2_ne_zero_of_point`](OperatorDependencies/SU2BFSSG4K8BNonzeroCoordinateL2Probe.lean#L69)
+- [`FCP.BFSSSU2GaugeG4K8B.exists_coordinateDerivative_coreToL2_ne_zero`](OperatorDependencies/SU2BFSSG4K8BNonzeroCoordinateL2Probe.lean#L90)
+- [`FCP.BFSSSU2GaugeG4K8B.physicalKineticDensity_integral_pos`](OperatorDependencies/SU2BFSSG4K8BNonzeroCoordinateL2Probe.lean#L100)
+- [`FCP.BFSSSU2GaugeG4K8B.physicalKineticDensity_integral_ne_zero`](OperatorDependencies/SU2BFSSG4K8BNonzeroCoordinateL2Probe.lean#L113)
+
+## SU2BFSSG4K8CZeroParameterChargeProbe
+
+- [`FCP.BFSSSU2GaugeG4K8C.physicalKineticFirstOrder_norm_sq_pos`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L57)
+- [`FCP.BFSSSU2GaugeG4K8C.physicalKineticFirstOrder_L2_ne_zero`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L66)
+- [`FCP.BFSSSU2GaugeG4K8C.pairedDeformedRealField_zero_zero`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4K8C.physicalZeroParametersCharge_eq_firstOrder`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L89)
+- [`FCP.BFSSSU2GaugeG4K8C.physicalZeroParametersCharge_L2_ne_zero`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L115)
+- [`FCP.BFSSSU2GaugeG4K8C.physicalDeformedEnergy_zeroParameters_pos`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L125)
+- [`FCP.BFSSSU2GaugeG4K8C.physicalNormalizedTrialEnergy_zeroParameters_pos`](OperatorDependencies/SU2BFSSG4K8CZeroParameterChargeProbe.lean#L134)
+
+## SU2BFSSG4K8DPositiveCouplingAlternativeProbe
+
+- [`FCP.BFSSSU2GaugeG4K8D.physicalRealField_two_eq_twice_one`](OperatorDependencies/SU2BFSSG4K8DPositiveCouplingAlternativeProbe.lean#L46)
+- [`FCP.BFSSSU2GaugeG4K8D.physicalCoreField_two_eq_twice_one`](OperatorDependencies/SU2BFSSG4K8DPositiveCouplingAlternativeProbe.lean#L59)
+- [`FCP.BFSSSU2GaugeG4K8D.physicalCharge_two_plus_kinetic_eq_twice_one`](OperatorDependencies/SU2BFSSG4K8DPositiveCouplingAlternativeProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4K8D.physicalInteractingCharge_one_or_two_ne_zero`](OperatorDependencies/SU2BFSSG4K8DPositiveCouplingAlternativeProbe.lean#L119)
+- [`FCP.BFSSSU2GaugeG4K8D.physicalInteractingTrialEnergy_one_or_two_pos`](OperatorDependencies/SU2BFSSG4K8DPositiveCouplingAlternativeProbe.lean#L145)
+
+## SU2BFSSG4K8E1MasslessPotentialParityProbe
+
+- [`FCP.BFSSSU2GaugeG4K8E1.physicalSmoothRadialState_even`](OperatorDependencies/SU2BFSSG4K8E1MasslessPotentialParityProbe.lean#L47)
+- [`FCP.BFSSSU2GaugeG4K8E1.physicalMasslessRealField_even`](OperatorDependencies/SU2BFSSG4K8E1MasslessPotentialParityProbe.lean#L80)
+- [`FCP.BFSSSU2GaugeG4K8E1.physicalMasslessPotentialAction_even`](OperatorDependencies/SU2BFSSG4K8E1MasslessPotentialParityProbe.lean#L108)
+- [`FCP.BFSSSU2GaugeG4K8E1.physicalMasslessCorePotential_even`](OperatorDependencies/SU2BFSSG4K8E1MasslessPotentialParityProbe.lean#L133)
+
+## SU2BFSSG4K8E2KineticOddParityProbe
+
+- [`FCP.BFSSSU2GaugeG4K8E2.physicalDelta_odd`](OperatorDependencies/SU2BFSSG4K8E2KineticOddParityProbe.lean#L77)
+- [`FCP.BFSSSU2GaugeG4K8E2.physicalKineticFirstOrder_odd`](OperatorDependencies/SU2BFSSG4K8E2KineticOddParityProbe.lean#L121)
+
+## SU2BFSSG4K8E3CoreNoncancellationProbe
+
+- [`FCP.BFSSSU2GaugeG4K8E3.physicalKineticFirstOrder_core_ne_zero`](OperatorDependencies/SU2BFSSG4K8E3CoreNoncancellationProbe.lean#L68)
+- [`FCP.BFSSSU2GaugeG4K8E3.physicalInteractingCoreCharge_massless_ne_zero`](OperatorDependencies/SU2BFSSG4K8E3CoreNoncancellationProbe.lean#L79)
+- [`FCP.BFSSSU2GaugeG4K8E3.physicalInteractingCoreCharge_one_ne_zero`](OperatorDependencies/SU2BFSSG4K8E3CoreNoncancellationProbe.lean#L113)
+
+## SU2BFSSG4K9ASourceChargeCoefficientCrosswalkProbe
+
+- [`FCP.BFSSSU2GaugeG4K9A.sourceMasslessPotentialMatrix_eq_neg_pairSum`](OperatorDependencies/SU2BFSSG4K9ASourceChargeCoefficientCrosswalkProbe.lean#L29)
+- [`FCP.BFSSSU2GaugeG4K9A.sourceMasslessPotentialCoefficient_eq_pairSum`](OperatorDependencies/SU2BFSSG4K9ASourceChargeCoefficientCrosswalkProbe.lean#L39)
+
+## SU2BFSSG4K9BSourcePairAndChargeReductionProbe
+
+- [`FCP.BFSSSU2GaugeG4K9B.sourceCoordinateBracketUpperPair`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L18)
+- [`FCP.BFSSSU2GaugeG4K9B.sourceGammaTwoUpperPair`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L26)
+- [`FCP.BFSSSU2GaugeG4K9B.sourceMasslessCoefficient_eq_originalUpperTriangle`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L35)
+- [`FCP.BFSSSU2GaugeG4K9B.sourceChargeDifference_eq_potentialDifference`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L49)
+- [`FCP.BFSSSU2GaugeG4K9B.sourceCharge_eq_of_potentialAgreement`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L59)
+- [`FCP.BFSSSU2GaugeG4K9B.sourceCoreForm_eq_of_potentialAgreement`](OperatorDependencies/SU2BFSSG4K9BSourcePairAndChargeReductionProbe.lean#L70)
+
+## SU2BFSSG4K9COrderedPairCoefficientProbe
+
+- [`FCP.BFSSSU2GaugeG4K9C.symmetricZeroDiagonal_halfDoubleSum_eq_upper`](OperatorDependencies/SU2BFSSG4K9COrderedPairCoefficientProbe.lean#L25)
+- [`FCP.BFSSSU2GaugeG4K9C.sourceOrderedCoefficient_symmetric`](OperatorDependencies/SU2BFSSG4K9COrderedPairCoefficientProbe.lean#L100)
+- [`FCP.BFSSSU2GaugeG4K9C.sourceOrderedCoefficient_diagonal_zero`](OperatorDependencies/SU2BFSSG4K9COrderedPairCoefficientProbe.lean#L115)
+- [`FCP.BFSSSU2GaugeG4K9C.sourceOriginalOrderedCoefficient_eq_upper`](OperatorDependencies/SU2BFSSG4K9COrderedPairCoefficientProbe.lean#L123)
+- [`FCP.BFSSSU2GaugeG4K9C.sourceMasslessCoefficient_eq_halfOriginalOrdered`](OperatorDependencies/SU2BFSSG4K9COrderedPairCoefficientProbe.lean#L139)
+
+## SU2BFSSG4K9DSourcePotentialMultiplierProbe
+
+- [`FCP.BFSSSU2GaugeG4K9D.sourcePotentialMultipliers_equal`](OperatorDependencies/SU2BFSSG4K9DSourcePotentialMultiplierProbe.lean#L127)
+- [`FCP.BFSSSU2GaugeG4K9D.sourceUnconditionalCoreCharge_equal`](OperatorDependencies/SU2BFSSG4K9DSourcePotentialMultiplierProbe.lean#L177)
+- [`FCP.BFSSSU2GaugeG4K9D.sourceUnconditionalCoreForm_equal`](OperatorDependencies/SU2BFSSG4K9DSourcePotentialMultiplierProbe.lean#L184)
+
+## SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD1.sourceGaugeRestrictedGraphMap_equal`](OperatorDependencies/SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainD1.sourceGaugeRestrictedClosedGraph_equal`](OperatorDependencies/SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainD1.sourceGaugeRestrictedClosedDomain_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe.lean#L60)
+- [`FCP.BFSSSU2PhysicalDomainD1.sourceGaugeRestrictedCoreForm_equal`](OperatorDependencies/SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainD1.sourceGaugeRestrictedGraph_le_full`](OperatorDependencies/SU2BFSSPhysicalDomainD1RestrictedSourceGraphProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainD2AClosedPhysicalGraphProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2A.sourceCoreNormClosure_le_physicalSpace`](OperatorDependencies/SU2BFSSPhysicalDomainD2AClosedPhysicalGraphProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainD2A.sourceClosedGaugeGraph_input_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2AClosedPhysicalGraphProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainD2A.sourceClosedGaugeGraph_output_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2AClosedPhysicalGraphProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainD2A.sourceOriginalRestrictedClosedGraph_all_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2AClosedPhysicalGraphProbe.lean#L81)
+
+## SU2BFSSPhysicalDomainD2B10AProjectedSmoothCoreDensityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B10A.sourceProjectedSmoothCore_closure_eq_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10AProjectedSmoothCoreDensityProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainD2B10A.sourceCoreNormClosure_eq_physical_of_Haar_core_compat`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10AProjectedSmoothCoreDensityProbe.lean#L83)
+
+## SU2BFSSPhysicalDomainD2B10B1JointHaarFubiniIntegrabilityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B10B1.sourceHaarJoint_hasCompactSupport`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B1JointHaarFubiniIntegrabilityProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainD2B10B1.sourceHaarJoint_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B1JointHaarFubiniIntegrabilityProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainD2B10B1.sourceHaarJoint_integrable_swapped`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B1JointHaarFubiniIntegrabilityProbe.lean#L91)
+
+## SU2BFSSPhysicalDomainD2B10B2SmoothTestInnerFubiniProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B10B2.sourceHaarFubini_vector`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B2SmoothTestInnerFubiniProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainD2B10B2.sourceHaarInnerJoint_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B2SmoothTestInnerFubiniProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainD2B10B2.sourceHaarFubini_inner`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B2SmoothTestInnerFubiniProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainD2B10B2.sourceHaarFubini_inner_eq_raw`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10B2SmoothTestInnerFubiniProbe.lean#L102)
+
+## SU2BFSSPhysicalDomainD2B10CFullHaarCoreCompatibilityAndDensityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B10C.sourceFullHaarAverageCLM_testInner_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10CFullHaarCoreCompatibilityAndDensityProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainD2B10C.sourceFullHaarAverageCLM_coreToL2_compat`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10CFullHaarCoreCompatibilityAndDensityProbe.lean#L99)
+- [`FCP.BFSSSU2PhysicalDomainD2B10C.sourceCoreNormClosure_eq_physical_unconditional`](OperatorDependencies/SU2BFSSPhysicalDomainD2B10CFullHaarCoreCompatibilityAndDensityProbe.lean#L136)
+
+## SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B11.sourceRestrictedPhysicalGraph_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainD2B11.sourceRestrictedPhysicalGraph_containsCore`](OperatorDependencies/SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainD2B11.sourceRestrictedPhysicalGraph_input_output_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainD2B11.sourceRestrictedPhysicalGraph_unique`](OperatorDependencies/SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainD2B11.sourceRestrictedPhysicalGraph_domain_closure_eq_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B11OriginalPhysicalClosedChargeColumnProbe.lean#L96)
+
+## SU2BFSSPhysicalDomainD2B12OriginalPhysicalChargeLinearPMapProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B12.sourceClosedPhysicalChargeColumn_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B12OriginalPhysicalChargeLinearPMapProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainD2B12.sourceClosedPhysicalChargeColumn_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B12OriginalPhysicalChargeLinearPMapProbe.lean#L67)
+- [`FCP.BFSSSU2PhysicalDomainD2B12.sourceClosedPhysicalChargeColumn_domain_le_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B12OriginalPhysicalChargeLinearPMapProbe.lean#L76)
+- [`FCP.BFSSSU2PhysicalDomainD2B12.sourceClosedPhysicalChargeColumn_domain_closure_eq_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B12OriginalPhysicalChargeLinearPMapProbe.lean#L92)
+
+## SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceOriginalCoreChargePMap_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceOriginalCoreChargePMap_domain_eq_embedded`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceOriginalCoreChargePMap_isClosable`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceOriginalCoreChargePMap_closure_eq_closed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L89)
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceOriginalCoreChargePMap_hasCore`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L104)
+- [`FCP.BFSSSU2PhysicalDomainD2B13.sourceInvariantSmoothCore_isGraphCoreOfMinimalClosedColumn`](OperatorDependencies/SU2BFSSPhysicalDomainD2B13OriginalSmoothCoreChargeGraphClosureProbe.lean#L114)
+
+## SU2BFSSPhysicalDomainD2B14ExactClosedChargeQuadraticEnergyProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B14.sourceClosedPhysicalChargeEnergy_nonneg`](OperatorDependencies/SU2BFSSPhysicalDomainD2B14ExactClosedChargeQuadraticEnergyProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainD2B14.sourceClosedChargeColumn_on_sourceCore`](OperatorDependencies/SU2BFSSPhysicalDomainD2B14ExactClosedChargeQuadraticEnergyProbe.lean#L65)
+- [`FCP.BFSSSU2PhysicalDomainD2B14.sourceClosedPhysicalChargeEnergy_on_sourceCore_eq_coreForm`](OperatorDependencies/SU2BFSSPhysicalDomainD2B14ExactClosedChargeQuadraticEnergyProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainD2B14.sourceClosedPhysicalChargeEnergy_on_sourceCore_eq_massless`](OperatorDependencies/SU2BFSSPhysicalDomainD2B14ExactClosedChargeQuadraticEnergyProbe.lean#L98)
+
+## SU2BFSSPhysicalDomainD2B15ClosedPhysicalEnergyFormLimitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B15.sourceClosedPhysicalCharge_component_sq_le_form`](OperatorDependencies/SU2BFSSPhysicalDomainD2B15ClosedPhysicalEnergyFormLimitProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainD2B15.sourceClosedPhysicalCharge_graph_complete`](OperatorDependencies/SU2BFSSPhysicalDomainD2B15ClosedPhysicalEnergyFormLimitProbe.lean#L66)
+- [`FCP.BFSSSU2PhysicalDomainD2B15.sourceClosedPhysicalCharge_componentwise_limit`](OperatorDependencies/SU2BFSSPhysicalDomainD2B15ClosedPhysicalEnergyFormLimitProbe.lean#L77)
+
+## SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B16.sourcePhysicalRebasedChargeGraph_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe.lean#L49)
+- [`FCP.BFSSSU2PhysicalDomainD2B16.sourcePhysicalRebasedChargeColumn_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainD2B16.sourcePhysicalRebasedChargeColumn_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe.lean#L86)
+- [`FCP.BFSSSU2PhysicalDomainD2B16.sourcePhysicalRebasedChargeColumn_output_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe.lean#L98)
+- [`FCP.BFSSSU2PhysicalDomainD2B16.sourcePhysicalRebasedChargeColumn_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B16PhysicalHilbertRebasedChargeOperatorProbe.lean#L119)
+
+## SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourcePhysicalHilbertChargeGraph_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L58)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourcePhysicalHilbertChargeColumn_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L94)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourcePhysicalHilbertChargeColumn_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L102)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourcePhysicalHilbertChargeColumn_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L124)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourceOriginalPhysicalHilbert_complete`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L147)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourceOriginalPhysicalChargeAdjoint_isFormalAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L159)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourceOriginalPhysicalChargeAdjoint_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L169)
+- [`FCP.BFSSSU2PhysicalDomainD2B17.sourceOriginalPhysicalChargeAdjoint_inner`](OperatorDependencies/SU2BFSSPhysicalDomainD2B17TruePhysicalChargeAdjointProbe.lean#L178)
+
+## SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B18.naturalComp_domain`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L60)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.naturalComp_mem_domain`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.naturalComp_domain_le`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.naturalComp_apply_mem`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L77)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.naturalComp_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.sourcePhysicalChargeAdjointSquare_domain`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L102)
+- [`FCP.BFSSSU2PhysicalDomainD2B18.sourcePhysicalChargeAdjointSquare_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B18NaturalChargeAdjointSquareProbe.lean#L111)
+
+## SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B19.naturalFormalProduct_inner`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L38)
+- [`FCP.BFSSSU2PhysicalDomainD2B19.naturalFormalProduct_symmetric`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainD2B19.sourcePhysicalChargeAdjointSquare_inner`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainD2B19.sourcePhysicalChargeAdjointSquare_symmetric`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L83)
+- [`FCP.BFSSSU2PhysicalDomainD2B19.sourcePhysicalChargeAdjointSquare_energy`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L91)
+- [`FCP.BFSSSU2PhysicalDomainD2B19.sourcePhysicalChargeAdjointSquare_nonneg`](OperatorDependencies/SU2BFSSPhysicalDomainD2B19NaturalChargeSquarePositiveProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainD2B1SourceHaarEquivariantAverageProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B1.sourceHaarIntegrand_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B1SourceHaarEquivariantAverageProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainD2B1.sourceHaarIntegrand_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainD2B1SourceHaarEquivariantAverageProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainD2B1.sourceHaarAverageRaw_equivariant`](OperatorDependencies/SU2BFSSPhysicalDomainD2B1SourceHaarEquivariantAverageProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainD2B1.sourceHaarAverageRaw_fixed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B1SourceHaarEquivariantAverageProbe.lean#L104)
+
+## SU2BFSSPhysicalDomainD2B20VonNeumannGraphSurjectivityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B20.mem_graph_naturalComp`](OperatorDependencies/SU2BFSSPhysicalDomainD2B20VonNeumannGraphSurjectivityProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainD2B20.naturalAdjointSquare_shift_graph_surjective`](OperatorDependencies/SU2BFSSPhysicalDomainD2B20VonNeumannGraphSurjectivityProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainD2B20.sourcePhysicalChargeAdjointSquare_shift_graph_surjective`](OperatorDependencies/SU2BFSSPhysicalDomainD2B20VonNeumannGraphSurjectivityProbe.lean#L101)
+
+## SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B21.formalSymmetry_graph_pairing`](OperatorDependencies/SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainD2B21.selfAdjoint_of_formalSymmetry_and_shift_surjectivity`](OperatorDependencies/SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainD2B21.sourcePhysicalChargeAdjointSquare_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe.lean#L104)
+- [`FCP.BFSSSU2PhysicalDomainD2B21.sourcePhysicalChargeAdjointSquare_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe.lean#L115)
+- [`FCP.BFSSSU2PhysicalDomainD2B21.sourcePhysicalChargeAdjointSquare_closed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B21SelfAdjointChargeSquareProbe.lean#L122)
+
+## SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B22.sourcePhysicalHilbertCharge_on_originalGraph`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainD2B22.sourcePhysicalHilbertToClosedCharge_output`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainD2B22.genericPiLpHilbert_norm_sq_sum`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L91)
+- [`FCP.BFSSSU2PhysicalDomainD2B22.sourceChargeHilbertOutput_norm_sq_sum`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L101)
+- [`FCP.BFSSSU2PhysicalDomainD2B22.sourcePhysicalHilbertChargeEnergy_eq_sourceClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L114)
+- [`FCP.BFSSSU2PhysicalDomainD2B22.sourcePhysicalHilbertChargeEnergy_nonneg`](OperatorDependencies/SU2BFSSPhysicalDomainD2B22ExactHilbertEnergyFormTransportProbe.lean#L124)
+
+## SU2BFSSPhysicalDomainD2B23ExactFormGraphNormEquivalenceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B23.sourcePhysicalHilbertCharge_graph_complete`](OperatorDependencies/SU2BFSSPhysicalDomainD2B23ExactFormGraphNormEquivalenceProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainD2B23.sourcePhysicalFormNormSq_nonneg`](OperatorDependencies/SU2BFSSPhysicalDomainD2B23ExactFormGraphNormEquivalenceProbe.lean#L58)
+- [`FCP.BFSSSU2PhysicalDomainD2B23.sourcePhysicalFormNormSq_le_graph`](OperatorDependencies/SU2BFSSPhysicalDomainD2B23ExactFormGraphNormEquivalenceProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainD2B23.sourcePhysicalGraphNormSq_le_sixteen_form`](OperatorDependencies/SU2BFSSPhysicalDomainD2B23ExactFormGraphNormEquivalenceProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainD2B24WeightedClosedFormGraphProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B24.sourcePhysicalWeightedFormGraph_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B24WeightedClosedFormGraphProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainD2B24.sourcePhysicalWeightedFormGraph_complete`](OperatorDependencies/SU2BFSSPhysicalDomainD2B24WeightedClosedFormGraphProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainD2B24.sourcePhysicalWeightedFormGraph_contains`](OperatorDependencies/SU2BFSSPhysicalDomainD2B24WeightedClosedFormGraphProbe.lean#L84)
+- [`FCP.BFSSSU2PhysicalDomainD2B24.sourcePhysicalWeightedFormGraph_norm_sq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B24WeightedClosedFormGraphProbe.lean#L102)
+
+## SU2BFSSPhysicalDomainD2B25WeightedFormDomainExactnessProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B25.sourcePhysicalWeightedFormGraph_exhausted`](OperatorDependencies/SU2BFSSPhysicalDomainD2B25WeightedFormDomainExactnessProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainD2B25.sourcePhysicalFormDomainIntoWeightedGraph_injective`](OperatorDependencies/SU2BFSSPhysicalDomainD2B25WeightedFormDomainExactnessProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainD2B25.sourcePhysicalFormDomainIntoWeightedGraph_surjective`](OperatorDependencies/SU2BFSSPhysicalDomainD2B25WeightedFormDomainExactnessProbe.lean#L92)
+- [`FCP.BFSSSU2PhysicalDomainD2B25.sourcePhysicalFormDomainIntoWeightedGraph_norm_sq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B25WeightedFormDomainExactnessProbe.lean#L102)
+
+## SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B26.weakRepresentative_iff_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainD2B26.weakRepresentative_iff_naturalAdjointSquare`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainD2B26.sixteen_inner_smul`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainD2B26.one_sixteenth_inner_smul`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L94)
+- [`FCP.BFSSSU2PhysicalDomainD2B26.normalizedWeakRepresentative_iff_naturalAdjointSquare`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L102)
+- [`FCP.BFSSSU2PhysicalDomainD2B26.sourcePhysicalNormalizedWeakForm_associatedOperator_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B26WeakFormAssociatedOperatorProbe.lean#L142)
+
+## SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B27.adjoint_smul_of_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.selfAdjoint_smul_real`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L67)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_domain`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L84)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L90)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L99)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_weakForm_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L112)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_closed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L125)
+- [`FCP.BFSSSU2PhysicalDomainD2B27.sourcePhysicalNormalizedHamiltonian_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B27NormalizedHamiltonianSelfAdjointProbe.lean#L131)
+
+## SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B28.pairedSU2PhysicalSpace_ne_bot`](OperatorDependencies/SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe.lean#L47)
+- [`FCP.BFSSSU2PhysicalDomainD2B28.pairedSU2PhysicalHamiltonian_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainD2B28.pairedSU2PhysicalHamiltonian_weakForm_iff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainD2B28.pairedSU2PhysicalHamiltonian_closed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainD2B28.pairedSU2PhysicalHamiltonian_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainD2B28ConcretePairedSU2HamiltonianProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainD2B2HaarAverageContinuitySupportProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B2.sourceHaarIntegrand_jointContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B2HaarAverageContinuitySupportProbe.lean#L28)
+- [`FCP.BFSSSU2PhysicalDomainD2B2.sourceHaarAverageRaw_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B2HaarAverageContinuitySupportProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainD2B2.sourceHaarAverageRaw_hasCompactSupport`](OperatorDependencies/SU2BFSSPhysicalDomainD2B2HaarAverageContinuitySupportProbe.lean#L105)
+
+## SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B3J.sourceBosonOperator_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainD2B3J.sourceFermionOperator_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainD2B3J.sourceHaarIntegrand_smoothFamily`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainD2B3J.sourceHaarAllJets_jointContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe.lean#L83)
+- [`FCP.BFSSSU2PhysicalDomainD2B3J.sourceHaarAverageRaw_contDiff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3JJointOperatorSmoothHaarProbe.lean#L94)
+
+## SU2BFSSPhysicalDomainD2B3SmoothHaarReductionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B3.sourceHaarSpatialSlice_contDiff`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3SmoothHaarReductionProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainD2B3.sourceHaarAverageRaw_contDiff_of_jointJets`](OperatorDependencies/SU2BFSSPhysicalDomainD2B3SmoothHaarReductionProbe.lean#L58)
+
+## SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B4.sourceHaarAverageCore_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainD2B4.sourceHaarAverageCore_equivariant`](OperatorDependencies/SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainD2B4.sourceHaarAverageCore_mem_physicalSpace`](OperatorDependencies/SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe.lean#L57)
+- [`FCP.BFSSSU2PhysicalDomainD2B4.sourceHaarAverageCore_mem_invariantCore`](OperatorDependencies/SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe.lean#L89)
+- [`FCP.BFSSSU2PhysicalDomainD2B4.sourceHaarAverageCore_fixed`](OperatorDependencies/SU2BFSSPhysicalDomainD2B4SourceSmoothInvariantCoreProbe.lean#L98)
+
+## SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B5.sourceHaarAverageCore_add`](OperatorDependencies/SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainD2B5.sourceHaarAverageCore_smul`](OperatorDependencies/SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainD2B5.sourceHaarAverageCore_linear_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainD2B5.sourceHaarAverageCore_idempotent`](OperatorDependencies/SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainD2B5.sourceBosonPullback_norm`](OperatorDependencies/SU2BFSSPhysicalDomainD2B5SourceProjectionAlgebraProbe.lean#L98)
+
+## SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B6.sourceFermionFiberAction_norm_le`](OperatorDependencies/SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe.lean#L31)
+- [`FCP.BFSSSU2PhysicalDomainD2B6.sourceFermionFiberAction_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainD2B6.sourceFullGaugePair_norm_le`](OperatorDependencies/SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainD2B6.sourceFullGaugePairCLM_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainD2B6.sourceFullGaugePairCLM_norm_le_one`](OperatorDependencies/SU2BFSSPhysicalDomainD2B6SourceFullL2GaugeActionProbe.lean#L79)
+
+## SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFermionFiberAction_left_inv`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFermionFiberAction_norm_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFullGaugePair_norm_eq`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L63)
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFullGaugePairCLM_norm_map`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFullGaugePairCLM_fixed_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainD2B7.sourceFullGaugePairCLM_core_ae`](OperatorDependencies/SU2BFSSPhysicalDomainD2B7SourceFullL2GaugeIsometryAndFixednessProbe.lean#L94)
+
+## SU2BFSSPhysicalDomainD2B8AFixedPointSpaceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B8A.sourceFullGaugePairCLM_fixed_iff_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8AFixedPointSpaceProbe.lean#L31)
+
+## SU2BFSSPhysicalDomainD2B8BFermionContinuousReductionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B8B.sourceFermionComplexOperator_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8BFermionContinuousReductionProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainD2B8B.sourceFermionFiberCLM_parameter_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8BFermionContinuousReductionProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainD2B8B.sourceFermionFiberAction_joint_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8BFermionContinuousReductionProbe.lean#L70)
+- [`FCP.BFSSSU2PhysicalDomainD2B8B.sourceFullGaugePair_strongContinuous_of_boson`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8BFermionContinuousReductionProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainD2B8CBosonStrongContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B8C.sourceBosonContinuousMap_parameter_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8CBosonStrongContinuityProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainD2B8C.sourceBosonPullback_strongContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8CBosonStrongContinuityProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainD2B8C.sourceFullGaugePair_strongContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainD2B8CBosonStrongContinuityProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainD2B9AFullL2HaarExistenceBoundProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B9A.sourceFullHaarIntegrand_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9AFullL2HaarExistenceBoundProbe.lean#L38)
+- [`FCP.BFSSSU2PhysicalDomainD2B9A.sourceFullHaarAverage_norm_le`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9AFullL2HaarExistenceBoundProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainD2B9A.sourceFullHaarAverage_fixed_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9AFullL2HaarExistenceBoundProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B9B.sourceFullHaarAverage_add`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainD2B9B.sourceFullHaarAverage_smul`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainD2B9B.sourceFullHaarAverageCLM_apply`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe.lean#L84)
+- [`FCP.BFSSSU2PhysicalDomainD2B9B.sourceFullHaarAverageCLM_norm_le_one`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainD2B9B.sourceFullHaarAverageCLM_fixed_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9BFullL2HaarCLMProbe.lean#L97)
+
+## SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD2B9C.sourceFullGaugePairCLM_ae`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainD2B9C.sourceFullGaugePairCLM_mul`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainD2B9C.sourceFullHaarAverageCLM_mem_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe.lean#L89)
+- [`FCP.BFSSSU2PhysicalDomainD2B9C.sourceFullHaarAverageCLM_idempotent`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe.lean#L114)
+- [`FCP.BFSSSU2PhysicalDomainD2B9C.sourceFullHaarAverageCLM_range_eq_physical`](OperatorDependencies/SU2BFSSPhysicalDomainD2B9CGenuineGaugeHaarProjectionProbe.lean#L123)
+
+## SU2BFSSPhysicalDomainD3AKineticGaugeContractionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD3A.sourceKineticSkewContraction_basisInvariant`](OperatorDependencies/SU2BFSSPhysicalDomainD3AKineticGaugeContractionProbe.lean#L97)
+- [`FCP.BFSSSU2PhysicalDomainD3A.sourceContractedKinetic_gaugeCovariant`](OperatorDependencies/SU2BFSSPhysicalDomainD3AKineticGaugeContractionProbe.lean#L120)
+
+## SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainD3B.sourceDeformedCoreCharge_contracted`](OperatorDependencies/SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe.lean#L31)
+- [`FCP.BFSSSU2PhysicalDomainD3B.sourceDeformedCoreCharge_pointwiseGaugeCovariant`](OperatorDependencies/SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainD3B.sourceOriginalCoreCharge_pointwiseGaugeCovariant`](OperatorDependencies/SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe.lean#L68)
+- [`FCP.BFSSSU2PhysicalDomainD3B.sourceOriginalCoreCharge_mem_physicalSpace`](OperatorDependencies/SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainD3B.sourceOriginalCoreCharge_mem_invariantCore`](OperatorDependencies/SU2BFSSPhysicalDomainD3BFullChargeGaugePreservationProbe.lean#L120)
+
+## SU2BFSSPhysicalDomainL6G1OriginalUpstreamSpinIdentityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G1.originalGamma_spinIdentity`](OperatorDependencies/SU2BFSSPhysicalDomainL6G1OriginalUpstreamSpinIdentityProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainL6G1.originalGamma_spinIdentity_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G1OriginalUpstreamSpinIdentityProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G2.originalGamma_spinIdentity_homogeneous`](OperatorDependencies/SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe.lean#L57)
+- [`FCP.BFSSSU2PhysicalDomainL6G2.originalGammaTwo_transpose`](OperatorDependencies/SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe.lean#L111)
+- [`FCP.BFSSSU2PhysicalDomainL6G2.originalGamma_row_eq_column`](OperatorDependencies/SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe.lean#L128)
+- [`FCP.BFSSSU2PhysicalDomainL6G2.originalGammaTwo_row_eq_neg_column`](OperatorDependencies/SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe.lean#L134)
+- [`FCP.BFSSSU2PhysicalDomainL6G2.originalGamma_generalizedRowFierz`](OperatorDependencies/SU2BFSSPhysicalDomainL6G2OriginalHomogeneousRowFierzProbe.lean#L141)
+
+## SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceFermionAction_CAR`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceCoefficient_comm_fermion`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L97)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceCharge_factorization`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L190)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceAllSpinorCharge_factorization`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L200)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceAllSpinorCoefficient_comm_fermion`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L209)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceCharge_normalOrder`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L270)
+- [`FCP.BFSSSU2PhysicalDomainL6G3.sourceAllSpinorCharge_normalOrder`](OperatorDependencies/SU2BFSSPhysicalDomainL6G3OriginalChargeNormalOrderProbe.lean#L286)
+
+## SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_P_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_D_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L97)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceP_P_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L110)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_positionPair_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L118)
+
+## SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G4B.sourceCoefficient_eq_polynomial`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe.lean#L130)
+- [`FCP.BFSSSU2PhysicalDomainL6G4B.sourceCoefficient_commutator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe.lean#L156)
+- [`FCP.BFSSSU2PhysicalDomainL6G4B.sourceAllSpinorCoefficient_commutator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe.lean#L176)
+- [`FCP.BFSSSU2PhysicalDomainL6G4B.sourceAllSpinorCharge_normalOrder_response`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe.lean#L193)
+
+## SU2BFSSPhysicalDomainL6G5AOriginalKineticGramProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5A.originalGamma_rowKineticGram`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5AOriginalKineticGramProbe.lean#L31)
+
+## SU2BFSSPhysicalDomainL6G5BOriginalComplexKineticColorGramProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5B.sourceSpinorKineticWeight_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5BOriginalComplexKineticColorGramProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6G5B.originalGamma_complexRowKineticGram`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5BOriginalComplexKineticColorGramProbe.lean#L75)
+- [`FCP.BFSSSU2PhysicalDomainL6G5B.sourceSpinorKineticWeight_colorGram`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5BOriginalComplexKineticColorGramProbe.lean#L131)
+
+## SU2BFSSPhysicalDomainL6G5COriginalKineticDifferentialSquareProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5C.sourceSpinorKineticDifferential_square`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5COriginalKineticDifferentialSquareProbe.lean#L101)
+- [`FCP.BFSSSU2PhysicalDomainL6G5C.sourceSpinorKineticDifferential_halfSquare`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5COriginalKineticDifferentialSquareProbe.lean#L117)
+
+## SU2BFSSPhysicalDomainL6G5DOriginalCoefficientKineticSplitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5D.sourceAllSpinorCoefficient_kinetic_quadratic`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5DOriginalCoefficientKineticSplitProbe.lean#L42)
+
+## SU2BFSSPhysicalDomainL6G5EOriginalScalarCoefficientSquareProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5E.sourceAllSpinorCoefficient_rawSquare_split`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5EOriginalScalarCoefficientSquareProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6G5E.sourceAllSpinorCoefficient_halfSquare_split`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5EOriginalScalarCoefficientSquareProbe.lean#L82)
+
+## SU2BFSSPhysicalDomainL6G5FSourceQuarticPointwiseProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5F.sourceNineSpatialQuarticPotential_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5FSourceQuarticPointwiseProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainL6G5F.sourceSpinorQuadraticMultiplication_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5FSourceQuarticPointwiseProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainL6G5F.sourceSpinorQuadraticSquare_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5FSourceQuarticPointwiseProbe.lean#L117)
+
+## SU2BFSSPhysicalDomainL6G5GOriginalSU2QuarticJacobiProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5G.sourceSU2Bracket_eq_cross`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5GOriginalSU2QuarticJacobiProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6G5G.sourceSU2Bracket_plucker`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5GOriginalSU2QuarticJacobiProbe.lean#L53)
+
+## SU2BFSSPhysicalDomainL6G5HSourceCenteredGammaGramProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5H.sourceCenteredGammaPair_transpose`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5HSourceCenteredGammaGramProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6G5H.sourceCenteredGammaPair_gram`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5HSourceCenteredGammaGramProbe.lean#L85)
+
+## SU2BFSSPhysicalDomainL6G5IOriginalQuadraticRealAndGammaRowProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5I.sourceQuadraticPointCoefficient_eq_real`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5IOriginalQuadraticRealAndGammaRowProbe.lean#L38)
+- [`FCP.BFSSSU2PhysicalDomainL6G5I.sourceCenteredGammaPair_rowGram`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5IOriginalQuadraticRealAndGammaRowProbe.lean#L50)
+
+## SU2BFSSPhysicalDomainL6G5JSourceGammaTwoBivectorTransportProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5J.sourceGammaTwo_alt`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5JSourceGammaTwoBivectorTransportProbe.lean#L18)
+- [`FCP.BFSSSU2PhysicalDomainL6G5J.sourceGammaTwo_weighted_centered`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5JSourceGammaTwoBivectorTransportProbe.lean#L28)
+- [`FCP.BFSSSU2PhysicalDomainL6G5J.sourceGammaTwo_wedge_centered`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5JSourceGammaTwoBivectorTransportProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainL6G5KSourceQuadraticBracketRegroupProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5K.sourceQuadraticReal_eq_bracket_sum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5KSourceQuadraticBracketRegroupProbe.lean#L31)
+
+## SU2BFSSPhysicalDomainL6G5LSourcePauliCyclicCoefficientProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5L.sourceSU2Bracket_eq_cyclicWedge`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5LSourcePauliCyclicCoefficientProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G5L.sourceQuadraticReal_eq_cyclicCenteredRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5LSourcePauliCyclicCoefficientProbe.lean#L49)
+
+## SU2BFSSPhysicalDomainL6G5MSourceColorWedgeEnergyProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5M.finiteWedge_lagrange`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5MSourceColorWedgeEnergyProbe.lean#L21)
+- [`FCP.BFSSSU2PhysicalDomainL6G5M.sourceSU2ColorBracketEnergy_area`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5MSourceColorWedgeEnergyProbe.lean#L79)
+
+## SU2BFSSPhysicalDomainL6G5NOriginalFiniteQuarticContractionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5N.sourceSU2FixedColorQuadraticEnergy`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5NOriginalFiniteQuarticContractionProbe.lean#L27)
+- [`FCP.BFSSSU2PhysicalDomainL6G5N.sourceSU2FiniteQuarticReal`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5NOriginalFiniteQuarticContractionProbe.lean#L79)
+
+## SU2BFSSPhysicalDomainL6G5OOriginalComplexQuarticOperatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5O.sourceSU2FiniteQuarticComplex`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5OOriginalComplexQuarticOperatorProbe.lean#L29)
+- [`FCP.BFSSSU2PhysicalDomainL6G5O.sourceSU2QuadraticSquare_potential_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5OOriginalComplexQuarticOperatorProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainL6G5POriginalScalarMixedRemainderProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5P.sourceSpinorOrderedMixedTerm_split`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5POriginalScalarMixedRemainderProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6G5P.sourceSU2HalfScalarSquare_kinetic_mixed_potential_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5POriginalScalarMixedRemainderProbe.lean#L88)
+
+## SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSU2StructureConstant_repeatLeft_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSU2StructureConstant_repeatRight_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSU2WeightedPairResponse_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSpinorKineticQuadratic_comm_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L164)
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSpinorMixedCommutator_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L195)
+- [`FCP.BFSSSU2PhysicalDomainL6G5Q.sourceSpinorOrderedMixedTerm_eq_rightOrdered`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5QOriginalDiagonalMixedCommutatorProbe.lean#L209)
+
+## SU2BFSSPhysicalDomainL6G5ROriginalGammaBivectorCommutatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5R.sourceGammaTwo_skew_transpose`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5ROriginalGammaBivectorCommutatorProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainL6G5R.sourceGamma_bivector_commutator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5ROriginalGammaBivectorCommutatorProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainL6G5SOriginalSignedRowGammaContractionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5S.sourceOriginalGamma_row_bivector_contraction`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5SOriginalSignedRowGammaContractionProbe.lean#L27)
+
+## SU2BFSSPhysicalDomainL6G5TOriginalMixedBracketReindexProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5T.sourceOriginalGammaColorBracket_mixedContraction`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5TOriginalMixedBracketReindexProbe.lean#L93)
+
+## SU2BFSSPhysicalDomainL6G5UOriginalMixedPointCoefficientProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5U.sourceQuadraticPointReal_eq_bracketRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5UOriginalMixedPointCoefficientProbe.lean#L29)
+- [`FCP.BFSSSU2PhysicalDomainL6G5U.sourceOriginalMixedPointCoefficient_contract`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5UOriginalMixedPointCoefficientProbe.lean#L116)
+
+## SU2BFSSPhysicalDomainL6G5VOriginalRightOrderedMixedOperatorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5V.sourceOriginalMixedComplexCoefficient_contract`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5VOriginalRightOrderedMixedOperatorProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainL6G5V.sourceSpinorRightOrderedMixed_originalApply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5VOriginalRightOrderedMixedOperatorProbe.lean#L144)
+
+## SU2BFSSPhysicalDomainL6G5WOriginalOrbitalGaugeTangentProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G5W.sourceSpinorWeightedColor_gaugeTangent_component`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5WOriginalOrbitalGaugeTangentProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6G5W.sourceSpinorRightOrderedMixed_eq_originalGaugeTangent_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G5WOriginalOrbitalGaugeTangentProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainL6G6AOriginalFermionicResponsePointwiseProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6A.sourcePositionPairResponse_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6AOriginalFermionicResponsePointwiseProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6G6A.sourceCoefficientResponse_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6AOriginalFermionicResponsePointwiseProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainL6G6A.sourceAllSpinorCoefficientResponse_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6AOriginalFermionicResponsePointwiseProbe.lean#L114)
+
+## SU2BFSSPhysicalDomainL6G6BOriginalFermionicFierzColorContractionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6B.sourceOriginalFermionFierz_row`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6BOriginalFermionicFierzColorContractionProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6G6B.sourceOriginalFermionFierz_colorChannels`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6BOriginalFermionicFierzColorContractionProbe.lean#L77)
+
+## SU2BFSSPhysicalDomainL6G6COriginalFermionResponseKroneckerSelectorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6C.sourceCoefficientResponsePoint_eq_selected`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6COriginalFermionResponseKroneckerSelectorProbe.lean#L90)
+- [`FCP.BFSSSU2PhysicalDomainL6G6C.sourceAllSpinorResponsePoint_eq_selected`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6COriginalFermionResponseKroneckerSelectorProbe.lean#L107)
+
+## SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceGammaTwo_swapOriginal`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L31)
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceSU2StructureConstant_swapLast`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceSU2StructureConstant_swapFirst`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L60)
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceQuadraticWeight_pairSymmetric`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceCoefficientResponseSelected_eq_twice_first`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L144)
+- [`FCP.BFSSSU2PhysicalDomainL6G6D.sourceCoefficientResponsePoint_eq_twice_first`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6DOriginalFermionResponseSymmetricLegsProbe.lean#L162)
+
+## SU2BFSSPhysicalDomainL6G6EOriginalSpinorBilinearResponseProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6E.sourceAllSpinorResponsePoint_eq_bilinear`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6EOriginalSpinorBilinearResponseProbe.lean#L147)
+
+## SU2BFSSPhysicalDomainL6G6FOriginalFermionBilinearFierzKernelProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6F.sourceSpinorQuadraticPairWeight_eq_row`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6FOriginalFermionBilinearFierzKernelProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G6F.sourceSpinorKineticWeight_eq_sourceRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6FOriginalFermionBilinearFierzKernelProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6G6F.sourceAllSpinorResponsePoint_eq_originalRowKernel`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6FOriginalFermionBilinearFierzKernelProbe.lean#L196)
+
+## SU2BFSSPhysicalDomainL6G6GOriginalFermionFullFierzCoefficientProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6G.sourceAllSpinorResponsePoint_eq_fierzChannels`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6GOriginalFermionFullFierzCoefficientProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainL6G6HOriginalOrderedMajoranaFierzAssemblyProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6H.sourceOriginalOrderedThetaPair_response_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6HOriginalOrderedMajoranaFierzAssemblyProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6G6H.sourceOriginalOrderedFermionicResponse_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6HOriginalOrderedMajoranaFierzAssemblyProbe.lean#L93)
+
+## SU2BFSSPhysicalDomainL6G6IOriginalFermionColorCurrentProjectionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6I.sourceOriginalFermionColorTerm_eq_source`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6IOriginalFermionColorCurrentProjectionProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainL6G6I.sourceOriginalFermionColorCurrent_eq_spinDiagonal`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6IOriginalFermionColorCurrentProjectionProbe.lean#L83)
+
+## SU2BFSSPhysicalDomainL6G6JOriginalFermionColorCurrentCARProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6J.sourceOriginalOrderedFermionPair_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6JOriginalFermionColorCurrentCARProbe.lean#L173)
+- [`FCP.BFSSSU2PhysicalDomainL6G6J.finiteCARColorCurrent_namedTerms_interface`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6JOriginalFermionColorCurrentCARProbe.lean#L221)
+- [`FCP.BFSSSU2PhysicalDomainL6G6J.sourceOriginalFermionColorCurrent_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6JOriginalFermionColorCurrentCARProbe.lean#L245)
+
+## SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFermionColorTerm_apply_fiber`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFermionColorCurrent_apply_fiber`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFermionColorCurrent_eq_postcomp`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFiberFermionColorCurrent_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L100)
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFiberFermionColorCurrent_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L192)
+- [`FCP.BFSSSU2PhysicalDomainL6G6K.sourceFiberFermionColorGenerator_star_eq_neg`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6KOriginalBoundedFermionColorCurrentProbe.lean#L222)
+
+## SU2BFSSPhysicalDomainL6G6LOriginalInfinitesimalColorActionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6L.sourceFiberFermionColorGenerator_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6LOriginalInfinitesimalColorActionProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6G6L.sourceOriginalFermionColorGenerator_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6LOriginalInfinitesimalColorActionProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainL6G6MSourceVacuumContractionInterfaceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6M.sourceFiberFermionColorGenerator_vacuum_of_pairCancellation`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6MSourceVacuumContractionInterfaceProbe.lean#L58)
+
+## SU2BFSSPhysicalDomainL6G6NAbstractFockPairVacuumCancellationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6N.finiteFockMajoranaPair_vacuumCancellation`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6NAbstractFockPairVacuumCancellationProbe.lean#L57)
+
+## SU2BFSSPhysicalDomainL6G6OOriginalExteriorFockVacuumProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6O.originalExteriorVacuum_annihilate`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6OOriginalExteriorFockVacuumProbe.lean#L27)
+- [`FCP.BFSSSU2PhysicalDomainL6G6O.original24ModeVacuum_annihilate`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6OOriginalExteriorFockVacuumProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainL6G6POriginalTransportedFockVacuumProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6P.source24ModeVacuum_annihilator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6POriginalTransportedFockVacuumProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6G6P.source24ModeFockPair_vacuumCancellation`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6POriginalTransportedFockVacuumProbe.lean#L75)
+
+## SU2BFSSPhysicalDomainL6G6QPairedSourceThetaVacuumProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6Q.sourcePairedTheta_even`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6QPairedSourceThetaVacuumProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Q.sourcePairedTheta_odd`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6QPairedSourceThetaVacuumProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Q.sourceColorMode_ne`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6QPairedSourceThetaVacuumProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Q.sourcePairedTheta_twoSpin_vacuumCancellation`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6QPairedSourceThetaVacuumProbe.lean#L67)
+
+## SU2BFSSPhysicalDomainL6G6RSourceSpinSumColorGeneratorVacuumProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6R.sourcePairedTheta_spinSum_vacuumCancellation`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6RSourceSpinSumColorGeneratorVacuumProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6G6R.sourcePairedFermionColorGenerator_vacuum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6RSourceSpinSumColorGeneratorVacuumProbe.lean#L65)
+
+## SU2BFSSPhysicalDomainL6G6SOriginalGaugeVacuumIdentificationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6S.source24ModeVacuum_eq_actualGaugeVacuum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6SOriginalGaugeVacuumIdentificationProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainL6G6S.actualGaugeAction_fixes_source24ModeVacuum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6SOriginalGaugeVacuumIdentificationProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G6S.sourcePairedFermionColorGenerator_actualGaugeVacuum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6SOriginalGaugeVacuumIdentificationProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainL6G6UOriginalAdjointColorTangentProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6U.sourceAdjointColorCandidateTangent_coeff`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6UOriginalAdjointColorTangentProbe.lean#L57)
+- [`FCP.BFSSSU2PhysicalDomainL6G6U.sourceAdjointColorCandidateTangent_skew`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6UOriginalAdjointColorTangentProbe.lean#L74)
+- [`FCP.BFSSSU2PhysicalDomainL6G6U.pairedSourceAdjointColorCandidateTangent_coeff`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6UOriginalAdjointColorTangentProbe.lean#L90)
+- [`FCP.BFSSSU2PhysicalDomainL6G6U.source24ModeCandidateTangent_block`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6UOriginalAdjointColorTangentProbe.lean#L111)
+
+## SU2BFSSPhysicalDomainL6G6VOriginalPlusIConjugationDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6V.sourcePlusIColorMatrix_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6VOriginalPlusIConjugationDerivativeProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainL6G6V.sourcePlusIColorMatrix_unitary`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6VOriginalPlusIConjugationDerivativeProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G6V.sourcePlusIConjugation_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6VOriginalPlusIConjugationDerivativeProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6G6V.sourcePlusIConjugation_sourceBracket_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6VOriginalPlusIConjugationDerivativeProbe.lean#L92)
+
+## SU2BFSSPhysicalDomainL6G6WAmbientAdjointCoefficientDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6W.sourcePlusIColorMatrix_conjTranspose`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6WAmbientAdjointCoefficientDerivativeProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6G6W.sourcePlusIAmbientAdjointCoefficient_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6WAmbientAdjointCoefficientDerivativeProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6X.twoByTwo_exp_det_one_of_trace_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6G6X.sourcePlusIColorMatrix_det_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe.lean#L79)
+- [`FCP.BFSSSU2PhysicalDomainL6G6X.sourcePlusIColorMatrix_mem_specialUnitary`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe.lean#L85)
+- [`FCP.BFSSSU2PhysicalDomainL6G6X.sourcePlusIGaugeCurve_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe.lean#L101)
+- [`FCP.BFSSSU2PhysicalDomainL6G6X.sourcePlusIGaugeCurve_adjointCoefficient_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6XOriginalSU2GaugeCurveProbe.lean#L108)
+
+## SU2BFSSPhysicalDomainL6G6YOriginalOneParticleDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6Y.sourceComplexOneParticle_block_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6YOriginalOneParticleDerivativeProbe.lean#L28)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Y.sourceComplexOneParticle_entry_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6YOriginalOneParticleDerivativeProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Y.sourceComplexOneParticleMatrix_deriv`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6YOriginalOneParticleDerivativeProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Y.sourceComplexOneParticleMatrix_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6YOriginalOneParticleDerivativeProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorGenerator_skew`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_unitary`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L67)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L91)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L116)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_derivative`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L123)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L137)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_time_bound`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L145)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_initial_bound`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L162)
+- [`FCP.BFSSSU2PhysicalDomainL6G6Z.sourceFermionColorFlow_vacuum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G6ZOriginalColorFlowVacuumProbe.lean#L172)
+
+## SU2BFSSPhysicalDomainL6G7BOriginalPlusIGaugeCurveGroupLawProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7B.sourcePlusIColorMatrix_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7BOriginalPlusIGaugeCurveGroupLawProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G7B.sourcePlusIGaugeCurve_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7BOriginalPlusIGaugeCurveGroupLawProbe.lean#L66)
+- [`FCP.BFSSSU2PhysicalDomainL6G7B.sourceNativeAdjointCoefficient_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7BOriginalPlusIGaugeCurveGroupLawProbe.lean#L75)
+- [`FCP.BFSSSU2PhysicalDomainL6G7B.sourceNativeAdjointCoefficient_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7BOriginalPlusIGaugeCurveGroupLawProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainL6G7CAllTimeNativeColorDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7C.sourceNativeAdjointCoefficient_deriv_all`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7CAllTimeNativeColorDerivativeProbe.lean#L38)
+- [`FCP.BFSSSU2PhysicalDomainL6G7C.sourceAdjointColorMatrix_deriv_all`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7CAllTimeNativeColorDerivativeProbe.lean#L88)
+
+## SU2BFSSPhysicalDomainL6G7DRotatedThetaOperatorDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7D.sourceRotatedThetaTerm_deriv_all`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7DRotatedThetaOperatorDerivativeProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6G7D.sourceRotatedTheta_deriv_all`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7DRotatedThetaOperatorDerivativeProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainL6G7ERotatedThetaCommutatorEvolutionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7E.sourceGenerator_theta_comm_output`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ERotatedThetaCommutatorEvolutionProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainL6G7E.sourceRotatedTheta_comm_evolution`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ERotatedThetaCommutatorEvolutionProbe.lean#L172)
+- [`FCP.BFSSSU2PhysicalDomainL6G7E.sourceRotatedTheta_deriv_comm_all`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ERotatedThetaCommutatorEvolutionProbe.lean#L192)
+
+## SU2BFSSPhysicalDomainL6G7FOriginalColorFlowOperatorCalculusProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7F.sourceFermionColorFlow_mul_neg`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7FOriginalColorFlowOperatorCalculusProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G7F.sourceFermionColorFlow_neg_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7FOriginalColorFlowOperatorCalculusProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G7F.sourceFermionColorGenerator_commute_flow`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7FOriginalColorFlowOperatorCalculusProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainL6G7F.sourceFermionColorFlow_derivative_operator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7FOriginalColorFlowOperatorCalculusProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainL6G7GConjugatedThetaConstantDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7G.sourceFermionColorFlow_derivative_neg_time`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7GConjugatedThetaConstantDerivativeProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainL6G7G.sourceConjugatedRotatedTheta_deriv_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7GConjugatedThetaConstantDerivativeProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainL6G7HSourceFiniteTimeThetaIntertwiningProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7H.sourceRotatedTheta_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7HSourceFiniteTimeThetaIntertwiningProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6G7H.sourceConjugatedRotatedTheta_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7HSourceFiniteTimeThetaIntertwiningProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6G7H.sourceConjugatedRotatedTheta_constant`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7HSourceFiniteTimeThetaIntertwiningProbe.lean#L70)
+- [`FCP.BFSSSU2PhysicalDomainL6G7H.sourceRotatedTheta_eq_fermion_flow_conjugate`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7HSourceFiniteTimeThetaIntertwiningProbe.lean#L110)
+
+## SU2BFSSPhysicalDomainL6G7IOriginalFlowThetaForwardCovarianceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7I.sourceFlow_theta_forward_operator`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7IOriginalFlowThetaForwardCovarianceProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6G7I.sourceFlow_theta_forward_color_sum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7IOriginalFlowThetaForwardCovarianceProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainL6G7JSourceFlowLinearEquivCovarianceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7J.sourceFlowLinearEquiv_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7JSourceFlowLinearEquivCovarianceProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6G7J.sourceFlow_theta_forward_vector`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7JSourceFlowLinearEquivCovarianceProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6G7J.sourceFlowLinearEquiv_theta_covariant`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7JSourceFlowLinearEquivCovarianceProbe.lean#L86)
+
+## SU2BFSSPhysicalDomainL6G7KOriginalSourceFlowExactGaugeImplementationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7K.sourceGaugeVacuum_ne_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7KOriginalSourceFlowExactGaugeImplementationProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6G7K.sourceFlowLinearEquiv_eq_actualGauge`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7KOriginalSourceFlowExactGaugeImplementationProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6G7K.sourceFermionColorFlow_eq_actualGauge_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7KOriginalSourceFlowExactGaugeImplementationProbe.lean#L96)
+
+## SU2BFSSPhysicalDomainL6G7LActualGaugeFermionDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7L.actualGaugeFermion_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7LActualGaugeFermionDerivativeProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainL6G7L.actualGaugeFermion_derivative_all_time`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7LActualGaugeFermionDerivativeProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainL6G7MActualBosonGaugeCoordinateDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7M.actualBosonGauge_coordinate_color_sum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7MActualBosonGaugeCoordinateDerivativeProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G7M.actualBosonGauge_coordinate_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7MActualBosonGaugeCoordinateDerivativeProbe.lean#L52)
+
+## SU2BFSSPhysicalDomainL6G7NActualBosonGaugeVectorDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7N.actualBosonGauge_vector_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7NActualBosonGaugeVectorDerivativeProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainL6G7OOriginalSmoothCoreGaugePullbackDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7O.actualBosonGauge_smoothCore_pullback_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7OOriginalSmoothCoreGaugePullbackDerivativeProbe.lean#L29)
+
+## SU2BFSSPhysicalDomainL6G7POriginalSmoothCoreCoordinateGaugeGeneratorProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7P.originalSmoothCore_colorTangent_fderiv_coordinate_sum`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7POriginalSmoothCoreCoordinateGaugeGeneratorProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainL6G7P.actualBosonGauge_smoothCore_pullback_coordinate_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7POriginalSmoothCoreCoordinateGaugeGeneratorProbe.lean#L83)
+
+## SU2BFSSPhysicalDomainL6G7QOriginalSourceGaugeTangentSignProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7Q.sourceBosonGaugeTangent_eq_neg_originalGaugeTangent`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7QOriginalSourceGaugeTangentSignProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Q.actualBosonGauge_smoothCore_pullback_neg_originalGaugeTangent`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7QOriginalSourceGaugeTangentSignProbe.lean#L75)
+
+## SU2BFSSPhysicalDomainL6G7ROriginalSourceInfinitesimalGaugeDefectProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7R.originalSmoothCore_gaugeEquivarianceDefect_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ROriginalSourceInfinitesimalGaugeDefectProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6G7R.originalSmoothCore_gaugeEquivarianceDefect_coordinate_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ROriginalSourceInfinitesimalGaugeDefectProbe.lean#L61)
+
+## SU2BFSSPhysicalDomainL6G7SActualInvariantSmoothCoreInfinitesimalGaussProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7S.actualInvariantCore_originalSignedGaussDefect_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7SActualInvariantSmoothCoreInfinitesimalGaussProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6G7S.actualInvariantCore_originalCoordinateGaussDefect_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7SActualInvariantSmoothCoreInfinitesimalGaussProbe.lean#L78)
+
+## SU2BFSSPhysicalDomainL6G7TOriginalFullColorLieGaussIdentityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7T.actualInvariantCore_fullColorLieGauss_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7TOriginalFullColorLieGaussIdentityProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainL6G7UActualSourceFullL2GaugeContractionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7U.originalSourceFermionFiberAction_norm_le`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7UActualSourceFullL2GaugeContractionProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6G7U.originalSourceBosonPullback_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7UActualSourceFullL2GaugeContractionProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6G7U.actualOriginalFullL2GaugePairCLM_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7UActualSourceFullL2GaugeContractionProbe.lean#L77)
+- [`FCP.BFSSSU2PhysicalDomainL6G7U.actualOriginalFullL2GaugePairCLM_norm_le_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7UActualSourceFullL2GaugeContractionProbe.lean#L85)
+
+## SU2BFSSPhysicalDomainL6G7VActualSourceFullL2PhysicalFixedSpaceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7V.actualSourceFermionFiberAction_inv_cancel`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7VActualSourceFullL2PhysicalFixedSpaceProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6G7V.actualOriginalFullL2GaugePair_fixed_iff_physical`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7VActualSourceFullL2PhysicalFixedSpaceProbe.lean#L69)
+
+## SU2BFSSPhysicalDomainL6G7WActualSourceFullL2GaugeIsometryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7W.originalSourceFermionFiberAction_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7WActualSourceFullL2GaugeIsometryProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6G7W.actualOriginalFullL2GaugePair_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7WActualSourceFullL2GaugeIsometryProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6G7W.actualOriginalFullL2GaugePair_isometry`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7WActualSourceFullL2GaugeIsometryProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainL6G7XOriginalSourceFullL2FermionRepresentationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7X.actualSourceFullL2_fiberAction_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7XOriginalSourceFullL2FermionRepresentationProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainL6G7X.actualSourceFullL2_fiberAction_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7XOriginalSourceFullL2FermionRepresentationProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7Y.actualSourceFullL2_bosonPullback_anti_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Y.actualSourceFullL2_bosonPullback_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Y.actualSourceFullL2_bosonPullback_fiber_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe.lean#L99)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Y.actualOriginalFullL2GaugePair_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe.lean#L158)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Y.actualOriginalFullL2GaugePair_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7YActualSourceFullL2CombinedGaugeGroupLawProbe.lean#L176)
+
+## SU2BFSSPhysicalDomainL6G7ZActualSourceFullL2UnitaryGaugeRepresentationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6G7Z.actualOriginalFullL2GaugePair_inv_left`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ZActualSourceFullL2UnitaryGaugeRepresentationProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Z.actualOriginalFullL2GaugePair_inv_right`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ZActualSourceFullL2UnitaryGaugeRepresentationProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6G7Z.actualOriginalFullL2GaugeUnitaryEquiv_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6G7ZActualSourceFullL2UnitaryGaugeRepresentationProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainL6H0OriginalSmoothGaugeOrbitRepresentativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H0.actualOriginalSmoothGaugeOrbit_jointContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H0OriginalSmoothGaugeOrbitRepresentativeProbe.lean#L25)
+- [`FCP.BFSSSU2PhysicalDomainL6H0.actualOriginalSmoothGaugeOrbit_parameterContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H0OriginalSmoothGaugeOrbitRepresentativeProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6H0.actualOriginalSmoothGaugeOrbit_ae_fullL2`](OperatorDependencies/SU2BFSSPhysicalDomainL6H0OriginalSmoothGaugeOrbitRepresentativeProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H0.actualOriginalSmoothGaugeOrbit_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6H0OriginalSmoothGaugeOrbitRepresentativeProbe.lean#L94)
+
+## SU2BFSSPhysicalDomainL6H1ActualOriginalSmoothGaugeUniformEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H1.actualOriginalSmoothGaugeOrbit_uniformSupport`](OperatorDependencies/SU2BFSSPhysicalDomainL6H1ActualOriginalSmoothGaugeUniformEnvelopeProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6H1.actualOriginalSmoothGaugeOrbit_uniformNorm`](OperatorDependencies/SU2BFSSPhysicalDomainL6H1ActualOriginalSmoothGaugeUniformEnvelopeProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H1.actualOriginalSmoothGaugeOrbit_uniformEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H1ActualOriginalSmoothGaugeUniformEnvelopeProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainL6H2ActualOriginalSmoothGaugeIntegrableEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H2.actualOriginalBosonBall_finiteMeasure`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2ActualOriginalSmoothGaugeIntegrableEnvelopeProbe.lean#L28)
+- [`FCP.BFSSSU2PhysicalDomainL6H2.actualOriginalRadialEnvelope_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2ActualOriginalSmoothGaugeIntegrableEnvelopeProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainL6H2.actualOriginalRadialEnvelope_sq_integrable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2ActualOriginalSmoothGaugeIntegrableEnvelopeProbe.lean#L58)
+- [`FCP.BFSSSU2PhysicalDomainL6H2.actualOriginalSmoothGaugeOrbit_integrableEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2ActualOriginalSmoothGaugeIntegrableEnvelopeProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainL6H2TOriginalSU2FirstCountableProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H2T.actualOriginalSU2_firstCountable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2TOriginalSU2FirstCountableProbe.lean#L25)
+
+## SU2BFSSPhysicalDomainL6H2UActualOriginalSU2AbstractDominatedIntegralProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H2U.actualOriginalSU2_continuous_integral_of_dominated`](OperatorDependencies/SU2BFSSPhysicalDomainL6H2UActualOriginalSU2AbstractDominatedIntegralProbe.lean#L32)
+
+## SU2BFSSPhysicalDomainL6H3AOriginalSourceCorrelationKernelPointwiseProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H3A.actualOriginalSourceGaugeCorrelationKernel_norm_le`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3AOriginalSourceCorrelationKernelPointwiseProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainL6H3A.actualOriginalSourceGaugeCorrelationKernel_continuous_x`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3AOriginalSourceCorrelationKernelPointwiseProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainL6H3A.actualOriginalSourceGaugeCorrelationKernel_continuous_g`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3AOriginalSourceCorrelationKernelPointwiseProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainL6H3A.actualOriginalSourceGaugeCorrelationKernel_aeMeasurable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3AOriginalSourceCorrelationKernelPointwiseProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainL6H3B1OriginalSourceCorrelationDominationDataProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H3B1.actualOriginalSourceGaugeCorrelation_dominatedData`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3B1OriginalSourceCorrelationDominationDataProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainL6H3B2OriginalSourceCorrelationIntegralContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H3B2.actualOriginalSourceGaugeCorrelationIntegral_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3B2OriginalSourceCorrelationIntegralContinuityProbe.lean#L34)
+
+## SU2BFSSPhysicalDomainL6H3CActualOriginalFullL2GaugeCoreInnerContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H3C.actualOriginalFullL2GaugeCore_inner_eq_correlationIntegral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3CActualOriginalFullL2GaugeCoreInnerContinuityProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H3C.actualOriginalFullL2GaugeCore_innerContinuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H3CActualOriginalFullL2GaugeCoreInnerContinuityProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainL6H4AOriginalFullL2GaugeCoreDistanceSqContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H4A.actualOriginalFullL2GaugeCore_distSq_eq_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H4AOriginalFullL2GaugeCoreDistanceSqContinuityProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainL6H4A.actualOriginalFullL2GaugeCore_distSq_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H4AOriginalFullL2GaugeCoreDistanceSqContinuityProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainL6H4BOriginalFullL2GaugeCoreStrongContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H4B.actualOriginalFullL2GaugeCore_normDiff_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H4BOriginalFullL2GaugeCoreStrongContinuityProbe.lean#L31)
+- [`FCP.BFSSSU2PhysicalDomainL6H4B.actualOriginalFullL2GaugeCore_orbit_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H4BOriginalFullL2GaugeCoreStrongContinuityProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainL6H4COriginalFullL2GaugeStrongContinuityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H4C.actualOriginalFullL2GaugePair_orbit_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H4COriginalFullL2GaugeStrongContinuityProbe.lean#L36)
+
+## SU2BFSSPhysicalDomainL6H5AOriginalColorOneParameterStrongUnitaryGroupProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5A.sourcePlusIGaugeCurve_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5AOriginalColorOneParameterStrongUnitaryGroupProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6H5A.actualOriginalFullL2ColorCurve_orbit_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5AOriginalColorOneParameterStrongUnitaryGroupProbe.lean#L63)
+- [`FCP.BFSSSU2PhysicalDomainL6H5A.actualOriginalFullL2ColorCurve_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5AOriginalColorOneParameterStrongUnitaryGroupProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6H5A.actualOriginalFullL2ColorCurve_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5AOriginalColorOneParameterStrongUnitaryGroupProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainL6H5BOriginalDenseCoreGaussCandidateProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5B.actualOriginalCoreColorGaussCandidate_pointwise`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5BOriginalDenseCoreGaussCandidateProbe.lean#L67)
+- [`FCP.BFSSSU2PhysicalDomainL6H5B.actualOriginalPhysicalColorCurve_hasDerivAt_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5BOriginalDenseCoreGaussCandidateProbe.lean#L126)
+
+## SU2BFSSPhysicalDomainL6H5C1OriginalInverseBosonGaugeCurveDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5C1.sourcePlusIGaugeCurve_inv_eq_neg`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C1OriginalInverseBosonGaugeCurveDerivativeProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6H5C1.originalSmoothCore_inverseBosonGauge_coordinate_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C1OriginalInverseBosonGaugeCurveDerivativeProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5C1.originalSmoothCore_inverseBosonGauge_originalTangent_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C1OriginalInverseBosonGaugeCurveDerivativeProbe.lean#L89)
+
+## SU2BFSSPhysicalDomainL6H5C2OriginalCombinedFockBosonPointwiseDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5C2.actualOriginalSmoothGaugeOrbit_combined_pointwise_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C2OriginalCombinedFockBosonPointwiseDerivativeProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainL6H5C2.actualOriginalSmoothGaugeOrbit_combined_coordinate_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C2OriginalCombinedFockBosonPointwiseDerivativeProbe.lean#L128)
+
+## SU2BFSSPhysicalDomainL6H5C3OriginalGaussCandidatePointwiseDerivativeBridgeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5C3.actualOriginalColorCoefficient_real_complex_sum_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C3OriginalGaussCandidatePointwiseDerivativeBridgeProbe.lean#L28)
+- [`FCP.BFSSSU2PhysicalDomainL6H5C3.actualOriginalCoreColorGaussCandidate_eq_combined_coordinates`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C3OriginalGaussCandidatePointwiseDerivativeBridgeProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6H5C3.actualOriginalSmoothGaugeOrbit_gaussCandidate_pointwise_derivative_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5C3OriginalGaussCandidatePointwiseDerivativeBridgeProbe.lean#L57)
+
+## SU2BFSSPhysicalDomainL6H5D1OriginalSmoothGaugeOrbitPointwiseGroupLawProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5D1.actualOriginalSmoothGaugeOrbit_pointwise_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5D1OriginalSmoothGaugeOrbitPointwiseGroupLawProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainL6H5D1.actualOriginalSmoothGaugeOrbit_colorCurve_add`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5D1OriginalSmoothGaugeOrbitPointwiseGroupLawProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainL6H5D2OriginalGaussCurveShiftedPointwiseDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5D2.actualOriginalSmoothGaugeOrbit_colorCurve_shifted_hasDerivAt_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5D2OriginalGaussCurveShiftedPointwiseDerivativeProbe.lean#L36)
+
+## SU2BFSSPhysicalDomainL6H5D3OriginalGaussCurveAllTimePointwiseDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5D3.actualOriginalSmoothGaugeOrbit_colorCurve_hasDerivAt`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5D3OriginalGaussCurveAllTimePointwiseDerivativeProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainL6H5E1OriginalAllTimeGaussDerivativeIntegrableEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E1.actualOriginalGaussOrbitDerivative_integrableEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E1OriginalAllTimeGaussDerivativeIntegrableEnvelopeProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainL6H5E2OriginalGaussOrbitDifferenceEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E2.norm_orbit_difference_le_of_derivative_bound`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E2OriginalGaussOrbitDifferenceEnvelopeProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E2.actualOriginalGaussOrbit_difference_integrableEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E2OriginalGaussOrbitDifferenceEnvelopeProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainL6H5E3OriginalGaussOrbitDifferenceQuotientEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E3.norm_inv_smul_le_of_linear_time_bound`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E3OriginalGaussOrbitDifferenceQuotientEnvelopeProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E3.actualOriginalGaussOrbit_differenceQuotient_integrableEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E3OriginalGaussOrbitDifferenceQuotientEnvelopeProbe.lean#L53)
+
+## SU2BFSSPhysicalDomainL6H5E4OriginalGaussDifferenceQuotientPointwiseLimitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E4.tendsto_punctured_differenceQuotient_of_hasDerivAt_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E4OriginalGaussDifferenceQuotientPointwiseLimitProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E4.actualOriginalGaussOrbit_differenceQuotient_pointwise_tendsto`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E4OriginalGaussDifferenceQuotientPointwiseLimitProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainL6H5E5OriginalGaussQuotientErrorSquaredEnvelopeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E5.norm_error_le_two_majorant_of_punctured_limit`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E5OriginalGaussQuotientErrorSquaredEnvelopeProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E5.actualOriginalGaussOrbit_quotientError_sqIntegrableEnvelope`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E5OriginalGaussQuotientErrorSquaredEnvelopeProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainL6H5E6AOriginalGaussSquaredErrorDCTInterfaceProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6A.originalBosonVolume_puncturedDCT_squaredError`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6AOriginalGaussSquaredErrorDCTInterfaceProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6A.norm_sub_sq_tendsto_zero_of_tendsto`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6AOriginalGaussSquaredErrorDCTInterfaceProbe.lean#L65)
+
+## SU2BFSSPhysicalDomainL6H5E6BOriginalGaussSquaredErrorDominatedDataProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6B.actualOriginalGaussQuotientSquaredError_continuous_x`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6BOriginalGaussSquaredErrorDominatedDataProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6B.actualOriginalGaussQuotientSquaredError_aeMeasurable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6BOriginalGaussSquaredErrorDominatedDataProbe.lean#L84)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6B.actualOriginalGaussQuotientSquaredError_dominatedData`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6BOriginalGaussSquaredErrorDominatedDataProbe.lean#L93)
+
+## SU2BFSSPhysicalDomainL6H5E6COriginalGaussSquaredErrorIntegralLimitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E6C.actualOriginalGaussQuotientSquaredError_integral_tendsto_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E6COriginalGaussSquaredErrorIntegralLimitProbe.lean#L36)
+
+## SU2BFSSPhysicalDomainL6H5E7AOriginalFullL2NormSquareIntegralBridgeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7A.abstractComplexL2_norm_sq_eq_integral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7AOriginalFullL2NormSquareIntegralBridgeProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7A.actualOriginalFullL2_norm_sq_eq_integral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7AOriginalFullL2NormSquareIntegralBridgeProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainL6H5E7BOriginalGaussFullL2ResidualIntegralBridgeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7B.abstractComplexL2_realAffineResidual_ae`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7BOriginalGaussFullL2ResidualIntegralBridgeProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7B.actualOriginalGaussFullL2Residual_ae`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7BOriginalGaussFullL2ResidualIntegralBridgeProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7B.actualOriginalGaussFullL2Residual_norm_sq_eq_integral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7BOriginalGaussFullL2ResidualIntegralBridgeProbe.lean#L139)
+
+## SU2BFSSPhysicalDomainL6H5E7COriginalGaussStrongL2ResidualLimitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7C.abstract_tendsto_zero_of_norm_sq_tendsto_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7COriginalGaussStrongL2ResidualLimitProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E7C.actualOriginalGaussFullL2Residual_tendsto_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E7COriginalGaussStrongL2ResidualLimitProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_gamma`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_structureConstant`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_gammaTwo`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_polarization`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_theta`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AD.oppositeGamma_involutive`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ADOppositeGammaOrientationProbe.lean#L86)
+
+## SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AE.originalCharge_split`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AE.oppositeGamma_fermionAction`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AE.oppositeGamma_originalKineticPart`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AE.oppositeGamma_originalCubicPart`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AE.originalCharge_oppositeGamma`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AEOriginalChargeGammaOrientationSplitProbe.lean#L83)
+
+## SU2BFSSPhysicalDomainL6H5E8AFOriginalSmoothParityInvolutionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AF.originalSmoothParity_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AFOriginalSmoothParityInvolutionProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AF.originalSmoothParity_involutive`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AFOriginalSmoothParityInvolutionProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AF.originalSmoothParity_position`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AFOriginalSmoothParityInvolutionProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AF.originalSmoothParity_fermionAction`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AFOriginalSmoothParityInvolutionProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainL6H5E8AGOriginalSmoothParityDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AG.originalSmoothParity_coordinateDerivative`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AGOriginalSmoothParityDerivativeProbe.lean#L30)
+
+## SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_comp`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_fermionAction`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L103)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_coordinateDerivative`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L109)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_position`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L117)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_fermionDerivative`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L125)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_positionPair`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L138)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_fermionPositionPair`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L149)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_originalKineticPart`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L160)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.parityConjugation_originalCubicPart`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L169)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AH.originalCharge_parityConjugate`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AHOriginalSourceChargeParityConjugationProbe.lean#L180)
+
+## SU2BFSSPhysicalDomainL6H5E8AIOriginalFullL2ParityLiftProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AI.originalBosonNeg_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AIOriginalFullL2ParityLiftProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AI.originalBosonNeg_measurePreserving`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AIOriginalFullL2ParityLiftProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AI.originalFullL2Parity_apply_ae`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AIOriginalFullL2ParityLiftProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AI.originalFullL2Parity_coreToL2`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AIOriginalFullL2ParityLiftProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainL6H5E8AJOriginalFullL2ParityUnitaryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AJ.originalFullL2Parity_involutive`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AJOriginalFullL2ParityUnitaryProbe.lean#L27)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AJ.originalFullL2ParityUnitary_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AJOriginalFullL2ParityUnitaryProbe.lean#L57)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AJ.originalFullL2ParityUnitary_sq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AJOriginalFullL2ParityUnitaryProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AJ.originalFullL2ParityUnitary_coreToL2`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AJOriginalFullL2ParityUnitaryProbe.lean#L67)
+
+## SU2BFSSPhysicalDomainL6H5E8AKOriginalFullL2ParityBosonGaugeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AK.originalSourceGaugeBoson_commutes_neg`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AKOriginalFullL2ParityBosonGaugeProbe.lean#L31)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AK.originalFullL2Parity_bosonPullback`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AKOriginalFullL2ParityBosonGaugeProbe.lean#L41)
+
+## SU2BFSSPhysicalDomainL6H5E8ALOriginalFullL2PhysicalParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AL.originalFullL2Parity_fiberAction`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ALOriginalFullL2PhysicalParityProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AL.originalFullL2Parity_mem_physicalSpace`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ALOriginalFullL2PhysicalParityProbe.lean#L65)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AL.originalSmoothParity_mem_invariantCore`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ALOriginalFullL2PhysicalParityProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainL6H5E8AMOriginalSourceChargeVectorParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AM.originalSmoothParity_twice`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AMOriginalSourceChargeVectorParityProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AM.originalChargeVector_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AMOriginalSourceChargeVectorParityProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainL6H5E8ANOriginalOppositeGammaGaugeDataProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AN.originalOppositeGammaGaugeData_physicalSpace`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ANOriginalOppositeGammaGaugeDataProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AN.originalOppositeGammaGaugeData_invariantCore`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ANOriginalOppositeGammaGaugeDataProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainL6H5E8AOOriginalPhysicalCoreGraphGeneratorParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AO.originalPhysicalCorePair_to_opposite`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AOOriginalPhysicalCoreGraphGeneratorParityProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AO.originalPhysicalCorePair_from_opposite`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AOOriginalPhysicalCoreGraphGeneratorParityProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainL6H5E8AOriginalColorCurveFullL2GaussDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8A.abstract_hasDerivAt_zero_of_quotientResidual_tendsto_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AOriginalColorCurveFullL2GaussDerivativeProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8A.actualOriginalFullL2ColorCurve_hasDerivAt_core`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AOriginalColorCurveFullL2GaussDerivativeProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainL6H5E8APOriginalPhysicalClosedGraphParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AP.originalPhysicalGraphPairParity_twice`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8APOriginalPhysicalClosedGraphParityProbe.lean#L38)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AP.originalPhysicalGraphPairParity_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8APOriginalPhysicalClosedGraphParityProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AP.originalPhysicalCoreGraphSet_image`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8APOriginalPhysicalClosedGraphParityProbe.lean#L112)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AP.originalPhysicalClosedGraphSet_image`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8APOriginalPhysicalClosedGraphParityProbe.lean#L134)
+
+## SU2BFSSPhysicalDomainL6H5E8AQOriginalPhysicalClosedChargeDomainParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AQ.originalPhysicalClosedGraph_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AQOriginalPhysicalClosedChargeDomainParityProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AQ.originalPhysicalClosedChargeDomain_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AQOriginalPhysicalClosedChargeDomainParityProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AQ.originalPhysicalClosedChargeDomain_image`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AQOriginalPhysicalClosedChargeDomainParityProbe.lean#L109)
+
+## SU2BFSSPhysicalDomainL6H5E8ASOriginalPhysicalClosedChargeGraphEnergyParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AS.originalFullL2Parity_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ASOriginalPhysicalClosedChargeGraphEnergyParityProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AS.originalChargeOutput_normSum_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ASOriginalPhysicalClosedChargeGraphEnergyParityProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AS.originalChargeOutputEnergy_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ASOriginalPhysicalClosedChargeGraphEnergyParityProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AS.originalPhysicalClosedGraph_energy_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ASOriginalPhysicalClosedChargeGraphEnergyParityProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainL6H5E8ATOriginalPiLp16OutputParityUnitaryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AT.originalChargeHilbertOutputParityUnitary_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ATOriginalPiLp16OutputParityUnitaryProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AT.originalChargeHilbertOutputParityUnitary_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ATOriginalPiLp16OutputParityUnitaryProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AT.originalChargeHilbertOutputParityUnitary_twice`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ATOriginalPiLp16OutputParityUnitaryProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AT.originalChargeHilbertOutputEnergy_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8ATOriginalPiLp16OutputParityUnitaryProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AU.originalMinimalClosedGraph_set_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AU.originalMinimalClosedGraph_le_full`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe.lean#L63)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AU.originalMinimalClosedChargeColumn_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe.lean#L95)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AU.originalMinimalClosedChargeColumn_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe.lean#L104)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AU.originalMinimalClosedChargeColumn_domain_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AUOriginalMinimalClosedChargeLinearPMapProbe.lean#L114)
+
+## SU2BFSSPhysicalDomainL6H5E8AVOriginalMinimalChargeOperatorActionParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AV.originalMinimalChargeOperator_graph_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AVOriginalMinimalChargeOperatorActionParityProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AV.originalMinimalChargeOperator_domain_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AVOriginalMinimalChargeOperatorActionParityProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AV.originalMinimalChargeOperator_action_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AVOriginalMinimalChargeOperatorActionParityProbe.lean#L93)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AV.originalMinimalChargeOperator_energy_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AVOriginalMinimalChargeOperatorActionParityProbe.lean#L128)
+
+## SU2BFSSPhysicalDomainL6H5E8AWOriginalMinimalChargeHilbertFormParityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AW.originalMinimalChargeHilbertOutput_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AWOriginalMinimalChargeHilbertFormParityProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AW.originalMinimalChargeHilbertInner_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AWOriginalMinimalChargeHilbertFormParityProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AW.originalMinimalChargeClosedForm_parity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AWOriginalMinimalChargeHilbertFormParityProbe.lean#L101)
+
+## SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AX.originalPhysicalSpace_parity_image_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AX.originalPhysicalSpaceParityUnitary_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe.lean#L62)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AX.originalPhysicalSpaceParityUnitary_twice`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe.lean#L70)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AX.originalPhysicalSpaceParityUnitary_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AX.originalOppositeGammaPhysicalParityUnitary_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AXOriginalPhysicalHilbertParityUnitaryProbe.lean#L102)
+
+## SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AY.originalMinimalClosedGraph_input_physical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AY.originalMinimalPhysicalHilbertChargeGraph_mem_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe.lean#L85)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AY.originalMinimalPhysicalHilbertChargeColumn_graph_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe.lean#L125)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AY.originalMinimalPhysicalHilbertChargeColumn_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe.lean#L135)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AY.originalMinimalPhysicalHilbertChargeColumn_domain_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AYOriginalPhysicalHilbertChargeGraphProbe.lean#L160)
+
+## SU2BFSSPhysicalDomainL6H5E8AZOriginalPhysicalChargeDomainDensityReductionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AZ.originalMinimalPhysicalHilbertChargeColumn_core_mem_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AZOriginalPhysicalChargeDomainDensityReductionProbe.lean#L41)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8AZ.originalMinimalPhysicalHilbertChargeColumn_domain_dense_of_coreNormClosure_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8AZOriginalPhysicalChargeDomainDensityReductionProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainL6H5E8BAOriginalPhysicalChargeUnconditionalDensityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BA.originalMinimalPhysicalHilbertChargeColumn_domain_dense_unconditional`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BAOriginalPhysicalChargeUnconditionalDensityProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainL6H5E8BBOriginalPhysicalHilbertChargeAdjointProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BB.originalPhysicalHilbertComplete`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BBOriginalPhysicalHilbertChargeAdjointProbe.lean#L37)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BB.originalMinimalPhysicalHilbertChargeAdjoint_isFormalAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BBOriginalPhysicalHilbertChargeAdjointProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BB.originalMinimalPhysicalHilbertChargeAdjoint_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BBOriginalPhysicalHilbertChargeAdjointProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BB.originalMinimalPhysicalHilbertChargeAdjoint_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BBOriginalPhysicalHilbertChargeAdjointProbe.lean#L67)
+
+## SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalComp_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalComp_mem_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalComp_domain_le`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalComp_apply_mem`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L86)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalComp_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L91)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L111)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L120)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalFormalProduct_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L137)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.naturalFormalProduct_symmetric`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L150)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L172)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_symmetric`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L184)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_energy`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L192)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BC.originalMinimalPhysicalHilbertChargeAdjointSquare_nonneg`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BCOriginalPhysicalChargeNaturalAdjointSquareProbe.lean#L200)
+
+## SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.mem_graph_naturalComp`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L48)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.naturalAdjointSquare_shift_graph_surjective`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L75)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.originalMinimalPhysicalHilbertChargeAdjointSquare_shift_graph_surjective`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L109)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.formalSymmetry_graph_pairing`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L127)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.selfAdjoint_of_formalSymmetry_and_shift_surjectivity`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L137)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L190)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.originalMinimalPhysicalHilbertChargeAdjointSquare_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L201)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BD.originalMinimalPhysicalHilbertChargeAdjointSquare_closed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BDOriginalPhysicalChargeAdjointSquareSelfAdjointProbe.lean#L208)
+
+## SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.weakRepresentative_iff_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.weakRepresentative_iff_naturalAdjointSquare`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.sixteen_inner_smul`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L97)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.one_sixteenth_inner_smul`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L104)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.normalizedWeakRepresentative_iff_naturalAdjointSquare`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L112)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.adjoint_smul_of_dense`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L151)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.selfAdjoint_smul_real`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L167)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedWeakForm_associatedOperator_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L182)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L209)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_apply`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L215)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L224)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_weakForm_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L237)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_closed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L250)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BE.originalMinimalPhysicalNormalizedHamiltonian_domain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BEOriginalNormalizedPhysicalHamiltonianProbe.lean#L256)
+
+## SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.originalMinimalClosedGraph_eq_exactSourceGaugeGraph`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L52)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.originalMinimalPhysicalHilbertChargeGraph_mem_source_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.originalMinimalPhysicalHilbertChargeGraph_eq_sourceRebased`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L76)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.originalMinimalPhysicalHilbertChargeColumn_graph_eq_sourceRebased`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.pairedOriginalPhysicalSpace_ne_bot`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L105)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.pairedOriginalPhysicalNormalizedHamiltonian_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L110)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.pairedOriginalPhysicalNormalizedHamiltonian_domain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L121)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BF.pairedOriginalPhysicalNormalizedHamiltonian_weakForm_iff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BFOriginalSourceGraphAndPairedHamiltonianProbe.lean#L130)
+
+## SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BG.originalMinimalHilbertOutputEquiv_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BG.originalMinimalPhysicalHilbertChargeGraph_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BG.originalMinimalPhysicalHilbertChargeColumn_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BG.originalMinimalPhysicalHilbertChargeColumn_domain_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BG.pairedOriginalMinimalChargeColumn_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BGOriginalHistoricalPhysicalHilbertChargeEqualityProbe.lean#L90)
+
+## SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalHilbertChargeAdjoint_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalHilbertChargeAdjoint_domain_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalHilbertChargeAdjointSquare_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalHilbertChargeAdjointSquare_domain_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L74)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalNormalizedHamiltonian_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.originalMinimalPhysicalNormalizedHamiltonian_domain_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8BH.pairedOriginalPhysicalNormalizedHamiltonian_eq_historical`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BHOriginalHistoricalPairedHamiltonianEqualityProbe.lean#L95)
+
+## SU2BFSSPhysicalDomainL6H5E8BOriginalColorInfinitesimalGeneratorDomainProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8B.actualOriginalFullL2ColorInfinitesimalDomain_core_mem`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BOriginalColorInfinitesimalGeneratorDomainProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8B.actualOriginalFullL2ColorInfinitesimalGenerator_core`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BOriginalColorInfinitesimalGeneratorDomainProbe.lean#L71)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8B.actualOriginalFullL2ColorInfinitesimalDomain_dense`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8BOriginalColorInfinitesimalGeneratorDomainProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainL6H5E8COriginalCoreGaussSkewSymmetryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8C.abstract_unitary_orbit_derivatives_skew`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8COriginalCoreGaussSkewSymmetryProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8C.actualOriginalCoreColorGaussCandidate_skew_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8COriginalCoreGaussSkewSymmetryProbe.lean#L69)
+
+## SU2BFSSPhysicalDomainL6H5E8DOriginalMaximalGaussSkewAndPhysicalKernelProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8D.actualOriginalColorGenerator_hasDerivAt`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8DOriginalMaximalGaussSkewAndPhysicalKernelProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8D.actualOriginalColorGenerator_maximalDomain_skew_inner`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8DOriginalMaximalGaussSkewAndPhysicalKernelProbe.lean#L66)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8D.actualOriginalPhysical_mem_colorGeneratorDomain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8DOriginalMaximalGaussSkewAndPhysicalKernelProbe.lean#L110)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8D.actualOriginalPhysical_colorGenerator_eq_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8DOriginalMaximalGaussSkewAndPhysicalKernelProbe.lean#L123)
+
+## SU2BFSSPhysicalDomainL6H5E8EOriginalColorMaximalGeneratorComplexLinearityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8E.actualOriginalColorGeneratorDomainSubmodule_mem`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8EOriginalColorMaximalGeneratorComplexLinearityProbe.lean#L67)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8E.actualOriginalColorGeneratorLinear_core`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8EOriginalColorMaximalGeneratorComplexLinearityProbe.lean#L131)
+
+## SU2BFSSPhysicalDomainL6H5E8FOriginalColorGeneratorUnitaryIntertwiningProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8F.abstract_additive_CLM_group_orbit_derivative`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8FOriginalColorGeneratorUnitaryIntertwiningProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8F.actualOriginalColorGenerator_shifted_hasDerivAt`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8FOriginalColorGeneratorUnitaryIntertwiningProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8F.actualOriginalColorGenerator_domain_invariant`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8FOriginalColorGeneratorUnitaryIntertwiningProbe.lean#L115)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8F.actualOriginalColorGenerator_intertwines`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8FOriginalColorGeneratorUnitaryIntertwiningProbe.lean#L132)
+
+## SU2BFSSPhysicalDomainL6H5E8GOriginalColorGeneratorAllTimeOrbitDerivativeProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8G.actualOriginalColorGenerator_orbit_hasDerivAt_allTime`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8GOriginalColorGeneratorAllTimeOrbitDerivativeProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8G.actualOriginalColorGenerator_orbit_differentiable`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8GOriginalColorGeneratorAllTimeOrbitDerivativeProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8G.actualOriginalColorGenerator_orbit_deriv_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8GOriginalColorGeneratorAllTimeOrbitDerivativeProbe.lean#L99)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8G.actualOriginalColorGenerator_orbit_deriv_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8GOriginalColorGeneratorAllTimeOrbitDerivativeProbe.lean#L114)
+
+## SU2BFSSPhysicalDomainL6H5E8HOriginalColorGeneratorOrbitFundamentalTheoremProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8H.abstract_continuous_strong_derivative_integral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8HOriginalColorGeneratorOrbitFundamentalTheoremProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8H.actualOriginalColorGenerator_orbit_integral_eq_sub`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8HOriginalColorGeneratorOrbitFundamentalTheoremProbe.lean#L59)
+
+## SU2BFSSPhysicalDomainL6H5E8IOriginalColorIntegralConverseGeneratorDomainProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8I.abstract_orbit_integral_identity_hasDerivAt`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8IOriginalColorIntegralConverseGeneratorDomainProbe.lean#L47)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8I.actualOriginalColorIntegral_implies_generatorDomain`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8IOriginalColorIntegralConverseGeneratorDomainProbe.lean#L87)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8I.actualOriginalColorIntegral_implies_generator_eq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8IOriginalColorIntegralConverseGeneratorDomainProbe.lean#L111)
+
+## SU2BFSSPhysicalDomainL6H5E8JOriginalColorIntegratedUnitaryLipschitzProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8J.abstract_nonexpansive_orbit_integral_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8JOriginalColorIntegratedUnitaryLipschitzProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8J.actualOriginalColorOrbit_integral_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8JOriginalColorIntegratedUnitaryLipschitzProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainL6H5E8KOriginalColorMaximalGeneratorClosedGraphProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8K.abstract_integral_characterized_graph_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8KOriginalColorMaximalGeneratorClosedGraphProbe.lean#L49)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8K.actualOriginalColorGeneratorGraph_iff_integral`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8KOriginalColorMaximalGeneratorClosedGraphProbe.lean#L97)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8K.actualOriginalColorOrbit_integral_continuous`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8KOriginalColorMaximalGeneratorClosedGraphProbe.lean#L121)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8K.actualOriginalColorGeneratorGraph_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8KOriginalColorMaximalGeneratorClosedGraphProbe.lean#L143)
+
+## SU2BFSSPhysicalDomainL6H5E8LOriginalColorGaussKernelOneParameterFixedProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8L.actualOriginalColorGenerator_kernel_implies_colorFlow_fixed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8LOriginalColorGaussKernelOneParameterFixedProbe.lean#L47)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8L.actualOriginalColorFlow_fixed_implies_generator_kernel`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8LOriginalColorGaussKernelOneParameterFixedProbe.lean#L76)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8L.actualOriginalColorGenerator_kernel_iff_colorFlow_fixed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8LOriginalColorGaussKernelOneParameterFixedProbe.lean#L107)
+
+## SU2BFSSPhysicalDomainL6H5E8MOriginalJointGaussKernelGeneratedColorGaugeSubgroupProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8M.actualOriginalColorGaugeCurve_mem_generated`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8MOriginalJointGaussKernelGeneratedColorGaugeSubgroupProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8M.actualOriginalJointColorGaussKernel_fixed_generated`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8MOriginalJointGaussKernelGeneratedColorGaugeSubgroupProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8M.actualOriginalGeneratedFixed_implies_jointColorGaussKernel`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8MOriginalJointGaussKernelGeneratedColorGaugeSubgroupProbe.lean#L111)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8M.actualOriginalJointColorGaussKernel_iff_generatedGaugeFixed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8MOriginalJointGaussKernelGeneratedColorGaugeSubgroupProbe.lean#L128)
+
+## SU2BFSSPhysicalDomainL6H5E8NOriginalColorTopologicalClosureProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8N.actualOriginalGaugeFixedSet_isClosed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8NOriginalColorTopologicalClosureProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8N.actualOriginalJointKernel_fixed_colorClosure`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8NOriginalColorTopologicalClosureProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8N.actualOriginalJointKernel_iff_colorClosureFixed`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8NOriginalColorTopologicalClosureProbe.lean#L55)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8N.actualOriginalJointKernel_iff_physical_of_dense`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8NOriginalColorTopologicalClosureProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainL6H5E8OOriginalSU2SourceInfinitesimalColorSpanProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8O.source_skewHermitian_to_hermitian`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8OOriginalSU2SourceInfinitesimalColorSpanProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8O.source_skewHermitian_to_traceless`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8OOriginalSU2SourceInfinitesimalColorSpanProbe.lean#L57)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8O.source_original_color_tangent_real_spanning`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8OOriginalSU2SourceInfinitesimalColorSpanProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainL6H5E8POriginalSU2UnitaryQuaternionMatrixFormProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8P.originalSU2_adjugate_eq_conjTranspose`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8POriginalSU2UnitaryQuaternionMatrixFormProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8P.originalSU2_bottomRight_eq_conj_topLeft`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8POriginalSU2UnitaryQuaternionMatrixFormProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8P.originalSU2_bottomLeft_eq_neg_conj_topRight`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8POriginalSU2UnitaryQuaternionMatrixFormProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainL6H5E8QOriginalSU2QuaternionUnitSphereProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Q.originalSU2_quaternion_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8QOriginalSU2QuaternionUnitSphereProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Q.originalSU2_firstRow_star_norm`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8QOriginalSU2QuaternionUnitSphereProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Q.originalSU2_firstRow_normSq_eq_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8QOriginalSU2QuaternionUnitSphereProbe.lean#L61)
+
+## SU2BFSSPhysicalDomainL6H5E8RSourceNormalizedZColorFlowDiagonalProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8R.source_z_tangent_diagonal`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8RSourceNormalizedZColorFlowDiagonalProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8R.source_z_gaugeCurve_diagonal_exp`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8RSourceNormalizedZColorFlowDiagonalProbe.lean#L52)
+
+## SU2BFSSPhysicalDomainL6H5E8SSourcePositiveIYColorConjugatedDiagonalProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8S.sourceYChange_mul_inverse`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8SSourcePositiveIYColorConjugatedDiagonalProbe.lean#L42)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8S.sourceYChange_inverse_mul`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8SSourcePositiveIYColorConjugatedDiagonalProbe.lean#L49)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8S.source_y_tangent_diagonal_conjugation`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8SSourcePositiveIYColorConjugatedDiagonalProbe.lean#L59)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8S.source_y_gaugeCurve_diagonal_exp_conjugation`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8SSourcePositiveIYColorConjugatedDiagonalProbe.lean#L78)
+
+## SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8T.sourceZDiagonal_zero_imag`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe.lean#L33)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8T.sourceZDiagonal_one_imag`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8T.sourceZDiagonal_exp_zero`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe.lean#L45)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8T.sourceZDiagonal_exp_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8T.source_y_gaugeCurve_real_rotation`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8TSourcePositiveIYColorRealRotationProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainL6H5E8UOriginalSourceZYZProductMatrixProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8U.original_source_zyz_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8UOriginalSourceZYZProductMatrixProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8U.original_source_zyz_gauge_product_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8UOriginalSourceZYZProductMatrixProbe.lean#L70)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8U.original_source_zyz_mem_generated`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8UOriginalSourceZYZProductMatrixProbe.lean#L85)
+
+## SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_row_norm_sq`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L36)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_row_v_norm_le_one`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_middle_sin`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_middle_cos`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L60)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_row_u_zero_safe_polar`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L69)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8V.originalSU2_row_v_zero_safe_polar`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8VOriginalSU2ZeroSafeEulerRadiusPolarProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_sourceZ_sum`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_sourceZ_diff`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L64)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_sourceY_middle`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L77)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_sourceZ_complex_u`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_sourceZ_complex_v`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L96)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_source_exp_phase_u`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L115)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8W.originalEuler_source_exp_phase_v`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8WOriginalSU2SourceEulerTimePhaseProbe.lean#L123)
+
+## SU2BFSSPhysicalDomainL6H5E8XOriginalSU2SourceEulerFirstRowProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8X.original_source_zyz_firstRow_u`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8XOriginalSU2SourceEulerFirstRowProbe.lean#L34)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8X.original_source_zyz_firstRow_v`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8XOriginalSU2SourceEulerFirstRowProbe.lean#L56)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8X.original_source_zyz_firstRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8XOriginalSU2SourceEulerFirstRowProbe.lean#L78)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8X.original_source_zyz_gauge_firstRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8XOriginalSU2SourceEulerFirstRowProbe.lean#L90)
+
+## SU2BFSSPhysicalDomainL6H5E8YOriginalSU2ExactSourceEulerFactorizationProbe
+
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Y.originalSU2_eq_of_firstRow`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8YOriginalSU2ExactSourceEulerFactorizationProbe.lean#L39)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Y.original_source_zyz_exact_euler`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8YOriginalSU2ExactSourceEulerFactorizationProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainL6H5E8Y.original_source_zyz_exists`](OperatorDependencies/SU2BFSSPhysicalDomainL6H5E8YOriginalSU2ExactSourceEulerFactorizationProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainS1ASchurScalarCommutantProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1A.pairedTheta_commutant_scalar`](OperatorDependencies/SU2BFSSPhysicalDomainS1ASchurScalarCommutantProbe.lean#L26)
+
+## SU2BFSSPhysicalDomainS1BRelativeGaugeImplementerProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1B.theta_covariant_implementer_scalar`](OperatorDependencies/SU2BFSSPhysicalDomainS1BRelativeGaugeImplementerProbe.lean#L31)
+
+## SU2BFSSPhysicalDomainS1COneParticleSpecialUnitaryProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1C.adjointColorMatrix_det_sq_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1COneParticleSpecialUnitaryProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainS1C.oneParticleMatrix_det_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1COneParticleSpecialUnitaryProbe.lean#L35)
+- [`FCP.BFSSSU2PhysicalDomainS1C.complexOneParticleMatrix_det_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1COneParticleSpecialUnitaryProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1DRelativeGaugeCharacterProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1D.relativeGaugeScalar_apply`](OperatorDependencies/SU2BFSSPhysicalDomainS1DRelativeGaugeCharacterProbe.lean#L46)
+- [`FCP.BFSSSU2PhysicalDomainS1D.relativeGaugeScalar_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1DRelativeGaugeCharacterProbe.lean#L73)
+- [`FCP.BFSSSU2PhysicalDomainS1D.relativeGaugeScalar_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1DRelativeGaugeCharacterProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainS1D.relativeGaugeScalar_ne_zero`](OperatorDependencies/SU2BFSSPhysicalDomainS1DRelativeGaugeCharacterProbe.lean#L113)
+
+## SU2BFSSPhysicalDomainS1ESourceRelativeGaugeCharacterReductionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1E.scalar_character_conjugation_invariant`](OperatorDependencies/SU2BFSSPhysicalDomainS1ESourceRelativeGaugeCharacterReductionProbe.lean#L32)
+- [`FCP.BFSSSU2PhysicalDomainS1E.scalar_character_rooted_curve_trivial`](OperatorDependencies/SU2BFSSPhysicalDomainS1ESourceRelativeGaugeCharacterReductionProbe.lean#L54)
+- [`FCP.BFSSSU2PhysicalDomainS1E.scalar_character_trivial_of_zyz`](OperatorDependencies/SU2BFSSPhysicalDomainS1ESourceRelativeGaugeCharacterReductionProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainS1E.original_relativeGaugeScalar_one_of_curve_relations`](OperatorDependencies/SU2BFSSPhysicalDomainS1ESourceRelativeGaugeCharacterReductionProbe.lean#L132)
+
+## SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_curve_half`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L30)
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_curve_neg_eq_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L50)
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_z_half`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_y_half`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L76)
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_z_neg_eq_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L80)
+- [`FCP.BFSSSU2PhysicalDomainS1F.original_source_y_neg_eq_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1FSourceGaugeCurveHalvingProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_quarter_angle`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L40)
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_quarter_y_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_quarter_z_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L61)
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_z_diag_neg_zero`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_z_diag_neg_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L77)
+- [`FCP.BFSSSU2PhysicalDomainS1G.source_y_angle_neg`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L82)
+- [`FCP.BFSSSU2PhysicalDomainS1G.original_source_yquarter_z_swap`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L88)
+- [`FCP.BFSSSU2PhysicalDomainS1G.original_source_zquarter_y_swap`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L108)
+- [`FCP.BFSSSU2PhysicalDomainS1G.original_source_z_flip`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L129)
+- [`FCP.BFSSSU2PhysicalDomainS1G.original_source_y_flip`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L143)
+- [`FCP.BFSSSU2PhysicalDomainS1G.original_relativeGaugeScalar_trivial`](OperatorDependencies/SU2BFSSPhysicalDomainS1GExactSourceRelativeCharacterTrivialityProbe.lean#L160)
+
+## SU2BFSSPhysicalDomainS1HSourceGaugeCovariantImplementerUniquenessProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1H.original_source_implementer_unique_apply`](OperatorDependencies/SU2BFSSPhysicalDomainS1HSourceGaugeCovariantImplementerUniquenessProbe.lean#L43)
+- [`FCP.BFSSSU2PhysicalDomainS1H.original_source_implementer_unique`](OperatorDependencies/SU2BFSSPhysicalDomainS1HSourceGaugeCovariantImplementerUniquenessProbe.lean#L53)
+- [`FCP.BFSSSU2PhysicalDomainS1H.original_source_gauge_representation_unique`](OperatorDependencies/SU2BFSSPhysicalDomainS1HSourceGaugeCovariantImplementerUniquenessProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe
+
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_entry`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L44)
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L51)
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L58)
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_transpose`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L72)
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_orthogonal`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L81)
+- [`FCP.BFSSSU2PhysicalDomainS1J.sourceRealMajoranaMatrix_det_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1JActual48RealMajoranaColorActionProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainS1V32AllSpin48CanonicalVectorLinearGroupActionProbe
+
+- [`FCP.BFSSS1V32.sourceSpin48VectorAction_smul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V32AllSpin48CanonicalVectorLinearGroupActionProbe.lean#L32)
+- [`FCP.BFSSS1V32.sourceSpin48VectorAction_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V32AllSpin48CanonicalVectorLinearGroupActionProbe.lean#L50)
+- [`FCP.BFSSS1V32.sourceSpin48VectorAction_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V32AllSpin48CanonicalVectorLinearGroupActionProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainS1V33Original48SpinQuadraticIsometryProbe
+
+- [`FCP.BFSSS1V33.source48_real_clifford_scalar_injective`](OperatorDependencies/SU2BFSSPhysicalDomainS1V33Original48SpinQuadraticIsometryProbe.lean#L38)
+- [`FCP.BFSSS1V33.source48_spin_conjugation_fixes_real_scalar`](OperatorDependencies/SU2BFSSPhysicalDomainS1V33Original48SpinQuadraticIsometryProbe.lean#L49)
+- [`FCP.BFSSS1V33.sourceSpin48VectorAction_preserves_sourceQ`](OperatorDependencies/SU2BFSSPhysicalDomainS1V33Original48SpinQuadraticIsometryProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainS1V34GenuineSpin48QuadraticIsometryEquivProbe
+
+- [`FCP.BFSSS1V34.sourceSpin48QuadraticIsometryEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V34GenuineSpin48QuadraticIsometryEquivProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainS1V35ActualSpin48RealAutomorphismGroupHomProbe
+
+- [`FCP.BFSSS1V35.sourceSpin48LinearEquiv_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V35ActualSpin48RealAutomorphismGroupHomProbe.lean#L33)
+- [`FCP.BFSSS1V35.sourceSpin48LinearEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V35ActualSpin48RealAutomorphismGroupHomProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainS1V36ActualSpin48OriginalRealDeterminantCharacterProbe
+
+- [`FCP.BFSSS1V36.sourceSpin48OriginalRealDetCharacter_value`](OperatorDependencies/SU2BFSSPhysicalDomainS1V36ActualSpin48OriginalRealDeterminantCharacterProbe.lean#L42)
+- [`FCP.BFSSS1V36.sourceSpin48OriginalRealDetCharacter_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V36ActualSpin48OriginalRealDeterminantCharacterProbe.lean#L57)
+
+## SU2BFSSPhysicalDomainS1V39Original48CliffordGeneratorMatrixActionProbe
+
+- [`FCP.BFSSS1V39.source48_rankOne_mulVec`](OperatorDependencies/SU2BFSSPhysicalDomainS1V39Original48CliffordGeneratorMatrixActionProbe.lean#L31)
+- [`FCP.BFSSS1V39.source48_rankOneConjugationMatrix_mulVec`](OperatorDependencies/SU2BFSSPhysicalDomainS1V39Original48CliffordGeneratorMatrixActionProbe.lean#L48)
+- [`FCP.BFSSS1V39.source48_originalGeneratorMatrix_mulVec`](OperatorDependencies/SU2BFSSPhysicalDomainS1V39Original48CliffordGeneratorMatrixActionProbe.lean#L70)
+- [`FCP.BFSSS1V39.source48_originalGeneratorMatrix_cliffordConjugation`](OperatorDependencies/SU2BFSSPhysicalDomainS1V39Original48CliffordGeneratorMatrixActionProbe.lean#L81)
+
+## SU2BFSSPhysicalDomainS1V40ActualSource48LipschitzVectorActionProbe
+
+- [`FCP.BFSSS1V40.sourceLipschitz48_conjugated_generator_unique`](OperatorDependencies/SU2BFSSPhysicalDomainS1V40ActualSource48LipschitzVectorActionProbe.lean#L31)
+- [`FCP.BFSSS1V40.sourceLipschitz48VectorAction_clifford`](OperatorDependencies/SU2BFSSPhysicalDomainS1V40ActualSource48LipschitzVectorActionProbe.lean#L52)
+- [`FCP.BFSSS1V40.sourceLipschitz48VectorAction_add`](OperatorDependencies/SU2BFSSPhysicalDomainS1V40ActualSource48LipschitzVectorActionProbe.lean#L62)
+- [`FCP.BFSSS1V40.sourceLipschitz48VectorAction_smul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V40ActualSource48LipschitzVectorActionProbe.lean#L88)
+
+## SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe
+
+- [`FCP.BFSSS1V41.sourceLipschitz48VectorAction_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L32)
+- [`FCP.BFSSS1V41.sourceLipschitz48VectorAction_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L44)
+- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L95)
+- [`FCP.BFSSS1V41.sourceLipschitz48LinearEquiv_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V41GenuineLipschitz48RealGLHomProbe.lean#L105)
+
+## SU2BFSSPhysicalDomainS1V42ActualLipschitzGeneratorDeterminantProbe
+
+- [`FCP.BFSSS1V42.source48ActualLipschitzGenerator_matrixAction`](OperatorDependencies/SU2BFSSPhysicalDomainS1V42ActualLipschitzGeneratorDeterminantProbe.lean#L57)
+- [`FCP.BFSSS1V42.source48ActualLipschitzGenerator_toLin'`](OperatorDependencies/SU2BFSSPhysicalDomainS1V42ActualLipschitzGeneratorDeterminantProbe.lean#L90)
+- [`FCP.BFSSS1V42.source48ActualLipschitzGenerator_det`](OperatorDependencies/SU2BFSSPhysicalDomainS1V42ActualLipschitzGeneratorDeterminantProbe.lean#L112)
+
+## SU2BFSSPhysicalDomainS1V43OriginalLipschitzGradeDetParityInterfacesProbe
+
+- [`FCP.BFSSS1V43.source48LipschitzGradeDetParity_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V43OriginalLipschitzGradeDetParityInterfacesProbe.lean#L37)
+- [`FCP.BFSSS1V43.source48LipschitzGradeDetParity_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V43OriginalLipschitzGradeDetParityInterfacesProbe.lean#L43)
+- [`FCP.BFSSS1V43.source48LipschitzGradeDetParity_generator`](OperatorDependencies/SU2BFSSPhysicalDomainS1V43OriginalLipschitzGradeDetParityInterfacesProbe.lean#L69)
+
+## SU2BFSSPhysicalDomainS1V44OriginalLipschitzGradeDetParityInverseProbe
+
+- [`FCP.BFSSS1V44.source48RealScalarOnUnits_commutes`](OperatorDependencies/SU2BFSSPhysicalDomainS1V44OriginalLipschitzGradeDetParityInverseProbe.lean#L34)
+- [`FCP.BFSSS1V44.source48LipschitzGradeDetParity_iff_units`](OperatorDependencies/SU2BFSSPhysicalDomainS1V44OriginalLipschitzGradeDetParityInverseProbe.lean#L43)
+- [`FCP.BFSSS1V44.source48LipschitzGradeDetParity_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1V44OriginalLipschitzGradeDetParityInverseProbe.lean#L65)
+
+## SU2BFSSPhysicalDomainS1V45ActualLipschitzGradeDetClosureProbe
+
+- [`FCP.BFSSS1V45.source48ActualGeneratorPreimage_gradeDetParity`](OperatorDependencies/SU2BFSSPhysicalDomainS1V45ActualLipschitzGradeDetClosureProbe.lean#L29)
+- [`FCP.BFSSS1V45.source48ActualGeneratorPreimage_inv_gradeDetParity`](OperatorDependencies/SU2BFSSPhysicalDomainS1V45ActualLipschitzGradeDetClosureProbe.lean#L53)
+- [`FCP.BFSSS1V45.source48ActualLipschitz_gradeDetParity_all`](OperatorDependencies/SU2BFSSPhysicalDomainS1V45ActualLipschitzGradeDetClosureProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainS1V46OriginalSpinLipschitzRestrictionBridgeProbe
+
+- [`FCP.BFSSS1V46.sourceSpin48VectorAction_eq_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V46OriginalSpinLipschitzRestrictionBridgeProbe.lean#L46)
+- [`FCP.BFSSS1V46.sourceSpin48LinearEquiv_eq_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V46OriginalSpinLipschitzRestrictionBridgeProbe.lean#L67)
+- [`FCP.BFSSS1V46.sourceSpin48OriginalRealDetCharacter_eq_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V46OriginalSpinLipschitzRestrictionBridgeProbe.lean#L78)
+
+## SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe
+
+- [`FCP.BFSSS1V47.source48OriginalClifford_nontrivial`](OperatorDependencies/SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe.lean#L31)
+- [`FCP.BFSSS1V47.source48OriginalRealScalarUnits_injective`](OperatorDependencies/SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe.lean#L36)
+- [`FCP.BFSSS1V47.sourceSpin48ActualLipschitzDetCharacter_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe.lean#L46)
+- [`FCP.BFSSS1V47.sourceSpin48OriginalRealDetCharacter_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V47ActualSpin48RealDetOrientationProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe
+
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L39)
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L52)
+- [`FCP.BFSSS1V48.sourceSpin48CoversActualGauge_inv`](OperatorDependencies/SU2BFSSPhysicalDomainS1V48OriginalGaugeSpin48ProjectionFiberProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe
+
+- [`FCP.BFSSS1V52A.sourceAxis_square`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L40)
+- [`FCP.BFSSS1V52A.sourceAxis_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L47)
+- [`FCP.BFSSS1V52A.sourceZBivector_square`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L114)
+- [`FCP.BFSSS1V52A.sourceYBivector_square`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L121)
+- [`FCP.BFSSS1V52A.sourceXBivector_square`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L128)
+- [`FCP.BFSSS1V52A.sourceZ_mul_Y`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L135)
+- [`FCP.BFSSS1V52A.sourceY_mul_X`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L144)
+- [`FCP.BFSSS1V52A.sourceX_mul_Z`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L153)
+- [`FCP.BFSSS1V52A.sourceY_mul_Z`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L162)
+- [`FCP.BFSSS1V52A.sourceX_mul_Y`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L170)
+- [`FCP.BFSSS1V52A.sourceZ_mul_X`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52ASourceEvenCliffordQuaternionTableProbe.lean#L178)
+
+## SU2BFSSPhysicalDomainS1V52B1SourcePauliQuaternionMatrixMultiplicationProbe
+
+- [`FCP.BFSSS1V52B1.sourceQuaternionColorMatrix_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B1SourcePauliQuaternionMatrixMultiplicationProbe.lean#L63)
+- [`FCP.BFSSS1V52B1.sourceQuaternionColorMatrix_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B1SourcePauliQuaternionMatrixMultiplicationProbe.lean#L73)
+- [`FCP.BFSSS1V52B1.sourceQuaternionColorMatrix_u`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B1SourcePauliQuaternionMatrixMultiplicationProbe.lean#L86)
+- [`FCP.BFSSS1V52B1.sourceQuaternionColorMatrix_v`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B1SourcePauliQuaternionMatrixMultiplicationProbe.lean#L93)
+
+## SU2BFSSPhysicalDomainS1V52B2Original48CliffordQuaternionPolynomialMulProbe
+
+- [`FCP.BFSSS1V52B2.sourceCliffordQuaternion_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B2Original48CliffordQuaternionPolynomialMulProbe.lean#L47)
+- [`FCP.BFSSS1V52B2.sourceCliffordQuaternion_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B2Original48CliffordQuaternionPolynomialMulProbe.lean#L57)
+
+## SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe
+
+- [`FCP.BFSSS1V52B3.sourceQuaternionCompose_conj_right`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe.lean#L40)
+- [`FCP.BFSSS1V52B3.sourceQuaternionCompose_conj_left`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe.lean#L49)
+- [`FCP.BFSSS1V52B3.sourceCliffordQuaternion_mul_conj`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe.lean#L60)
+- [`FCP.BFSSS1V52B3.sourceCliffordQuaternion_conj_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe.lean#L69)
+- [`FCP.BFSSS1V52B3.sourceCliffordQuaternionUnit_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52B3Original48CliffordQuaternionUnitNormProbe.lean#L90)
+
+## SU2BFSSPhysicalDomainS1V52C1OriginalNativeGaugeQuaternionCoordinatesProbe
+
+- [`FCP.BFSSS1V52C1.originalNativeQuaternion_u`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C1OriginalNativeGaugeQuaternionCoordinatesProbe.lean#L44)
+- [`FCP.BFSSS1V52C1.originalNativeQuaternion_v`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C1OriginalNativeGaugeQuaternionCoordinatesProbe.lean#L51)
+- [`FCP.BFSSS1V52C1.originalNativeQuaternion_norm_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C1OriginalNativeGaugeQuaternionCoordinatesProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainS1V52C2ANativeSU2MatrixAdjugateSourceProbe
+
+- [`FCP.BFSSS1V52C2A.originalNativeSU2_adjugate_eq_conjTranspose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2ANativeSU2MatrixAdjugateSourceProbe.lean#L26)
+- [`FCP.BFSSS1V52C2A.originalNativeSU2_bottomRight_eq_conj_topLeft`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2ANativeSU2MatrixAdjugateSourceProbe.lean#L45)
+- [`FCP.BFSSS1V52C2A.originalNativeSU2_bottomLeft_eq_neg_conj_topRight`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2ANativeSU2MatrixAdjugateSourceProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V52C2BNativeSU2QuaternionWholeMatrixSourceProbe
+
+- [`FCP.BFSSS1V52C2B.originalNativeSU2_wholeQuaternionMatrix`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2BNativeSU2QuaternionWholeMatrixSourceProbe.lean#L29)
+
+## SU2BFSSPhysicalDomainS1V52C2CNativeSU2RealQuaternionMatrixBridgeProbe
+
+- [`FCP.BFSSS1V52C2C.sourceComplex_star_re_im`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2CNativeSU2RealQuaternionMatrixBridgeProbe.lean#L27)
+- [`FCP.BFSSS1V52C2C.originalNativeQuaternion_matrix_reconstruction`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2CNativeSU2RealQuaternionMatrixBridgeProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainS1V52C2DOriginalNativeSU2QuaternionMultiplicationProbe
+
+- [`FCP.BFSSS1V52C2D.sourceQuaternionCoordsOfMatrix_sourceMatrix`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2DOriginalNativeSU2QuaternionMultiplicationProbe.lean#L37)
+- [`FCP.BFSSS1V52C2D.originalNativeQuaternionCoords_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2DOriginalNativeSU2QuaternionMultiplicationProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52C2EOriginalNativeGaugeCliffordUnitHomProbe
+
+- [`FCP.BFSSS1V52C2E.originalNativeQuaternionCoords_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2EOriginalNativeGaugeCliffordUnitHomProbe.lean#L36)
+- [`FCP.BFSSS1V52C2E.originalNativeGaugeSourceCliffordUnitHom_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52C2EOriginalNativeGaugeCliffordUnitHomProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainS1V52L1AIsolatedAbstractNormAndOriginalZCliffordFactorProbe
+
+- [`FCP.BFSSS1V52L1A.orthogonalUnitLinearCombination_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1AIsolatedAbstractNormAndOriginalZCliffordFactorProbe.lean#L30)
+- [`FCP.BFSSS1V52L1A.sourceZPlane_twoVector_factor`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1AIsolatedAbstractNormAndOriginalZCliffordFactorProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainS1V52L1CIsolatedSource48CoordinateNormProbe
+
+- [`FCP.BFSSS1V52L1C.source48Dot_two_coordinate_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1CIsolatedSource48CoordinateNormProbe.lean#L29)
+- [`FCP.BFSSS1V52L1C.source48Quadratic_two_coordinate_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1CIsolatedSource48CoordinateNormProbe.lean#L82)
+
+## SU2BFSSPhysicalDomainS1V52L1DOriginalZPlaneSourceAxisUnitProbe
+
+- [`FCP.BFSSS1V52L1D.sourceBlockColorLabel_ne_of_color_ne`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1DOriginalZPlaneSourceAxisUnitProbe.lean#L23)
+- [`FCP.BFSSS1V52L1D.sourceZPlane_firstVector_unit`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L1DOriginalZPlaneSourceAxisUnitProbe.lean#L34)
+
+## SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe
+
+- [`FCP.BFSSS1V52L2.sourceZPlaneFirstUnit_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe.lean#L62)
+- [`FCP.BFSSS1V52L2.sourceZPlaneFixedUnit_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe.lean#L74)
+- [`FCP.BFSSS1V52L2.sourceZPlaneFirstUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe.lean#L80)
+- [`FCP.BFSSS1V52L2.sourceZPlaneFixedUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe.lean#L88)
+- [`FCP.BFSSS1V52L2.sourceZPlaneQuaternionUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L2OriginalZPlaneLipschitzMembershipProbe.lean#L97)
+
+## SU2BFSSPhysicalDomainS1V52L3OriginalZPlaneSpinMembershipProbe
+
+- [`FCP.BFSSS1V52L3.sourceZPlaneQuaternion_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L3OriginalZPlaneSpinMembershipProbe.lean#L38)
+- [`FCP.BFSSS1V52L3.sourceZPlaneQuaternion_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L3OriginalZPlaneSpinMembershipProbe.lean#L48)
+- [`FCP.BFSSS1V52L3.sourceZPlaneQuaternionSpin_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L3OriginalZPlaneSpinMembershipProbe.lean#L75)
+
+## SU2BFSSPhysicalDomainS1V52L4OriginalColorPlaneRotorGeometryProbe
+
+- [`FCP.BFSSS1V52L4.sourceColorPlane_firstVector_unit`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L4OriginalColorPlaneRotorGeometryProbe.lean#L32)
+- [`FCP.BFSSS1V52L4.sourceColorPlane_twoVector_factor`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L4OriginalColorPlaneRotorGeometryProbe.lean#L58)
+- [`FCP.BFSSS1V52L4.sourceYPlane_twoVector_factor`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L4OriginalColorPlaneRotorGeometryProbe.lean#L98)
+
+## SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe
+
+- [`FCP.BFSSS1V52L5.sourceYPlaneFirstUnit_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe.lean#L61)
+- [`FCP.BFSSS1V52L5.sourceYPlaneFixedUnit_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe.lean#L73)
+- [`FCP.BFSSS1V52L5.sourceYPlaneFirstUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe.lean#L79)
+- [`FCP.BFSSS1V52L5.sourceYPlaneFixedUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe.lean#L87)
+- [`FCP.BFSSS1V52L5.sourceYPlaneQuaternionUnit_mem_lipschitz`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L5OriginalYPlaneLipschitzMembershipProbe.lean#L96)
+
+## SU2BFSSPhysicalDomainS1V52L6OriginalYPlaneSpinMembershipProbe
+
+- [`FCP.BFSSS1V52L6.sourceYPlaneQuaternion_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L6OriginalYPlaneSpinMembershipProbe.lean#L38)
+- [`FCP.BFSSS1V52L6.sourceYPlaneQuaternion_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L6OriginalYPlaneSpinMembershipProbe.lean#L48)
+- [`FCP.BFSSS1V52L6.sourceYPlaneQuaternionSpin_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L6OriginalYPlaneSpinMembershipProbe.lean#L75)
+
+## SU2BFSSPhysicalDomainS1V52L7B1NativeZYCoordinateSpinProductProbe
+
+- [`FCP.BFSSS1V52L7B1.originalNativeZCoordinate_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B1NativeZYCoordinateSpinProductProbe.lean#L42)
+- [`FCP.BFSSS1V52L7B1.originalNativeYCoordinate_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B1NativeZYCoordinateSpinProductProbe.lean#L54)
+- [`FCP.BFSSS1V52L7B1.originalNativeZYProduct_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B1NativeZYCoordinateSpinProductProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe
+
+- [`FCP.BFSSS1V52L7B2.originalNativeZYZProduct_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe.lean#L42)
+- [`FCP.BFSSS1V52L7B2.originalNativeZCoordinate_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe.lean#L64)
+- [`FCP.BFSSS1V52L7B2.originalNativeYCoordinate_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe.lean#L77)
+- [`FCP.BFSSS1V52L7B2.originalNativeZYProduct_mem_spin_auto`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe.lean#L91)
+- [`FCP.BFSSS1V52L7B2.originalNativeZYZProduct_mem_spin_auto`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B2NativeZYZTripleSpinProductProbe.lean#L107)
+
+## SU2BFSSPhysicalDomainS1V52L7B3NativeEulerWitnessSpinHomProbe
+
+- [`FCP.BFSSS1V52L7B3.originalNativeHasZYZWitness_mem_spin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B3NativeEulerWitnessSpinHomProbe.lean#L60)
+- [`FCP.BFSSS1V52L7B3.originalNativeAll_mem_spin_of_ZYZ`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B3NativeEulerWitnessSpinHomProbe.lean#L72)
+- [`FCP.BFSSS1V52L7B3.originalNativeGaugeSpinHom_of_ZYZ_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7B3NativeEulerWitnessSpinHomProbe.lean#L106)
+
+## SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe
+
+- [`FCP.BFSSS1V52L7C2.originalNativeFirstRow_norm_sq`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L33)
+- [`FCP.BFSSS1V52L7C2.originalNativeFirstRow_v_norm_le_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L49)
+- [`FCP.BFSSS1V52L7C2.originalNativeMiddleAngle_sin`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L60)
+- [`FCP.BFSSS1V52L7C2.originalNativeMiddleAngle_cos`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L67)
+- [`FCP.BFSSS1V52L7C2.originalNativeFirstRow_u_polar`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L77)
+- [`FCP.BFSSS1V52L7C2.originalNativeFirstRow_v_polar`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C2NativeOriginalSU2ZeroSafeEulerPolarProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe
+
+- [`FCP.BFSSS1V52L7C3.originalQuaternionComplexMatrix_adjugate`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe.lean#L43)
+- [`FCP.BFSSS1V52L7C3.originalSourceQuaternionColorMatrix_complex`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe.lean#L54)
+- [`FCP.BFSSS1V52L7C3.originalSourceQuaternionColorMatrix_det`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe.lean#L70)
+- [`FCP.BFSSS1V52L7C3.originalSourceQuaternionColorMatrix_mem_SU2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe.lean#L82)
+- [`FCP.BFSSS1V52L7C3.originalNativeOfUnitQuaternion_coords`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C3UnitQuaternionToOriginalNativeSU2Probe.lean#L117)
+
+## SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe
+
+- [`FCP.BFSSS1V52L7C4.originalNativeZQuaternion_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe.lean#L39)
+- [`FCP.BFSSS1V52L7C4.originalNativeYQuaternion_norm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe.lean#L45)
+- [`FCP.BFSSS1V52L7C4.originalNativeZYZQuaternion_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe.lean#L54)
+- [`FCP.BFSSS1V52L7C4.originalNativeZYZQuaternion_first_u`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe.lean#L71)
+- [`FCP.BFSSS1V52L7C4.originalNativeZYZQuaternion_first_v`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C4ActualNativeZYZQuaternionFiniteCoefficientsProbe.lean#L86)
+
+## SU2BFSSPhysicalDomainS1V52L7C5OriginalNativeZYZCircleFactorsProbe
+
+- [`FCP.BFSSS1V52L7C5.originalNativeZCircle_coords`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C5OriginalNativeZYZCircleFactorsProbe.lean#L46)
+- [`FCP.BFSSS1V52L7C5.originalNativeYCircle_coords`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C5OriginalNativeZYZCircleFactorsProbe.lean#L53)
+- [`FCP.BFSSS1V52L7C5.originalNativeZYZCircle_coords`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C5OriginalNativeZYZCircleFactorsProbe.lean#L61)
+- [`FCP.BFSSS1V52L7C5.originalNativeZYZCircle_matrix`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C5OriginalNativeZYZCircleFactorsProbe.lean#L78)
+
+## SU2BFSSPhysicalDomainS1V52L7C6OriginalNativeZeroSafeEulerPhaseBridgeProbe
+
+- [`FCP.BFSSS1V52L7C6.originalNativeEulerPhase_sum`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C6OriginalNativeZeroSafeEulerPhaseBridgeProbe.lean#L41)
+- [`FCP.BFSSS1V52L7C6.originalNativeEulerPhase_diff`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C6OriginalNativeZeroSafeEulerPhaseBridgeProbe.lean#L48)
+- [`FCP.BFSSS1V52L7C6.originalNativeEulerPhase_reconstruct_u`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C6OriginalNativeZeroSafeEulerPhaseBridgeProbe.lean#L57)
+- [`FCP.BFSSS1V52L7C6.originalNativeEulerPhase_reconstruct_v`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C6OriginalNativeZeroSafeEulerPhaseBridgeProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe
+
+- [`FCP.BFSSS1V52L7C7.originalNativeZYZ_reconstruct_u`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe.lean#L56)
+- [`FCP.BFSSS1V52L7C7.originalNativeZYZ_reconstruct_v`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe.lean#L87)
+- [`FCP.BFSSS1V52L7C7.originalNativeZYZ_exact_euler`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe.lean#L118)
+- [`FCP.BFSSS1V52L7C7.originalNativeAll_ZYZWitness`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe.lean#L135)
+- [`FCP.BFSSS1V52L7C7.originalNativeGaugeSpinHom_coe`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L7C7OriginalNativeEulerWitnessAndSpinHomProbe.lean#L165)
+
+## SU2BFSSPhysicalDomainS1V52L8AOriginalDisjointBlockCliffordBivectorCommutationProbe
+
+- [`FCP.BFSSS1V52L8A.originalDisjointBlockAxis_comm_bivector`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8AOriginalDisjointBlockCliffordBivectorCommutationProbe.lean#L42)
+- [`FCP.BFSSS1V52L8A.originalDisjointBlockBivectors_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8AOriginalDisjointBlockCliffordBivectorCommutationProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainS1V52L8BOriginalArbitraryBlockQuaternionCliffordCommutationProbe
+
+- [`FCP.BFSSS1V52L8B.originalDisjointBlockSourceQuaternion_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8BOriginalArbitraryBlockQuaternionCliffordCommutationProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainS1V52L8COriginalNativeSpin48CrossBlockImageCommutationProbe
+
+- [`FCP.BFSSS1V52L8C.originalNativeSpinHom_crossBlock_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8COriginalNativeSpin48CrossBlockImageCommutationProbe.lean#L36)
+
+## SU2BFSSPhysicalDomainS1V52L8DOriginalNodupNativeBlockSpin48ListHomProbe
+
+- [`FCP.BFSSS1V52L8D.originalNativeBlockSpin_comm_list`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8DOriginalNodupNativeBlockSpin48ListHomProbe.lean#L47)
+- [`FCP.BFSSS1V52L8D.originalNativeBlockSpinProd_mul_of_nodup`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8DOriginalNodupNativeBlockSpin48ListHomProbe.lean#L100)
+
+## SU2BFSSPhysicalDomainS1V52L8EOriginalOrderedSixteenNativeSU2Spin48HomProbe
+
+- [`FCP.BFSSS1V52L8E.originalNativeSixteenSpinBlocks_nodup`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8EOriginalOrderedSixteenNativeSU2Spin48HomProbe.lean#L42)
+- [`FCP.BFSSS1V52L8E.originalNativeSixteenSpinBlocks_length`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8EOriginalOrderedSixteenNativeSU2Spin48HomProbe.lean#L48)
+- [`FCP.BFSSS1V52L8E.originalNativeSixteenSpinHom_apply`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L8EOriginalOrderedSixteenNativeSU2Spin48HomProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainS1V52L9AOriginalNativeCrossBlockMajoranaCliffordFixationProbe
+
+- [`FCP.BFSSS1V52L9A.originalNativeDisjointAxis_comm_quaternion`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9AOriginalNativeCrossBlockMajoranaCliffordFixationProbe.lean#L47)
+- [`FCP.BFSSS1V52L9A.originalNativeDisjointAxis_quaternion_conj_fixes`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9AOriginalNativeCrossBlockMajoranaCliffordFixationProbe.lean#L84)
+- [`FCP.BFSSS1V52L9A.originalNativeDisjointAxis_Spin48_conj_fixes`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9AOriginalNativeCrossBlockMajoranaCliffordFixationProbe.lean#L110)
+
+## SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe
+
+- [`FCP.BFSSS1V52L9B0.originalAxis0_Z_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L72)
+- [`FCP.BFSSS1V52L9B0.originalAxis1_Z_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L80)
+- [`FCP.BFSSS1V52L9B0.originalAxis2_Z_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L88)
+- [`FCP.BFSSS1V52L9B0.originalAxis0_Y_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L98)
+- [`FCP.BFSSS1V52L9B0.originalAxis1_Y_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L106)
+- [`FCP.BFSSS1V52L9B0.originalAxis2_Y_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L115)
+- [`FCP.BFSSS1V52L9B0.originalAxis0_X_comm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L124)
+- [`FCP.BFSSS1V52L9B0.originalAxis1_X_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L133)
+- [`FCP.BFSSS1V52L9B0.originalAxis2_X_anticomm`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B0OriginalSameBlockBivectorAxisParityProbe.lean#L141)
+
+## SU2BFSSPhysicalDomainS1V52L9B1OriginalSameBlockQuaternionAxisReflectionProbe
+
+- [`FCP.BFSSS1V52L9B1.originalAxis0_star_quaternion_reflection`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B1OriginalSameBlockQuaternionAxisReflectionProbe.lean#L46)
+- [`FCP.BFSSS1V52L9B1.originalAxis1_star_quaternion_reflection`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B1OriginalSameBlockQuaternionAxisReflectionProbe.lean#L66)
+- [`FCP.BFSSS1V52L9B1.originalAxis2_star_quaternion_reflection`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B1OriginalSameBlockQuaternionAxisReflectionProbe.lean#L86)
+
+## SU2BFSSPhysicalDomainS1V52L9B2OriginalQuaternionReflectionCoefficientProbe
+
+- [`FCP.BFSSS1V52L9B2.originalQuat_axis0_reflect_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B2OriginalQuaternionReflectionCoefficientProbe.lean#L30)
+- [`FCP.BFSSS1V52L9B2.originalQuat_axis1_reflect_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B2OriginalQuaternionReflectionCoefficientProbe.lean#L44)
+- [`FCP.BFSSS1V52L9B2.originalQuat_axis2_reflect_compose`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B2OriginalQuaternionReflectionCoefficientProbe.lean#L58)
+
+## SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe
+
+- [`FCP.BFSSS1V52L9B3.originalZ_mul_axis0`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L54)
+- [`FCP.BFSSS1V52L9B3.originalZ_mul_axis1`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L61)
+- [`FCP.BFSSS1V52L9B3.originalY_mul_axis0`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L66)
+- [`FCP.BFSSS1V52L9B3.originalY_mul_axis2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L71)
+- [`FCP.BFSSS1V52L9B3.originalX_mul_axis1`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L78)
+- [`FCP.BFSSS1V52L9B3.originalX_mul_axis2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B3OriginalBivectorOnAxisReductionProbe.lean#L85)
+
+## SU2BFSSPhysicalDomainS1V52L9B4OriginalSameBlockQuaternionConjugationProbe
+
+- [`FCP.BFSSS1V52L9B4.originalSameBlockQuaternion_conj_axis0`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B4OriginalSameBlockQuaternionConjugationProbe.lean#L44)
+- [`FCP.BFSSS1V52L9B4.originalSameBlockQuaternion_conj_axis1`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B4OriginalSameBlockQuaternionConjugationProbe.lean#L84)
+- [`FCP.BFSSS1V52L9B4.originalSameBlockQuaternion_conj_axis2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9B4OriginalSameBlockQuaternionConjugationProbe.lean#L124)
+
+## SU2BFSSPhysicalDomainS1V52L9C1OriginalPauliQuaternionTracePolynomialProbe
+
+- [`FCP.BFSSS1V52L9C1.originalPauliQuaternion_matrix_conjugation`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C1OriginalPauliQuaternionTracePolynomialProbe.lean#L43)
+- [`FCP.BFSSS1V52L9C1.originalPauliQuaternion_trace_polynomial`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C1OriginalPauliQuaternionTracePolynomialProbe.lean#L61)
+
+## SU2BFSSPhysicalDomainS1V52L9C2OriginalNormalizedPauliQuaternionTraceProbe
+
+- [`FCP.BFSSS1V52L9C2.originalNormalizedPauli_trace_scale`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C2OriginalNormalizedPauliQuaternionTraceProbe.lean#L29)
+- [`FCP.BFSSS1V52L9C2.originalNormalizedPauli_quaternion_trace_polynomial`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C2OriginalNormalizedPauliQuaternionTraceProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52L9C3OriginalNativeColorAdjointMatrixBridgeProbe
+
+- [`FCP.BFSSS1V52L9C3.originalNativePairedAdjointCoefficient_eq_quaternion`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C3OriginalNativeColorAdjointMatrixBridgeProbe.lean#L42)
+- [`FCP.BFSSS1V52L9C3.originalNativeAdjointColorMatrix_eq_quaternion`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9C3OriginalNativeColorAdjointMatrixBridgeProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V52L9D0ActualFockSpinBlockSourceLabelEqualityProbe
+
+- [`FCP.BFSSS1V52L9D0.originalSourceBlockColorLabel_eq_originalPairedLabel`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D0ActualFockSpinBlockSourceLabelEqualityProbe.lean#L34)
+
+## SU2BFSSPhysicalDomainS1V52L9D1OriginalNativeSameBlockSpinCliffordAdjointProbe
+
+- [`FCP.BFSSS1V52L9D1.originalNativeSameBlockSpinClifford_axis0`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D1OriginalNativeSameBlockSpinCliffordAdjointProbe.lean#L44)
+- [`FCP.BFSSS1V52L9D1.originalNativeSameBlockSpinClifford_axis1`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D1OriginalNativeSameBlockSpinCliffordAdjointProbe.lean#L58)
+- [`FCP.BFSSS1V52L9D1.originalNativeSameBlockSpinClifford_axis2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D1OriginalNativeSameBlockSpinCliffordAdjointProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainS1V52L9D2OriginalNativeSameBlockSpin48RealVectorActionProbe
+
+- [`FCP.BFSSS1V52L9D2.originalNativeSameBlockSpin48Vector_axis0`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D2OriginalNativeSameBlockSpin48RealVectorActionProbe.lean#L55)
+- [`FCP.BFSSS1V52L9D2.originalNativeSameBlockSpin48Vector_axis1`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D2OriginalNativeSameBlockSpin48RealVectorActionProbe.lean#L70)
+- [`FCP.BFSSS1V52L9D2.originalNativeSameBlockSpin48Vector_axis2`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D2OriginalNativeSameBlockSpin48RealVectorActionProbe.lean#L85)
+
+## SU2BFSSPhysicalDomainS1V52L9D3OriginalNativeDisjointBlockSpin48RealVectorFixationProbe
+
+- [`FCP.BFSSS1V52L9D3.originalNativeDisjointBlockSpin48Vector_fixes`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D3OriginalNativeDisjointBlockSpin48RealVectorFixationProbe.lean#L37)
+
+## SU2BFSSPhysicalDomainS1V52L9D4OriginalNativeBlockSpin48RealVectorColorCombinationProbe
+
+- [`FCP.BFSSS1V52L9D4.originalNativeSameBlockSpin48Vector_axis_all`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D4OriginalNativeBlockSpin48RealVectorColorCombinationProbe.lean#L41)
+- [`FCP.BFSSS1V52L9D4.originalNativeDisjointBlockSpin48Vector_fixes_colorCombination`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D4OriginalNativeBlockSpin48RealVectorColorCombinationProbe.lean#L61)
+
+## SU2BFSSPhysicalDomainS1V52L9D5OriginalNativeOrderedSpin48BlockListVectorActionProbe
+
+- [`FCP.BFSSS1V52L9D5.originalNativeBlockSpinProd_disjoint_fixes_axis`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D5OriginalNativeOrderedSpin48BlockListVectorActionProbe.lean#L43)
+- [`FCP.BFSSS1V52L9D5.originalNativeBlockSpinProd_disjoint_fixes_colorCombination`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D5OriginalNativeOrderedSpin48BlockListVectorActionProbe.lean#L74)
+- [`FCP.BFSSS1V52L9D5.originalNativeBlockSpinProd_member_action`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D5OriginalNativeOrderedSpin48BlockListVectorActionProbe.lean#L110)
+
+## SU2BFSSPhysicalDomainS1V52L9D6OriginalNativeSixteenSpin48SourceAxisActionProbe
+
+- [`FCP.BFSSS1V52L9D6.originalNativeSixteenSpinBlocks_mem`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D6OriginalNativeSixteenSpin48SourceAxisActionProbe.lean#L36)
+- [`FCP.BFSSS1V52L9D6.originalNativeSixteenSpinHom_sourceAxis_action`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D6OriginalNativeSixteenSpin48SourceAxisActionProbe.lean#L48)
+
+## SU2BFSSPhysicalDomainS1V52L9D7OriginalNativeFockMajorana48MatrixBlockEntryProbe
+
+- [`FCP.BFSSS1V52L9D7.originalSourceRealMajoranaMatrix_sourceBlock_entry`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D7OriginalNativeFockMajorana48MatrixBlockEntryProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainS1V52L9D8OriginalFockMajorana48SourceBasisMulVecProbe
+
+- [`FCP.BFSSS1V52L9D8.originalSourceRealMajoranaMatrix_mulVec_sourceAxis`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D8OriginalFockMajorana48SourceBasisMulVecProbe.lean#L36)
+
+## SU2BFSSPhysicalDomainS1V52L9D9OriginalNativeSixteenSpin48ActualGaugeUniversalProjectionProbe
+
+- [`FCP.BFSSS1V52L9D9.originalNativeSixteenSpinHom_coversActualGauge`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9D9OriginalNativeSixteenSpin48ActualGaugeUniversalProjectionProbe.lean#L44)
+
+## SU2BFSSPhysicalDomainS1V52L9E1OriginalNativeSixteenSpin48UniversalCliffordConjugationProbe
+
+- [`FCP.BFSSS1V52L9E1.originalNativeSixteenSpinHom_clifford_generator_conj`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E1OriginalNativeSixteenSpin48UniversalCliffordConjugationProbe.lean#L42)
+
+## SU2BFSSPhysicalDomainS1V52L9E5BOriginalFockAllVectorCliffordSquareProbe
+
+- [`FCP.BFSSS1V52L9E5B.originalFockGammaRealLinear_sq`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5BOriginalFockAllVectorCliffordSquareProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainS1V52L9E5C1OriginalFockCliffordAlgebraUniversalLiftProbe
+
+- [`FCP.BFSSS1V52L9E5C1.originalFockCliffordAlgHom_generator`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5C1OriginalFockCliffordAlgebraUniversalLiftProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainS1V52L9E5D1OriginalNativeSpin48FockCliffordAlgebraicCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5D1.originalFockCliffordAlgHom_conj_generator`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5D1OriginalNativeSpin48FockCliffordAlgebraicCovarianceProbe.lean#L48)
+- [`FCP.BFSSS1V52L9E5D1.originalNativeSpinFock_clifford_generator_covariance`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5D1OriginalNativeSpin48FockCliffordAlgebraicCovarianceProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainS1V52L9E5E1OriginalNormalizedFockMajoranaSelfAdjointProbe
+
+- [`FCP.BFSSS1V52L9E5E1.originalNormalizedFockMajorana_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5E1OriginalNormalizedFockMajoranaSelfAdjointProbe.lean#L35)
+
+## SU2BFSSPhysicalDomainS1V52L9E5E2OriginalAllRealVectorFockGammaSelfAdjointProbe
+
+- [`FCP.BFSSS1V52L9E5E2.originalFockGammaRealLinear_selfAdjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5E2OriginalAllRealVectorFockGammaSelfAdjointProbe.lean#L39)
+
+## SU2BFSSPhysicalDomainS1V52L9E5E3OriginalFockSourceBivectorStarAdjointCompatibilityProbe
+
+- [`FCP.BFSSS1V52L9E5E3.originalFockCliffordAlgHom_star_sourceBivector`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5E3OriginalFockSourceBivectorStarAdjointCompatibilityProbe.lean#L44)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F10OriginalNativeSixteenSpin48FockOrderedProductBridgeProbe
+
+- [`FCP.BFSSS1V52L9E5F10.originalNativeSpinBlockList_fock_map_prod`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F10OriginalNativeSixteenSpin48FockOrderedProductBridgeProbe.lean#L43)
+- [`FCP.BFSSS1V52L9E5F10.originalNativeSixteenSpinFock_eq_orderedProd`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F10OriginalNativeSixteenSpin48FockOrderedProductBridgeProbe.lean#L91)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F11OriginalNativeSixteenSpin48FockTwoSidedUnitarityProbe
+
+- [`FCP.BFSSS1V52L9E5F11.originalNativeSixteenSpin48Fock_adjoint_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F11OriginalNativeSixteenSpin48FockTwoSidedUnitarityProbe.lean#L43)
+- [`FCP.BFSSS1V52L9E5F11.originalNativeSixteenSpin48Fock_mul_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F11OriginalNativeSixteenSpin48FockTwoSidedUnitarityProbe.lean#L65)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F12OriginalNativeSixteenSpin48CliffordStarFockAdjointProbe
+
+- [`FCP.BFSSS1V52L9E5F12.originalNativeSpinBlockList_star_fock_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F12OriginalNativeSixteenSpin48CliffordStarFockAdjointProbe.lean#L46)
+- [`FCP.BFSSS1V52L9E5F12.originalNativeSixteenSpin48_star_fock_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F12OriginalNativeSixteenSpin48CliffordStarFockAdjointProbe.lean#L86)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F13OriginalNativeSixteenSpin48UnitaryFockMajoranaCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5F13.originalNativeSixteenSpinFock_unitary_majorana_covariance`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F13OriginalNativeSixteenSpin48UnitaryFockMajoranaCovarianceProbe.lean#L49)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F16OriginalNativeFockNormalizedMajoranaColorCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5F16.originalNativeSixteenFock_normalizedMajorana_color_covariance`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F16OriginalNativeFockNormalizedMajoranaColorCovarianceProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F17OriginalNativeFockUnscaledPairedThetaColorCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5F17.originalNativeSixteenFock_pairedTheta_conjugation`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F17OriginalNativeFockUnscaledPairedThetaColorCovarianceProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F18AOriginalNativeFockPairedThetaRightCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5F18A.originalNativeSixteenFock_pairedTheta_right_covariance`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F18AOriginalNativeFockPairedThetaRightCovarianceProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F18BOriginalNativeFockSourceVectorCovarianceProbe
+
+- [`FCP.BFSSS1V52L9E5F18B.originalNativeSixteenFock_source_vector_covariance`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F18BOriginalNativeFockSourceVectorCovarianceProbe.lean#L45)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F18COriginalNativeFockSourceGaugeIdentificationProbe
+
+- [`FCP.BFSSS1V52L9E5F18C.originalNativeSixteenFock_sourceGaugeHom_identification`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F18COriginalNativeFockSourceGaugeIdentificationProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F1OriginalCliffordEvenFockStarMultiplicativeClosureProbe
+
+- [`FCP.BFSSS1V52L9E5F1.originalFockCliffordAlgHom_star_mul_of`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F1OriginalCliffordEvenFockStarMultiplicativeClosureProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F2OriginalFiniteBivectorWordFockStarAdjointProbe
+
+- [`FCP.BFSSS1V52L9E5F2.originalFockCliffordAlgHom_star_one`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F2OriginalFiniteBivectorWordFockStarAdjointProbe.lean#L43)
+- [`FCP.BFSSS1V52L9E5F2.originalFockCliffordAlgHom_star_bivectorWord`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F2OriginalFiniteBivectorWordFockStarAdjointProbe.lean#L52)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F3OriginalCliffordFockStarAdditiveClosureProbe
+
+- [`FCP.BFSSS1V52L9E5F3.originalFockCliffordAlgHom_star_zero`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F3OriginalCliffordFockStarAdditiveClosureProbe.lean#L42)
+- [`FCP.BFSSS1V52L9E5F3.originalFockCliffordAlgHom_star_add_of`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F3OriginalCliffordFockStarAdditiveClosureProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F4OriginalCliffordFockStarRealScalarClosureProbe
+
+- [`FCP.BFSSS1V52L9E5F4.originalFockCliffordAlgHom_star_real_smul_of`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F4OriginalCliffordFockStarRealScalarClosureProbe.lean#L45)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F5OriginalFiniteRealBivectorWordLinearCombinationFockAdjointProbe
+
+- [`FCP.BFSSS1V52L9E5F5.originalFockCliffordAlgHom_star_finiteRealBivectorWordSum`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F5OriginalFiniteRealBivectorWordLinearCombinationFockAdjointProbe.lean#L67)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F6OriginalBlockQuaternionFockStarAdjointBridgeProbe
+
+- [`FCP.BFSSS1V52L9E5F6.originalFockCliffordAlgHom_star_sourceQuaternion`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F6OriginalBlockQuaternionFockStarAdjointBridgeProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F7OriginalBlockQuaternionFockTwoSidedUnitaryProbe
+
+- [`FCP.BFSSS1V52L9E5F7.originalFockBlockQuaternion_adjoint_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F7OriginalBlockQuaternionFockTwoSidedUnitaryProbe.lean#L48)
+- [`FCP.BFSSS1V52L9E5F7.originalFockBlockQuaternion_mul_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F7OriginalBlockQuaternionFockTwoSidedUnitaryProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F8OriginalNativeSpin48BlockFockUnitaryProbe
+
+- [`FCP.BFSSS1V52L9E5F8.originalNativeBlockSpin48Fock_adjoint_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F8OriginalNativeSpin48BlockFockUnitaryProbe.lean#L45)
+- [`FCP.BFSSS1V52L9E5F8.originalNativeBlockSpin48Fock_mul_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F8OriginalNativeSpin48BlockFockUnitaryProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F9OriginalNativeBlockFockOrderedListUnitarityProbe
+
+- [`FCP.BFSSS1V52L9E5F9.originalNativeBlockFockOrderedProd_adjoint_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F9OriginalNativeBlockFockOrderedListUnitarityProbe.lean#L87)
+- [`FCP.BFSSS1V52L9E5F9.originalNativeBlockFockOrderedProd_mul_adjoint`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52L9E5F9OriginalNativeBlockFockOrderedListUnitarityProbe.lean#L106)
+
+## SU2BFSSPhysicalDomainS1V52M1IndependentNonzeroMajoranaIntertwinerEquivProbe
+
+- [`FCP.BFSSS1V52M1.independent_nonzero_majorana_intertwiner_equiv`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M1IndependentNonzeroMajoranaIntertwinerEquivProbe.lean#L37)
+
+## SU2BFSSPhysicalDomainS1V52M2OriginalComplexifiedCliffordFockRepresentationProbe
+
+- [`FCP.BFSSS1V52M2.originalComplexCliffordFockAlgHom_generator`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M2OriginalComplexifiedCliffordFockRepresentationProbe.lean#L53)
+
+## SU2BFSSPhysicalDomainS1V52M3AOriginalComplexCliffordActionImageIrreducibilityProbe
+
+- [`FCP.BFSSS1V52M3A.originalComplexCliffordFock_image_irreducible`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3AOriginalComplexCliffordActionImageIrreducibilityProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainS1V52M3BOriginalComplexCliffordSimpleModuleProbe
+
+- [`FCP.BFSSS1V52M3B.originalComplexCliffordFockModule_smul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3BOriginalComplexCliffordSimpleModuleProbe.lean#L39)
+- [`FCP.BFSSS1V52M3B.originalComplexCliffordFockModule_scalarTower`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3BOriginalComplexCliffordSimpleModuleProbe.lean#L46)
+- [`FCP.BFSSS1V52M3B.originalComplexCliffordFockModule_simple`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3BOriginalComplexCliffordSimpleModuleProbe.lean#L58)
+
+## SU2BFSSPhysicalDomainS1V52M3COriginalCliffordFockSchurAndFiniteProbe
+
+- [`FCP.BFSSS1V52M3C.originalComplexCliffordFock_scalarCommutant`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3COriginalCliffordFockSchurAndFiniteProbe.lean#L38)
+- [`FCP.BFSSS1V52M3C.originalComplexCliffordFock_finiteOverEnd`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3COriginalCliffordFockSchurAndFiniteProbe.lean#L45)
+
+## SU2BFSSPhysicalDomainS1V52M3DOriginalComplexCliffordFullFockImageProbe
+
+- [`FCP.BFSSS1V52M3D.originalComplexCliffordFock_fullImage`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3DOriginalComplexCliffordFullFockImageProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52M3EOriginalComplexCliffordPBWBasisProbe
+
+- [`FCP.BFSSS1V52M3E.originalComplexClifford_finrank`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3EOriginalComplexCliffordPBWBasisProbe.lean#L45)
+
+## SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe
+
+- [`FCP.BFSSS1V52M3F.originalSource48Label_card`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L31)
+- [`FCP.BFSSS1V52M3F.originalComplexClifford_finrank_pow`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L37)
+- [`FCP.BFSSS1V52M3F.originalFock_finrank`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3FOriginalCliffordFockFiniteDimensionsProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52M3GOriginalFockContinuousOperatorFinrankProbe
+
+- [`FCP.BFSSS1V52M3G.originalFockContinuousEnd_finrank`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3GOriginalFockContinuousOperatorFinrankProbe.lean#L38)
+- [`FCP.BFSSS1V52M3G.originalCliffordFock_finrank_eq`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3GOriginalFockContinuousOperatorFinrankProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52M3HOriginalComplexCliffordFockFaithfulProbe
+
+- [`FCP.BFSSS1V52M3H.originalComplexCliffordFock_injective`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3HOriginalComplexCliffordFockFaithfulProbe.lean#L44)
+
+## SU2BFSSPhysicalDomainS1V52M3IOriginalComplexCliffordFockAlgebraEquivProbe
+
+- [`FCP.BFSSS1V52M3I.originalComplexCliffordFockAlgEquiv_apply`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3IOriginalComplexCliffordFockAlgebraEquivProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52M3JIndependentUnitaryExistenceProbe
+
+- [`FCP.BFSSS1V52M3JIndependent.independent_original_generator_unitary`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52M3JIndependentUnitaryExistenceProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe
+
+- [`FCP.BFSSS1V52S1.sourceZBivector_star`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L40)
+- [`FCP.BFSSS1V52S1.sourceYBivector_star`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L48)
+- [`FCP.BFSSS1V52S1.sourceXBivector_star`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L56)
+- [`FCP.BFSSS1V52S1.sourceCliffordQuaternion_star_eq_conj`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L65)
+- [`FCP.BFSSS1V52S1.sourceCliffordQuaternion_star_mul`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L75)
+- [`FCP.BFSSS1V52S1.sourceCliffordQuaternion_mul_star`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S1Original48CliffordQuaternionStarUnitarityProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe
+
+- [`FCP.BFSSS1V52S2.sourceZBivector_mem_even`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe.lean#L40)
+- [`FCP.BFSSS1V52S2.sourceYBivector_mem_even`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe.lean#L47)
+- [`FCP.BFSSS1V52S2.sourceXBivector_mem_even`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe.lean#L54)
+- [`FCP.BFSSS1V52S2.sourceCliffordQuaternion_mem_even`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe.lean#L62)
+- [`FCP.BFSSS1V52S2.originalNativeGaugeSourceCliffordUnitHom_mem_even`](OperatorDependencies/SU2BFSSPhysicalDomainS1V52S2Original48CliffordQuaternionEvennessProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainS1V6ConcreteSource48ColorAxisOrthogonalityProbe
+
+- [`FCP.BFSSS1V6.source48Quadratic_eq_dot`](OperatorDependencies/SU2BFSSPhysicalDomainS1V6ConcreteSource48ColorAxisOrthogonalityProbe.lean#L28)
+- [`FCP.BFSSS1V6.sourceBlockColorAxis_unit`](OperatorDependencies/SU2BFSSPhysicalDomainS1V6ConcreteSource48ColorAxisOrthogonalityProbe.lean#L35)
+- [`FCP.BFSSS1V6.sourceBlockColorAxis_mul_eq_zero`](OperatorDependencies/SU2BFSSPhysicalDomainS1V6ConcreteSource48ColorAxisOrthogonalityProbe.lean#L56)
+- [`FCP.BFSSS1V6.sourceBlockColorAxis_ortho`](OperatorDependencies/SU2BFSSPhysicalDomainS1V6ConcreteSource48ColorAxisOrthogonalityProbe.lean#L71)
+
+## SU2FermionF3B1OccupationProbe
+
+- [`FCP.BFSSFermionF3B1.thetaInvariant_occupiedMode`](OperatorDependencies/SU2FermionF3B1OccupationProbe.lean#L34)
+- [`FCP.BFSSFermionF3B1.thetaInvariant_vacantMode`](OperatorDependencies/SU2FermionF3B1OccupationProbe.lean#L45)
+
+## SU2FermionF3B2BasisActionProbe
+
+- [`FCP.BFSSFermionF3B2.occupiedMode_as_fockNumber`](OperatorDependencies/SU2FermionF3B2BasisActionProbe.lean#L30)
+- [`FCP.BFSSFermionF3B2.occupiedMode_occupationKet`](OperatorDependencies/SU2FermionF3B2BasisActionProbe.lean#L45)
+- [`FCP.BFSSFermionF3B2.vacantMode_occupationKet`](OperatorDependencies/SU2FermionF3B2BasisActionProbe.lean#L66)
+
+## SU2FermionF3B3ProjectorProbe
+
+- [`FCP.BFSSFermionF3B3.occupiedMode_idempotent`](OperatorDependencies/SU2FermionF3B3ProjectorProbe.lean#L24)
+- [`FCP.BFSSFermionF3B3.occupiedMode_mul_comm`](OperatorDependencies/SU2FermionF3B3ProjectorProbe.lean#L41)
+
+## SU2FermionF3B4SelectorProbe
+
+- [`FCP.BFSSFermionF3B4.selectorSeq_occupationKet`](OperatorDependencies/SU2FermionF3B4SelectorProbe.lean#L58)
+- [`FCP.BFSSFermionF3B4.occupationSelector_occupationKet`](OperatorDependencies/SU2FermionF3B4SelectorProbe.lean#L111)
+
+## SU2FermionF3B5CoordinateProbe
+
+- [`FCP.BFSSFermionF3B5.occupationExpansion`](OperatorDependencies/SU2FermionF3B5CoordinateProbe.lean#L123)
+- [`FCP.BFSSFermionF3B5.occupationSelector_apply`](OperatorDependencies/SU2FermionF3B5CoordinateProbe.lean#L153)
+
+## SU2FermionF3B6NonzeroKetProbe
+
+- [`FCP.BFSSFermionF3B6.thetaInvariant_occupationSelector`](OperatorDependencies/SU2FermionF3B6NonzeroKetProbe.lean#L13)
+- [`FCP.BFSSFermionF3B6.exists_nonzero_occupationCoeff`](OperatorDependencies/SU2FermionF3B6NonzeroKetProbe.lean#L39)
+- [`FCP.BFSSFermionF3B6.thetaInvariant_contains_occupationKet`](OperatorDependencies/SU2FermionF3B6NonzeroKetProbe.lean#L52)
+
+## SU2FermionF3B7SignedModeProbe
+
+- [`FCP.BFSSFermionF3B7.creator_occupationKet`](OperatorDependencies/SU2FermionF3B7SignedModeProbe.lean#L19)
+- [`FCP.BFSSFermionF3B7.annihilator_occupationKet_of_mem`](OperatorDependencies/SU2FermionF3B7SignedModeProbe.lean#L37)
+- [`FCP.BFSSFermionF3B7.creationCoefficient_ne_zero_of_not_mem`](OperatorDependencies/SU2FermionF3B7SignedModeProbe.lean#L56)
+- [`FCP.BFSSFermionF3B7.annihilationCoefficient_ne_zero_of_mem`](OperatorDependencies/SU2FermionF3B7SignedModeProbe.lean#L64)
+
+## SU2FermionF3B8LocalReachabilityProbe
+
+- [`FCP.BFSSFermionF3B8.thetaInvariant_insert_occupationKet`](OperatorDependencies/SU2FermionF3B8LocalReachabilityProbe.lean#L27)
+- [`FCP.BFSSFermionF3B8.thetaInvariant_erase_occupationKet`](OperatorDependencies/SU2FermionF3B8LocalReachabilityProbe.lean#L45)
+
+## SU2FermionF3B9FiniteReachabilityProbe
+
+- [`FCP.BFSSFermionF3B9.thetaInvariant_vacuum_of_occupationKet`](OperatorDependencies/SU2FermionF3B9FiniteReachabilityProbe.lean#L21)
+- [`FCP.BFSSFermionF3B9.thetaInvariant_all_from_vacuum`](OperatorDependencies/SU2FermionF3B9FiniteReachabilityProbe.lean#L43)
+- [`FCP.BFSSFermionF3B9.thetaInvariant_all_occupationKet_of_one`](OperatorDependencies/SU2FermionF3B9FiniteReachabilityProbe.lean#L60)
+
+## SU2FermionF3C1SubmoduleDichotomyProbe
+
+- [`FCP.BFSSFermionF3C1.thetaInvariant_eq_top_of_nonzero`](OperatorDependencies/SU2FermionF3C1SubmoduleDichotomyProbe.lean#L38)
+- [`FCP.BFSSFermionF3C1.thetaInvariant_bot_or_top`](OperatorDependencies/SU2FermionF3C1SubmoduleDichotomyProbe.lean#L51)
+
+## SU2FermionF3C2ThetaFieldsProbe
+
+- [`FCP.BFSSFermionF3C2.thetaCandidate_upstream_selfAdjoint`](OperatorDependencies/SU2FermionF3C2ThetaFieldsProbe.lean#L17)
+- [`FCP.BFSSFermionF3C2.thetaCandidate_upstream_CAR`](OperatorDependencies/SU2FermionF3C2ThetaFieldsProbe.lean#L25)
+- [`FCP.BFSSFermionF3C2.thetaCandidate_upstream_irreducible`](OperatorDependencies/SU2FermionF3C2ThetaFieldsProbe.lean#L37)
+
+## SU2FermionF3InvariantProbe
+
+- [`FCP.BFSSFermionF3.thetaInvariant_majoranaCandidate`](OperatorDependencies/SU2FermionF3InvariantProbe.lean#L28)
+- [`FCP.BFSSFermionF3.thetaInvariant_iff_majoranaCandidate`](OperatorDependencies/SU2FermionF3InvariantProbe.lean#L40)
+- [`FCP.BFSSFermionF3.thetaInvariant_majoranaComponents`](OperatorDependencies/SU2FermionF3InvariantProbe.lean#L51)
+
+## SU2FermionF3RecoveryProbe
+
+- [`FCP.BFSSFermionF3A2.thetaInvariant_creator_annihilator`](OperatorDependencies/SU2FermionF3RecoveryProbe.lean#L37)
+
+## SU2BFSSPairedSpin9AdjacentLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_adjacent_bracket`](SU2BFSSPairedSpin9AdjacentLieBracketProbe.lean#L109)
+
+## SU2BFSSPairedSpin9AntisymmetricPartExpansionProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateMatrix9_antisymmetric_part_expansion`](SU2BFSSPairedSpin9AntisymmetricPartExpansionProbe.lean#L29)
+
+## SU2BFSSPairedSpin9BracketDefectAdditivityProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_add_left`](SU2BFSSPairedSpin9BracketDefectAdditivityProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_add_right`](SU2BFSSPairedSpin9BracketDefectAdditivityProbe.lean#L47)
+
+## SU2BFSSPairedSpin9BracketDefectLinearExtensionsProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_coordinatePlanes`](SU2BFSSPairedSpin9BracketDefectLinearExtensionsProbe.lean#L46)
+
+## SU2BFSSPairedSpin9BracketDefectPlaneSkewExtensionProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_plane_skew_right`](SU2BFSSPairedSpin9BracketDefectPlaneSkewExtensionProbe.lean#L29)
+
+## SU2BFSSPairedSpin9BracketDefectScalarProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_smul_left`](SU2BFSSPairedSpin9BracketDefectScalarProbe.lean#L28)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_smul_right`](SU2BFSSPairedSpin9BracketDefectScalarProbe.lean#L38)
+
+## SU2BFSSPairedSpin9BracketDefectSkewPairVanishingProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedBracketDefect_skew_pair_zero`](SU2BFSSPairedSpin9BracketDefectSkewPairVanishingProbe.lean#L30)
+
+## SU2BFSSPairedSpin9CanonicalSkewLieHomProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalSkewLieHom_map_lie`](SU2BFSSPairedSpin9CanonicalSkewLieHomProbe.lean#L39)
+
+## SU2BFSSPairedSpin9ContinuousMonoidOrthogonalFlowProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewContinuousOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousMonoidOrthogonalFlowProbe.lean#L43)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlaneContinuousOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousMonoidOrthogonalFlowProbe.lean#L67)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalContinuousOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousMonoidOrthogonalFlowProbe.lean#L92)
+
+## SU2BFSSPairedSpin9ContinuousOrthogonalFlowProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedMatrixExp_continuous_real`](SU2BFSSPairedSpin9ContinuousOrthogonalFlowProbe.lean#L30)
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewOneParameterOrthogonalHom_continuous_real`](SU2BFSSPairedSpin9ContinuousOrthogonalFlowProbe.lean#L41)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlaneOneParameterOrthogonalHom_continuous_real`](SU2BFSSPairedSpin9ContinuousOrthogonalFlowProbe.lean#L54)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalOneParameterOrthogonalHom_continuous_real`](SU2BFSSPairedSpin9ContinuousOrthogonalFlowProbe.lean#L64)
+
+## SU2BFSSPairedSpin9ContinuousSpecialOrthogonalFlowProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewContinuousOneParameterSpecialOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousSpecialOrthogonalFlowProbe.lean#L69)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlaneContinuousOneParameterSpecialOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousSpecialOrthogonalFlowProbe.lean#L89)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalContinuousOneParameterSpecialOrthogonalHom_apply`](SU2BFSSPairedSpin9ContinuousSpecialOrthogonalFlowProbe.lean#L121)
+
+## SU2BFSSPairedSpin9CoordinateMatrixUnitBridgeProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_eq_single_sub_single`](SU2BFSSPairedSpin9CoordinateMatrixUnitBridgeProbe.lean#L25)
+
+## SU2BFSSPairedSpin9CoordinateMatrixUnitProductProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateMatrixUnit9_mul`](SU2BFSSPairedSpin9CoordinateMatrixUnitProductProbe.lean#L23)
+
+## SU2BFSSPairedSpin9CoordinatePlaneCarrierProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_self`](SU2BFSSPairedSpin9CoordinatePlaneCarrierProbe.lean#L31)
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_swap`](SU2BFSSPairedSpin9CoordinatePlaneCarrierProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_transpose`](SU2BFSSPairedSpin9CoordinatePlaneCarrierProbe.lean#L48)
+
+## SU2BFSSPairedSpin9CoordinatePlaneProductExpansionProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_mul_expanded`](SU2BFSSPairedSpin9CoordinatePlaneProductExpansionProbe.lean#L22)
+
+## SU2BFSSPairedSpin9CoordinateUniversalBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_conditional_single_sub_single`](SU2BFSSPairedSpin9CoordinateUniversalBracketProbe.lean#L32)
+- [`FCP.BFSSPairedSpin9Plane.coordinatePlane9_universal_four_index_bracket`](SU2BFSSPairedSpin9CoordinateUniversalBracketProbe.lean#L47)
+
+## SU2BFSSPairedSpin9CrossRightBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_cross_right_bracket`](SU2BFSSPairedSpin9CrossRightBracketProbe.lean#L26)
+
+## SU2BFSSPairedSpin9DisjointLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_disjoint_bracket`](SU2BFSSPairedSpin9DisjointLieBracketProbe.lean#L103)
+
+## SU2BFSSPairedSpin9FiniteCoefficientLiftProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedFiniteLift_zero`](SU2BFSSPairedSpin9FiniteCoefficientLiftProbe.lean#L38)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedFiniteLift_add`](SU2BFSSPairedSpin9FiniteCoefficientLiftProbe.lean#L44)
+
+## SU2BFSSPairedSpin9FiniteCoefficientScalarProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedFiniteLift_smul`](SU2BFSSPairedSpin9FiniteCoefficientScalarProbe.lean#L25)
+
+## SU2BFSSPairedSpin9FourIndexDiagonalBoundaryProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndexRHS_left_self`](SU2BFSSPairedSpin9FourIndexDiagonalBoundaryProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndexRHS_right_self`](SU2BFSSPairedSpin9FourIndexDiagonalBoundaryProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_left_self_bracket`](SU2BFSSPairedSpin9FourIndexDiagonalBoundaryProbe.lean#L48)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_right_self_bracket`](SU2BFSSPairedSpin9FourIndexDiagonalBoundaryProbe.lean#L56)
+
+## SU2BFSSPairedSpin9FourIndexDistinctCasesProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_disjoint_case`](SU2BFSSPairedSpin9FourIndexDistinctCasesProbe.lean#L23)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_adjacent_case`](SU2BFSSPairedSpin9FourIndexDistinctCasesProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_shared_right_case`](SU2BFSSPairedSpin9FourIndexDistinctCasesProbe.lean#L51)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_shared_left_case`](SU2BFSSPairedSpin9FourIndexDistinctCasesProbe.lean#L65)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_cross_right_case`](SU2BFSSPairedSpin9FourIndexDistinctCasesProbe.lean#L79)
+
+## SU2BFSSPairedSpin9FourIndexPairCoincidenceProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndexRHS_same_pair`](SU2BFSSPairedSpin9FourIndexPairCoincidenceProbe.lean#L20)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndexRHS_reverse_pair`](SU2BFSSPairedSpin9FourIndexPairCoincidenceProbe.lean#L27)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_same_pair_bracket`](SU2BFSSPairedSpin9FourIndexPairCoincidenceProbe.lean#L34)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_reverse_pair_bracket`](SU2BFSSPairedSpin9FourIndexPairCoincidenceProbe.lean#L43)
+
+## SU2BFSSPairedSpin9FourIndexRHSTransportProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_conditional_plane`](SU2BFSSPairedSpin9FourIndexRHSTransportProbe.lean#L26)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_fourIndexRHS`](SU2BFSSPairedSpin9FourIndexRHSTransportProbe.lean#L39)
+
+## SU2BFSSPairedSpin9GeneratorCommutatorPreservationProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_generator_commutator`](SU2BFSSPairedSpin9GeneratorCommutatorPreservationProbe.lean#L27)
+
+## SU2BFSSPairedSpin9InputSkewMatrixUnitBridgeProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateSkewInput_entry`](SU2BFSSPairedSpin9InputSkewMatrixUnitBridgeProbe.lean#L30)
+- [`FCP.BFSSPairedSpin9Plane.coordinateMatrix9_coefficients_on_units`](SU2BFSSPairedSpin9InputSkewMatrixUnitBridgeProbe.lean#L38)
+
+## SU2BFSSPairedSpin9LinearMapGeneratorAgreementProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_coordinatePlane`](SU2BFSSPairedSpin9LinearMapGeneratorAgreementProbe.lean#L29)
+
+## SU2BFSSPairedSpin9LinearMapImageSkewProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_image_transpose`](SU2BFSSPairedSpin9LinearMapImageSkewProbe.lean#L27)
+
+## SU2BFSSPairedSpin9LinearMapMatrixUnitEvaluationProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_matrixUnit`](SU2BFSSPairedSpin9LinearMapMatrixUnitEvaluationProbe.lean#L30)
+
+## SU2BFSSPairedSpin9MathlibSkewBridgeProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateSkewLieSubalgebra_eq_mathlib`](SU2BFSSPairedSpin9MathlibSkewBridgeProbe.lean#L33)
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewLieSubalgebra_eq_mathlib`](SU2BFSSPairedSpin9MathlibSkewBridgeProbe.lean#L51)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedSkewLieHom_coordinatePlane`](SU2BFSSPairedSpin9MathlibSkewBridgeProbe.lean#L80)
+
+## SU2BFSSPairedSpin9NativeSkewCommutatorClosureProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateSkewMatrix9_commutator_closed`](SU2BFSSPairedSpin9NativeSkewCommutatorClosureProbe.lean#L25)
+
+## SU2BFSSPairedSpin9NativeSkewCommutatorEqualityProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_skew_commutator`](SU2BFSSPairedSpin9NativeSkewCommutatorEqualityProbe.lean#L28)
+
+## SU2BFSSPairedSpin9NormalizedAdjacentBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_adjacent_bracket`](SU2BFSSPairedSpin9NormalizedAdjacentBracketProbe.lean#L26)
+
+## SU2BFSSPairedSpin9NormalizedFourIndexStructureProbe
+
+- [`FCP.BFSSPairedSpin9Plane.normalizedFourIndexRHS_scalar_bridge`](SU2BFSSPairedSpin9NormalizedFourIndexStructureProbe.lean#L35)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_universal_four_index_bracket`](SU2BFSSPairedSpin9NormalizedFourIndexStructureProbe.lean#L59)
+
+## SU2BFSSPairedSpin9NormalizedPlaneInterfaceProbe
+
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_self`](SU2BFSSPairedSpin9NormalizedPlaneInterfaceProbe.lean#L30)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_swap`](SU2BFSSPairedSpin9NormalizedPlaneInterfaceProbe.lean#L35)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_transpose`](SU2BFSSPairedSpin9NormalizedPlaneInterfaceProbe.lean#L42)
+
+## SU2BFSSPairedSpin9NormalizedUniversalScalarBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_universal_scalar_bracket`](SU2BFSSPairedSpin9NormalizedUniversalScalarBracketProbe.lean#L26)
+
+## SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedMatrixExp_add`](SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe.lean#L24)
+- [`FCP.BFSSPairedSpin9Plane.pairedMatrixExp_zero`](SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe.lean#L32)
+- [`FCP.BFSSPairedSpin9Plane.pairedMatrixExp_neg`](SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe.lean#L39)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalSkewLieHom_exp_add`](SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_exp_add`](SU2BFSSPairedSpin9OneParameterOrthogonalFlowProbe.lean#L61)
+
+## SU2BFSSPairedSpin9OrientationSwapProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_swap_order`](SU2BFSSPairedSpin9OrientationSwapProbe.lean#L50)
+
+## SU2BFSSPairedSpin9OriginalPaired48DeterminantTransferProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_det`](SU2BFSSPairedSpin9OriginalPaired48DeterminantTransferProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48OrthogonalHom_det`](SU2BFSSPairedSpin9OriginalPaired48DeterminantTransferProbe.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_plane`](SU2BFSSPairedSpin9OriginalPaired48DeterminantTransferProbe.lean#L72)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_mem_specialOrthogonal_of_gamma_det_one`](SU2BFSSPairedSpin9OriginalPaired48DeterminantTransferProbe.lean#L80)
+
+## SU2BFSSPairedSpin9OrthogonalExponentialProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewExp_transpose_eq_inv`](SU2BFSSPairedSpin9OrthogonalExponentialProbe.lean#L29)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalSkewLieHom_exp_transpose_eq_inv`](SU2BFSSPairedSpin9OrthogonalExponentialProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_exp_transpose_eq_inv`](SU2BFSSPairedSpin9OrthogonalExponentialProbe.lean#L67)
+
+## SU2BFSSPairedSpin9OrthogonalGroupMembershipProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewExp_mem_orthogonalGroup`](SU2BFSSPairedSpin9OrthogonalGroupMembershipProbe.lean#L27)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalSkewLieHom_exp_mem_orthogonalGroup`](SU2BFSSPairedSpin9OrthogonalGroupMembershipProbe.lean#L39)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlane_exp_mem_orthogonalGroup`](SU2BFSSPairedSpin9OrthogonalGroupMembershipProbe.lean#L56)
+
+## SU2BFSSPairedSpin9PlaneGeneratorProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_transpose`](SU2BFSSPairedSpin9PlaneGeneratorProbe.lean#L136)
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_sq`](SU2BFSSPairedSpin9PlaneGeneratorProbe.lean#L154)
+
+## SU2BFSSPairedSpin9SharedEndBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_shared_right_bracket`](SU2BFSSPairedSpin9SharedEndBracketProbe.lean#L22)
+
+## SU2BFSSPairedSpin9SharedLeftBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.originalPairedPlane_shared_left_bracket`](SU2BFSSPairedSpin9SharedLeftBracketProbe.lean#L22)
+
+## SU2BFSSPairedSpin9SkewCoordinatePlaneSpanningProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateSkewMatrix9_plane_spanning`](SU2BFSSPairedSpin9SkewCoordinatePlaneSpanningProbe.lean#L31)
+
+## SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Quadratic_eq_dot`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L58)
+- [`FCP.BFSSPairedSpin9Clifford.gammaNineRealLinear_sq`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L65)
+- [`FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_generator`](SU2BFSSPairedSpin9SourceCliffordGammaLiftProbe.lean#L173)
+
+## SU2BFSSPairedSpin9SourceDeterminantCharacterProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_apply`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaDetHom_sq`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L51)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_det_eq_gamma`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L72)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_mem_specialOrthogonal_iff_gamma_det_one`](SU2BFSSPairedSpin9SourceDeterminantCharacterProbe.lean#L98)
+
+## SU2BFSSPairedSpin9SourceSpinGammaMatrixUnitsProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrixUnitsHom_apply`](SU2BFSSPairedSpin9SourceSpinGammaMatrixUnitsProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrix_isUnit`](SU2BFSSPairedSpin9SourceSpinGammaMatrixUnitsProbe.lean#L50)
+
+## SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.gammaNineRealLinear_transpose`](SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe.lean#L32)
+- [`FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_reverse`](SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrix_star_transpose`](SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrix_mem_orthogonalGroup`](SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe.lean#L102)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaOrthogonalHom_apply`](SU2BFSSPairedSpin9SourceSpinGammaOrthogonalProbe.lean#L155)
+
+## SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_one`](SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_mul`](SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe.lean#L50)
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_transpose`](SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe.lean#L67)
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_mem_orthogonalGroup`](SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe.lean#L94)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48OrthogonalHom_apply`](SU2BFSSPairedSpin9SourceSpinOriginalPaired48OrthogonalProbe.lean#L159)
+
+## SU2BFSSPairedSpin9SpecialOrthogonalExponentialProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewExp_det_one`](SU2BFSSPairedSpin9SpecialOrthogonalExponentialProbe.lean#L32)
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewExp_mem_specialOrthogonalGroup`](SU2BFSSPairedSpin9SpecialOrthogonalExponentialProbe.lean#L65)
+
+## SU2BFSSPairedSpin9TypedLinearMapProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedLinearMap_apply`](SU2BFSSPairedSpin9TypedLinearMapProbe.lean#L36)
+
+## SU2BFSSPairedSpin9TypedOneParameterOrthogonalHomProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9TypedOneParameterOrthogonalHomProbe.lean#L44)
+- [`FCP.BFSSPairedSpin9Plane.normalizedPairedPlaneOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9TypedOneParameterOrthogonalHomProbe.lean#L61)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedCanonicalOneParameterOrthogonalHom_apply`](SU2BFSSPairedSpin9TypedOneParameterOrthogonalHomProbe.lean#L91)
+
+## SU2BFSSPairedSpin9TypedSkewCarrierCommutatorProbe
+
+- [`FCP.BFSSPairedSpin9Plane.pairedSkewMatrix48_commutator_closed`](SU2BFSSPairedSpin9TypedSkewCarrierCommutatorProbe.lean#L49)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedSkewCarrier_commutator`](SU2BFSSPairedSpin9TypedSkewCarrierCommutatorProbe.lean#L70)
+
+## SU2BFSSPairedSpin9TypedSkewCarrierLinearStructureProbe
+
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedSkewCarrier_add`](SU2BFSSPairedSpin9TypedSkewCarrierLinearStructureProbe.lean#L53)
+- [`FCP.BFSSPairedSpin9Plane.coordinateToPairedSkewCarrier_smul`](SU2BFSSPairedSpin9TypedSkewCarrierLinearStructureProbe.lean#L65)
+
+## SU2BFSSPairedSpin9UniversalFourIndexBracketProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalFourIndex_universal_bracket`](SU2BFSSPairedSpin9UniversalFourIndexBracketProbe.lean#L26)
+
+## SU2BFSSPairedSpin9V10HF10AAOriginalGammaPairScalarSeparationProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_trace_zero`](SU2BFSSPairedSpin9V10HF10AAOriginalGammaPairScalarSeparationProbe.lean#L41)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_ne_zero`](SU2BFSSPairedSpin9V10HF10AAOriginalGammaPairScalarSeparationProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_not_scalar`](SU2BFSSPairedSpin9V10HF10AAOriginalGammaPairScalarSeparationProbe.lean#L86)
+
+## SU2BFSSPairedSpin9V10HF10ABOriginalGammaPairTraceOrthogonalityProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_square_neg_one`](SU2BFSSPairedSpin9V10HF10ABOriginalGammaPairTraceOrthogonalityProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_square_trace_neg_sixteen`](SU2BFSSPairedSpin9V10HF10ABOriginalGammaPairTraceOrthogonalityProbe.lean#L60)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_shared_left_trace_zero`](SU2BFSSPairedSpin9V10HF10ABOriginalGammaPairTraceOrthogonalityProbe.lean#L76)
+
+## SU2BFSSPairedSpin9V10HF10ACOriginalGammaFixedLeftPairDiscriminationProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_pair_trace_gram`](SU2BFSSPairedSpin9V10HF10ACOriginalGammaFixedLeftPairDiscriminationProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_pair_ne`](SU2BFSSPairedSpin9V10HF10ACOriginalGammaFixedLeftPairDiscriminationProbe.lean#L50)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_pair_not_smul`](SU2BFSSPairedSpin9V10HF10ACOriginalGammaFixedLeftPairDiscriminationProbe.lean#L66)
+
+## SU2BFSSPairedSpin9V10HF10ADOriginalGammaFixedLeftCoefficientExtractionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_trace_extract`](SU2BFSSPairedSpin9V10HF10ADOriginalGammaFixedLeftCoefficientExtractionProbe.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_coeff_zero`](SU2BFSSPairedSpin9V10HF10ADOriginalGammaFixedLeftCoefficientExtractionProbe.lean#L77)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_fixed_left_coeff_function_zero`](SU2BFSSPairedSpin9V10HF10ADOriginalGammaFixedLeftCoefficientExtractionProbe.lean#L97)
+
+## SU2BFSSPairedSpin9V10HF10AEOriginalGammaFourWordTraceZeroProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_four_word_trace_zero`](SU2BFSSPairedSpin9V10HF10AEOriginalGammaFourWordTraceZeroProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_four_word_trace_zero`](SU2BFSSPairedSpin9V10HF10AEOriginalGammaFourWordTraceZeroProbe.lean#L96)
+
+## SU2BFSSPairedSpin9V10HF10AFOriginalGammaSharedIndexCrossTraceProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_adjacent_shared_trace_zero`](SU2BFSSPairedSpin9V10HF10AFOriginalGammaSharedIndexCrossTraceProbe.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_shared_right_trace_zero`](SU2BFSSPairedSpin9V10HF10AFOriginalGammaSharedIndexCrossTraceProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_pair_closing_shared_trace_zero`](SU2BFSSPairedSpin9V10HF10AFOriginalGammaSharedIndexCrossTraceProbe.lean#L85)
+
+## SU2BFSSPairedSpin9V10HF10AGOriginalGammaOrderedPairGramProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_distinct_pair_trace_zero`](SU2BFSSPairedSpin9V10HF10AGOriginalGammaOrderedPairGramProbe.lean#L50)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pair_trace_gram`](SU2BFSSPairedSpin9V10HF10AGOriginalGammaOrderedPairGramProbe.lean#L86)
+
+## SU2BFSSPairedSpin9V10HF10AHOriginalGammaAllOrderedPairCoefficientExtractionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pair_subtype_trace_gram`](SU2BFSSPairedSpin9V10HF10AHOriginalGammaAllOrderedPairCoefficientExtractionProbe.lean#L64)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_all_ordered_pairs_trace_extract`](SU2BFSSPairedSpin9V10HF10AHOriginalGammaAllOrderedPairCoefficientExtractionProbe.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_all_ordered_pairs_coeff_function_zero`](SU2BFSSPairedSpin9V10HF10AHOriginalGammaAllOrderedPairCoefficientExtractionProbe.lean#L119)
+
+## SU2BFSSPairedSpin9V10HF10AIOriginalGammaAllOrderedPairsLinearIndependentBridge
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_all_ordered_pairs_linearIndependent`](SU2BFSSPairedSpin9V10HF10AIOriginalGammaAllOrderedPairsLinearIndependentBridge.lean#L49)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_all_ordered_pairs_coeff_unique`](SU2BFSSPairedSpin9V10HF10AIOriginalGammaAllOrderedPairsLinearIndependentBridge.lean#L62)
+
+## SU2BFSSPairedSpin9V10HF10AJOriginalGammaPairOrthogonalLieSubalgebraBridge
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pair_transpose_neg`](SU2BFSSPairedSpin9V10HF10AJOriginalGammaPairOrthogonalLieSubalgebraBridge.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pair_mem_so`](SU2BFSSPairedSpin9V10HF10AJOriginalGammaPairOrthogonalLieSubalgebraBridge.lean#L60)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pairs_so_linearIndependent`](SU2BFSSPairedSpin9V10HF10AJOriginalGammaPairOrthogonalLieSubalgebraBridge.lean#L88)
+
+## SU2BFSSPairedSpin9V10HF10AKOriginalGammaOrderedChainLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_chain_reverse_product`](SU2BFSSPairedSpin9V10HF10AKOriginalGammaOrderedChainLieBracketProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_chain_matrix_commutator`](SU2BFSSPairedSpin9V10HF10AKOriginalGammaOrderedChainLieBracketProbe.lean#L80)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_chain_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AKOriginalGammaOrderedChainLieBracketProbe.lean#L103)
+
+## SU2BFSSPairedSpin9V10HF10ALOriginalGammaOrderedForkLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_fork_forward_product`](SU2BFSSPairedSpin9V10HF10ALOriginalGammaOrderedForkLieBracketProbe.lean#L44)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_fork_reverse_product`](SU2BFSSPairedSpin9V10HF10ALOriginalGammaOrderedForkLieBracketProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_fork_matrix_commutator`](SU2BFSSPairedSpin9V10HF10ALOriginalGammaOrderedForkLieBracketProbe.lean#L83)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_fork_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ALOriginalGammaOrderedForkLieBracketProbe.lean#L96)
+
+## SU2BFSSPairedSpin9V10HF10AMOriginalGammaOrderedSharedRightLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_shared_right_forward_product`](SU2BFSSPairedSpin9V10HF10AMOriginalGammaOrderedSharedRightLieBracketProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_shared_right_reverse_product`](SU2BFSSPairedSpin9V10HF10AMOriginalGammaOrderedSharedRightLieBracketProbe.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_shared_right_matrix_commutator`](SU2BFSSPairedSpin9V10HF10AMOriginalGammaOrderedSharedRightLieBracketProbe.lean#L85)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_shared_right_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AMOriginalGammaOrderedSharedRightLieBracketProbe.lean#L100)
+
+## SU2BFSSPairedSpin9V10HF10ANOriginalGammaDisjointPairLieBracketProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_disjoint_pair_single_commute`](SU2BFSSPairedSpin9V10HF10ANOriginalGammaDisjointPairLieBracketProbe.lean#L53)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_disjoint_pair_commute`](SU2BFSSPairedSpin9V10HF10ANOriginalGammaDisjointPairLieBracketProbe.lean#L77)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_disjoint_pair_matrix_commutator_zero`](SU2BFSSPairedSpin9V10HF10ANOriginalGammaDisjointPairLieBracketProbe.lean#L100)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_disjoint_pair_native_so_bracket_zero`](SU2BFSSPairedSpin9V10HF10ANOriginalGammaDisjointPairLieBracketProbe.lean#L115)
+
+## SU2BFSSPairedSpin9V10HF10AOOriginalGammaPairReverseAndSelfLieBrackets
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_chain_reverse_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AOOriginalGammaPairReverseAndSelfLieBrackets.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_fork_reverse_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AOOriginalGammaPairReverseAndSelfLieBrackets.lean#L71)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_shared_right_reverse_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AOOriginalGammaPairReverseAndSelfLieBrackets.lean#L96)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_ordered_pair_native_so_self_bracket_zero`](SU2BFSSPairedSpin9V10HF10AOOriginalGammaPairReverseAndSelfLieBrackets.lean#L120)
+
+## SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_transpose_neg`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L50)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_mem_so`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L59)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_reverse_sign`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_agrees_ordered`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L86)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_chain_matrix_commutator`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L96)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_chain_native_so_bracket`](SU2BFSSPairedSpin9V10HF10APOriginalGammaArbitraryOrientationNativeLieBridge.lean#L144)
+
+## SU2BFSSPairedSpin9V10HF10AQOriginalGammaAnyOrientationForkRightLieBrackets
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_fork_matrix_commutator`](SU2BFSSPairedSpin9V10HF10AQOriginalGammaAnyOrientationForkRightLieBrackets.lean#L51)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_fork_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AQOriginalGammaAnyOrientationForkRightLieBrackets.lean#L73)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_shared_right_matrix_commutator`](SU2BFSSPairedSpin9V10HF10AQOriginalGammaAnyOrientationForkRightLieBrackets.lean#L90)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_shared_right_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AQOriginalGammaAnyOrientationForkRightLieBrackets.lean#L112)
+
+## SU2BFSSPairedSpin9V10HF10AROriginalGammaNativeBracketOrientationAndZeroBridge
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_first_reverse_bracket`](SU2BFSSPairedSpin9V10HF10AROriginalGammaNativeBracketOrientationAndZeroBridge.lean#L51)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_second_reverse_bracket`](SU2BFSSPairedSpin9V10HF10AROriginalGammaNativeBracketOrientationAndZeroBridge.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_disjoint_native_so_bracket_zero`](SU2BFSSPairedSpin9V10HF10AROriginalGammaNativeBracketOrientationAndZeroBridge.lean#L77)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_native_so_self_bracket_zero`](SU2BFSSPairedSpin9V10HF10AROriginalGammaNativeBracketOrientationAndZeroBridge.lean#L95)
+
+## SU2BFSSPairedSpin9V10HF10ASOriginalGammaTotalTripleNativeLieBrackets
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_pair_reverse_native_so_bracket_zero`](SU2BFSSPairedSpin9V10HF10ASOriginalGammaTotalTripleNativeLieBrackets.lean#L40)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_total_chain_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ASOriginalGammaTotalTripleNativeLieBrackets.lean#L51)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_total_fork_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ASOriginalGammaTotalTripleNativeLieBrackets.lean#L71)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_total_shared_right_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ASOriginalGammaTotalTripleNativeLieBrackets.lean#L91)
+
+## SU2BFSSPairedSpin9V10HF10ATOriginalGammaAnyOrientationFourthOverlapLieBracket
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_fourth_overlap_matrix_commutator`](SU2BFSSPairedSpin9V10HF10ATOriginalGammaAnyOrientationFourthOverlapLieBracket.lean#L50)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_distinct_fourth_overlap_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ATOriginalGammaAnyOrientationFourthOverlapLieBracket.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_total_fourth_overlap_native_so_bracket`](SU2BFSSPairedSpin9V10HF10ATOriginalGammaAnyOrientationFourthOverlapLieBracket.lean#L92)
+
+## SU2BFSSPairedSpin9V10HF10AUOriginalGammaExhaustiveNativePairLieBracket
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGamma_exhaustive_oriented_pair_native_so_bracket`](SU2BFSSPairedSpin9V10HF10AUOriginalGammaExhaustiveNativePairLieBracket.lean#L58)
+
+## SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_apply`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L84)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_matrixUnit`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L91)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_coordinatePlane`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L113)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_coordinatePlane_transpose`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L133)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_image_transpose`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L156)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_image_mem_so`](SU2BFSSPairedSpin9V10HF10AVOriginalGammaCoordinateLinearMapSkewImage.lean#L169)
+
+## SU2BFSSPairedSpin9V10HF10AWOriginalGammaCoordinatePlaneBracketCompatibility
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaLinearMap_coordinatePlane_bracket`](SU2BFSSPairedSpin9V10HF10AWOriginalGammaCoordinatePlaneBracketCompatibility.lean#L54)
+
+## SU2BFSSPairedSpin9V10HF10AXOriginalGammaBracketDefectBilinearity
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_add_left`](SU2BFSSPairedSpin9V10HF10AXOriginalGammaBracketDefectBilinearity.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_add_right`](SU2BFSSPairedSpin9V10HF10AXOriginalGammaBracketDefectBilinearity.lean#L57)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_smul_left`](SU2BFSSPairedSpin9V10HF10AXOriginalGammaBracketDefectBilinearity.lean#L68)
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_smul_right`](SU2BFSSPairedSpin9V10HF10AXOriginalGammaBracketDefectBilinearity.lean#L78)
+
+## SU2BFSSPairedSpin9V10HF10AYOriginalGammaBracketDefectLinearSlices
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_coordinatePlanes`](SU2BFSSPairedSpin9V10HF10AYOriginalGammaBracketDefectLinearSlices.lean#L58)
+
+## SU2BFSSPairedSpin9V10HF10AZOriginalGammaBracketDefectPlaneSkewExtension
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_plane_skew_right`](SU2BFSSPairedSpin9V10HF10AZOriginalGammaBracketDefectPlaneSkewExtension.lean#L34)
+
+## SU2BFSSPairedSpin9V10HF10BAOriginalGammaBracketDefectArbitrarySkewExtension
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaBracketDefect_skew_pair_zero`](SU2BFSSPairedSpin9V10HF10BAOriginalGammaBracketDefectArbitrarySkewExtension.lean#L33)
+
+## SU2BFSSPairedSpin9V10HF10BBOriginalGammaCanonicalSkewLieHom
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaSkewLieHom_map_lie`](SU2BFSSPairedSpin9V10HF10BBOriginalGammaCanonicalSkewLieHom.lean#L82)
+
+## SU2BFSSPairedSpin9V10HF10BCSourceSpinGammaSpecialOrthogonalHom
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaMatrix_mem_specialOrthogonalGroup`](SU2BFSSPairedSpin9V10HF10BCSourceSpinGammaSpecialOrthogonalHom.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaSpecialOrthogonalHom_apply`](SU2BFSSPairedSpin9V10HF10BCSourceSpinGammaSpecialOrthogonalHom.lean#L66)
+
+## SU2BFSSPairedSpin9V10HF10BEPBWTopologyGammaContinuity
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_t2Space_pbw`](SU2BFSSPairedSpin9V10HF10BEPBWTopologyGammaContinuity.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_t2Space_pbw`](SU2BFSSPairedSpin9V10HF10BEPBWTopologyGammaContinuity.lean#L67)
+- [`FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BEPBWTopologyGammaContinuity.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinGammaSpecialOrthogonalHom_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BEPBWTopologyGammaContinuity.lean#L81)
+
+## SU2BFSSPairedSpin9V10HF10BFPBWCliffordTopologicalRing
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_isModuleTopology_pbw`](SU2BFSSPairedSpin9V10HF10BFPBWCliffordTopologicalRing.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_mul_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BFPBWCliffordTopologicalRing.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_isTopologicalRing_pbw`](SU2BFSSPairedSpin9V10HF10BFPBWCliffordTopologicalRing.lean#L49)
+
+## SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_reverse_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup.lean#L36)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_inv_coe_eq_reverse`](SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_inv_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup.lean#L52)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_mul_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup.lean#L68)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_isTopologicalGroup_pbw`](SU2BFSSPairedSpin9V10HF10BGPBWSourceSpinTopologicalGroup.lean#L83)
+
+## SU2BFSSPairedSpin9V10HF10BHUnitVectorPairMembership
+
+- [`FCP.BFSSPairedSpin9Clifford.source9UnitVectorCliffordUnit_mem_lipschitzGroup`](SU2BFSSPairedSpin9V10HF10BHUnitVectorPairMembership.lean#L36)
+- [`FCP.BFSSPairedSpin9Clifford.source9UnitVectorPair_mem_spinGroup`](SU2BFSSPairedSpin9V10HF10BHUnitVectorPairMembership.lean#L44)
+- [`FCP.BFSSPairedSpin9Clifford.source9UnitVectorPairSpin_gamma`](SU2BFSSPairedSpin9V10HF10BHUnitVectorPairMembership.lean#L90)
+
+## SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CoordinateVector_unit`](SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneUnitVector_unit`](SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve.lean#L44)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_coe`](SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve.lean#L60)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_zero`](SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve.lean#L77)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_gamma`](SU2BFSSPairedSpin9V10HF10BICoordinatePlaneSourceCurve.lean#L86)
+
+## SU2BFSSPairedSpin9V10HF10BJSourceCurveDerivatives
+
+- [`FCP.BFSSPairedSpin9Clifford.realHalfAngleVectorCurve_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BJSourceCurveDerivatives.lean#L39)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_coe_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BJSourceCurveDerivatives.lean#L58)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_gamma_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BJSourceCurveDerivatives.lean#L80)
+
+## SU2BFSSPairedSpin9V10HF10BKCoordinatePlaneVelocityComparison
+
+- [`FCP.BFSSPairedSpin9Clifford.coordinateToOriginalGammaSkewLieHom_coordinatePlane_apply`](SU2BFSSPairedSpin9V10HF10BKCoordinatePlaneVelocityComparison.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneCliffordVelocity_gamma_eq_coordinatePlaneLieHom`](SU2BFSSPairedSpin9V10HF10BKCoordinatePlaneVelocityComparison.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_gamma_hasDerivAt_coordinatePlaneLieHom`](SU2BFSSPairedSpin9V10HF10BKCoordinatePlaneVelocityComparison.lean#L62)
+
+## SU2BFSSPairedSpin9V10HF10BLSourceCoordinateCommutatorAction
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Quadratic_polar_coordinate`](SU2BFSSPairedSpin9V10HF10BLSourceCoordinateCommutatorAction.lean#L27)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_pair_commutator_vector`](SU2BFSSPairedSpin9V10HF10BLSourceCoordinateCommutatorAction.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9CoordinatePlane_mulVec`](SU2BFSSPairedSpin9V10HF10BLSourceCoordinateCommutatorAction.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9CoordinateBivector_commutator_vector`](SU2BFSSPairedSpin9V10HF10BLSourceCoordinateCommutatorAction.lean#L77)
+
+## SU2BFSSPairedSpin9V10HF10BMInverseSourceCurveDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CoordinateClifford_anticommute`](SU2BFSSPairedSpin9V10HF10BMInverseSourceCurveDerivative.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_inv_coe`](SU2BFSSPairedSpin9V10HF10BMInverseSourceCurveDerivative.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_inv_coe_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BMInverseSourceCurveDerivative.lean#L62)
+
+## SU2BFSSPairedSpin9V10HF10BNSourceConjugationDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.realHalfAngleQuadraticVectorCurve_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BNSourceConjugationDerivative.lean#L32)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_conjugation_coe`](SU2BFSSPairedSpin9V10HF10BNSourceConjugationDerivative.lean#L83)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_conjugation_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BNSourceConjugationDerivative.lean#L118)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_conjugation_vector_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BNSourceConjugationDerivative.lean#L154)
+
+## SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorProjection_continuous_pbw`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L59)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_conjugation_mem_range`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L64)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_vectorConjugation_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BOSourceVectorConjugationDerivative.lean#L107)
+
+## SU2BFSSPairedSpin9V10HF10BPSourceVectorLinearRepresentation
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordVectorEmbedding_injective`](SU2BFSSPairedSpin9V10HF10BPSourceVectorLinearRepresentation.lean#L25)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_one`](SU2BFSSPairedSpin9V10HF10BPSourceVectorLinearRepresentation.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorConjugation_mul`](SU2BFSSPairedSpin9V10HF10BPSourceVectorLinearRepresentation.lean#L52)
+
+## SU2BFSSPairedSpin9V10HF10BQSourceVectorQuadraticIsometry
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorRepresentation_preserves_quadratic`](SU2BFSSPairedSpin9V10HF10BQSourceVectorQuadraticIsometry.lean#L27)
+
+## SU2BFSSPairedSpin9V10HF10BRSourceVectorOrthogonalHom
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorRepresentation_preserves_dotProduct`](SU2BFSSPairedSpin9V10HF10BRSourceVectorOrthogonalHom.lean#L28)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorMatrixHom_mulVec`](SU2BFSSPairedSpin9V10HF10BRSourceVectorOrthogonalHom.lean#L53)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorMatrixHom_mem_orthogonalGroup`](SU2BFSSPairedSpin9V10HF10BRSourceVectorOrthogonalHom.lean#L60)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinVectorOrthogonalHom_mulVec`](SU2BFSSPairedSpin9V10HF10BRSourceVectorOrthogonalHom.lean#L90)
+
+## SU2BFSSPairedSpin9V10HF10BSSourceMatrixCurveVelocity
+
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_vectorMatrix_entry_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BSSourceMatrixCurveVelocity.lean#L29)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_vectorOrthogonalMatrix_hasDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BSSourceMatrixCurveVelocity.lean#L52)
+
+## SU2BFSSPairedSpin9V10HF10BTPBWBilinearMultiplicationSmoothness
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordMulCLM_apply`](SU2BFSSPairedSpin9V10HF10BTPBWBilinearMultiplicationSmoothness.lean#L65)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_mul_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10BTPBWBilinearMultiplicationSmoothness.lean#L70)
+
+## SU2BFSSPairedSpin9V10HF10BUAmbientVectorActionSmoothness
+
+- [`FCP.BFSSPairedSpin9Clifford.source9AmbientVectorConjugation_eq_spin`](SU2BFSSPairedSpin9V10HF10BUAmbientVectorActionSmoothness.lean#L59)
+- [`FCP.BFSSPairedSpin9Clifford.source9AmbientVectorConjugation_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10BUAmbientVectorActionSmoothness.lean#L67)
+
+## SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness
+
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinCurve_coe_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness.lean#L36)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_eq_listProd`](SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness.lean#L73)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_zero`](SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness.lean#L84)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_coe_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness.lean#L96)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorAction_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10BVFinitePlaneWordSmoothness.lean#L116)
+
+## SU2BFSSPairedSpin9V10HF10BWFinitePlaneWordDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneParameterCurve_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BWFinitePlaneWordDerivative.lean#L44)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWordVelocity_apply`](SU2BFSSPairedSpin9V10HF10BWFinitePlaneWordDerivative.lean#L65)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_coe_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BWFinitePlaneWordDerivative.lean#L89)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_coe_fderiv_zero`](SU2BFSSPairedSpin9V10HF10BWFinitePlaneWordDerivative.lean#L133)
+
+## SU2BFSSPairedSpin9V10HF10BXWordDerivativeNativeVectorAction
+
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneWordVectorVelocity_apply`](SU2BFSSPairedSpin9V10HF10BXWordDerivativeNativeVectorAction.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWordVelocity_commutator_vector`](SU2BFSSPairedSpin9V10HF10BXWordDerivativeNativeVectorAction.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWordVelocity_projected_commutator`](SU2BFSSPairedSpin9V10HF10BXWordDerivativeNativeVectorAction.lean#L118)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_fderiv_projected_commutator`](SU2BFSSPairedSpin9V10HF10BXWordDerivativeNativeVectorAction.lean#L128)
+
+## SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CoordinateHalfBivector_reverse`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWordVelocity_reverse`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_conjugation_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorAction_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L140)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorAction_fderiv_zero`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L176)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorAction_fderiv_zero_apply`](SU2BFSSPairedSpin9V10HF10BYActualWordVectorActionDerivative.lean#L185)
+
+## SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneWordMatrixVelocity_apply`](SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative.lean#L39)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorMatrix_entry_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative.lean#L70)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorOrthogonalMatrix_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative.lean#L92)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorOrthogonalMatrix_fderiv_zero`](SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative.lean#L113)
+- [`FCP.BFSSPairedSpin9Clifford.source9PlaneSpinWord_vectorOrthogonalMatrix_fderiv_zero_apply`](SU2BFSSPairedSpin9V10HF10BZFullNaturalMatrixWordDerivative.lean#L123)
+
+## SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel
+
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneIndex_card`](SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneMatrix_transpose`](SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel.lean#L47)
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneModelEquiv_symm_apply`](SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel.lean#L115)
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneModelEquiv_plane`](SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel.lean#L120)
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneModelEquiv_apply_sum`](SU2BFSSPairedSpin9V10HF10CANativeStrictPlaneModel.lean#L149)
+
+## SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord
+
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneEnumeration_bijective`](SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord.lean#L27)
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneEnumeration_ne`](SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_zero`](SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord.lean#L41)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_fderiv_zero_apply`](SU2BFSSPairedSpin9V10HF10CBOrderedStrictPlaneWord.lean#L58)
+
+## SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel
+
+- [`FCP.BFSSPairedSpin9Clifford.source9StrictPlaneParameterEquiv_apply`](SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel.lean#L21)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlane_sum_eq_model`](SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_fderiv_zero_model`](SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_fderiv_zero_upper`](SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel.lean#L55)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_fderiv_zero_injective`](SU2BFSSPairedSpin9V10HF10CCOrderedDerivativeNativeModel.lean#L74)
+
+## SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewTopology_induced`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L29)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneModelContinuousEquiv_toLinearEquiv`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L41)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneModelContinuousEquiv_continuous`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneModelContinuousEquiv_symm_continuous`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L49)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_fderiv_zero_continuousModel`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L54)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneModelContinuousEquiv_symm_apply`](SU2BFSSPairedSpin9V10HF10CDContinuousNativeModel.lean#L62)
+
+## SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperProjection_apply`](SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative.lean#L24)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_zero`](SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperProjection_wordVelocity`](SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_fderiv_zero`](SU2BFSSPairedSpin9V10HF10CEUpperCoordinateIdentityDerivative.lean#L73)
+
+## SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_entry_eq_vectorConjugation`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L16)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_column_contDiff`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L22)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_entry_contDiff`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L37)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_contDiff`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_contDiff`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L72)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_contDiffAt_one_zero`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L79)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_hasStrictFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CFSmoothStrictUpperCoordinateMap.lean#L84)
+
+## SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_hasStrictFDerivAt_refl`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L15)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_coe`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L28)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_zero_mem_source`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L34)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_zero_mem_target`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L39)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_left_inv`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L49)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_right_inv`](SU2BFSSPairedSpin9V10HF10CGUpperCoordinateLocalInverse.lean#L58)
+
+## SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_symm_zero`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L13)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_symm_hasStrictFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L21)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_symm_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L37)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_symm_fderiv_zero`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateLocalHomeomorph_symm_contDiffAt_zero`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperCoordinateMap_injOn_source`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_matrix_injOn_source`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_injOn_source`](SU2BFSSPairedSpin9V10HF10CHInverseRegularityLocalInjectivity.lean#L91)
+
+## SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinUpperCoordinates_continuous_pbw`](SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph.lean#L25)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_continuous_pbw`](SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph.lean#L57)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWord_coordinate_recovery`](SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph.lean#L69)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWordImageHomeomorph_apply`](SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph.lean#L135)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWordImageHomeomorph_symm_apply`](SU2BFSSPairedSpin9V10HF10CIActualWordImageHomeomorph.lean#L140)
+
+## SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstructionDomain_isOpen_pbw`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L22)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstructionDomain_one_mem`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L27)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_continuousOn_pbw`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWordLocalImage_subset_reconstructionDomain`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L65)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_mem_wordImage`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L74)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_upperCoordinates`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L81)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_eq_self_iff`](SU2BFSSPairedSpin9V10HF10CJCoordinateReconstructionDomain.lean#L91)
+
+## SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_zero`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L22)
+- [`FCP.BFSSPairedSpin9Clifford.source9Matrix_perturbation_gram_identity`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L27)
+- [`FCP.BFSSPairedSpin9Clifford.source9Orthogonal_perturbation_gram_zero`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L32)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_on_orthogonal`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperProjection_eq_iff_strict_entries`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L76)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_eq_of_upperProjection_eq`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L96)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_actual_reconstruction`](SU2BFSSPairedSpin9V10HF10CKOrthogonalCompletionCoordinates.lean#L109)
+
+## SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9CompletionEntryCLM_apply`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L25)
+- [`FCP.BFSSPairedSpin9Clifford.source9CompletionGramEntry_contDiff`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L32)
+- [`FCP.BFSSPairedSpin9Clifford.source9CompletionGramEntry_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L40)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_contDiff`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L76)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L93)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_fderiv_zero`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L188)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_hasStrictFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CLCompletionSmoothStrictDerivative.lean#L193)
+
+## SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_hasStrictFDerivAt_refl`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L14)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionLocalHomeomorph_coe`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L26)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionLocalHomeomorph_zero_mem_source`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionLocalHomeomorph_zero_mem_target`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionLocalHomeomorph_left_inv`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L47)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionLocalHomeomorph_right_inv`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L55)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalCompletionMap_injOn_source`](SU2BFSSPairedSpin9V10HF10CMCompletionLocalInverse.lean#L63)
+
+## SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalRecoveryNeighborhood_isOpen`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L19)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrthogonalRecoveryNeighborhood_one_mem`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L25)
+- [`FCP.BFSSPairedSpin9Clifford.source9Orthogonal_eq_of_upperProjection_eq_near_one`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedUpperProjection_injOn_orthogonal_near_one`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9Orthogonal_eq_of_strict_entries_eq_near_one`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L52)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrices_eq_of_upperCoordinates_eq_near_one`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_reconstruction_eq_near_one`](SU2BFSSPairedSpin9V10HF10CNLocalOrthogonalRecovery.lean#L79)
+
+## SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_continuous_pbw`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L20)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_one`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinNaturalMatrixRecoveryNeighborhood_isOpen_pbw`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L68)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinNaturalMatrixRecoveryNeighborhood_one_mem`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L81)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinNaturalMatrixRecoveryNeighborhood_mem_nhds_one_pbw`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L98)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinNaturalMatrixRecoveryNeighborhood_conditions`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L103)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_reconstruction_eq_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CORecoverySourceNeighborhood.lean#L113)
+
+## SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_trivialAction`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L13)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_trivialAction_iff_generator_commutes`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L44)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_generator_commutes`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L71)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_clifford_commutes`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L80)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_relative_kernel`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L106)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_relative_commutes`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L131)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_kernel_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L140)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_commutes_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CPNaturalActionKernelCommutant.lean#L147)
+
+## SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_gradedCommutator_eq_polarContraction`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L19)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_evenCommutator_eq_polarContraction`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_polarContractions_zero`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L56)
+- [`FCP.BFSSPairedSpin9Clifford.source9Polar_halfCoordinate_eq_coordinateDual`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L84)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalKernel_coordinateContractions_zero`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L99)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_relative_polarContractions_zero`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L110)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_polarContractions_zero_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L120)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_coordinateContractions_zero_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CQPolarContractionKernel.lean#L130)
+
+## SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_exterior_contractLeft_transport`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L14)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_contractLeft_zero_iff_exterior`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L23)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_exteriorPolarContractions_zero`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalKernel_exteriorCoordinateContractions_zero`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L56)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_relative_exteriorPolarContractions_zero`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L68)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_exteriorPolarContractions_zero_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L80)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_exteriorCoordinateContractions_zero_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L92)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_exterior_eq_scalar_iff`](SU2BFSSPairedSpin9V10HF10CRExteriorContractionTransport.lean#L105)
+
+## SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions
+
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorCoordinateWord_cons`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L15)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorCoordinateWord_contraction_zero_of_not_mem`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L21)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorCoordinateWord_leading_contraction`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWOrderedLabels_mem_finset`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L53)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWBasis_coordinateContraction_zero_of_not_mem`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWOrderedLabels_cons_of_least`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L78)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWBasis_contraction_erase_of_least`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L91)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWBasis_empty_eq_one`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L106)
+- [`FCP.BFSSPairedSpin9Clifford.source9Exterior_eq_scalar_of_nonempty_coefficients_zero`](SU2BFSSPairedSpin9V10HF10CSExteriorPBWContractions.lean#L115)
+
+## SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel
+
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWLeastContraction_coefficient`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L41)
+- [`FCP.BFSSPairedSpin9Clifford.source9Exterior_commonContractions_nonemptyCoefficients_zero`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L94)
+- [`FCP.BFSSPairedSpin9Clifford.source9Exterior_commonCoordinateKernel_eq_scalar`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L126)
+- [`FCP.BFSSPairedSpin9Clifford.source9Exterior_commonCoordinateKernel_iff_scalar`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L134)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalKernel_clifford_eq_scalar`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L146)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_clifford_scalar`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L157)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_relative_clifford_scalar`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L171)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_relative_clifford_eq_scalar_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CTExteriorScalarKernel.lean#L179)
+
+## SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_scalar_coefficient_square_one`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L17)
+- [`FCP.BFSSPairedSpin9Clifford.source9Spin_scalar_coefficient_two_signs`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalKernel_clifford_one_or_neg_one`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_one_iff_two_signs`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L57)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_naturalMatrix_one`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L77)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_eq_iff_two_sign_fiber`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L82)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_fiber_signs_distinct`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L113)
+- [`FCP.BFSSPairedSpin9Clifford.source9NaturalMatrix_not_injective`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L120)
+- [`FCP.BFSSPairedSpin9Clifford.source9Reconstruction_eq_self_or_negative_on_sourceNeighborhood`](SU2BFSSPairedSpin9V10HF10CUNaturalActionTwoSignFibers.lean#L131)
+
+## SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinReconstructionRelative_continuousOn_pbw`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L25)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinReconstructionRelative_one`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L33)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinExactRecoveryNeighborhood_isOpen_pbw`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinExactRecoveryNeighborhood_one_mem`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L52)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinExactRecoveryNeighborhood_mem_nhds_one_pbw`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L59)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinExactRecoveryNeighborhood_conditions`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L64)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinReconstructionRelative_eq_one_on_exactNeighborhood`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L70)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinCoordinateReconstruction_eq_self_on_exactNeighborhood`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L80)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinExactRecoveryNeighborhood_subset_wordImage`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneWordLocalImage_mem_nhds_one_pbw`](SU2BFSSPairedSpin9V10HF10CVExactSourceRecoveryNeighborhood.lean#L97)
+
+## SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityChartTarget_isOpen`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L26)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityChartTarget_zero_mem`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_source`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L73)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_target`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L76)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_coe`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L79)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_symm_coe`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L84)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_one`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_one_mem_source`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L95)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_zero_mem_target`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L99)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinIdentityLocalChart_bijOn`](SU2BFSSPairedSpin9V10HF10CWOriginalSourceIdentityLocalChart.lean#L103)
+
+## SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative
+
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_eq_word`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L21)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_contDiff_pbw`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L31)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_fderiv_zero`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_fderiv_zero_apply`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L53)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_fderiv_zero_reverse`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_fderiv_zero_projected_commutator`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L73)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_naturalMatrix_fderiv_zero_model`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L96)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_clifford_fderiv_zero_injective`](SU2BFSSPairedSpin9V10HF10CXIdentityChartInverseCliffordDerivative.lean#L115)
+
+## SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange
+
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivative_apply`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivative_coordinate`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivative_range_eq_halfBivectorSpan`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L69)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivativeRangeEquiv_apply`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L109)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_apply`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L118)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_symm`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L122)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_projected_commutator`](SU2BFSSPairedSpin9V10HF10CYIdentityChartDerivativeRange.lean#L128)
+
+## SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison
+
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivative_originalGamma`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L26)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_originalGamma`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L69)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRange_originalGamma`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L87)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_gamma_mem_so`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L97)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalGammaEvaluationCLM_apply`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L111)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_originalGamma_hasFDerivAt_zero`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L115)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_originalGamma_fderiv_zero_apply`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L144)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartInverse_originalGamma_fderiv_zero_factor`](SU2BFSSPairedSpin9V10HF10CZOriginalGammaDerivativeRangeComparison.lean#L156)
+
+## SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction
+
+- [`FCP.BFSSPairedSpin9Clifford.source9OrderedStrictPlaneVectorVelocity_model`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L42)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_commutator_vector`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L52)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRange_commutator_vector`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L80)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRange_commutator_vector_injective`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L95)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_commutator_pair_vector`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L115)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_bracket_defect_commutes`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L136)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_commutator_pair_originalGamma`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L172)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_bracket_defect_gamma_zero`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L193)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_commutator_mem_iff_bracket`](SU2BFSSPairedSpin9V10HF10DADerivativeRangeCommutatorAction.lean#L205)
+
+## SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_even_commutes_coordinateContractions_zero`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L26)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_even_commutes_eq_scalar`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L40)
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_even_commutes_gamma_zero`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L58)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivativeRange_mem_even`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L75)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_bracket_defect_mem_even`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L93)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRange_bracket_defect_zero`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L110)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeSkewDerivativeRangeEquiv_commutator`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L123)
+- [`FCP.BFSSPairedSpin9Clifford.source9IdentityChartDerivativeRange_commutator_mem`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L133)
+- [`FCP.BFSSPairedSpin9Clifford.source9NativeHalfBivectorSpan_commutator_mem`](SU2BFSSPairedSpin9V10HF10DBDerivativeRangeCommutatorClosure.lean#L160)
+
+## SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom
+
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeLieSubalgebra_gamma_mem_so`](SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom.lean#L17)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRangeGammaSkewLieHom_apply`](SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom.lean#L56)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRangeGammaSkewLieHom_native_apply`](SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom.lean#L62)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRangeGammaSkewLieHom_comp_native`](SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom.lean#L70)
+- [`FCP.BFSSPairedSpin9Clifford.source9DerivativeRangeGammaSkewLieHom_factor`](SU2BFSSPairedSpin9V10HF10DDDerivativeRangeGammaLieHom.lean#L78)
+
+## SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_source`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L28)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_target`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L32)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_apply`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_symm_apply`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_self_mem_source`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L43)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_self`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L48)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_transition_apply`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L63)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinLeftTranslatedChart_transition_source`](SU2BFSSPairedSpin9V10HF10DETranslatedSourceCharts.lean#L72)
+
+## SU2BFSSPairedSpin9V10HF10EPublicGammaTraceZeroProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9OriginalGamma_basis_mul_self`](SU2BFSSPairedSpin9V10HF10EPublicGammaTraceZeroProbe.lean#L49)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OriginalGamma_anticommute`](SU2BFSSPairedSpin9V10HF10EPublicGammaTraceZeroProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OriginalGamma_basis_trace_zero`](SU2BFSSPairedSpin9V10HF10EPublicGammaTraceZeroProbe.lean#L73)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_trace_zero`](SU2BFSSPairedSpin9V10HF10EPublicGammaTraceZeroProbe.lean#L114)
+
+## SU2BFSSPairedSpin9V10HF10FSourceGammaSymmetricPositiveQuadraticProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9Quadratic_eq_zero_iff`](SU2BFSSPairedSpin9V10HF10FSourceGammaSymmetricPositiveQuadraticProbe.lean#L39)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Quadratic_pos_of_ne`](SU2BFSSPairedSpin9V10HF10FSourceGammaSymmetricPositiveQuadraticProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_isSymm`](SU2BFSSPairedSpin9V10HF10FSourceGammaSymmetricPositiveQuadraticProbe.lean#L61)
+
+## SU2BFSSPairedSpin9V10HF10GSourceGammaRealSpectralBridgeProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_isHermitian`](SU2BFSSPairedSpin9V10HF10GSourceGammaRealSpectralBridgeProbe.lean#L42)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_realEigenvalues_sum_zero`](SU2BFSSPairedSpin9V10HF10GSourceGammaRealSpectralBridgeProbe.lean#L51)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_eq_realEigenvalues_prod`](SU2BFSSPairedSpin9V10HF10GSourceGammaRealSpectralBridgeProbe.lean#L66)
+
+## SU2BFSSPairedSpin9V10HF10HSourceGammaEigenvalueSquareProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_realEigenvalues_mul_self`](SU2BFSSPairedSpin9V10HF10HSourceGammaEigenvalueSquareProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_realEigenvalues_ne_zero`](SU2BFSSPairedSpin9V10HF10HSourceGammaEigenvalueSquareProbe.lean#L73)
+
+## SU2BFSSPairedSpin9V10HF10IRealEigenvalueSqrtTwoSignProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9Quadratic_nonneg`](SU2BFSSPairedSpin9V10HF10IRealEigenvalueSqrtTwoSignProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_realEigenvalues_eq_sqrt_or_neg`](SU2BFSSPairedSpin9V10HF10IRealEigenvalueSqrtTwoSignProbe.lean#L46)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Quadratic_sqrt_pos_of_ne`](SU2BFSSPairedSpin9V10HF10IRealEigenvalueSqrtTwoSignProbe.lean#L63)
+
+## SU2BFSSPairedSpin9V10HF10JSourceEigenvalueSignPartitionProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9RealEigenvalue_negative_iff_not_positive`](SU2BFSSPairedSpin9V10HF10JSourceEigenvalueSignPartitionProbe.lean#L55)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Eigenvalue_sign_partition_card`](SU2BFSSPairedSpin9V10HF10JSourceEigenvalueSignPartitionProbe.lean#L73)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Eigenvalue_sign_partition_sum_zero`](SU2BFSSPairedSpin9V10HF10JSourceEigenvalueSignPartitionProbe.lean#L100)
+
+## SU2BFSSPairedSpin9V10HF10KSourceEigenvalueCardinalityBalanceProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9PositiveEigenIndices_sum_eq_card_mul_sqrt`](SU2BFSSPairedSpin9V10HF10KSourceEigenvalueCardinalityBalanceProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9DetFixture.source9NegativeEigenIndices_sum_eq_card_mul_neg_sqrt`](SU2BFSSPairedSpin9V10HF10KSourceEigenvalueCardinalityBalanceProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Eigenvalue_sign_card_cast_equal`](SU2BFSSPairedSpin9V10HF10KSourceEigenvalueCardinalityBalanceProbe.lean#L88)
+- [`FCP.BFSSPairedSpin9DetFixture.source9Eigenvalue_sign_card_equal`](SU2BFSSPairedSpin9V10HF10KSourceEigenvalueCardinalityBalanceProbe.lean#L114)
+
+## SU2BFSSPairedSpin9V10HF10LSourceRealEigenvalueEightEachProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9SpinIndex_card_sixteen`](SU2BFSSPairedSpin9V10HF10LSourceRealEigenvalueEightEachProbe.lean#L40)
+- [`FCP.BFSSPairedSpin9DetFixture.source9PositiveEigenIndices_card_eight`](SU2BFSSPairedSpin9V10HF10LSourceRealEigenvalueEightEachProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9DetFixture.source9NegativeEigenIndices_card_eight`](SU2BFSSPairedSpin9V10HF10LSourceRealEigenvalueEightEachProbe.lean#L57)
+
+## SU2BFSSPairedSpin9V10HF10MOriginalGammaEigenvalueProductPartitionProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9PositiveEigenIndices_prod_eq_sqrt_pow_eight`](SU2BFSSPairedSpin9V10HF10MOriginalGammaEigenvalueProductPartitionProbe.lean#L39)
+- [`FCP.BFSSPairedSpin9DetFixture.source9NegativeEigenIndices_prod_eq_neg_sqrt_pow_eight`](SU2BFSSPairedSpin9V10HF10MOriginalGammaEigenvalueProductPartitionProbe.lean#L62)
+- [`FCP.BFSSPairedSpin9DetFixture.source9RealEigenvalue_prod_sign_partition`](SU2BFSSPairedSpin9V10HF10MOriginalGammaEigenvalueProductPartitionProbe.lean#L86)
+
+## SU2BFSSPairedSpin9V10HF10NOriginalGammaPositiveDeterminantProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_eq_source9Quadratic_pow8_of_ne`](SU2BFSSPairedSpin9V10HF10NOriginalGammaPositiveDeterminantProbe.lean#L41)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_eq_source9Quadratic_pow8`](SU2BFSSPairedSpin9V10HF10NOriginalGammaPositiveDeterminantProbe.lean#L70)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_nonneg`](SU2BFSSPairedSpin9V10HF10NOriginalGammaPositiveDeterminantProbe.lean#L86)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_generator_positive_branch`](SU2BFSSPairedSpin9V10HF10NOriginalGammaPositiveDeterminantProbe.lean#L96)
+
+## SU2BFSSPairedSpin9V10HF10OCliffordUnitGeneratorPositivityProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_ne_zero`](SU2BFSSPairedSpin9V10HF10OCliffordUnitGeneratorPositivityProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_pos_generator`](SU2BFSSPairedSpin9V10HF10OCliffordUnitGeneratorPositivityProbe.lean#L64)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_pos_inv_of_pos`](SU2BFSSPairedSpin9V10HF10OCliffordUnitGeneratorPositivityProbe.lean#L82)
+
+## SU2BFSSPairedSpin9V10HF10PLipschitzGroupDetPositivityProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_pos_of_mem_lipschitzGroup`](SU2BFSSPairedSpin9V10HF10PLipschitzGroupDetPositivityProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_pos_of_source_spinGroup`](SU2BFSSPairedSpin9V10HF10PLipschitzGroupDetPositivityProbe.lean#L69)
+
+## SU2BFSSPairedSpin9V10HF10QSourceSpinOrientationDetOneProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_eq_one`](SU2BFSSPairedSpin9V10HF10QSourceSpinOrientationDetOneProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OrientationSubgroup_eq_top`](SU2BFSSPairedSpin9V10HF10QSourceSpinOrientationDetOneProbe.lean#L48)
+- [`FCP.BFSSPairedSpin9DetFixture.source9SpinOriginalPaired48_det_one`](SU2BFSSPairedSpin9V10HF10QSourceSpinOrientationDetOneProbe.lean#L57)
+
+## SU2BFSSPairedSpin9V10HF10RSourceSpinOriginalPaired48SOHomProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48_mem_specialOrthogonal`](SU2BFSSPairedSpin9V10HF10RSourceSpinOriginalPaired48SOHomProbe.lean#L40)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48SpecialOrthogonalHom_apply`](SU2BFSSPairedSpin9V10HF10RSourceSpinOriginalPaired48SOHomProbe.lean#L81)
+
+## SU2BFSSPairedSpin9V10HF10SOriginalPairedNegativeScalarActionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9GammaCliffordAlgHom_neg_one`](SU2BFSSPairedSpin9V10HF10SOriginalPairedNegativeScalarActionProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_neg`](SU2BFSSPairedSpin9V10HF10SOriginalPairedNegativeScalarActionProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPaired48_neg_scalar_matrix`](SU2BFSSPairedSpin9V10HF10SOriginalPairedNegativeScalarActionProbe.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9SpinOriginalPaired48SOHom_neg_scalar_of_mem`](SU2BFSSPairedSpin9V10HF10SOriginalPairedNegativeScalarActionProbe.lean#L73)
+
+## SU2BFSSPairedSpin9V10HF10TSourceSpin9NegativeCentralMembershipProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9_neg_one_mem_of_unitVector`](SU2BFSSPairedSpin9V10HF10TSourceSpin9NegativeCentralMembershipProbe.lean#L38)
+- [`FCP.BFSSPairedSpin9Clifford.source9_neg_one_mem`](SU2BFSSPairedSpin9V10HF10TSourceSpin9NegativeCentralMembershipProbe.lean#L71)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_coe`](SU2BFSSPairedSpin9V10HF10TSourceSpin9NegativeCentralMembershipProbe.lean#L87)
+
+## SU2BFSSPairedSpin9V10HF10UActualNegativeCentralSO48ImageProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_originalPairedSO48_image`](SU2BFSSPairedSpin9V10HF10UActualNegativeCentralSO48ImageProbe.lean#L35)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_originalPairedSO48_image_ne_one`](SU2BFSSPairedSpin9V10HF10UActualNegativeCentralSO48ImageProbe.lean#L46)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_not_mem_originalPairedSO48_ker`](SU2BFSSPairedSpin9V10HF10UActualNegativeCentralSO48ImageProbe.lean#L66)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_ne_one`](SU2BFSSPairedSpin9V10HF10UActualNegativeCentralSO48ImageProbe.lean#L76)
+
+## SU2BFSSPairedSpin9V10HF10VSourceCentralInvolutionSO48SignActionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_sq_eq_one`](SU2BFSSPairedSpin9V10HF10VSourceCentralInvolutionSO48SignActionProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_mul_comm`](SU2BFSSPairedSpin9V10HF10VSourceCentralInvolutionSO48SignActionProbe.lean#L47)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_originalPairedSO48_left_sign`](SU2BFSSPairedSpin9V10HF10VSourceCentralInvolutionSO48SignActionProbe.lean#L60)
+- [`FCP.BFSSPairedSpin9Clifford.source9NegativeCentral_originalPairedSO48_right_sign`](SU2BFSSPairedSpin9V10HF10VSourceCentralInvolutionSO48SignActionProbe.lean#L90)
+
+## SU2BFSSPairedSpin9V10HF10WOriginalPairedSO48Gamma16KernelReductionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.gamma16ToOriginalPaired48_injective`](SU2BFSSPairedSpin9V10HF10WOriginalPairedSO48Gamma16KernelReductionProbe.lean#L39)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_eq_iff_gamma16`](SU2BFSSPairedSpin9V10HF10WOriginalPairedSO48Gamma16KernelReductionProbe.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_mem_ker_iff_gamma16`](SU2BFSSPairedSpin9V10HF10WOriginalPairedSO48Gamma16KernelReductionProbe.lean#L88)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_ker_eq_gamma16_ker`](SU2BFSSPairedSpin9V10HF10WOriginalPairedSO48Gamma16KernelReductionProbe.lean#L98)
+
+## SU2BFSSPairedSpin9V10HF10XSourceCliffordGammaKernelCriterionProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9GammaOrthogonal_eq_iff_clifford_gamma`](SU2BFSSPairedSpin9V10HF10XSourceCliffordGammaKernelCriterionProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_eq_iff_clifford_gamma`](SU2BFSSPairedSpin9V10HF10XSourceCliffordGammaKernelCriterionProbe.lean#L61)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_mem_ker_iff_clifford_one`](SU2BFSSPairedSpin9V10HF10XSourceCliffordGammaKernelCriterionProbe.lean#L74)
+- [`FCP.BFSSPairedSpin9Clifford.source9OriginalPairedSO48_injective_of_even_gamma_injective`](SU2BFSSPairedSpin9V10HF10XSourceCliffordGammaKernelCriterionProbe.lean#L104)
+
+## SU2BFSSPairedSpin9V10HF10YSourceNineCliffordPBWBasisProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9Clifford_finiteDimensional`](SU2BFSSPairedSpin9V10HF10YSourceNineCliffordPBWBasisProbe.lean#L49)
+
+## SU2BFSSPairedSpin9V10HF10ZSourceNineExteriorPBWOrderedWordProbe
+
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWBasis_eq_coordinateWord`](SU2BFSSPairedSpin9V10HF10ZSourceNineExteriorPBWOrderedWordProbe.lean#L56)
+- [`FCP.BFSSPairedSpin9Clifford.source9ExteriorPBWOrderedLabels_nodup`](SU2BFSSPairedSpin9V10HF10ZSourceNineExteriorPBWOrderedWordProbe.lean#L78)
+- [`FCP.BFSSPairedSpin9Clifford.source9CliffordPBWBasis_eq_exteriorWord`](SU2BFSSPairedSpin9V10HF10ZSourceNineExteriorPBWOrderedWordProbe.lean#L91)
+
+## SU2BFSSPairedSpin9V10HF2SourceOrientationBoundaryProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.pairedDetSquareOne`](SU2BFSSPairedSpin9V10HF2SourceOrientationBoundaryProbe.lean#L31)
+- [`FCP.BFSSPairedSpin9DetFixture.pairedSO_iff_gammaDetOne`](SU2BFSSPairedSpin9V10HF2SourceOrientationBoundaryProbe.lean#L40)
+- [`FCP.BFSSPairedSpin9DetFixture.pairedSO_iff_gammaSO`](SU2BFSSPairedSpin9V10HF2SourceOrientationBoundaryProbe.lean#L58)
+
+## SU2BFSSPairedSpin9V10HF3SourceSquareOrientationProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDet_mul`](SU2BFSSPairedSpin9V10HF3SourceSquareOrientationProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDet_square_one`](SU2BFSSPairedSpin9V10HF3SourceSquareOrientationProbe.lean#L51)
+- [`FCP.BFSSPairedSpin9DetFixture.originalPaired48_mem_SO_of_square`](SU2BFSSPairedSpin9V10HF3SourceSquareOrientationProbe.lean#L59)
+
+## SU2BFSSPairedSpin9V10HF4OrientationNormalSubgroupProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDet_one`](SU2BFSSPairedSpin9V10HF4OrientationNormalSubgroupProbe.lean#L34)
+- [`FCP.BFSSPairedSpin9DetFixture.mem_source9OrientationSubgroup_iff_pairedSO`](SU2BFSSPairedSpin9V10HF4OrientationNormalSubgroupProbe.lean#L70)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OrientationSubgroup_sq_mem`](SU2BFSSPairedSpin9V10HF4OrientationNormalSubgroupProbe.lean#L81)
+
+## SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_apply`](SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe.lean#L52)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_sq`](SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe.lean#L59)
+- [`FCP.BFSSPairedSpin9DetFixture.mem_source9OrientationSubgroup_iff_gammaDetDirectHom_one`](SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe.lean#L67)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_eq_originalPaired48_det`](SU2BFSSPairedSpin9V10HF5TypedDirectDeterminantCharacterProbe.lean#L75)
+
+## SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_inv_mul`](SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe.lean#L49)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_commutator`](SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe.lean#L60)
+- [`FCP.BFSSPairedSpin9DetFixture.source9_commutator_le_orientation`](SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe.lean#L81)
+- [`FCP.BFSSPairedSpin9DetFixture.source9_orientation_eq_top_of_isPerfect`](SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe.lean#L95)
+- [`FCP.BFSSPairedSpin9DetFixture.originalPaired48_mem_SO_of_isPerfect`](SU2BFSSPairedSpin9V10HF6SourceCommutatorObstructionProbe.lean#L105)
+
+## SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_eq_one_or_neg_one`](SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe.lean#L40)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetDirectHom_eq_neg_one_iff_not_mem`](SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe.lean#L48)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OrientationSubgroup_ne_top_iff_exists_negative`](SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe.lean#L68)
+- [`FCP.BFSSPairedSpin9DetFixture.not_source9_isPerfect_of_negative`](SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe.lean#L90)
+- [`FCP.BFSSPairedSpin9DetFixture.source9OrientationSubgroup_eq_top_iff_all_positive`](SU2BFSSPairedSpin9V10HF7TwoSignObstructionDiscriminatorProbe.lean#L105)
+
+## SU2BFSSPairedSpin9V10HF8CliffordUnitsGeneratorDetBridgeProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_apply`](SU2BFSSPairedSpin9V10HF8CliffordUnitsGeneratorDetBridgeProbe.lean#L70)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_spin_apply`](SU2BFSSPairedSpin9V10HF8CliffordUnitsGeneratorDetBridgeProbe.lean#L79)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_generator`](SU2BFSSPairedSpin9V10HF8CliffordUnitsGeneratorDetBridgeProbe.lean#L92)
+
+## SU2BFSSPairedSpin9V10HF9GeneratorDeterminantMagnitudeProbe
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_sq16`](SU2BFSSPairedSpin9V10HF9GeneratorDeterminantMagnitudeProbe.lean#L41)
+- [`FCP.BFSSPairedSpin9DetFixture.gammaNineRealLinear_det_eq_pow8_or_neg`](SU2BFSSPairedSpin9V10HF9GeneratorDeterminantMagnitudeProbe.lean#L52)
+- [`FCP.BFSSPairedSpin9DetFixture.source9CliffordUnitsGammaDetHom_generator_two_sign`](SU2BFSSPairedSpin9V10HF9GeneratorDeterminantMagnitudeProbe.lean#L72)
+
+## SU2BFSSPairedSpin9V10HTypedDeterminantFixture
+
+- [`FCP.BFSSPairedSpin9DetFixture.gammaDetSquareOne`](SU2BFSSPairedSpin9V10HTypedDeterminantFixture.lean#L39)
+- [`FCP.BFSSPairedSpin9DetFixture.pairedDetEqualGamma`](SU2BFSSPairedSpin9V10HTypedDeterminantFixture.lean#L58)
+
+## SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_adjacent_bracket`](SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe.lean#L26)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_disjoint_bracket`](SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe.lean#L36)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_shared_right_bracket`](SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe.lean#L45)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_shared_left_bracket`](SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe.lean#L55)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_cross_right_bracket`](SU2BFSSPairedSpin9ZeroDiagonalBracketsProbe.lean#L65)
+
+## SU2BFSSPairedSpin9ZeroDiagonalInterfaceProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_self`](SU2BFSSPairedSpin9ZeroDiagonalInterfaceProbe.lean#L32)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_of_ne`](SU2BFSSPairedSpin9ZeroDiagonalInterfaceProbe.lean#L37)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_swap`](SU2BFSSPairedSpin9ZeroDiagonalInterfaceProbe.lean#L42)
+
+## SU2BFSSPairedSpin9ZeroDiagonalSkewSquareProbe
+
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_transpose`](SU2BFSSPairedSpin9ZeroDiagonalSkewSquareProbe.lean#L24)
+- [`FCP.BFSSPairedSpin9Plane.zeroDiagonalPairedPlane_sq`](SU2BFSSPairedSpin9ZeroDiagonalSkewSquareProbe.lean#L34)
+
+## SU2BFSSPhysicalDomainS1V0StandaloneOrthogonalGeometryProbe
+
+- [`FCP.BFSSS1V0.sourcePlane_decomposition`](SU2BFSSPhysicalDomainS1V0StandaloneOrthogonalGeometryProbe.lean#L35)
+- [`FCP.BFSSS1V0.sourcePlaneComplement_ortho_first`](SU2BFSSPhysicalDomainS1V0StandaloneOrthogonalGeometryProbe.lean#L41)
+- [`FCP.BFSSS1V0.sourcePlaneComplement_ortho_second`](SU2BFSSPhysicalDomainS1V0StandaloneOrthogonalGeometryProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V29AllSpin48CliffordGeneratorConjugationProbe
+
+- [`FCP.BFSSS1V29.all_sourceSpin48_generators_stay_real`](SU2BFSSPhysicalDomainS1V29AllSpin48CliffordGeneratorConjugationProbe.lean#L44)
+- [`FCP.BFSSS1V29.all_sourceSpin48_real_generator_space_preserved`](SU2BFSSPhysicalDomainS1V29AllSpin48CliffordGeneratorConjugationProbe.lean#L58)
+- [`FCP.BFSSS1V29.sourceSpin48_conjugation_central_sign_invariant`](SU2BFSSPhysicalDomainS1V29AllSpin48CliffordGeneratorConjugationProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainS1V30Real48CliffordGeneratorInjectiveViaExteriorProbe
+
+- [`FCP.BFSSS1V30.source48_cliffordGenerator_equivExterior`](SU2BFSSPhysicalDomainS1V30Real48CliffordGeneratorInjectiveViaExteriorProbe.lean#L39)
+- [`FCP.BFSSS1V30.source48_cliffordGenerator_injective`](SU2BFSSPhysicalDomainS1V30Real48CliffordGeneratorInjectiveViaExteriorProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V31CanonicalAllSpin48RealVectorActionProbe
+
+- [`FCP.BFSSS1V31.every_sourceSpin48_conjugated_generator_unique`](SU2BFSSPhysicalDomainS1V31CanonicalAllSpin48RealVectorActionProbe.lean#L40)
+- [`FCP.BFSSS1V31.sourceSpin48VectorAction_clifford_generator`](SU2BFSSPhysicalDomainS1V31CanonicalAllSpin48RealVectorActionProbe.lean#L60)
+- [`FCP.BFSSS1V31.sourceSpin48VectorAction_add`](SU2BFSSPhysicalDomainS1V31CanonicalAllSpin48RealVectorActionProbe.lean#L71)
+
+## SU2BFSSPhysicalDomainS1V37Original48CliffordGeneratorRankOneDeterminantProbe
+
+- [`FCP.BFSSS1V37.source48_polar_inverse_self`](SU2BFSSPhysicalDomainS1V37Original48CliffordGeneratorRankOneDeterminantProbe.lean#L40)
+- [`FCP.BFSSS1V37.source48_clifford_generator_conjugation`](SU2BFSSPhysicalDomainS1V37Original48CliffordGeneratorRankOneDeterminantProbe.lean#L49)
+- [`FCP.BFSSS1V37.source48_rankOneConjugationMatrix_det`](SU2BFSSPhysicalDomainS1V37Original48CliffordGeneratorRankOneDeterminantProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe
+
+- [`FCP.BFSSS1V38.source48Quadratic_eq_dot`](SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe.lean#L34)
+- [`FCP.BFSSS1V38.source48_polar_eq_two_dot`](SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe.lean#L40)
+- [`FCP.BFSSS1V38.source48_normalizedPolarCoeff_dot`](SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe.lean#L57)
+- [`FCP.BFSSS1V38.source48_normalizedPolarCoeff_dot_self`](SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe.lean#L68)
+- [`FCP.BFSSS1V38.source48_originalNormalizedRankOne_det`](SU2BFSSPhysicalDomainS1V38Original48PolarCoefficientBridgeProbe.lean#L77)
+
+## SU2BFSSPhysicalDomainS1V52K1AOriginalSpin48KernelCommutantProbe
+
+- [`FCP.BFSSS1V52K1A.originalSourceSpin48_trivialAction_iff_generator_commutes`](SU2BFSSPhysicalDomainS1V52K1AOriginalSpin48KernelCommutantProbe.lean#L34)
+
+## SU2BFSSPhysicalDomainS1V52K1COriginalSpin48CliffordPolarContractionProbe
+
+- [`FCP.BFSSS1V52K1C.originalSourceClifford_gradedCommutator_eq_polarContraction`](SU2BFSSPhysicalDomainS1V52K1COriginalSpin48CliffordPolarContractionProbe.lean#L40)
+- [`FCP.BFSSS1V52K1C.originalSourceClifford_evenCommutator_eq_polarContraction`](SU2BFSSPhysicalDomainS1V52K1COriginalSpin48CliffordPolarContractionProbe.lean#L71)
+- [`FCP.BFSSS1V52K1C.originalSourceSpin48_trivialAction_polarContractions_zero`](SU2BFSSPhysicalDomainS1V52K1COriginalSpin48CliffordPolarContractionProbe.lean#L81)
+
+## SU2BFSSPhysicalDomainS1V52K1D0OriginalCliffordExteriorContractionTransportProbe
+
+- [`FCP.BFSSS1V52K1D0.originalSourceClifford_exterior_contractLeft_transport`](SU2BFSSPhysicalDomainS1V52K1D0OriginalCliffordExteriorContractionTransportProbe.lean#L37)
+- [`FCP.BFSSS1V52K1D0.originalSourceSpin48_trivialAction_exteriorPolarContractions_zero`](SU2BFSSPhysicalDomainS1V52K1D0OriginalCliffordExteriorContractionTransportProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1V52K1D10OriginalSpin48NegativeCentralTrivialActionProbe
+
+- [`FCP.BFSSS1V52K1D10.originalSourceSpin48VectorAction_clifford_star`](SU2BFSSPhysicalDomainS1V52K1D10OriginalSpin48NegativeCentralTrivialActionProbe.lean#L29)
+- [`FCP.BFSSS1V52K1D10.originalSourceSpin48_negativeCentral_trivialAction`](SU2BFSSPhysicalDomainS1V52K1D10OriginalSpin48NegativeCentralTrivialActionProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainS1V52K1D11OriginalSpin48ExactTwoSignKernel
+
+- [`FCP.BFSSS1V52K1D11.originalSourceSpin48_one_trivialAction`](SU2BFSSPhysicalDomainS1V52K1D11OriginalSpin48ExactTwoSignKernel.lean#L33)
+- [`FCP.BFSSS1V52K1D11.originalSourceSpin48_trivialAction_iff_two_signs`](SU2BFSSPhysicalDomainS1V52K1D11OriginalSpin48ExactTwoSignKernel.lean#L44)
+- [`FCP.BFSSS1V52K1D11.originalSourceSpin48_pointwiseKernel_eq_two_sign_set`](SU2BFSSPhysicalDomainS1V52K1D11OriginalSpin48ExactTwoSignKernel.lean#L66)
+- [`FCP.BFSSS1V52K1D11.originalSourceSpin48_one_ne_negativeCentral`](SU2BFSSPhysicalDomainS1V52K1D11OriginalSpin48ExactTwoSignKernel.lean#L77)
+
+## SU2BFSSPhysicalDomainS1V52K1D12OriginalSpin48VectorActionLawsProbe
+
+- [`FCP.BFSSS1V52K1D12.originalSourceSpin48VectorAction_smul`](SU2BFSSPhysicalDomainS1V52K1D12OriginalSpin48VectorActionLawsProbe.lean#L33)
+- [`FCP.BFSSS1V52K1D12.originalSourceSpin48VectorAction_mul`](SU2BFSSPhysicalDomainS1V52K1D12OriginalSpin48VectorActionLawsProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52K1D14OriginalSpin48LinearRepresentationKernelProbe
+
+- [`FCP.BFSSS1V52K1D14.originalSourceSpin48LinearRepresentation_eq_one_iff_two_signs`](SU2BFSSPhysicalDomainS1V52K1D14OriginalSpin48LinearRepresentationKernelProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D14.originalSourceSpin48LinearRepresentation_ker_eq_two_sign_set`](SU2BFSSPhysicalDomainS1V52K1D14OriginalSpin48LinearRepresentationKernelProbe.lean#L50)
+- [`FCP.BFSSS1V52K1D14.originalSourceSpin48LinearRepresentation_not_injective`](SU2BFSSPhysicalDomainS1V52K1D14OriginalSpin48LinearRepresentationKernelProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainS1V52K1D15OriginalSpin48QuadraticPreservationProbe
+
+- [`FCP.BFSSS1V52K1D15.originalSourceSpin48_scalar_conjugation_fixed`](SU2BFSSPhysicalDomainS1V52K1D15OriginalSpin48QuadraticPreservationProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D15.originalSourceSpin48VectorAction_preserves_sourceQuadratic`](SU2BFSSPhysicalDomainS1V52K1D15OriginalSpin48QuadraticPreservationProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainS1V52K1D16OriginalSpin48QuadraticIsometryProbe
+
+- [`FCP.BFSSS1V52K1D16.originalSourceSpin48QuadraticIsometry_underlyingLinearEquiv`](SU2BFSSPhysicalDomainS1V52K1D16OriginalSpin48QuadraticIsometryProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D16.originalSourceSpin48QuadraticIsometry_apply`](SU2BFSSPhysicalDomainS1V52K1D16OriginalSpin48QuadraticIsometryProbe.lean#L49)
+
+## SU2BFSSPhysicalDomainS1V52K1D17OriginalSpin48IsometryActionLawsProbe
+
+- [`FCP.BFSSS1V52K1D17.originalSourceSpin48QuadraticIsometry_one`](SU2BFSSPhysicalDomainS1V52K1D17OriginalSpin48IsometryActionLawsProbe.lean#L28)
+- [`FCP.BFSSS1V52K1D17.originalSourceSpin48QuadraticIsometry_mul`](SU2BFSSPhysicalDomainS1V52K1D17OriginalSpin48IsometryActionLawsProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D17.originalSourceSpin48QuadraticIsometry_inv`](SU2BFSSPhysicalDomainS1V52K1D17OriginalSpin48IsometryActionLawsProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainS1V52K1D18APolarCoordinateNormalizationProbe
+
+- [`FCP.BFSSS1V52K1D18A.source48_coordinate_sum`](SU2BFSSPhysicalDomainS1V52K1D18APolarCoordinateNormalizationProbe.lean#L25)
+- [`FCP.BFSSS1V52K1D18A.source48_normalized_polar_coordinate_dot`](SU2BFSSPhysicalDomainS1V52K1D18APolarCoordinateNormalizationProbe.lean#L33)
+
+## SU2BFSSPhysicalDomainS1V52K1D18BPolarAllVectorCliffordBridgeProbe
+
+- [`FCP.BFSSS1V52K1D18B.source48NormalizedPolarRow_dot`](SU2BFSSPhysicalDomainS1V52K1D18BPolarAllVectorCliffordBridgeProbe.lean#L32)
+- [`FCP.BFSSS1V52K1D18B.source48NormalizedPolarRow_dot_self`](SU2BFSSPhysicalDomainS1V52K1D18BPolarAllVectorCliffordBridgeProbe.lean#L64)
+- [`FCP.BFSSS1V52K1D18B.source48_clifford_generator_conjugation_from_row`](SU2BFSSPhysicalDomainS1V52K1D18BPolarAllVectorCliffordBridgeProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainS1V52K1D18CRankOneActualCliffordGeneratorProbe
+
+- [`FCP.BFSSS1V52K1D18C.source48_rankOneConjugationMatrix_mulVec`](SU2BFSSPhysicalDomainS1V52K1D18CRankOneActualCliffordGeneratorProbe.lean#L29)
+- [`FCP.BFSSS1V52K1D18C.source48_rankOneMatrix_matches_original_clifford_conjugation`](SU2BFSSPhysicalDomainS1V52K1D18CRankOneActualCliffordGeneratorProbe.lean#L63)
+- [`FCP.BFSSS1V52K1D18C.source48_original_generator_rankOneMatrix_det`](SU2BFSSPhysicalDomainS1V52K1D18CRankOneActualCliffordGeneratorProbe.lean#L77)
+
+## SU2BFSSPhysicalDomainS1V52K1D18DOriginalSourceSpinUnitFactorizationProbe
+
+- [`FCP.BFSSS1V52K1D18D.originalSourceSpin48Isometry_clifford_generator`](SU2BFSSPhysicalDomainS1V52K1D18DOriginalSourceSpinUnitFactorizationProbe.lean#L34)
+- [`FCP.BFSSS1V52K1D18D.originalSourceInvertibleCliffordUnit_rankOne_action`](SU2BFSSPhysicalDomainS1V52K1D18DOriginalSourceSpinUnitFactorizationProbe.lean#L46)
+- [`FCP.BFSSS1V52K1D18D.originalSourceSpin48Isometry_twoGeneratorMatrices_of_unitFactorization`](SU2BFSSPhysicalDomainS1V52K1D18DOriginalSourceSpinUnitFactorizationProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainS1V52K1D18EOriginalSpinTwoFactorDeterminantProbe
+
+- [`FCP.BFSSS1V52K1D18E.originalSourceTwoGeneratorMatrices_det_one`](SU2BFSSPhysicalDomainS1V52K1D18EOriginalSpinTwoFactorDeterminantProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D18E.originalSourceSpin48LinearMap_eq_twoGeneratorToLin_of_unitFactorization`](SU2BFSSPhysicalDomainS1V52K1D18EOriginalSpinTwoFactorDeterminantProbe.lean#L54)
+- [`FCP.BFSSS1V52K1D18E.originalSourceSpin48LinearMap_det_one_of_twoUnitFactorization`](SU2BFSSPhysicalDomainS1V52K1D18EOriginalSpinTwoFactorDeterminantProbe.lean#L80)
+
+## SU2BFSSPhysicalDomainS1V52K1D18FOriginalLipschitzVectorActionProbe
+
+- [`FCP.BFSSS1V52K1D18F.sourceLipschitz_conjugated_generator_unique`](SU2BFSSPhysicalDomainS1V52K1D18FOriginalLipschitzVectorActionProbe.lean#L29)
+- [`FCP.BFSSS1V52K1D18F.sourceLipschitzVectorAction_clifford_generator`](SU2BFSSPhysicalDomainS1V52K1D18FOriginalLipschitzVectorActionProbe.lean#L51)
+- [`FCP.BFSSS1V52K1D18F.sourceLipschitzVectorAction_add`](SU2BFSSPhysicalDomainS1V52K1D18FOriginalLipschitzVectorActionProbe.lean#L61)
+- [`FCP.BFSSS1V52K1D18F.sourceLipschitzVectorAction_smul`](SU2BFSSPhysicalDomainS1V52K1D18FOriginalLipschitzVectorActionProbe.lean#L83)
+
+## SU2BFSSPhysicalDomainS1V52K1D18GOriginalLipschitzVectorActionLawsProbe
+
+- [`FCP.BFSSS1V52K1D18G.originalSourceSpin48_unit_mem_lipschitz`](SU2BFSSPhysicalDomainS1V52K1D18GOriginalLipschitzVectorActionLawsProbe.lean#L28)
+- [`FCP.BFSSS1V52K1D18G.sourceLipschitzVectorAction_one`](SU2BFSSPhysicalDomainS1V52K1D18GOriginalLipschitzVectorActionLawsProbe.lean#L39)
+- [`FCP.BFSSS1V52K1D18G.sourceLipschitzVectorAction_mul`](SU2BFSSPhysicalDomainS1V52K1D18GOriginalLipschitzVectorActionLawsProbe.lean#L48)
+- [`FCP.BFSSS1V52K1D18G.sourceLipschitzVectorAction_agrees_originalSpin48`](SU2BFSSPhysicalDomainS1V52K1D18GOriginalLipschitzVectorActionLawsProbe.lean#L74)
+
+## SU2BFSSPhysicalDomainS1V52K1D18HOriginalLipschitzLinearRepresentationProbe
+
+- [`FCP.BFSSS1V52K1D18H.originalSourceLipschitzLinearEquiv_apply`](SU2BFSSPhysicalDomainS1V52K1D18HOriginalLipschitzLinearRepresentationProbe.lean#L88)
+
+## SU2BFSSPhysicalDomainS1V52K1D18IOriginalLipschitzGeneratorParityProbe
+
+- [`FCP.BFSSS1V52K1D18I.originalSourceGeneratorUnit_mem_lipschitz`](SU2BFSSPhysicalDomainS1V52K1D18IOriginalLipschitzGeneratorParityProbe.lean#L36)
+- [`FCP.BFSSS1V52K1D18I.originalSourceGeneratorLipschitzLinearMap_eq_rankOne`](SU2BFSSPhysicalDomainS1V52K1D18IOriginalLipschitzGeneratorParityProbe.lean#L63)
+- [`FCP.BFSSS1V52K1D18I.originalSourceGeneratorLipschitzDeterminant_neg_one`](SU2BFSSPhysicalDomainS1V52K1D18IOriginalLipschitzGeneratorParityProbe.lean#L104)
+- [`FCP.BFSSS1V52K1D18I.originalSourceGeneratorLipschitzUnit_involute_neg`](SU2BFSSPhysicalDomainS1V52K1D18IOriginalLipschitzGeneratorParityProbe.lean#L122)
+
+## SU2BFSSPhysicalDomainS1V52K1D18JOriginalLipschitzInverseGeneratorParityProbe
+
+- [`FCP.BFSSS1V52K1D18J.originalSourceGeneratorInverse_det_neg_one`](SU2BFSSPhysicalDomainS1V52K1D18JOriginalLipschitzInverseGeneratorParityProbe.lean#L33)
+- [`FCP.BFSSS1V52K1D18J.originalSourceGeneratorInverse_involute_neg`](SU2BFSSPhysicalDomainS1V52K1D18JOriginalLipschitzInverseGeneratorParityProbe.lean#L45)
+- [`FCP.BFSSS1V52K1D18J.originalSourceGeneratorInverse_grade_det_agreement`](SU2BFSSPhysicalDomainS1V52K1D18JOriginalLipschitzInverseGeneratorParityProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1V52K1D18KOriginalLipschitzGradeDetIdentityAndMulProbe
+
+- [`FCP.BFSSS1V52K1D18K.originalSourceLipschitzGradeDetInvariant_one`](SU2BFSSPhysicalDomainS1V52K1D18KOriginalLipschitzGradeDetIdentityAndMulProbe.lean#L38)
+- [`FCP.BFSSS1V52K1D18K.originalSourceLipschitzGradeDetInvariant_generator`](SU2BFSSPhysicalDomainS1V52K1D18KOriginalLipschitzGradeDetIdentityAndMulProbe.lean#L45)
+- [`FCP.BFSSS1V52K1D18K.originalSourceLipschitzGradeDetInvariant_generator_inv`](SU2BFSSPhysicalDomainS1V52K1D18KOriginalLipschitzGradeDetIdentityAndMulProbe.lean#L57)
+- [`FCP.BFSSS1V52K1D18K.originalSourceLipschitzGradeDetInvariant_mul`](SU2BFSSPhysicalDomainS1V52K1D18KOriginalLipschitzGradeDetIdentityAndMulProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainS1V52K1D18LOriginalLipschitzClosureGradeDetProbe
+
+- [`FCP.BFSSS1V52K1D18L.originalSourceLipschitzGradeDetInvariant_all`](SU2BFSSPhysicalDomainS1V52K1D18LOriginalLipschitzClosureGradeDetProbe.lean#L31)
+
+## SU2BFSSPhysicalDomainS1V52K1D18MOriginalSpinScalarCancellationProbe
+
+- [`FCP.BFSSS1V52K1D18M.originalSourceSpin48_det_character_smul_unit`](SU2BFSSPhysicalDomainS1V52K1D18MOriginalSpinScalarCancellationProbe.lean#L38)
+- [`FCP.BFSSS1V52K1D18M.originalSourceSpin48_det_character_smul_one`](SU2BFSSPhysicalDomainS1V52K1D18MOriginalSpinScalarCancellationProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V52K1D18NOriginalSpinRealScalarInjectionProbe
+
+- [`FCP.BFSSS1V52K1D18N.originalSourceSpin48_lipschitzDetCharacter_real_one`](SU2BFSSPhysicalDomainS1V52K1D18NOriginalSpinRealScalarInjectionProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainS1V52K1D18OOriginalSpinDeterminantOneProbe
+
+- [`FCP.BFSSS1V52K1D18O.originalSourceSpin48_linearEquiv_eq_lipschitz`](SU2BFSSPhysicalDomainS1V52K1D18OOriginalSpinDeterminantOneProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D18O.originalSourceSpin48_linearEquiv_coe_eq_sourceLinearMap`](SU2BFSSPhysicalDomainS1V52K1D18OOriginalSpinDeterminantOneProbe.lean#L45)
+- [`FCP.BFSSS1V52K1D18O.originalSourceSpin48_originalLinearMap_det_one`](SU2BFSSPhysicalDomainS1V52K1D18OOriginalSpinDeterminantOneProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainS1V52K1D18POriginalSpinQuadraticIsometryDetOneProbe
+
+- [`FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_linearMap_eq`](SU2BFSSPhysicalDomainS1V52K1D18POriginalSpinQuadraticIsometryDetOneProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D18P.originalSourceSpin48_quadraticIsometry_det_one`](SU2BFSSPhysicalDomainS1V52K1D18POriginalSpinQuadraticIsometryDetOneProbe.lean#L42)
+
+## SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe
+
+- [`FCP.BFSSS1V52K1D18Q.source48QuadraticPreservingGL_mem_of_isometry`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L68)
+- [`FCP.BFSSS1V52K1D18Q.originalSourceSpin48_isometry_linearRepresentation_eq`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L75)
+- [`FCP.BFSSS1V52K1D18Q.originalSourceSpin48_mem_sourceSO`](SU2BFSSPhysicalDomainS1V52K1D18QOriginalSpinSpecialOrthogonalMembershipProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe
+
+- [`FCP.BFSSS1V52K1D18R.originalSourceSpin48_mem_isometryWitness`](SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe.lean#L69)
+- [`FCP.BFSSS1V52K1D18R.originalSourceSpin48_mem_specialOrthogonalWitness`](SU2BFSSPhysicalDomainS1V52K1D18RSourceSpinSpecialOrthogonalWitnessProbe.lean#L78)
+
+## SU2BFSSPhysicalDomainS1V52K1D18SOriginalSpinSpecialOrthogonalWitnessHomKernelProbe
+
+- [`FCP.BFSSS1V52K1D18S.originalSourceSpin48SpecialOrthogonalWitnessRepresentation_coe`](SU2BFSSPhysicalDomainS1V52K1D18SOriginalSpinSpecialOrthogonalWitnessHomKernelProbe.lean#L39)
+- [`FCP.BFSSS1V52K1D18S.originalSourceSpin48SpecialOrthogonalWitnessRepresentation_eq_one_iff_original`](SU2BFSSPhysicalDomainS1V52K1D18SOriginalSpinSpecialOrthogonalWitnessHomKernelProbe.lean#L48)
+- [`FCP.BFSSS1V52K1D18S.originalSourceSpin48SpecialOrthogonalWitnessRepresentation_ker_eq_two_sign_set`](SU2BFSSPhysicalDomainS1V52K1D18SOriginalSpinSpecialOrthogonalWitnessHomKernelProbe.lean#L66)
+
+## SU2BFSSPhysicalDomainS1V52K1D18TOriginalSpinSOEqualActionFibersProbe
+
+- [`FCP.BFSSS1V52K1D18T.originalSourceSpin48SO_equal_action_iff_two_sign_fiber`](SU2BFSSPhysicalDomainS1V52K1D18TOriginalSpinSOEqualActionFibersProbe.lean#L27)
+- [`FCP.BFSSS1V52K1D18T.originalSourceSpin48SO_not_injective`](SU2BFSSPhysicalDomainS1V52K1D18TOriginalSpinSOEqualActionFibersProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainS1V52K1D18UOriginalQuadraticNondegeneracyProbe
+
+- [`FCP.BFSSS1V52K1D18U.source48Quadratic_radical_eq_bot`](SU2BFSSPhysicalDomainS1V52K1D18UOriginalQuadraticNondegeneracyProbe.lean#L36)
+- [`FCP.BFSSS1V52K1D18U.source48Quadratic_nondegenerate`](SU2BFSSPhysicalDomainS1V52K1D18UOriginalQuadraticNondegeneracyProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V1OriginalSourceRankOneReflectionGeometryProbe
+
+- [`FCP.BFSSS1V52K1D18V1.source48_original_reflection_fixes_axis`](SU2BFSSPhysicalDomainS1V52K1D18V1OriginalSourceRankOneReflectionGeometryProbe.lean#L28)
+- [`FCP.BFSSS1V52K1D18V1.source48_original_reflection_negates_normalized_polar_kernel`](SU2BFSSPhysicalDomainS1V52K1D18V1OriginalSourceRankOneReflectionGeometryProbe.lean#L39)
+- [`FCP.BFSSS1V52K1D18V1.source48_original_reflection_negates_source_polar_orthogonal`](SU2BFSSPhysicalDomainS1V52K1D18V1OriginalSourceRankOneReflectionGeometryProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V2OriginalSourceRankOneInvolutionProbe
+
+- [`FCP.BFSSS1V52K1D18V2.source48_rankOneConjugationMatrix_square_mulVec`](SU2BFSSPhysicalDomainS1V52K1D18V2OriginalSourceRankOneInvolutionProbe.lean#L29)
+- [`FCP.BFSSS1V52K1D18V2.source48_originalCliffordRankOne_square_mulVec`](SU2BFSSPhysicalDomainS1V52K1D18V2OriginalSourceRankOneInvolutionProbe.lean#L48)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V3OriginalSourceRankOneQuadraticIsometryProbe
+
+- [`FCP.BFSSS1V52K1D18V3.source48Quadratic_smul_sub_preserve_of_polar_scaling`](SU2BFSSPhysicalDomainS1V52K1D18V3OriginalSourceRankOneQuadraticIsometryProbe.lean#L31)
+- [`FCP.BFSSS1V52K1D18V3.source48_originalCliffordRankOne_preserves_quadratic`](SU2BFSSPhysicalDomainS1V52K1D18V3OriginalSourceRankOneQuadraticIsometryProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe
+
+- [`FCP.BFSSS1V52K1D18V4A.weightedSumSquares_one_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L28)
+- [`FCP.BFSSS1V52K1D18V4A.source48Quadratic_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L49)
+- [`FCP.BFSSS1V52K1D18V4A.source48Quadratic_pos_of_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V4AOriginalSourcePositiveDefiniteStructuralProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe
+
+- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_eq_sum_mul_self`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L37)
+- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_nonneg`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L50)
+- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_pos_of_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L57)
+- [`FCP.BFSSS1V52K1D18V4.source48Quadratic_posDef`](SU2BFSSPhysicalDomainS1V52K1D18V4OriginalSourceQuadraticPositiveDefiniteProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V5OriginalSourceUnitVectorNormalizationProbe
+
+- [`FCP.BFSSS1V52K1D18V5.real_sqrt_inv_square_mul_self`](SU2BFSSPhysicalDomainS1V52K1D18V5OriginalSourceUnitVectorNormalizationProbe.lean#L25)
+- [`FCP.BFSSS1V52K1D18V5.source48Quadratic_normalized_value`](SU2BFSSPhysicalDomainS1V52K1D18V5OriginalSourceUnitVectorNormalizationProbe.lean#L39)
+- [`FCP.BFSSS1V52K1D18V5.source48Quadratic_exists_unit_of_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V5OriginalSourceUnitVectorNormalizationProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe
+
+- [`FCP.BFSSS1V52K1D18V6A.source48_unitGenerator_star_mul_self_neg_one`](SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe.lean#L33)
+- [`FCP.BFSSS1V52K1D18V6A.source48_twoUnitGenerators_star_mul_self`](SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe.lean#L42)
+- [`FCP.BFSSS1V52K1D18V6A.source48_twoUnitGenerators_mul_star_self`](SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe.lean#L64)
+- [`FCP.BFSSS1V52K1D18V6A.source48_twoGenerators_mem_even`](SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe.lean#L86)
+- [`FCP.BFSSS1V52K1D18V6A.source48_twoUnitGenerators_mem_unitary`](SU2BFSSPhysicalDomainS1V52K1D18V6AOriginalCliffordStarSignAndEvenPairProbe.lean#L97)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V6BOriginalTwoUnitGeneratorsSpinMembershipProbe
+
+- [`FCP.BFSSS1V52K1D18V6B.source48_unitGenerator_isUnit`](SU2BFSSPhysicalDomainS1V52K1D18V6BOriginalTwoUnitGeneratorsSpinMembershipProbe.lean#L35)
+- [`FCP.BFSSS1V52K1D18V6B.source48_twoUnitGenerators_mem_spin`](SU2BFSSPhysicalDomainS1V52K1D18V6BOriginalTwoUnitGeneratorsSpinMembershipProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V6COriginalSpinPairMatrixActionAndDetProbe
+
+- [`FCP.BFSSS1V52K1D18V6C.originalSourceUnitPairSpin_toUnits`](SU2BFSSPhysicalDomainS1V52K1D18V6COriginalSpinPairMatrixActionAndDetProbe.lean#L37)
+- [`FCP.BFSSS1V52K1D18V6C.originalSourceUnitPairSpin_action`](SU2BFSSPhysicalDomainS1V52K1D18V6COriginalSpinPairMatrixActionAndDetProbe.lean#L50)
+- [`FCP.BFSSS1V52K1D18V6C.originalSourceUnitPairSpin_linearMap_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V6COriginalSpinPairMatrixActionAndDetProbe.lean#L70)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V6DOriginalUnitPairMatrixWitnessProbe
+
+- [`FCP.BFSSS1V52K1D18V6D.originalSourceUnitPairSpin_action_no_instance_premises`](SU2BFSSPhysicalDomainS1V52K1D18V6DOriginalUnitPairMatrixWitnessProbe.lean#L41)
+- [`FCP.BFSSS1V52K1D18V6D.originalSourceUnitPairMatrices_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V6DOriginalUnitPairMatrixWitnessProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7AOriginalSourceSOImageGenerationBoundaryProbe
+
+- [`FCP.BFSSS1V52K1D18V7A.originalSourceSpinPairSO_image_matrix_action`](SU2BFSSPhysicalDomainS1V52K1D18V7AOriginalSourceSOImageGenerationBoundaryProbe.lean#L50)
+- [`FCP.BFSSS1V52K1D18V7A.sourceSOUnitPairMatrixSet_subset_sourceSpinImage`](SU2BFSSPhysicalDomainS1V52K1D18V7AOriginalSourceSOImageGenerationBoundaryProbe.lean#L65)
+- [`FCP.BFSSS1V52K1D18V7A.sourceSOUnitPairMatrixClosure_le_sourceSpinImage`](SU2BFSSPhysicalDomainS1V52K1D18V7AOriginalSourceSOImageGenerationBoundaryProbe.lean#L83)
+- [`FCP.BFSSS1V52K1D18V7A.sourceSpinSO_surjective_of_unitPairMatrixGeneration`](SU2BFSSPhysicalDomainS1V52K1D18V7AOriginalSourceSOImageGenerationBoundaryProbe.lean#L91)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7BOriginalSourceEuclideanNormAndCartanBoundaryProbe
+
+- [`FCP.BFSSS1V52K1D18V7B.weightedSumSquares_one_eq_euclidean_norm_sq`](SU2BFSSPhysicalDomainS1V52K1D18V7BOriginalSourceEuclideanNormAndCartanBoundaryProbe.lean#L42)
+- [`FCP.BFSSS1V52K1D18V7B.source48Quadratic_eq_euclidean_norm_sq`](SU2BFSSPhysicalDomainS1V52K1D18V7BOriginalSourceEuclideanNormAndCartanBoundaryProbe.lean#L63)
+- [`FCP.BFSSS1V52K1D18V7B.source48Euclidean_reflections_generate_dim`](SU2BFSSPhysicalDomainS1V52K1D18V7BOriginalSourceEuclideanNormAndCartanBoundaryProbe.lean#L78)
+- [`FCP.BFSSS1V52K1D18V7B.source48Euclidean_reflections_generate`](SU2BFSSPhysicalDomainS1V52K1D18V7BOriginalSourceEuclideanNormAndCartanBoundaryProbe.lean#L88)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7COriginalSourceQuadraticIsometryEuclideanTransportProbe
+
+- [`FCP.BFSSS1V52K1D18V7C.originalSource48ToEuclidean_apply`](SU2BFSSPhysicalDomainS1V52K1D18V7COriginalSourceQuadraticIsometryEuclideanTransportProbe.lean#L36)
+- [`FCP.BFSSS1V52K1D18V7C.originalSource48ToEuclidean_norm_sq_eq_Q`](SU2BFSSPhysicalDomainS1V52K1D18V7COriginalSourceQuadraticIsometryEuclideanTransportProbe.lean#L42)
+- [`FCP.BFSSS1V52K1D18V7C.quadraticIsometry_norm_map_of_linearEquiv_norm_sq`](SU2BFSSPhysicalDomainS1V52K1D18V7COriginalSourceQuadraticIsometryEuclideanTransportProbe.lean#L50)
+- [`FCP.BFSSS1V52K1D18V7C.originalSourceQIsometry_toEuclidean_norm_map`](SU2BFSSPhysicalDomainS1V52K1D18V7COriginalSourceQuadraticIsometryEuclideanTransportProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7DOriginalSourceSOWitnessEuclideanTransportProbe
+
+- [`FCP.BFSSS1V52K1D18V7D.sourceSO_has_originalQ_witness`](SU2BFSSPhysicalDomainS1V52K1D18V7DOriginalSourceSOWitnessEuclideanTransportProbe.lean#L32)
+- [`FCP.BFSSS1V52K1D18V7D.sourceSO_originalQIsometry_underlying`](SU2BFSSPhysicalDomainS1V52K1D18V7DOriginalSourceSOWitnessEuclideanTransportProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe
+
+- [`FCP.BFSSS1V52K1D18V7E.linearEquiv_conjugate_det_eq`](SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D18V7E.originalSourceSO_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe.lean#L49)
+- [`FCP.BFSSS1V52K1D18V7E.originalSourceSO_euclideanDet_eq_sourceDet`](SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe.lean#L58)
+- [`FCP.BFSSS1V52K1D18V7E.originalSourceSO_euclideanLinearEquiv_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe.lean#L79)
+- [`FCP.BFSSS1V52K1D18V7E.originalSourceSO_euclideanIsometry_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V7EOriginalSourceSOEuclideanDeterminantTransportProbe.lean#L89)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe
+
+- [`FCP.BFSSS1V52K1D18V7F.quadraticPolar_eq_two_realInner_of_normSq`](SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe.lean#L35)
+- [`FCP.BFSSS1V52K1D18V7F.originalSourcePolar_eq_twoEuclideanInner`](SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe.lean#L47)
+- [`FCP.BFSSS1V52K1D18V7F.originalSourceUnitQ_euclidean_norm_one`](SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe.lean#L56)
+- [`FCP.BFSSS1V52K1D18V7F.originalSourceUnitRankOne_euclidean_action`](SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe.lean#L67)
+- [`FCP.BFSSS1V52K1D18V7F.originalSourceUnitRankOne_eq_negative_euclideanHyperplaneFormula`](SU2BFSSPhysicalDomainS1V52K1D18V7FOriginalSourcePolarEuclideanLineAxisFormulaProbe.lean#L87)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe
+
+- [`FCP.BFSSS1V52K1D18V7G.euclideanUnitLineReflection_apply`](SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D18V7G.originalSourceUnitRankOne_eq_nativeEuclideanLineReflection`](SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe.lean#L49)
+- [`FCP.BFSSS1V52K1D18V7G.originalSourceUnitRankOne_eq_negativeNativeHyperplaneReflection`](SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe.lean#L60)
+- [`FCP.BFSSS1V52K1D18V7G.originalSourceUnitPairMatrices_eq_nativeHyperplanePairAction`](SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe.lean#L72)
+- [`FCP.BFSSS1V52K1D18V7G.originalSourceSpinUnitPair_eq_nativeHyperplanePairAction`](SU2BFSSPhysicalDomainS1V52K1D18V7GOriginalSourceNativeEuclideanReflectionCorrespondenceProbe.lean#L94)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe
+
+- [`FCP.BFSSS1V52K1D18V7H.euclideanUnitNormal_norm_one`](SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe.lean#L42)
+- [`FCP.BFSSS1V52K1D18V7H.euclideanUnitNormal_span_eq`](SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe.lean#L55)
+- [`FCP.BFSSS1V52K1D18V7H.euclideanUnitNormal_reflection_eq`](SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe.lean#L66)
+- [`FCP.BFSSS1V52K1D18V7H.euclideanHyperplaneReflection_zero`](SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe.lean#L74)
+- [`FCP.BFSSS1V52K1D18V7H.euclideanHyperplaneReflection_unitOrIdentity`](SU2BFSSPhysicalDomainS1V52K1D18V7HNativeHyperplaneUnitNormalOrIdentityProbe.lean#L84)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7INativeCartanZeroFreeUnitNormalListProbe
+
+- [`FCP.BFSSS1V52K1D18V7I.sourceEuclideanUnitNormals_all_unit`](SU2BFSSPhysicalDomainS1V52K1D18V7INativeCartanZeroFreeUnitNormalListProbe.lean#L44)
+- [`FCP.BFSSS1V52K1D18V7I.sourceEuclideanUnitNormals_length_le`](SU2BFSSPhysicalDomainS1V52K1D18V7INativeCartanZeroFreeUnitNormalListProbe.lean#L65)
+- [`FCP.BFSSS1V52K1D18V7I.sourceEuclideanUnitNormals_reflectionProduct_eq`](SU2BFSSPhysicalDomainS1V52K1D18V7INativeCartanZeroFreeUnitNormalListProbe.lean#L80)
+- [`FCP.BFSSS1V52K1D18V7I.originalSourceEuclidean_Cartan_zeroFreeUnitNormals`](SU2BFSSPhysicalDomainS1V52K1D18V7INativeCartanZeroFreeUnitNormalListProbe.lean#L102)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7JNativeUnitHyperplaneDeterminantSignProbe
+
+- [`FCP.BFSSS1V52K1D18V7J.euclideanUnitNormal_ne_zero`](SU2BFSSPhysicalDomainS1V52K1D18V7JNativeUnitHyperplaneDeterminantSignProbe.lean#L38)
+- [`FCP.BFSSS1V52K1D18V7J.euclideanUnitLine_finrank_one`](SU2BFSSPhysicalDomainS1V52K1D18V7JNativeUnitHyperplaneDeterminantSignProbe.lean#L46)
+- [`FCP.BFSSS1V52K1D18V7J.euclideanUnitHyperplane_reflection_det_neg_one`](SU2BFSSPhysicalDomainS1V52K1D18V7JNativeUnitHyperplaneDeterminantSignProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7KNativeCartanUnitFactorDeterminantProductProbe
+
+- [`FCP.BFSSS1V52K1D18V7K.euclideanIsometry_mul_det`](SU2BFSSPhysicalDomainS1V52K1D18V7KNativeCartanUnitFactorDeterminantProductProbe.lean#L37)
+- [`FCP.BFSSS1V52K1D18V7K.euclideanUnitReflectionList_det`](SU2BFSSPhysicalDomainS1V52K1D18V7KNativeCartanUnitFactorDeterminantProductProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7LOriginalSourceSOEvenCartanListProbe
+
+- [`FCP.BFSSS1V52K1D18V7L.euclideanUnitReflectionList_even_of_det_one`](SU2BFSSPhysicalDomainS1V52K1D18V7LOriginalSourceSOEvenCartanListProbe.lean#L41)
+- [`FCP.BFSSS1V52K1D18V7L.originalSourceSO_has_evenUnitCartanFactorization`](SU2BFSSPhysicalDomainS1V52K1D18V7LOriginalSourceSOEvenCartanListProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7MOriginalSourceQUnitNormalInverseTransportProbe
+
+- [`FCP.BFSSS1V52K1D18V7M.originalSourceUnitNormal_roundtrip`](SU2BFSSPhysicalDomainS1V52K1D18V7MOriginalSourceQUnitNormalInverseTransportProbe.lean#L44)
+- [`FCP.BFSSS1V52K1D18V7M.originalSourceUnitNormal_Q_one`](SU2BFSSPhysicalDomainS1V52K1D18V7MOriginalSourceQUnitNormalInverseTransportProbe.lean#L51)
+- [`FCP.BFSSS1V52K1D18V7M.originalSourceUnitNormalList_all_Q_one`](SU2BFSSPhysicalDomainS1V52K1D18V7MOriginalSourceQUnitNormalInverseTransportProbe.lean#L64)
+- [`FCP.BFSSS1V52K1D18V7M.originalSourceUnitNormalList_roundtrip`](SU2BFSSPhysicalDomainS1V52K1D18V7MOriginalSourceQUnitNormalInverseTransportProbe.lean#L73)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7NOriginalSourceSpinInverseUnitPairActionProbe
+
+- [`FCP.BFSSS1V52K1D18V7N.originalSourceSpinUnitPair_euclideanNormals_action`](SU2BFSSPhysicalDomainS1V52K1D18V7NOriginalSourceSpinInverseUnitPairActionProbe.lean#L43)
+- [`FCP.BFSSS1V52K1D18V7N.originalSourceSpinUnitPair_euclideanNormals_actionOnEuclidean`](SU2BFSSPhysicalDomainS1V52K1D18V7NOriginalSourceSpinInverseUnitPairActionProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7OOriginalSourceSOEuclideanSpinPairImageBridgeProbe
+
+- [`FCP.BFSSS1V52K1D18V7O.originalSourceSO_toEuclideanIsometry_exactAction`](SU2BFSSPhysicalDomainS1V52K1D18V7OOriginalSourceSOEuclideanSpinPairImageBridgeProbe.lean#L47)
+- [`FCP.BFSSS1V52K1D18V7O.originalSourceSpinPairSO_toEuclidean_exactAction`](SU2BFSSPhysicalDomainS1V52K1D18V7OOriginalSourceSOEuclideanSpinPairImageBridgeProbe.lean#L69)
+- [`FCP.BFSSS1V52K1D18V7O.originalSourceSpinPairSO_toEuclidean_nativePair`](SU2BFSSPhysicalDomainS1V52K1D18V7OOriginalSourceSOEuclideanSpinPairImageBridgeProbe.lean#L108)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7POriginalSourceSOEuclideanGroupHomBridgeProbe
+
+- [`FCP.BFSSS1V52K1D18V7P.originalSourceSO_toEuclidean_one`](SU2BFSSPhysicalDomainS1V52K1D18V7POriginalSourceSOEuclideanGroupHomBridgeProbe.lean#L45)
+- [`FCP.BFSSS1V52K1D18V7P.originalSourceSO_toEuclidean_mul`](SU2BFSSPhysicalDomainS1V52K1D18V7POriginalSourceSOEuclideanGroupHomBridgeProbe.lean#L62)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7QOriginalSourceEvenUnitListSpinWordImageProbe
+
+- [`FCP.BFSSS1V52K1D18V7Q.originalSourceEvenUnitList_hasSpinWordImage`](SU2BFSSPhysicalDomainS1V52K1D18V7QOriginalSourceEvenUnitListSpinWordImageProbe.lean#L54)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7ROriginalSourceSOEuclideanTransportInjectivityProbe
+
+- [`FCP.BFSSS1V52K1D18V7R.originalSourceSO_toEuclideanIsometry_injective`](SU2BFSSPhysicalDomainS1V52K1D18V7ROriginalSourceSOEuclideanTransportInjectivityProbe.lean#L45)
+- [`FCP.BFSSS1V52K1D18V7R.originalSourceSO_toEuclideanHom_injective`](SU2BFSSPhysicalDomainS1V52K1D18V7ROriginalSourceSOEuclideanTransportInjectivityProbe.lean#L64)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7SOriginalSourceSpinSOImageSurjectivityProbe
+
+- [`FCP.BFSSS1V52K1D18V7S.originalSourceSpin48SourceSO_surjective`](SU2BFSSPhysicalDomainS1V52K1D18V7SOriginalSourceSpinSOImageSurjectivityProbe.lean#L49)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7TOriginalSourceSpinSOEveryFiberTwoSignsProbe
+
+- [`FCP.BFSSS1V52K1D18V7T.originalSourceSpin48SO_everyFiber_eq_twoSignSet`](SU2BFSSPhysicalDomainS1V52K1D18V7TOriginalSourceSpinSOEveryFiberTwoSignsProbe.lean#L43)
+- [`FCP.BFSSS1V52K1D18V7T.originalSourceSpin48SO_everyFiber_has_twoDistinctPreimages`](SU2BFSSPhysicalDomainS1V52K1D18V7TOriginalSourceSpinSOEveryFiberTwoSignsProbe.lean#L61)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7UOriginalSourceSpinSOQuotientKernelIsomorphismProbe
+
+- [`FCP.BFSSS1V52K1D18V7U.originalSourceSpin48SO_quotientKernelMulEquiv_mk`](SU2BFSSPhysicalDomainS1V52K1D18V7UOriginalSourceSpinSOQuotientKernelIsomorphismProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7VOriginalSourceNegativeCentralKernelClosureProbe
+
+- [`FCP.BFSSS1V52K1D18V7V.originalSourceSpinSO_kernel_eq_negativeCentralClosure`](SU2BFSSPhysicalDomainS1V52K1D18V7VOriginalSourceNegativeCentralKernelClosureProbe.lean#L41)
+- [`FCP.BFSSS1V52K1D18V7V.originalSourceSpinSO_negativeCentralClosure_eq_twoSignSet`](SU2BFSSPhysicalDomainS1V52K1D18V7VOriginalSourceNegativeCentralKernelClosureProbe.lean#L68)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7WOriginalSourceSpinQuotientByNegativeCentralProbe
+
+- [`FCP.BFSSS1V52K1D18V7W.originalSourceSpinSO_quotientNegativeCentralClosureMulEquiv_mk`](SU2BFSSPhysicalDomainS1V52K1D18V7WOriginalSourceSpinQuotientByNegativeCentralProbe.lean#L65)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7XOriginalSourceSOEuclideanDetOnePreimageProbe
+
+- [`FCP.BFSSS1V52K1D18V7X.euclideanDetOne_hasOriginalSourceSOPreimage`](SU2BFSSPhysicalDomainS1V52K1D18V7XOriginalSourceSOEuclideanDetOnePreimageProbe.lean#L50)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7YOriginalSourceSOEuclideanDetOneGroupEquivProbe
+
+- [`FCP.BFSSS1V52K1D18V7Y.originalSourceSO_transport_range_eq_nativeEuclideanDetOne`](SU2BFSSPhysicalDomainS1V52K1D18V7YOriginalSourceSOEuclideanDetOneGroupEquivProbe.lean#L69)
+- [`FCP.BFSSS1V52K1D18V7Y.originalSourceSO_toNativeEuclideanDetOneMulEquiv_apply`](SU2BFSSPhysicalDomainS1V52K1D18V7YOriginalSourceSOEuclideanDetOneGroupEquivProbe.lean#L99)
+
+## SU2BFSSPhysicalDomainS1V52K1D18V7ZOriginalSpinQuotientNativeEuclideanDetOneEquivProbe
+
+- [`FCP.BFSSS1V52K1D18V7Z.originalSpinQuotient_toNativeEuclideanDetOneMulEquiv_mk`](SU2BFSSPhysicalDomainS1V52K1D18V7ZOriginalSpinQuotientNativeEuclideanDetOneEquivProbe.lean#L60)
+
+## SU2BFSSPhysicalDomainS1V52K1D1OriginalPolarCoordinateExteriorContractionProbe
+
+- [`FCP.BFSSS1V52K1D1.originalSourcePolar_halfSingle_eq_coordinateDual`](SU2BFSSPhysicalDomainS1V52K1D1OriginalPolarCoordinateExteriorContractionProbe.lean#L37)
+- [`FCP.BFSSS1V52K1D1.originalSourceSpin48_trivialAction_exteriorCoordinateContractions_zero`](SU2BFSSPhysicalDomainS1V52K1D1OriginalPolarCoordinateExteriorContractionProbe.lean#L56)
+
+## SU2BFSSPhysicalDomainS1V52K1D2AOriginalExteriorCoordinateWordContractionProbe
+
+- [`FCP.BFSSS1V52K1D2A.originalExteriorCoordinateWord_cons`](SU2BFSSPhysicalDomainS1V52K1D2AOriginalExteriorCoordinateWordContractionProbe.lean#L40)
+- [`FCP.BFSSS1V52K1D2A.originalExteriorCoordinateWord_contraction_zero_of_not_mem`](SU2BFSSPhysicalDomainS1V52K1D2AOriginalExteriorCoordinateWordContractionProbe.lean#L49)
+- [`FCP.BFSSS1V52K1D2A.originalExteriorCoordinateWord_leading_contraction`](SU2BFSSPhysicalDomainS1V52K1D2AOriginalExteriorCoordinateWordContractionProbe.lean#L76)
+
+## SU2BFSSPhysicalDomainS1V52K1D2BOriginalExteriorWordNonzeroEraseContractionProbe
+
+- [`FCP.BFSSS1V52K1D2B.originalExteriorCoordinateWord_contract_present_nonzero_erase`](SU2BFSSPhysicalDomainS1V52K1D2BOriginalExteriorWordNonzeroEraseContractionProbe.lean#L38)
+
+## SU2BFSSPhysicalDomainS1V52K1D2COriginalExteriorPBWBasisOrderedWordProbe
+
+- [`FCP.BFSSS1V52K1D2C.originalSourceExteriorPBWBasis_eq_originalCoordinateWord`](SU2BFSSPhysicalDomainS1V52K1D2COriginalExteriorPBWBasisOrderedWordProbe.lean#L53)
+- [`FCP.BFSSS1V52K1D2C.originalSourceExteriorPBWOrderedLabels_nodup`](SU2BFSSPhysicalDomainS1V52K1D2COriginalExteriorPBWBasisOrderedWordProbe.lean#L72)
+
+## SU2BFSSPhysicalDomainS1V52K1D2DOriginalExteriorPBWEmptyAndEraseInjectivityProbe
+
+- [`FCP.BFSSS1V52K1D2D.originalSourceExteriorPBWBasis_empty_eq_one`](SU2BFSSPhysicalDomainS1V52K1D2DOriginalExteriorPBWEmptyAndEraseInjectivityProbe.lean#L36)
+- [`FCP.BFSSS1V52K1D2D.originalSourceFinset_erase_injective_at_present_label`](SU2BFSSPhysicalDomainS1V52K1D2DOriginalExteriorPBWEmptyAndEraseInjectivityProbe.lean#L46)
+
+## SU2BFSSPhysicalDomainS1V52K1D2E1OriginalPBWBasisAbsentCoordinateContractionProbe
+
+- [`FCP.BFSSS1V52K1D2E1.originalSourcePBWOrderedLabels_mem_finset`](SU2BFSSPhysicalDomainS1V52K1D2E1OriginalPBWBasisAbsentCoordinateContractionProbe.lean#L39)
+- [`FCP.BFSSS1V52K1D2E1.originalSourceExteriorPBWBasis_coordinateContraction_zero_of_not_mem`](SU2BFSSPhysicalDomainS1V52K1D2E1OriginalPBWBasisAbsentCoordinateContractionProbe.lean#L51)
+
+## SU2BFSSPhysicalDomainS1V52K1D2E2OriginalPBWLeastCoordinateHeadProbe
+
+- [`FCP.BFSSS1V52K1D2E2.originalSourcePBWOrderedLabels_eq_finsetSort`](SU2BFSSPhysicalDomainS1V52K1D2E2OriginalPBWLeastCoordinateHeadProbe.lean#L43)
+- [`FCP.BFSSS1V52K1D2E2.originalSourcePBWOrderedLabels_cons_of_least`](SU2BFSSPhysicalDomainS1V52K1D2E2OriginalPBWLeastCoordinateHeadProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V52K1D2E3OriginalPBWLeastCoordinateContractionProbe
+
+- [`FCP.BFSSS1V52K1D2E3.originalSourceExteriorPBWBasis_contraction_erase_of_least`](SU2BFSSPhysicalDomainS1V52K1D2E3OriginalPBWLeastCoordinateContractionProbe.lean#L47)
+
+## SU2BFSSPhysicalDomainS1V52K1D2E4OriginalPBWFinitelyOccupiedMinimumProbe
+
+- [`FCP.BFSSS1V52K1D2E4.originalSourcePBWSupportedIndex_member_occupied`](SU2BFSSPhysicalDomainS1V52K1D2E4OriginalPBWFinitelyOccupiedMinimumProbe.lean#L51)
+- [`FCP.BFSSS1V52K1D2E4.originalSourcePBWLeastOccupied_le_every_supported_coordinate`](SU2BFSSPhysicalDomainS1V52K1D2E4OriginalPBWFinitelyOccupiedMinimumProbe.lean#L63)
+
+## SU2BFSSPhysicalDomainS1V52K1D2E5OriginalPBWEmptySupportScalarProbe
+
+- [`FCP.BFSSS1V52K1D2E5.originalExteriorScalar_of_no_occupiedPBWLabels`](SU2BFSSPhysicalDomainS1V52K1D2E5OriginalPBWEmptySupportScalarProbe.lean#L42)
+
+## SU2BFSSPhysicalDomainS1V52K1D2F1OriginalPBWLeastContractionCoefficientProbe
+
+- [`FCP.BFSSS1V52K1D2F1.originalSourcePBWLeastContraction_coefficient`](SU2BFSSPhysicalDomainS1V52K1D2F1OriginalPBWLeastContractionCoefficientProbe.lean#L42)
+
+## SU2BFSSPhysicalDomainS1V52K1D2F2OriginalPBWAllContractionsNoOccupiedLabelsProbe
+
+- [`FCP.BFSSS1V52K1D2F2.originalSourcePBWAllContractions_zero_implies_no_occupied_labels`](SU2BFSSPhysicalDomainS1V52K1D2F2OriginalPBWAllContractionsNoOccupiedLabelsProbe.lean#L41)
+
+## SU2BFSSPhysicalDomainS1V52K1D3OriginalExteriorScalarCommonCoordinateKernel
+
+- [`FCP.BFSSS1V52K1D3.originalExteriorScalar_of_all_coordinateContractions_zero`](SU2BFSSPhysicalDomainS1V52K1D3OriginalExteriorScalarCommonCoordinateKernel.lean#L28)
+
+## SU2BFSSPhysicalDomainS1V52K1D4OriginalSpin48ExteriorScalarKernel
+
+- [`FCP.BFSSS1V52K1D4.originalSourceSpin48_trivialAction_exterior_scalar`](SU2BFSSPhysicalDomainS1V52K1D4OriginalSpin48ExteriorScalarKernel.lean#L29)
+
+## SU2BFSSPhysicalDomainS1V52K1D5OriginalCliffordScalarTransportProbe
+
+- [`FCP.BFSSS1V52K1D5.originalSource_equivExterior_algebraMap`](SU2BFSSPhysicalDomainS1V52K1D5OriginalCliffordScalarTransportProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D5.originalSourceSpin48_trivialAction_clifford_scalar`](SU2BFSSPhysicalDomainS1V52K1D5OriginalCliffordScalarTransportProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainS1V52K1D6OriginalSpin48ScalarStarNormProbe
+
+- [`FCP.BFSSS1V52K1D6.originalSourceSpin48_trivialAction_clifford_star_fixed`](SU2BFSSPhysicalDomainS1V52K1D6OriginalSpin48ScalarStarNormProbe.lean#L28)
+- [`FCP.BFSSS1V52K1D6.originalSourceSpin48_trivialAction_clifford_square_eq_one`](SU2BFSSPhysicalDomainS1V52K1D6OriginalSpin48ScalarStarNormProbe.lean#L40)
+
+## SU2BFSSPhysicalDomainS1V52K1D7OriginalCliffordScalarCoefficientNormProbe
+
+- [`FCP.BFSSS1V52K1D7.originalSourceClifford_algebraMap_injective`](SU2BFSSPhysicalDomainS1V52K1D7OriginalCliffordScalarCoefficientNormProbe.lean#L32)
+- [`FCP.BFSSS1V52K1D7.originalSourceSpin48_trivialAction_clifford_scalar_coefficient_square_one`](SU2BFSSPhysicalDomainS1V52K1D7OriginalCliffordScalarCoefficientNormProbe.lean#L43)
+
+## SU2BFSSPhysicalDomainS1V52K1D8OriginalSpin48TwoSignUpperBoundProbe
+
+- [`FCP.BFSSS1V52K1D8.originalSourceSpin48_trivialAction_scalar_coefficient_two_signs`](SU2BFSSPhysicalDomainS1V52K1D8OriginalSpin48TwoSignUpperBoundProbe.lean#L30)
+- [`FCP.BFSSS1V52K1D8.originalSourceSpin48_trivialAction_clifford_one_or_neg_one`](SU2BFSSPhysicalDomainS1V52K1D8OriginalSpin48TwoSignUpperBoundProbe.lean#L50)
+
+## SU2BFSSPhysicalDomainS1V52K1D9OriginalSpin48NegativeCentralMembershipProbe
+
+- [`FCP.BFSSS1V52K1D9.sourceSpin48_neg_one_mem_of_unitVector`](SU2BFSSPhysicalDomainS1V52K1D9OriginalSpin48NegativeCentralMembershipProbe.lean#L29)
+- [`FCP.BFSSS1V52K1D9.originalSourceSpin48_neg_one_mem`](SU2BFSSPhysicalDomainS1V52K1D9OriginalSpin48NegativeCentralMembershipProbe.lean#L67)
+
+## SU2BFSSPhysicalDomainS1V52L9E5A2FiniteComplexWeightedFockCliffordSquareProbe
+
+- [`FCP.BFSSS1V52L9E5A2.finiteComplexWeightedFockClifford_square`](SU2BFSSPhysicalDomainS1V52L9E5A2FiniteComplexWeightedFockCliffordSquareProbe.lean#L27)
+
+## SU2BFSSPhysicalDomainS1V52L9E5B0OriginalFockRealComplexOperatorScalarBridgeProbe
+
+- [`FCP.BFSSS1V52L9E5B0.originalFockOperator_real_smul_eq_complex_smul`](SU2BFSSPhysicalDomainS1V52L9E5B0OriginalFockRealComplexOperatorScalarBridgeProbe.lean#L30)
+
+## SU2BFSSPhysicalDomainS1V52L9E5F20BOriginalSource48CliffordPBWBasisFiniteDimensionalProbe
+
+- [`FCP.BFSSS1V52L9E5F20B.originalSourceClifford_finiteDimensional`](SU2BFSSPhysicalDomainS1V52L9E5F20BOriginalSource48CliffordPBWBasisFiniteDimensionalProbe.lean#L55)
+
+## SU2BFSSPhysicalDomainS1V5ConcreteSixteenSourceColorBlocksProbe
+
+- [`FCP.BFSSS1V5.sourceBlockColorLabel_injective`](SU2BFSSPhysicalDomainS1V5ConcreteSixteenSourceColorBlocksProbe.lean#L61)
+- [`FCP.BFSSS1V5.sourceBlockColorAxis_self`](SU2BFSSPhysicalDomainS1V5ConcreteSixteenSourceColorBlocksProbe.lean#L74)
+- [`FCP.BFSSS1V5.sourceBlockColorAxis_other`](SU2BFSSPhysicalDomainS1V5ConcreteSixteenSourceColorBlocksProbe.lean#L79)
+
+## SU2BFSSPhysicalDomainS1V7OriginalSourceSixteenBlockLabelBridgeProbe
+
+- [`FCP.BFSSS1V7.sourceColorModeEquiv_eq_original`](SU2BFSSPhysicalDomainS1V7OriginalSourceSixteenBlockLabelBridgeProbe.lean#L33)
+- [`FCP.BFSSS1V7.sourceBlockColorLabel_eq_original_paired`](SU2BFSSPhysicalDomainS1V7OriginalSourceSixteenBlockLabelBridgeProbe.lean#L38)
+
+## SU2BFSSSource48AllVectorFockCliffordSquareProbe
+
+- [`FCP.BFSSSource48AllVectorFockCliffordSquare.sourceGammaRealLinear_sq`](SU2BFSSSource48AllVectorFockCliffordSquareProbe.lean#L41)
+
+## SU2BFSSSource48FockBivectorStarCompatibilityProbe
+
+- [`FCP.BFSSSource48FockBivectorStar.sourceFockCliffordAlgHom_star_bivector`](SU2BFSSSource48FockBivectorStarCompatibilityProbe.lean#L38)
+
+## SU2BFSSSource48FockCliffordUniversalLiftProbe
+
+- [`FCP.BFSSSource48FockCliffordUniversalLift.sourceFockCliffordAlgHom_generator`](SU2BFSSSource48FockCliffordUniversalLiftProbe.lean#L62)
+
+## SU2BFSSSource48FockGammaSelfAdjointProbe
+
+- [`FCP.BFSSSource48FockGammaSelfAdjoint.sourceNormalizedGamma_selfAdjoint`](SU2BFSSSource48FockGammaSelfAdjointProbe.lean#L41)
+- [`FCP.BFSSSource48FockGammaSelfAdjoint.sourceGammaRealLinear_selfAdjoint`](SU2BFSSSource48FockGammaSelfAdjointProbe.lean#L51)
+
+## SU2BFSSSource48FockIndexBridgeProbe
+
+- [`FCP.BFSSSource48FockIndexBridge.sourceBlockColorMajorana_eq_G1APairedTheta`](SU2BFSSSource48FockIndexBridgeProbe.lean#L22)
+
+## SU2BFSSSource48NormalizedFockGammaProbe
+
+- [`FCP.BFSSSource48NormalizedFockGamma.sourceNormalizedGamma_eq_paired`](SU2BFSSSource48NormalizedFockGammaProbe.lean#L43)
+- [`FCP.BFSSSource48NormalizedFockGamma.sourceNormalizedGamma_sq_one`](SU2BFSSSource48NormalizedFockGammaProbe.lean#L55)
+- [`FCP.BFSSSource48NormalizedFockGamma.sourceNormalizedGamma_pairwise_CAR`](SU2BFSSSource48NormalizedFockGammaProbe.lean#L73)
+
+## SU2BFSSSource48QuadraticUnitAxesProbe
+
+- [`FCP.BFSSSource48QuadraticUnitAxes.source48Quadratic_eq_dot`](SU2BFSSSource48QuadraticUnitAxesProbe.lean#L28)
+- [`FCP.BFSSSource48QuadraticUnitAxes.sourceBlockColorAxis_quadratic_one`](SU2BFSSSource48QuadraticUnitAxesProbe.lean#L35)
+
+## SU2BFSSSource48RealLinearGammaProbe
+
+- [`FCP.BFSSSource48RealLinearGamma.sourceGammaRealLinear_axis`](SU2BFSSSource48RealLinearGammaProbe.lean#L55)
+- [`FCP.BFSSSource48RealLinearGamma.sourceGammaRealLinear_axis_paired`](SU2BFSSSource48RealLinearGammaProbe.lean#L77)
+
+## SU2ColorCrossProbe
+
+- [`FCP.BFSSSU2.epsilon3_contraction`](SU2ColorCrossProbe.lean#L40)
+- [`FCP.BFSSSU2.normalized_cross_energy`](SU2ColorCrossProbe.lean#L47)
+- [`FCP.BFSSSU2.pauli_commutator`](SU2ColorCrossProbe.lean#L70)
+- [`FCP.BFSSSU2.pauliScale_sq`](SU2ColorCrossProbe.lean#L83)
+- [`FCP.BFSSSU2.pauliScale_mul_sqrt`](SU2ColorCrossProbe.lean#L88)
+- [`FCP.BFSSSU2.pauli_trace_zero`](SU2ColorCrossProbe.lean#L101)
+- [`FCP.BFSSSU2.pauli_trace_pair`](SU2ColorCrossProbe.lean#L104)
+- [`FCP.BFSSSU2.normalizedPauli_trace_pair`](SU2ColorCrossProbe.lean#L112)
+- [`FCP.BFSSSU2.normalizedPauli_commutator`](SU2ColorCrossProbe.lean#L125)
+- [`FCP.BFSSSU2.pauli_hermitian`](SU2ColorCrossProbe.lean#L167)
+- [`FCP.BFSSSU2.normalizedPauli_hermitian`](SU2ColorCrossProbe.lean#L173)
+- [`FCP.BFSSSU2.normalizedPauli_trace_zero`](SU2ColorCrossProbe.lean#L182)
+- [`FCP.BFSSSU2.epsilon3_cyclic`](SU2ColorCrossProbe.lean#L187)
+- [`FCP.BFSSSU2.normalizedPauli_realBracket`](SU2ColorCrossProbe.lean#L192)
+- [`FCP.BFSSSU2.normalizedPauli_trace_epsilon_sum`](SU2ColorCrossProbe.lean#L212)
+- [`FCP.BFSSSU2.normalizedPauli_structureConstant_trace`](SU2ColorCrossProbe.lean#L225)
+- [`FCP.BFSSSU2.algebraData_structureConstant_of_pauli_color`](SU2ColorCrossProbe.lean#L241)
+- [`FCP.BFSSSU2.coordinateBracket_of_pauli_color`](SU2ColorCrossProbe.lean#L266)
+- [`FCP.BFSSSU2.deformedBosonicPotential_one_zero_eq_wedge`](SU2ColorCrossProbe.lean#L288)
+- [`FCP.BFSSSU2.pauli_eq_native_pauli`](SU2ColorCrossProbe.lean#L332)
+- [`FCP.BFSSSU2.nativePauli_complex_span_traceless`](SU2ColorCrossProbe.lean#L343)
+- [`FCP.BFSSSU2.nativePauli_coeff_im_zero`](SU2ColorCrossProbe.lean#L372)
+- [`FCP.BFSSSU2.normalizedPauli_color_spanning`](SU2ColorCrossProbe.lean#L390)
+- [`FCP.BFSSSU2.exists_normalizedPauli_color_basis`](SU2ColorCrossProbe.lean#L439)
+
+## SU2FermionF2B2ImagProbe
+
+- [`FCP.BFSSFermionF2B2Imag.majorana1_car_all`](SU2FermionF2B2ImagProbe.lean#L51)
+
+## SU2FermionF2B2IndexedProbe
+
+- [`FCP.BFSSFermionF2B2Indexed.majoranaCandidate_car`](SU2FermionF2B2IndexedProbe.lean#L26)
+
+## SU2FermionF2B2MixedAllProbe
+
+- [`FCP.BFSSFermionF2B2MixedAll.majorana01_car_all`](SU2FermionF2B2MixedAllProbe.lean#L24)
+
+## SU2FermionF2B2MixedDiagProbe
+
+- [`FCP.BFSSFermionF2B2MixedDiag.majorana01_car_self`](SU2FermionF2B2MixedDiagProbe.lean#L35)
+
+## SU2FermionF2B2MixedProbe
+
+- [`FCP.BFSSFermionF2B2Mixed.majorana01_car_ne`](SU2FermionF2B2MixedProbe.lean#L52)
+
+## SU2FermionF2B2Probe
+
+- [`FCP.BFSSFermionF2B2.majorana0_car_all`](SU2FermionF2B2Probe.lean#L22)
+
+## SU2FermionF2B2ThetaProbe
+
+- [`FCP.BFSSFermionF2B2Theta.thetaCandidate_CAR`](SU2FermionF2B2ThetaProbe.lean#L26)
+
+## SU2FermionF2BProbe
+
+- [`FCP.BFSSFermionF2B.majorana1_car`](SU2FermionF2BProbe.lean#L71)
+
+## SU2FermionF2Probe
+
+- [`FCP.BFSSFermionF2.creator_creator_car`](SU2FermionF2Probe.lean#L68)
+- [`FCP.BFSSFermionF2.annihilator_annihilator_car`](SU2FermionF2Probe.lean#L76)
+- [`FCP.BFSSFermionF2.annihilator_creator_car`](SU2FermionF2Probe.lean#L85)
+- [`FCP.BFSSFermionF2.majorana1_selfAdjoint`](SU2FermionF2Probe.lean#L99)
+- [`FCP.BFSSFermionF2.majoranaCandidate_selfAdjoint`](SU2FermionF2Probe.lean#L121)
+- [`FCP.BFSSFermionF2.thetaCandidate_selfAdjoint`](SU2FermionF2Probe.lean#L135)
+
+## SU2FermionFockProbe
+
+- [`FCP.BFSSFermionF1.creator_annihilator_car`](SU2FermionFockProbe.lean#L74)
+- [`FCP.BFSSFermionF1.creator_adjoint`](SU2FermionFockProbe.lean#L83)
+- [`FCP.BFSSFermionF1.annihilator_adjoint`](SU2FermionFockProbe.lean#L94)
+- [`FCP.BFSSFermionF1.majorana0_selfAdjoint`](SU2FermionFockProbe.lean#L104)
+- [`FCP.BFSSFermionF1.creator_sq`](SU2FermionFockProbe.lean#L130)
+- [`FCP.BFSSFermionF1.annihilator_sq`](SU2FermionFockProbe.lean#L137)
+- [`FCP.BFSSFermionF1.majorana0_car`](SU2FermionFockProbe.lean#L157)
+
+## SU2PairedThetaConcreteModesProbe
+
+- [`FCP.BFSSPairedThetaConcreteModes.pairedLabel_even`](SU2PairedThetaConcreteModesProbe.lean#L24)
+- [`FCP.BFSSPairedThetaConcreteModes.pairedLabel_odd`](SU2PairedThetaConcreteModesProbe.lean#L29)
+- [`FCP.BFSSPairedThetaConcreteModes.pairedTheta_even`](SU2PairedThetaConcreteModesProbe.lean#L34)
+- [`FCP.BFSSPairedThetaConcreteModes.pairedTheta_odd`](SU2PairedThetaConcreteModesProbe.lean#L40)
+
+## SU2PairedThetaLabelCrosswalkProbe
+
+- [`FCP.BFSSPairedThetaLabelCrosswalk.pairedToOldLabel_correct`](SU2PairedThetaLabelCrosswalkProbe.lean#L56)
+- [`FCP.BFSSPairedThetaLabelCrosswalk.pairedTheta_eq_reindexed_old`](SU2PairedThetaLabelCrosswalkProbe.lean#L71)
+- [`FCP.BFSSPairedThetaLabelCrosswalk.pairedTheta_CAR`](SU2PairedThetaLabelCrosswalkProbe.lean#L81)
+- [`FCP.BFSSPairedThetaLabelCrosswalk.pairedTheta_selfAdjoint`](SU2PairedThetaLabelCrosswalkProbe.lean#L106)
+
+## SU2RealGammaProbe
+
+- [`FCP.BFSSGamma9.gamma_symmetric`](SU2RealGammaProbe.lean#L179)
+- [`FCP.BFSSGamma9.gamma_clifford`](SU2RealGammaProbe.lean#L187)
+- [`FCP.BFSSGamma9.exists_gamma9`](SU2RealGammaProbe.lean#L217)
+
+## SpinPlaneCovariance
+
+- [`OAI.BFSSQuantum.AlgebraData.sourceGammaTwo_skew`](../../SpinPlaneCovariance.lean#L44)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinPlaneGenerator_skew`](../../SpinPlaneCovariance.lean#L56)
+- [`OAI.BFSSQuantum.AlgebraData.sourceGammaTwo_eq_mul`](../../SpinPlaneCovariance.lean#L64)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinPlane_comm_gamma_i`](../../SpinPlaneCovariance.lean#L74)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinPlane_comm_gamma_j`](../../SpinPlaneCovariance.lean#L93)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinPlane_comm_gamma_remaining`](../../SpinPlaneCovariance.lean#L112)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinPlane_comm_gamma_all`](../../SpinPlaneCovariance.lean#L134)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinGammaVariation_eq_comm`](../../SpinPlaneCovariance.lean#L157)
+- [`OAI.BFSSQuantum.AlgebraData.sourceSpinKineticCoefficient`](../../SpinPlaneCovariance.lean#L166)
