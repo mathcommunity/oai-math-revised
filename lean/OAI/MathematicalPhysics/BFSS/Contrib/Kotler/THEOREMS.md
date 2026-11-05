@@ -1217,9 +1217,9 @@ This is a generated source index, not a count of independent discoveries or a cl
 ## SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe
 
 - [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_P_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L40)
-- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_D_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L97)
-- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceP_P_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L110)
-- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_positionPair_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L118)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_D_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L93)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceP_P_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L106)
+- [`FCP.BFSSSU2PhysicalDomainL6G4A.sourceD_positionPair_comm`](OperatorDependencies/SU2BFSSPhysicalDomainL6G4AOriginalCoreCalculusProbe.lean#L114)
 
 ## SU2BFSSPhysicalDomainL6G4BOriginalCoefficientCommutatorProbe
 

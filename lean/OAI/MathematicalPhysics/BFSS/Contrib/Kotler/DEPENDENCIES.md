@@ -48,7 +48,7 @@ They are not required by any selected mathematical import. Failed and diagnostic
 
 The original FCP snapshot also contains experiments outside the selected operator dependency graph. [outside-operator-closure.json](outside-operator-closure.json) records them as outside this import closure, without inferring either acceptance or rejection from their filenames. The package's scope is the complete current owner integration plus the full physical result line presented in v0.4.0, rather than every historical experiment in FCP.
 
-The existing run history, all old workflows, recovery trials and chronological handoffs remain in the research repositories. Only one reproducible source-package build workflow is proposed here.
+The existing run history, all old workflows, recovery trials and chronological handoffs remain in the research repositories. One reproducible qualification workflow is intended for upstream. The temporary fork-branch-only warning-diagnostics workflow used during integration is not qualification and must be removed before upstream submission.
 
 One direct FCP import of the deprecated `Mathlib.Data.Complex.Basic` wrapper is redirected to `Mathlib.Basic.Complex.Basic`, the exact public import of that wrapper at the pinned Mathlib revision. That redirect changes no declaration or proof body. Every other explicit Mathlib import was checked against that revision; one transient lookup failure was rechecked successfully.
 

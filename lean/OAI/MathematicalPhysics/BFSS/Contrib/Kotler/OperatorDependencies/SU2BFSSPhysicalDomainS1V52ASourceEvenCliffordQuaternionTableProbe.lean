@@ -67,7 +67,7 @@ private theorem triple_bivector_cycle
       simp only [mul_assoc]
     _ = A * (B * (-(A * D))) := by rw [hDA]
     _ = -(A * ((B * A) * D)) := by
-      simp only [mul_neg, neg_mul, mul_assoc]
+      simp only [mul_neg, mul_assoc]
     _ = -(A * ((-(A * B)) * D)) := by rw [hBA]
     _ = (A * A) * (B * D) := by
       simp only [neg_mul, mul_neg, neg_neg, mul_assoc]

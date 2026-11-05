@@ -11,8 +11,9 @@ class BuildFailurePropagation(unittest.TestCase):
         self.fake=self.root/'fake-lean'
         self.fake.write_text('#!'+sys.executable+'\n'+'''
 from pathlib import Path
-import sys,time
-assert '-DautoImplicit=false' in sys.argv and '-DwarningAsError=true' in sys.argv
+import os,sys,time
+expected='-DwarningAsError=false' if os.environ.get('FIXTURE_DIAGNOSTICS') else '-DwarningAsError=true'
+assert '-DautoImplicit=false' in sys.argv and expected in sys.argv
 source=Path(sys.argv[-1]);mode=source.read_text()
 with Path('invocations.log').open('a') as out:out.write(source.name+'\\n')
 target=Path(sys.argv[sys.argv.index('-o')+1]);target.parent.mkdir(parents=True,exist_ok=True)
@@ -23,6 +24,9 @@ if mode=='FAIL':
  print('error: expected fixture diagnostic',flush=True)
  raise SystemExit(7)
 if mode=='TIMEOUT':time.sleep(5)
+if mode=='WARN':
+ print('warning: expected fixture diagnostic',flush=True)
+ if expected=='-DwarningAsError=true':raise SystemExit(7)
 ''')
         self.fake.chmod(0o755)
         self.rows={'A':{'imports':[]},'B':{'imports':['A']},'C':{'imports':[]}}
@@ -32,15 +36,19 @@ if mode=='TIMEOUT':time.sleep(5)
             target.parent.mkdir(parents=True,exist_ok=True)
             for suffix in ['','.private','.server']:Path(str(target)+suffix).write_text('stale')
 
-    def run_graph(self,*,timeout=5):
+    def run_graph(self,*,timeout=5,diagnose_warnings=False):
         with patch.object(build,'LEAN',self.root),contextlib.redirect_stdout(io.StringIO()):
-            build.compile_modules(list(self.rows),self.rows,str(self.fake),dict(os.environ),self.logs,timeout=timeout)
+            env=dict(os.environ)
+            if diagnose_warnings:env['FIXTURE_DIAGNOSTICS']='1'
+            build.compile_modules(list(self.rows),self.rows,str(self.fake),env,self.logs,timeout=timeout,diagnose_warnings=diagnose_warnings)
 
-    def check_rejection(self,mode,*,timeout=5):
+    def check_rejection(self,mode,*,timeout=5,diagnose_warnings=False):
         (self.root/'A.lean').write_text(mode)
-        with self.assertRaises(SystemExit):self.run_graph(timeout=timeout)
+        with self.assertRaises(SystemExit):self.run_graph(timeout=timeout,diagnose_warnings=diagnose_warnings)
         result=json.loads((self.logs/'module-results.json').read_text())
-        self.assertEqual(result['counts'],{'passed':1,'failed':1,'blocked':1})
+        expected={'passed':1,'failed':1,'blocked':1}
+        if diagnose_warnings:expected['warning']=0
+        self.assertEqual(result['counts'],expected)
         self.assertEqual([r['status'] for r in result['modules']],['failed','blocked','passed'])
         self.assertEqual((self.root/'invocations.log').read_text().splitlines(),['A.lean','C.lean'])
         for name in ['A','B']:
@@ -51,6 +59,15 @@ if mode=='TIMEOUT':time.sleep(5)
     def test_failed_recovery_objects_cannot_reach_dependants(self):self.check_rejection('FAIL')
     def test_missing_fresh_output_is_failure(self):self.check_rejection('NO_OUTPUT')
     def test_timeout_blocks_dependants(self):self.check_rejection('TIMEOUT',timeout=0.5)
+    def test_strict_warning_rejects_and_blocks(self):self.check_rejection('WARN')
+    def test_diagnostic_hard_error_still_blocks(self):self.check_rejection('FAIL',diagnose_warnings=True)
+    def test_diagnostic_warning_allows_inspection_but_rejects_result(self):
+        (self.root/'A.lean').write_text('WARN')
+        with self.assertRaises(SystemExit):self.run_graph(diagnose_warnings=True)
+        result=json.loads((self.logs/'module-results.json').read_text())
+        self.assertEqual(result['mode'],'warning-diagnostics')
+        self.assertEqual(result['counts'],{'passed':2,'failed':0,'blocked':0,'warning':1})
+        self.assertEqual((self.root/'invocations.log').read_text().splitlines(),['A.lean','B.lean','C.lean'])
     def test_all_modules_must_pass(self):
         self.run_graph()
         result=json.loads((self.logs/'module-results.json').read_text())

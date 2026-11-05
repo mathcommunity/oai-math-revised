@@ -56,10 +56,6 @@ theorem sourceD_P_comm {N : ℕ} (u v : BosonLabel N) :
     (x v : ℂ) • coordinateDerivative u.1 u.2 f x =
       ((if u = v then (1 : SourceEnd N) else 0) f) x
   rw [h]
-  change ((x v : ℂ) • coordinateDerivative u.1 u.2 f x +
-    (fderiv ℝ (fun y : Boson N => (y v : ℂ)) x
-      (EuclideanSpace.single u 1)) • f x) -
-    (x v : ℂ) • coordinateDerivative u.1 u.2 f x = _
   rw [sourceCoordinate_fderiv]
   simp only [EuclideanSpace.single, PiLp.single_apply]
   by_cases huv : u = v
@@ -91,7 +87,7 @@ private theorem sourceSecondDirectional_apply {N : ℕ}
   rw [heval, fderiv_clm_apply hfderiv (differentiableAt_const dv)]
   simp only [fderiv_fun_const, Pi.zero_apply,
     ContinuousLinearMap.comp_zero, zero_add, ContinuousLinearMap.flip_apply]
-  simpa only [du, dv]
+  simp only [du, dv]
 
 /-- The accepted mixed-derivative argument on the literal original core. -/
 theorem sourceD_D_comm {N : ℕ} (u v : BosonLabel N) :

@@ -62,7 +62,7 @@ theorem creationCoefficient_ne_zero_of_not_mem
 
 /-- Removing an occupied mode likewise has a nonzero transition coefficient. -/
 theorem annihilationCoefficient_ne_zero_of_mem
-    (i : Fin 24) (A : Finset (Fin 24)) (hi : i ∈ A) :
+    (i : Fin 24) (A : Finset (Fin 24)) (_hi : i ∈ A) :
     creationCoefficient i (A.erase i) ≠ 0 :=
   creationCoefficient_ne_zero_of_not_mem i (A.erase i) (Finset.notMem_erase _ _)
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compile every selected module freshly, then check the combined import and axiom inventory."""
 from pathlib import Path
-import argparse,json,shutil,subprocess,sys
+import argparse,json,re,shutil,subprocess,sys
 
 HERE=Path(__file__).resolve().parents[1]
 LEAN=HERE.parents[4]
@@ -23,14 +23,15 @@ def remove_objects(name):
     for path in [target,Path(str(target)+'.private'),Path(str(target)+'.server'),target.with_suffix('.ilean')]:
         path.unlink(missing_ok=True)
 
-def compile_modules(modules,rows,lean,env,logs,*,timeout=840):
+def compile_modules(modules,rows,lean,env,logs,*,timeout=840,diagnose_warnings=False):
     # Remove every selected old object before processing the graph. A failed Lean
     # process may emit recovery objects; those must never reach its dependants.
     for name in modules:remove_objects(name)
     results=[];status={};progress=logs/'module-progress.jsonl';progress.write_text('')
     for index,name in enumerate(modules,1):
         stem=name.replace('.','/');target=object_path(name)
-        blocked=[im for im in rows[name]['imports'] if im in rows and status.get(im)!='passed']
+        usable={'passed','warning'} if diagnose_warnings else {'passed'}
+        blocked=[im for im in rows[name]['imports'] if im in rows and status.get(im) not in usable]
         entry={'module':name,'status':'blocked' if blocked else 'passed'}
         print(f'[{index}/{len(modules)}] {name}',flush=True)
         if blocked:
@@ -40,9 +41,15 @@ def compile_modules(modules,rows,lean,env,logs,*,timeout=840):
             target.parent.mkdir(parents=True,exist_ok=True)
             log=logs/f'{index:04d}-{name.split(".")[-1]}.log';entry['log']=log.name
             try:
-                run_logged([lean,'-DautoImplicit=false','-DwarningAsError=true','-o',str(target.relative_to(LEAN)),stem+'.lean'],log,timeout=timeout,env=env)
+                warning_flag='-DwarningAsError=false' if diagnose_warnings else '-DwarningAsError=true'
+                run_logged([lean,'-DautoImplicit=false',warning_flag,'-o',str(target.relative_to(LEAN)),stem+'.lean'],log,timeout=timeout,env=env)
                 if not target.exists() or not target.stat().st_size:
                     raise RuntimeError('Missing fresh object: '+name)
+                if diagnose_warnings:
+                    warnings=re.findall(r'(?m)^.*\bwarning(?:\([^)]*\))?:.*$',log.read_text())
+                    if warnings:
+                        entry['status']='warning';entry['warnings']=warnings
+                        print('DIAGNOSTIC WARNINGS: '+name+'\n'+'\n'.join(warnings),flush=True)
             except (subprocess.CalledProcessError,subprocess.TimeoutExpired,RuntimeError) as error:
                 entry['status']='failed';entry['reason']=str(error)
                 remove_objects(name)
@@ -50,13 +57,18 @@ def compile_modules(modules,rows,lean,env,logs,*,timeout=840):
         status[name]=entry['status'];results.append(entry)
         with progress.open('a') as out:out.write(json.dumps(entry)+'\n')
     counts={s:sum(r['status']==s for r in results) for s in ['passed','failed','blocked']}
-    (logs/'module-results.json').write_text(json.dumps({'counts':counts,'modules':results},indent=2)+'\n')
+    if diagnose_warnings:counts['warning']=sum(r['status']=='warning' for r in results)
+    mode='warning-diagnostics' if diagnose_warnings else 'strict'
+    (logs/'module-results.json').write_text(json.dumps({'mode':mode,'counts':counts,'modules':results},indent=2)+'\n')
     print('BFSS_MODULE_COMPILE_SUMMARY: '+json.dumps(counts),flush=True)
-    if counts['failed'] or counts['blocked']:
+    if counts['failed'] or counts['blocked'] or counts.get('warning',0):
+        if diagnose_warnings:
+            raise SystemExit('BFSS_DIAGNOSTIC_ISSUES_FOUND: warnings, failures or blocked modules; not qualification')
         raise SystemExit('BFSS_COMPLETE_CONTRIBUTION_BUILD_FAIL: source failures or blocked dependencies; axiom audit not run')
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--logs',type=Path,required=True)
+    parser.add_argument('--diagnose-warnings',action='store_true',help='Collect downstream warnings; never produces a qualification pass or axiom audit.')
     args=parser.parse_args();args.logs.mkdir(parents=True,exist_ok=True)
     subprocess.run([sys.executable,str(HERE/'tools/check_bundle.py')],check=True)
     data=json.loads((HERE/'manifest.json').read_text());rows={r['module']:r for r in data['modules']}
@@ -77,7 +89,10 @@ def main():
     for name in wrappers:
         source=LEAN/(name.replace('.','/')+'.lean')
         rows[name]={'imports':[line.split()[1] for line in source.read_text().splitlines() if line.startswith('import ')]}
-    compile_modules(modules+wrappers,rows,lean,env,args.logs)
+    compile_modules(modules+wrappers,rows,lean,env,args.logs,diagnose_warnings=args.diagnose_warnings)
+    if args.diagnose_warnings:
+        print('BFSS_DIAGNOSTIC_SOURCE_COMPILE_COMPLETE: no warnings; not qualification',flush=True)
+        return
     audit=args.logs/'declaration-audit.log'
     run_logged([lean,'-DautoImplicit=false','-DwarningAsError=true',str((HERE/'Audit.lean').relative_to(LEAN))],audit,timeout=600,env=env)
     subprocess.run([sys.executable,str(HERE/'tools/check_bundle.py'),'--report',str(audit)],check=True)
