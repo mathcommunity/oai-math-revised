@@ -41,9 +41,9 @@ theorem originalNativeQuaternion_matrix_reconstruction
         !![u,v; -star v,star u] := by
           ext i j
           fin_cases i <;> fin_cases j <;>
-            (simp [sourceQuaternionColorMatrix, originalNativeQuaternionCoords,
-              u, v, sourceComplex_star_re_im, Complex.re_add_im];
-            ring)
+            simp [sourceQuaternionColorMatrix, originalNativeQuaternionCoords,
+              u, v, sourceComplex_star_re_im, Complex.re_add_im]
+          ring
     _ = (g : ColorMatrix 2) := by
       simpa only [u, v] using
         (originalNativeSU2_wholeQuaternionMatrix g).symm
