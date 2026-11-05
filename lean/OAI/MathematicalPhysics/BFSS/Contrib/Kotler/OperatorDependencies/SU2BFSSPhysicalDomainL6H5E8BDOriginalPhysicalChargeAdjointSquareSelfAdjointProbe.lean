@@ -110,7 +110,7 @@ theorem originalMinimalPhysicalHilbertChargeAdjointSquare_shift_graph_surjective
     (h : G.physicalSpace) :
     ∃ x z : G.physicalSpace,
       (x, z) ∈ (originalMinimalPhysicalHilbertChargeAdjointSquare M G).graph ∧ x + z = h := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact naturalAdjointSquare_shift_graph_surjective
     (originalMinimalPhysicalHilbertChargeColumn M G)
@@ -191,7 +191,7 @@ theorem originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint :
     letI : CompleteSpace G.physicalSpace :=
       originalPhysicalHilbertComplete M G
     IsSelfAdjoint (originalMinimalPhysicalHilbertChargeAdjointSquare M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact selfAdjoint_of_formalSymmetry_and_shift_surjectivity
     (originalMinimalPhysicalHilbertChargeAdjointSquare M G)
@@ -201,13 +201,13 @@ theorem originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint :
 theorem originalMinimalPhysicalHilbertChargeAdjointSquare_domain_dense :
     Dense ((originalMinimalPhysicalHilbertChargeAdjointSquare M G).domain :
       Set G.physicalSpace) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact (originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint M G).dense_domain
 
 theorem originalMinimalPhysicalHilbertChargeAdjointSquare_closed :
     (originalMinimalPhysicalHilbertChargeAdjointSquare M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact (originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint M G).isClosed
 

@@ -41,7 +41,7 @@ theorem actualOriginalSU2_continuous_integral_of_dominated
       Continuous (fun g : GaugeGroup 2 => F g x)) :
     Continuous (fun g : GaugeGroup 2 =>
       ∫ x : Boson 2, F g x ∂(volume : Measure (Boson 2))) := by
-  letI : FirstCountableTopology (GaugeGroup 2) :=
+  let : FirstCountableTopology (GaugeGroup 2) :=
     actualOriginalSU2_firstCountable
   exact continuous_of_dominated hFmeas hbound hint hcont
 

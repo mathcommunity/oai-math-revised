@@ -35,7 +35,7 @@ theorem source48OriginalClifford_nontrivial : Nontrivial A :=
 UNITS, using field-to-nontrivial-algebra injectivity. -/
 theorem source48OriginalRealScalarUnits_injective :
     Function.Injective FCP.BFSSS1V44.source48RealScalarOnUnits := by
-  letI : Nontrivial A := source48OriginalClifford_nontrivial
+  let : Nontrivial A := source48OriginalClifford_nontrivial
   unfold FCP.BFSSS1V44.source48RealScalarOnUnits
   exact Units.map_injective (FaithfulSMul.algebraMap_injective ℝ A)
 

@@ -59,7 +59,7 @@ theorem source48ActualLipschitzGenerator_matrixAction
     sourceLipschitz48VectorAction (source48CliffordGeneratorLipschitz a) b =
       FCP.BFSSS1V37.source48_rankOneConjugationMatrix
         a (FCP.BFSSS1V38.source48_normalizedPolarCoeff a) *ᵥ b := by
-  letI : Invertible (CliffordAlgebra.ι Q a) :=
+  let : Invertible (CliffordAlgebra.ι Q a) :=
     CliffordAlgebra.invertibleιOfInvertible Q a
   apply FCP.BFSSS1V30.source48_cliffordGenerator_injective
   calc

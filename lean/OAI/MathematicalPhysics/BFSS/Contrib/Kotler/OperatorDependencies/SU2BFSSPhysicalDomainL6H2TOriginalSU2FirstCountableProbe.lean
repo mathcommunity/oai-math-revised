@@ -28,7 +28,7 @@ theorem actualOriginalSU2_firstCountable :
     infer_instance
   have hMat : FirstCountableTopology (Matrix (Fin 2) (Fin 2) ℂ) := by
     exact hPi
-  letI : FirstCountableTopology (Matrix (Fin 2) (Fin 2) ℂ) := hMat
+  let : FirstCountableTopology (Matrix (Fin 2) (Fin 2) ℂ) := hMat
   change FirstCountableTopology (Matrix.specialUnitaryGroup (Fin 2) ℂ)
   -- Mathlib/Topology/Bases.lean: this *instance* lives under
   -- TopologicalSpace.Subtype, not at root Subtype.

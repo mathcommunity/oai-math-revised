@@ -46,7 +46,7 @@ complex scalar action on Fock space. -/
 theorem originalComplexCliffordFockModule_scalarTower :
     letI : Module A V := originalComplexCliffordFockModule
     IsScalarTower ℂ A V := by
-  letI : Module A V := originalComplexCliffordFockModule
+  let : Module A V := originalComplexCliffordFockModule
   refine ⟨?_⟩
   intro c a v
   change (originalComplexCliffordFockAlgHom (c • a)) v =
@@ -58,8 +58,8 @@ IsSimpleModule proof for this very same complex Clifford algebra action. -/
 theorem originalComplexCliffordFockModule_simple :
     letI : Module A V := originalComplexCliffordFockModule
     IsSimpleModule A V := by
-  letI : Module A V := originalComplexCliffordFockModule
-  letI : IsScalarTower ℂ A V :=
+  let : Module A V := originalComplexCliffordFockModule
+  let : IsScalarTower ℂ A V :=
     originalComplexCliffordFockModule_scalarTower
   classical
   refine { eq_bot_or_eq_top := ?_ }

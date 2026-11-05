@@ -111,7 +111,7 @@ theorem pairedOriginalPhysicalNormalizedHamiltonian_selfAdjoint :
     letI : CompleteSpace pairedGaugeData.physicalSpace :=
       originalPhysicalHilbertComplete pairedAlgebraData pairedGaugeData
     IsSelfAdjoint pairedOriginalPhysicalNormalizedHamiltonian := by
-  letI : CompleteSpace pairedGaugeData.physicalSpace :=
+  let : CompleteSpace pairedGaugeData.physicalSpace :=
     originalPhysicalHilbertComplete pairedAlgebraData pairedGaugeData
   exact originalMinimalPhysicalNormalizedHamiltonian_selfAdjoint
     pairedAlgebraData pairedGaugeData

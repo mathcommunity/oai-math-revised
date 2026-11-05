@@ -151,7 +151,7 @@ theorem sourcePhysicalNormalizedWeakForm_associatedOperator_iff
           (sourcePhysicalChargeAdjointSquare M G).domain,
         w = (1 / 16 : ℂ) •
           (sourcePhysicalChargeAdjointSquare M G ⟨u, h⟩) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact normalizedWeakRepresentative_iff_naturalAdjointSquare
     (sourcePhysicalHilbertChargeColumn M G)

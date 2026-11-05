@@ -45,7 +45,7 @@ subsets of the *original* Source48Label, no abstract Clifford surrogate. -/
 theorem originalComplexClifford_finrank :
     Module.finrank ℂ A = Fintype.card (Finset Source48Label) := by
   classical
-  letI : FiniteDimensional ℂ A :=
+  let : FiniteDimensional ℂ A :=
     originalComplexCliffordPBWBasis.finiteDimensional_of_finite
   exact Module.finrank_eq_card_basis originalComplexCliffordPBWBasis
 

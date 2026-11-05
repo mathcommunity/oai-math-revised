@@ -102,7 +102,7 @@ theorem sourcePhysicalChargeAdjointSquare_shift_graph_surjective
     (h : G.physicalSpace) :
     ∃ x z : G.physicalSpace,
       (x, z) ∈ (sourcePhysicalChargeAdjointSquare M G).graph ∧ x + z = h := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact naturalAdjointSquare_shift_graph_surjective
     (sourcePhysicalHilbertChargeColumn M G)

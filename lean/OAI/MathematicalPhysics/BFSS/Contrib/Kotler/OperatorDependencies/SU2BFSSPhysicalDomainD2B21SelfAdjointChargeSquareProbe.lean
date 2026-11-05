@@ -105,7 +105,7 @@ theorem sourcePhysicalChargeAdjointSquare_selfAdjoint :
     letI : CompleteSpace G.physicalSpace :=
       sourceOriginalPhysicalHilbert_complete M G
     IsSelfAdjoint (sourcePhysicalChargeAdjointSquare M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact selfAdjoint_of_formalSymmetry_and_shift_surjectivity
     (sourcePhysicalChargeAdjointSquare M G)
@@ -115,13 +115,13 @@ theorem sourcePhysicalChargeAdjointSquare_selfAdjoint :
 theorem sourcePhysicalChargeAdjointSquare_domain_dense :
     Dense ((sourcePhysicalChargeAdjointSquare M G).domain :
       Set G.physicalSpace) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact (sourcePhysicalChargeAdjointSquare_selfAdjoint M G).dense_domain
 
 theorem sourcePhysicalChargeAdjointSquare_closed :
     (sourcePhysicalChargeAdjointSquare M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact (sourcePhysicalChargeAdjointSquare_selfAdjoint M G).isClosed
 

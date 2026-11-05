@@ -41,7 +41,7 @@ is continuous in the genuine subgroup topology, not merely
 as an ambient color matrix. -/
 theorem sourcePlusIGaugeCurve_continuous (c : ColorIndex 2) :
     Continuous (sourcePlusIGaugeCurve c) := by
-  letI : NormedAlgebra ℚ (ColorMatrix 2) :=
+  let : NormedAlgebra ℚ (ColorMatrix 2) :=
     .restrictScalars ℚ ℂ (ColorMatrix 2)
   have harg :
       Continuous (fun t : ℝ =>

@@ -65,7 +65,7 @@ because it is a closed subspace of the source full-L2 × 16-L2 Hilbert
 product. This is a theorem about the REAL source graph. -/
 theorem sourceClosedPhysicalCharge_graph_complete :
     CompleteSpace (G.deformedModelGraph 1 0) := by
-  letI : IsClosed (G.deformedModelGraph 1 0 :
+  let : IsClosed (G.deformedModelGraph 1 0 :
       Set (FullL2 N × (SpinIndex → FullL2 N))) :=
     sourceRestrictedPhysicalGraph_isClosed M G
   infer_instance

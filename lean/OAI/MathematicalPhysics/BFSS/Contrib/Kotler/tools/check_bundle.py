@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check the frozen source package and its complete declaration/axiom report."""
 from pathlib import Path
-import argparse,hashlib,json,re,sys
+import argparse,hashlib,json,re,subprocess,sys
 
 HERE=Path(__file__).resolve().parents[1]
 LEAN=HERE.parents[4]
@@ -13,6 +13,13 @@ def require(ok,message):
     if not ok:raise SystemExit(message)
 
 def git_blob(b):return hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
+
+def check_contribution_base():
+    data=json.loads((HERE/'manifest.json').read_text())
+    subprocess.run(['git','merge-base','--is-ancestor',data['contribution_base_commit'],'HEAD'],cwd=ROOT,check=True)
+    notes=data['required_notes']
+    require(git_blob((ROOT/notes['path']).read_bytes())==notes['blob'],'required follow-up notes mismatch')
+    print('BFSS_BUNDLE_CONTRIBUTION_BASE_PASS: follow-up ancestry and original NOTES.md')
 
 def check_sources():
     data=json.loads((HERE/'manifest.json').read_text())
@@ -46,6 +53,8 @@ def check_report(path):
     print('BFSS_BUNDLE_AXIOM_REPORT_PASS:',len(names),'declarations')
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--report',type=Path);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--report',type=Path)
+    parser.add_argument('--check-contribution-base',action='store_true');args=parser.parse_args()
     check_sources()
+    if args.check_contribution_base:check_contribution_base()
     if args.report:check_report(args.report)

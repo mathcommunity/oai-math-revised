@@ -159,7 +159,7 @@ noncomputable def sourceOriginalPhysicalChargeAdjoint :
 theorem sourceOriginalPhysicalChargeAdjoint_isFormalAdjoint :
     (sourceOriginalPhysicalChargeAdjoint M G).IsFormalAdjoint
       (sourcePhysicalHilbertChargeColumn M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact LinearPMap.adjoint_isFormalAdjoint
     (sourcePhysicalHilbertChargeColumn_domain_dense M G)
@@ -168,7 +168,7 @@ theorem sourceOriginalPhysicalChargeAdjoint_isFormalAdjoint :
 Hilbert operator; no self-adjoint Hamiltonian is inferred. -/
 theorem sourceOriginalPhysicalChargeAdjoint_isClosed :
     (sourceOriginalPhysicalChargeAdjoint M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact LinearPMap.adjoint_isClosed
     (sourcePhysicalHilbertChargeColumn_domain_dense M G)

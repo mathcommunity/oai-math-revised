@@ -54,7 +54,7 @@ theorem pairedSU2PhysicalHamiltonian_selfAdjoint :
     letI : CompleteSpace pairedGaugeData.physicalSpace :=
       sourceOriginalPhysicalHilbert_complete pairedAlgebraData pairedGaugeData
     IsSelfAdjoint pairedSU2PhysicalHamiltonian := by
-  letI : CompleteSpace pairedGaugeData.physicalSpace :=
+  let : CompleteSpace pairedGaugeData.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete pairedAlgebraData pairedGaugeData
   exact sourcePhysicalNormalizedHamiltonian_selfAdjoint
     pairedAlgebraData pairedGaugeData

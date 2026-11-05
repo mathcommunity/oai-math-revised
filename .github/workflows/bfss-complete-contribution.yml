@@ -7,12 +7,14 @@ on:
       - lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/**
       - lean/OAI/MathematicalPhysics/BFSS/SpinPlaneCovariance.lean
       - .github/workflows/bfss-complete-contribution.yml
+      - preprints/Positive-eigenvalues-of-the-relative-SU-2-BFSS-Hamiltonian-October-5-2026/NOTES.md
   pull_request:
     branches: [main]
     paths:
       - lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/**
       - lean/OAI/MathematicalPhysics/BFSS/SpinPlaneCovariance.lean
       - .github/workflows/bfss-complete-contribution.yml
+      - preprints/Positive-eigenvalues-of-the-relative-SU-2-BFSS-Hamiltonian-October-5-2026/NOTES.md
   workflow_dispatch:
 
 permissions:
@@ -26,8 +28,10 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
+          fetch-depth: 6
           sparse-checkout: |
             lean
+            preprints/Positive-eigenvalues-of-the-relative-SU-2-BFSS-Hamiltonian-October-5-2026
           sparse-checkout-cone-mode: true
       - name: Check frozen source package and dependency order
         run: |
@@ -35,6 +39,9 @@ jobs:
           mkdir -p "$RUNNER_TEMP/bfss-bundle"
           git rev-parse HEAD | tee "$RUNNER_TEMP/bfss-bundle/tested-sha.txt"
           python3 lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools/check_bundle.py
+          if [ "${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}" = contribution/bfss-lean-v040-20261105 ]; then
+            python3 lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools/check_bundle.py --check-contribution-base
+          fi
       - name: Restore pinned Lean and Mathlib
         timeout-minutes: 28
         run: |

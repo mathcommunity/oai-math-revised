@@ -35,9 +35,9 @@ variable (M : AlgebraData 2) (G : M.GaugeData)
 from its previously verified closedness and Hilbert completeness. -/
 theorem sourcePhysicalHilbertCharge_graph_complete :
     CompleteSpace ((sourcePhysicalHilbertChargeColumn M G).graph) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
-  letI : _root_.IsClosed
+  let : _root_.IsClosed
       ((sourcePhysicalHilbertChargeColumn M G).graph :
         Set (G.physicalSpace × SourceChargeHilbertOutput)) :=
     sourcePhysicalHilbertChargeColumn_isClosed M G

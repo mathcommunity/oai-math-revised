@@ -32,10 +32,10 @@ theorem source48ActualGeneratorPreimage_gradeDetParity
       (⟨u, Subgroup.subset_closure hu⟩ : lipschitzGroup Q) := by
   change (u : A) ∈ Set.range (CliffordAlgebra.ι Q) at hu
   obtain ⟨a, ha⟩ := hu
-  letI : Invertible (CliffordAlgebra.ι Q a) := by
+  let : Invertible (CliffordAlgebra.ι Q a) := by
     rw [ha]
     exact u.invertible
-  letI : Invertible (Q a) :=
+  let : Invertible (Q a) :=
     CliffordAlgebra.invertibleOfInvertibleι Q a
   have hsame :
       (⟨u, Subgroup.subset_closure (show u ∈ generatorPreimage from ⟨a, ha⟩)⟩ :

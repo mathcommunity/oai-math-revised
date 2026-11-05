@@ -5,7 +5,7 @@ The machine-readable [manifest](manifest.json) is the complete module graph. The
 | Source line | Selection | Treatment |
 | --- | --- | --- |
 | Owner integration at `a7e65d2102ccea27be533147dbe562024c4dca65` | All 293 non-diagnostic/nonfailed modules in `Contrib/Kotler`, plus `SpinPlaneCovariance` | 294 byte-identical source copies. |
-| FCP physical endpoint at `94b6d14ad7e946747b3c0b2c51f42654755151a7` | Full transitive source-import closure of the physical Hamiltonian/eigenpair comparison, reusing ten already present owner modules | 495 additional source modules, with import-path-only adaptation. |
+| FCP physical endpoint at `94b6d14ad7e946747b3c0b2c51f42654755151a7` | Full transitive source-import closure of the physical Hamiltonian/eigenpair comparison, reusing ten already present owner modules | 495 additional source modules; import adaptations and the proposition-proof style edits below are recorded individually. |
 | Cross-commit FCP prerequisites | Eight source files fetched separately by historical gates | Exact original blobs recovered and recorded individually; no cached object is substituted for source. |
 | Existing upstream source | BFSS, Laughlin and other imported OAI definitions | No source modification; compiled as existing dependencies. |
 
@@ -40,4 +40,6 @@ The original FCP snapshot also contains experiments outside the selected operato
 
 The existing run history, all old workflows, recovery trials and chronological handoffs remain in the research repositories. Only one reproducible source-package build workflow is proposed here.
 
-One direct FCP import of the deprecated `Mathlib.Data.Complex.Basic` wrapper is redirected to `Mathlib.Basic.Complex.Basic`, the exact public import of that wrapper at the pinned Mathlib revision. No declaration or proof body changes. Every other explicit Mathlib import was checked against that revision; one transient lookup failure was rechecked successfully.
+One direct FCP import of the deprecated `Mathlib.Data.Complex.Basic` wrapper is redirected to `Mathlib.Basic.Complex.Basic`, the exact public import of that wrapper at the pinned Mathlib revision. That redirect changes no declaration or proof body. Every other explicit Mathlib import was checked against that revision; one transient lookup failure was rechecked successfully.
+
+The first combined run stopped at the M3E PBW module's `letI` tactic because the pinned Mathlib `linter.style.haveILetI` rejects it in a proposition proof. Its implementation explains that Lean 4's ordinary `let`/`have` already register local instances, and the inlining difference is irrelevant inside proofs. The same narrow repair is applied to 42 tactic occurrences in 24 FCP files, with original/destination hashes and exact lines recorded in `manifest.json`. Term-mode instances, theorem statements and data-valued definitions are retained. No linter is disabled, no axiom is introduced and no proof limit is changed. The repaired package still requires a complete fresh build.

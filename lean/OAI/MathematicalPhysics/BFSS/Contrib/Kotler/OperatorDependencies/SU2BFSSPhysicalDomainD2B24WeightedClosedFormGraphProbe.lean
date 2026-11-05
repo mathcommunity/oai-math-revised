@@ -72,9 +72,9 @@ theorem sourcePhysicalWeightedFormGraph_isClosed :
 /-- Exact weighted original source Hilbert graph is COMPLETE. -/
 theorem sourcePhysicalWeightedFormGraph_complete :
     CompleteSpace (sourcePhysicalWeightedFormGraph M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
-  letI : _root_.IsClosed (sourcePhysicalWeightedFormGraph M G :
+  let : _root_.IsClosed (sourcePhysicalWeightedFormGraph M G :
       Set (WithLp 2 (G.physicalSpace × SourceChargeHilbertOutput))) :=
     sourcePhysicalWeightedFormGraph_isClosed M G
   infer_instance

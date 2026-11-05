@@ -70,12 +70,12 @@ theorem sourceHaarAverageRaw_contDiff_of_jointJets
   -- This is the exact original SU2 group: the subtype of a 2×2
   -- complex matrix product. Establish its STANDARD second-countability
   -- locally; do not extend GaugeData or postulate smoothness.
-  haveI : SecondCountableTopology (Matrix (Fin 2) (Fin 2) ℂ) :=
+  have : SecondCountableTopology (Matrix (Fin 2) (Fin 2) ℂ) :=
     inferInstanceAs (SecondCountableTopology (Fin 2 → Fin 2 → ℂ))
   -- The actual source group is the standard subtype of the matrix
   -- product. Invoke the instance by its exact full Mathlib namespace;
   -- using inferInstance here left its own goal unresolved in Gate #19.
-  haveI : SecondCountableTopology (GaugeGroup 2) :=
+  have : SecondCountableTopology (GaugeGroup 2) :=
     TopologicalSpace.Subtype.secondCountableTopology _
   have h := OAI.RVM.contDiff_integral_smoothFamily
     (μ := sourceHaar) hFamily

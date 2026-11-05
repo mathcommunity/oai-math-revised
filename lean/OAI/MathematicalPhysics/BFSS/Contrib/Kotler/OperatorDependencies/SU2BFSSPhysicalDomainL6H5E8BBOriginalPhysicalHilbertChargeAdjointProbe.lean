@@ -50,7 +50,7 @@ native partial-operator domains, using BA's newly proven density. -/
 theorem originalMinimalPhysicalHilbertChargeAdjoint_isFormalAdjoint :
     (originalMinimalPhysicalHilbertChargeAdjoint M G).IsFormalAdjoint
       (originalMinimalPhysicalHilbertChargeColumn M G) := by
-  letI : CompleteSpace G.physicalSpace := originalPhysicalHilbertComplete M G
+  let : CompleteSpace G.physicalSpace := originalPhysicalHilbertComplete M G
   exact LinearPMap.adjoint_isFormalAdjoint
     (originalMinimalPhysicalHilbertChargeColumn_domain_dense_unconditional M G)
 
@@ -58,7 +58,7 @@ theorem originalMinimalPhysicalHilbertChargeAdjoint_isFormalAdjoint :
 No claim about self-adjointness of the charge or of T†T is made. -/
 theorem originalMinimalPhysicalHilbertChargeAdjoint_isClosed :
     (originalMinimalPhysicalHilbertChargeAdjoint M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace := originalPhysicalHilbertComplete M G
+  let : CompleteSpace G.physicalSpace := originalPhysicalHilbertComplete M G
   exact LinearPMap.adjoint_isClosed
     (originalMinimalPhysicalHilbertChargeColumn_domain_dense_unconditional M G)
 

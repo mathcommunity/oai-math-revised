@@ -191,7 +191,7 @@ theorem originalMinimalPhysicalNormalizedWeakForm_associatedOperator_iff
           (originalMinimalPhysicalHilbertChargeAdjointSquare M G).domain,
         w = (1 / 16 : ℂ) •
           (originalMinimalPhysicalHilbertChargeAdjointSquare M G ⟨u, h⟩) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact normalizedWeakRepresentative_iff_naturalAdjointSquare
     (originalMinimalPhysicalHilbertChargeColumn M G)
@@ -225,7 +225,7 @@ theorem originalMinimalPhysicalNormalizedHamiltonian_selfAdjoint :
     letI : CompleteSpace G.physicalSpace :=
       originalPhysicalHilbertComplete M G
     IsSelfAdjoint (originalMinimalPhysicalNormalizedHamiltonian M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   apply selfAdjoint_smul_real (originalMinimalPhysicalHilbertChargeAdjointSquare M G)
     (originalMinimalPhysicalHilbertChargeAdjointSquare_selfAdjoint M G)
@@ -249,14 +249,14 @@ theorem originalMinimalPhysicalNormalizedHamiltonian_weakForm_iff
 
 theorem originalMinimalPhysicalNormalizedHamiltonian_closed :
     (originalMinimalPhysicalNormalizedHamiltonian M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact (originalMinimalPhysicalNormalizedHamiltonian_selfAdjoint M G).isClosed
 
 theorem originalMinimalPhysicalNormalizedHamiltonian_domain_dense :
     Dense ((originalMinimalPhysicalNormalizedHamiltonian M G).domain :
       Set G.physicalSpace) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   exact (originalMinimalPhysicalNormalizedHamiltonian_selfAdjoint M G).dense_domain
 

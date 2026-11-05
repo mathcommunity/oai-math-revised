@@ -1,6 +1,6 @@
 # BFSS operator and spin-geometry contribution
 
-This package brings together the reusable source modules behind Evan T. Kotler's AI-assisted BFSS research, including the operator and local-geometry lines described in [the v0.4.0 report](https://doi.org/10.5281/zenodo.23969575). It is intended as one coherent code contribution, separate from the report-link [PR #75](https://github.com/mathcommunity/oai-math-revised/pull/75).
+This package brings together the reusable source modules behind Evan T. Kotler's AI-assisted BFSS research, including the operator and local-geometry lines described in [the v0.4.0 report](https://doi.org/10.5281/zenodo.23969575). It is intended as one coherent code contribution. Its branch is built on `contribution/bfss-v040-follow-up-20261105` at `37af0591d8c968e6232968b0951639798a2d7028`, carrying the existing manuscript NOTES.md edit from [PR #75](https://github.com/mathcommunity/oai-math-revised/pull/75). PR #75 itself is unchanged.
 
 **Integration status:** assembled and statically checked; the complete fresh Lean integration build is pending. Historical successful research runs are evidence for their stated sources and procedures, not a substitute for checking this combined import graph. This package is not peer reviewed and does not certify the original manuscript's conclusions.
 
@@ -36,7 +36,7 @@ The package selects **789 existing source modules**: 294 from the owner integrat
 - [DEPENDENCIES.md](DEPENDENCIES.md) explains reuse, exclusions and the recovered cross-commit sources.
 - [CLAIMS.md](CLAIMS.md) gives a compact route from the report's headline claims to declarations and modules.
 
-The 294 owner modules are byte-identical to the pinned research snapshot. In the 495 FCP modules, only import paths are adapted to the contribution namespace; declaration and proof bodies are preserved. Eight FCP prerequisites were absent from the selected operator snapshot because its successful gates fetched them from separate commits. This package includes their exact pinned sources, eliminating that source-availability dependence on historical caches.
+The 294 owner modules are byte-identical to the pinned research snapshot. The 495 FCP modules adapt import paths to the contribution namespace. After the first integration run reported a style-linter failure, 42 proof-instance tactics in 24 FCP files were changed from `letI`/`haveI` to `let`/`have`, as required by the pinned Mathlib linter for proposition proofs. Theorem statements, term-mode instances, data-valued definitions and proof resource limits are unchanged. Each edit is recorded in the manifest. Eight FCP prerequisites were absent from the selected operator snapshot because its successful gates fetched them from separate commits. This package includes those pinned sources with the documented adaptations, eliminating that source-availability dependence on historical caches.
 
 No experimental workflow archive, failed candidate, interface diagnostic or chronological handoff is part of this proposed code change. The explicit excluded files and outside-closure classification are in the source inventory. Supporting mathematical lemmas remain when they are part of the selected source dependency graph.
 
@@ -52,7 +52,9 @@ cd ..
 python3 lean/OAI/MathematicalPhysics/BFSS/Contrib/Kotler/tools/build_bundle.py --logs /tmp/bfss-bundle-check
 ```
 
-The build script first compiles unchanged upstream imports. It then deletes and freshly produces every selected contribution object in dependency order with `autoImplicit=false`, warnings as errors and an 840-second per-module bound, without changing any source proof limits. Finally it checks all thematic imports together and runs `Audit.lean`, requiring exactly the recorded declaration reports and only `propext`, `Classical.choice`, and `Quot.sound`. A missing object, source hash, import, declaration report or successful process exit fails the check. Historical cached contribution objects are not restored.
+The build script first compiles unchanged upstream imports and resolves Lake's environment once. It then invokes Lean directly in that environment, deleting and freshly producing every selected contribution object in dependency order with `autoImplicit=false`, warnings as errors and an 840-second per-module bound, without changing any source proof limits. Finally it checks all thematic imports together and runs `Audit.lean`, requiring exactly the recorded declaration reports and only `propext`, `Classical.choice`, and `Quot.sound`. A missing object, source hash, import, declaration report or successful process exit fails the check. Historical cached contribution objects are not restored. Lake setup warnings have their own log; Lean diagnostics still fail compilation and the declaration audit.
+
+On the contribution branch, `check_bundle.py --check-contribution-base` additionally checks ancestry from the follow-up commit and the exact inherited NOTES.md blob. That branch-specific preparation check is not imposed on later community merges or notes edits.
 
 The GitHub workflow preserves exact-head logs and inventories on failure as well as success. Its job budget covers the complete source graph; it is not a relaxation of a theorem's assumptions or proof settings. A passing build establishes the specified compilation/axiom check at that head, not physical interpretation or independent human mathematical review.
 

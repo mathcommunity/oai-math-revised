@@ -100,7 +100,7 @@ theorem sourcePhysicalNormalizedHamiltonian_selfAdjoint :
     letI : CompleteSpace G.physicalSpace :=
       sourceOriginalPhysicalHilbert_complete M G
     IsSelfAdjoint (sourcePhysicalNormalizedHamiltonian M G) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   apply selfAdjoint_smul_real (sourcePhysicalChargeAdjointSquare M G)
     (sourcePhysicalChargeAdjointSquare_selfAdjoint M G)
@@ -124,14 +124,14 @@ theorem sourcePhysicalNormalizedHamiltonian_weakForm_iff
 
 theorem sourcePhysicalNormalizedHamiltonian_closed :
     (sourcePhysicalNormalizedHamiltonian M G).IsClosed := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact (sourcePhysicalNormalizedHamiltonian_selfAdjoint M G).isClosed
 
 theorem sourcePhysicalNormalizedHamiltonian_domain_dense :
     Dense ((sourcePhysicalNormalizedHamiltonian M G).domain :
       Set G.physicalSpace) := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     sourceOriginalPhysicalHilbert_complete M G
   exact (sourcePhysicalNormalizedHamiltonian_selfAdjoint M G).dense_domain
 

@@ -45,7 +45,7 @@ charge operators are equal on their full natural domains. -/
 theorem originalMinimalPhysicalHilbertChargeAdjoint_eq_historical :
     originalMinimalPhysicalHilbertChargeAdjoint M G =
       sourceOriginalPhysicalChargeAdjoint M G := by
-  letI : CompleteSpace G.physicalSpace :=
+  let : CompleteSpace G.physicalSpace :=
     originalPhysicalHilbertComplete M G
   change (originalMinimalPhysicalHilbertChargeColumn M G).adjoint =
     (sourcePhysicalHilbertChargeColumn M G).adjoint
