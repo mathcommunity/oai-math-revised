@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-11-06 @gilheumpark-bit: Added 13 classical and antecedent references across Sections 2–5 (Abel 1826; Chebyshev 1852; Hardy–Littlewood 1923; Kodaira 1953; Ax 1971; Hanson 1972; Hartshorne 1977; Lang 1982; Faltings 1991; Waldschmidt 2000; Evertse–Ferretti 2002; Gouillon 2006; Fischler–Nakamaye 2014) with numbering unchanged, clarified in `lean/docs/017.md` that Corollary 1.2 is proved in `OAI/NumberTheory/PiExponent/Main.lean` (`flint_hills_summable`), and linked a standalone Lean 4 and symbolic/numerical check of the 869-file `OAI/NumberTheory/PiExponent/` formalization. Drafted with AI assistance; sources, calculations, and Lean proofs checked by the contributor.
+- 2026-11-06 @gilheumpark-bit: Added 13 classical and antecedent references across Sections 2–5 (Abel 1826; Chebyshev 1852; Hardy–Littlewood 1923; Kodaira 1953; Ax 1971; Hanson 1972; Hartshorne 1977; Lang 1982; Faltings 1991; Waldschmidt 2000; Evertse–Ferretti 2002; Gouillon 2006; Fischler–Nakamaye 2014) with numbering unchanged, clarified in `lean/docs/017.md` that Corollary 1.2 is proved in `OAI/NumberTheory/PiExponent/Main.lean` (`flint_hills_summable`), and linked a standalone Lean 4 and symbolic/numerical check of the 869-file `OAI/NumberTheory/PiExponent/` formalization. Drafted with AI assistance; sources, calculations, and Lean proofs checked by the contributor ([PR #78](https://github.com/mathcommunity/oai-math-revised/pull/78)).
 
 ## Follow-up works
 
