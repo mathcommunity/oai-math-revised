@@ -63,29 +63,29 @@ complexity bound or history-erasure procedure from those works is asserted
 for these tables.
 
 Moore's generalized shifts turn symbolic updates into affine operations
-on positional expansions \cite{Moore1990,Moore1991}. Our gapped expansions
+on positional expansions \cite{Moore1990,Moore1991,KoiranCosnardGarzon1994,SiegelmannSontag1995,Cardona2025Advice}. Our gapped expansions
 serve the same purpose. Moore also realizes invertible generalized shifts
 by smooth planar diffeomorphisms and three-dimensional flows
 \cite[Section~6, Theorem~12 and its corollary]{Moore1991}.
 Cardona, Miranda, Peralta-Salas and Presas extend the affine maps on
 neighborhoods of separated planar blocks to an area-preserving disk
 diffeomorphism, using contraction, transport, expansion and Moser's area
-correction \cite[Proposition~5.1]{CardonaMirandaPeraltaSalasPresas2021}.
+correction \cite{Moser1965} \cite[Proposition~5.1]{CardonaMirandaPeraltaSalasPresas2021}; see also \cite{Krygin1971,Banyaga1978} for volume-preserving isotopy extension by localized potentials.
 This is a geometric predecessor of the routing problem here. Our local
 curl formulas implement positive diagonal determinant-one motions in
 three dimensions directly; the proof supplies effective support and
 neighborhood bounds and controls observation at intermediate times.
 
 Computational universality has been established for stationary Euler
-flows with adapted geometry \cite{CardonaMirandaPeraltaSalasPresas2021}.
+flows with adapted geometry \cite{CardonaMirandaPeraltaSalasPresas2021,CardonaMirandaPeraltaSalas2022,CardonaMirandaPeraltaSalasPresas2023,CardonaMirandaPeraltaSalas2025FluidComputer}.
 Cardona, Miranda and Peralta-Salas also construct universal Euclidean
-Beltrami flows, with infinite energy, and robust simulations of
+Beltrami flows \cite{EtnyreGhrist2000}, with infinite energy, and robust simulations of
 tape-bounded machines by unforced Navier--Stokes flows on a flat torus
 \cite[arXiv version~3, Theorem~1 and Remark~29]{CardonaMirandaPeraltaSalas2023Beltrami}.
 Dyhr, Gonz\'alez-Prieto, Miranda and Peralta-Salas obtain stationary
 unforced Navier--Stokes universality using an adapted metric and the
 Hodge Laplacian
-\cite[Theorem~A]{DyhrGonzalezPrietoMirandaPeraltaSalas2026}.
+\cite[Theorem~A]{DyhrGonzalezPrietoMirandaPeraltaSalas2026}; for averaged Navier--Stokes circuit blowup see \cite{Tao2016}.
 
 Here the ambient metric is fixed and flat, the viscosity is
 prescribed, and the initial velocity is zero. The machine is placed in an
@@ -130,7 +130,7 @@ machine and its finite input determine the coefficients, cutoffs and
 routing schedule. Evaluating the field cannot first compute the selected
 machine run. All algorithmic statements concern computable $\nu$;
 the same formulas are valid for arbitrary positive $\nu$, with evaluation
-relative to that parameter. The encoded trajectories are exact real
+relative to that parameter \cite{PourElRichards1989,Weihrauch2000}. The encoded trajectories are exact real
 trajectories. No uniform precision tolerance for an unbounded computation
 is asserted.
 
