@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-11-05 @etblink (Evan T. Kotler): Added a link to the v0.4.0 follow-up report on operator correspondence and local spin geometry. Drafted with ChatGPT/Codex; the linked report describes substantial AI and Lean assistance ([PR #75](https://github.com/mathcommunity/oai-math-revised/pull/75)).
+- 2026-11-05 @etblink (Evan T. Kotler): Added a link to the v0.4.0 follow-up report on operator correspondence and local spin geometry. Drafted with ChatGPT/Codex; the linked report describes substantial AI and Lean assistance.
 
 ## Follow-up works
 
