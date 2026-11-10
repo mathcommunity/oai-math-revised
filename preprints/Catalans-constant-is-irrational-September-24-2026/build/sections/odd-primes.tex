@@ -13,7 +13,7 @@ size $n$.  At the large primes treated first, each raw column has at most
 two powers of $p$ in its denominator.  We shall make invertible column
 changes over $\mathbb Z_p$ and bound how many columns can still have
 denominator $p^2$ or $p$.  Such bounds control every full minor of the
-raw matrix, and Cauchy--Binet then transfers them to the integer column
+raw matrix, and Cauchy--Binet \cite{Binet1813,Cauchy1815} then transfers them to the integer column
 filter.  The first reduction identifies residues after multiplication
 by $p^2$; for $p>H/2$ a second reduction identifies the remaining
 residues after multiplication by $p$.
@@ -78,7 +78,7 @@ Indeed, when $r$ is even, $P$ is even and the base-$p$ digits of $z/2$
 are $P/2,r/2$.  Expanding $(1+x)^z$ modulo $p$ by
 $(1+x)^p=1+x^p$ gives the first assertion, including the factor $4^{-z/2}$.
 When $r$ is odd, $P$ is odd and the low digit of $z/2$ is $(p+r)/2$.
-The factorial formula for $\binom z{z/2}$ has exactly one carry:
+The factorial formula for $\binom z{z/2}$ has exactly one carry \cite{Legendre1808,Kummer1852}:
 \[
  \left\lfloor\frac zp\right\rfloor
        -2\left\lfloor\frac{z/2}{p}\right\rfloor=1,
@@ -609,8 +609,9 @@ We use the classical prime number theorem in the form
  \theta(y):=\sum_{p\le y}\log p\sim y
        \qquad(y\to\infty);
 \]
-see \cite[Step~VI, p.~707]{Zagier1997}, which presents Newman's analytic
-proof. The weighted consequence needed here follows directly:
+see \cite{Hadamard1896,delaValleePoussin1896,Newman1980} and
+\cite[Step~VI, p.~707]{Zagier1997}, which presents Newman's analytic
+proof (formalized in Lean~4 in \cite{KontorovichTao2024PNT}). The weighted consequence needed here follows directly:
 \begin{equation}\label{eq:odd-weighted-primes}
  \frac1N\sum_{p\le65N}d(p/N)\log p
        \longrightarrow\int_0^{65}d(x)\,dx.
