@@ -1,0 +1,11 @@
+## Contributions
+
+- 2026-11-10 @gilheumpark-bit: Added 12 primary and formalization references across Sections 1, 2, 3, and 5 (including Kontorovich–Tao's `PrimeNumberTheoremAnd`, Newman 1980, Hadamard 1896, and de la Vallée Poussin 1896 in Section 3.4) with numbering unchanged, and linked a Lean 4, patch, and manuscript review. Drafted with AI assistance; sources, calculations, and Lean proofs checked by the contributor ([PR #80](https://github.com/mathcommunity/oai-math-revised/pull/80)).
+
+## Follow-up works
+
+## Constructive comments / reviews
+
+- [ultari-proof-anatomy, case 011](https://github.com/gilheumpark-bit/ultari-proof-anatomy/tree/af662bb5d571e693e825621dc3b8637677ce93b3/anatomy/011-openai-005-catalan): Lean 4 and SymPy checks of the family 005 formalization (`981` files, `573,816` lines) and `build/`, examining how the Section 3.4 Prime Number Theorem step (`ImportedPNTCoreBridge.lean` and `ContinuousWeightedPNT.lean`, cited only via `Zagier1997` in `odd-primes.tex:612`) patches Kontorovich and Tao's `PrimeNumberTheoremAnd` via `PrimeNumberTheoremAnd-lean4341.patch` (`39,904` lines: creating `47` new files—`46` `.lean` files and `SiegelZeros/NOTICE.md`, `+33,333` lines—of which `14` active files of `5,367` lines under `PrimeNumberTheoremAnd/{Catalan,ZetaFive}` are imported under worker namespaces `Zeta5.W12` and `Zeta5.Workers.W14`, removing a `17`-line `blueprint_comment` block discouraging AI tool use from `IEANTN/Mertens.lean`, and removing `-2,716` lines from `Wiener.lean`) and borrows `7` files (`1,086` lines) from `OAI/NumberTheory/ZetaFive/`, alongside the `508 / 981 (51.8%)` unreachable files (`449,367 / 573,816 = 78.3%` lines, including `28 / 29` imports in `Main.lean` and all `147` `FixedGaussian*` files of `376,998` lines for Section 4 Table 1, replaced in `FixedDeterminantsNonzero.lean` by mod-101 right-inverse matrices), the Section 5 factorial bound $1 \le (n!)^2$ in `RealDeterminantUpper.lean:26-54` vs. `real-place.tex:46-56, 387-408`, `13` duplicate `private theorem` declarations in `namespace OAI.InternalCatalan`, `10` unused-binder/filter wrappers across `7` active files, and `12` primary references for Sections 1, 2, 3, and 5.
+
+## People interested in meeting to work on digestion
