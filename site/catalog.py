@@ -123,6 +123,7 @@ def parse_contents(root: Path):
     papers: dict[str, Paper] = {}
     current = None
     for cell in cells:
+        cell = re.sub(r'^<a name="family-\d+"></a>\s*', "", cell)
         m = re.match(r"\*\*(\d{3})\. (.+?)\.\*\*\s*(.*)", cell, flags=re.S)
         if m:
             current = m.group(1)
